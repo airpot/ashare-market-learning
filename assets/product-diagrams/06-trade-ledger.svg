@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 920" role="img" aria-label="纸上交易账本：委托、成交与可用状态" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#24354b">
+<title>纸上交易账本：委托、成交与可用状态</title><desc>合成算例：期初现金10,000元、持仓0份；所有价格、费用和成交均为指定假设。</desc>
+<rect width="1440" height="920" rx="22" fill="#f2f6fa"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7757b5"/></marker></defs>
+<text x="62" y="66" font-size="36" font-weight="700">纸上交易账本：委托、成交与可用状态</text>
+<text x="62" y="108" font-size="21">合成算例：期初现金10,000元、持仓0份；所有价格、费用和成交均为指定假设。</text>
+<path d="M672,238 L754,238" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1071,326 L367,358" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M672,458 L754,458" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1071,546 L367,578" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M672,678 L754,678" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="62" y="150" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="86" y="189" font-size="25" font-weight="700" fill="#315e86">01  计划与委托</text>
+<text x="86" y="225" font-size="22">先核产品规则、数量单位与预算；委托100份不代表</text>
+<text x="86" y="252" font-size="22">已成交100份。</text>
+<rect x="766" y="150" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="790" y="189" font-size="25" font-weight="700" fill="#315e86">02  成交与撤单</text>
+<text x="790" y="225" font-size="22">分笔记录成交编号、时间、数量、价格与费用；未成</text>
+<text x="790" y="252" font-size="22">交、部分成交和撤单另记。</text>
+<rect x="62" y="370" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="86" y="409" font-size="25" font-weight="700" fill="#315e86">03  假设买入成交</text>
+<text x="86" y="445" font-size="22">100份 × 2.00元＝200元，外付费用1元；账面现金</text>
+<text x="86" y="472" font-size="22">9,799元，持仓100份。</text>
+<rect x="766" y="370" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="790" y="409" font-size="25" font-weight="700" fill="#315e86">04  假设部分卖出</text>
+<text x="790" y="445" font-size="22">40份 × 2.10元＝84元，费用1元；账面现金9,882元</text>
+<text x="790" y="472" font-size="22">，余60份。</text>
+<rect x="62" y="590" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="86" y="629" font-size="25" font-weight="700" fill="#315e86">05  假设期末核算</text>
+<text x="86" y="665" font-size="22">按2.10元估值，余仓126元；总权益10,008元，含浮</text>
+<text x="86" y="692" font-size="22">盈的净损益为8元。</text>
+<rect x="766" y="590" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="790" y="629" font-size="25" font-weight="700" fill="#315e86">06  状态与复核</text>
+<text x="790" y="665" font-size="22">账面现金不等于可用或可取；另核冻结款、交收、权</text>
+<text x="790" y="692" font-size="22">益资格、可卖份额与事件。</text>
+<text x="62" y="828" font-size="21" fill="#526176">未知必要规则时，可选择不交易并写证据。嵌入净值的基金费用不得再次扣除；盈利不能证明能力。</text>
+</svg>

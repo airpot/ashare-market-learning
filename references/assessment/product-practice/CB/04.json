@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "track": "CB",
+  "step": 4,
+  "exercise": "PRODUCT-CB-04",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "债券、股票与现金分账复盘：本步反馈",
+  "source_basis": "This packet uses only the accepted exercise terms and notices. It gives no indications that show if conversion was available before this exercise or not.",
+  "worked": [
+    "卖出：买1202、卖1240−2=1238；现金2036、债0，净损益36。",
+    "按10元转股：现金798、债0、股100，标记12元股票价值1200，总资产1998，账面净−2；股票尚未卖，无卖出费。",
+    "10.03另题：现金798+7.03=805.03、股99值1188、债0、待收0，总资产1993.03，账面净−6.97。不得把7.03再算作股票市值。",
+    "持有/错过：收到1010，期末现金1808，债0股0，净−192。主动持有须有事前理由，错过须记录失误与提醒改进。相同结果不等于相同执行质量。",
+    "另设分支 CB-PARTIAL-SELL承接现金1534、4张冻结债及已成买10/卖6；10-22 14:35撤单确认后余单0、冻结债0、仍持债4，转股14:30已过；到15:00又无新卖出确认，不能把这4张补写为卖出或转股。",
+    "10-23余4张注销，确认赎回应收4×101=404，现金仍1534；10-26实际收到404，现金1938、债0股0、应收0、冻结0、余单0，均已可取。总实际费用2+2=4，6张价差 +18、4张相对入价−76、费用−4，净−62=1938−2000。若404未收到则现金1534、应收404，信用风险未结清。"
+  ],
+  "misconception": "“转股100股后现金还保留1200元；赎回101包含另一笔要加上的利息。”先核权益替换；本题101已是最终每张现金，禁止重复加息。",
+  "follow_up": "请从2000元逐项对账，并说清哪条路径属于标记估值而非已实现退出。",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

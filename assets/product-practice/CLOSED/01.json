@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "track": "CLOSED",
+  "step": 1,
+  "exercise": "PRODUCT-CLOSED-01",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "折价要连同剩余期限和资产风险看",
+  "cutoff": "2026-10-20T10:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "所有证券、报价、日期、成交、资格、费用、分派与规则均为合成教学假设。无真实执行资格或保证收益的结论；只用当前包。",
+  "lesson": [
+    "封闭运作意味着在规定期间通常不能按开放式通道自由申赎，二级买卖仍受规则约束。基金名字曾含封闭不代表现在仍封闭；本题只凭合成条款确认当前处于封闭期。",
+    "每份NAV1.20元与二级价格0.90元之间可以计算折价，但折价不是到期收益承诺。剩余期限、持仓变动、费用、清算及未来是否转为LOF会改变兑现路径。",
+    "净值是特定估值日的每份资产，不是随时能换出的现金。清算后可能支付时间不确定，资产处置也可能有折损。"
+  ],
+  "data": {
+    "rules": {
+      "instrument": "TRAIN-CLOSED",
+      "operation": "二级市场现金买卖，一级或权益事件另核",
+      "eligibility": "本题合成账户已假定可买卖；真实资格未知须另核",
+      "quantity_unit": "份",
+      "buy_increment": 100,
+      "sell_increment": 100,
+      "price_tick": "0.001",
+      "phase": "合成连续时段09:30–11:30、13:00–15:00",
+      "order_type": "限价",
+      "cancellation": "未成交部分可申请撤单，确认后才释放冻结",
+      "limits_halts": "本题无停牌，价界0.70–1.10",
+      "resale": "本题买入次一合成交易日才可卖，不外推真实产品",
+      "settlement": "总现金按成交变化；卖款次一合成交易日可取；未卖的原现金可取",
+      "fees": "每个已成交买/卖指令外部费用各2元，按ROUND_HALF_UP各舍入到分一次；无成交无费",
+      "rule_source": "本题合成规则卡",
+      "effective_date": "2026-10-20",
+      "exceptions": "一级申购、配售、转托管、转换、分派、终止均须相应确认；内部费用不重复扣",
+      "calendar": [
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ]
+    },
+    "current_price": "0.90",
+    "nav": {
+      "value": "1.20",
+      "value_date": "2026-10-19",
+      "available_at": "2026-10-19T20:00:00+08:00",
+      "currency": "CNY",
+      "source": "合成估值表"
+    },
+    "term": {
+      "source": "合成现行条款",
+      "published_at": "2026-09-01T20:00:00+08:00",
+      "closed_period_ends": "2027-10-20",
+      "remaining_calendar_days_at_cutoff": 365,
+      "post_term": "是否转开放/LOF或清算须另有有效决定，当前未知",
+      "redemption_now": "不可依本题条款直接按NAV赎回"
+    },
+    "exposure": "假定主要持有虚构成长公司股权，资产难出售且与既有科技股票存在关联。"
+  },
+  "current_response": [
+    "算0.90相对1.20的折价率，并区分折价与保证到期回报。",
+    "若名称还写封闭，但有效公告已转LOF，分类应看哪个证据？",
+    "剩余365天会带来什么持有和退出风险？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-CLOSED",
+      "relationship": "虚构产品；包装分类不代表风险分散"
+    }
+  ]
+}

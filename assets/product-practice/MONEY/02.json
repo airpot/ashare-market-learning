@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "track": "MONEY",
+  "step": 2,
+  "exercise": "PRODUCT-MONEY-02",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "小价差是否覆盖外部费用",
+  "cutoff": "2026-10-20T10:05:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "所有证券、报价、日期、成交、资格、费用、分派与规则均为合成教学假设。无真实执行资格或保证收益的结论；只用当前包。",
+  "lesson": [
+    "计划只练100份，现金20000元。报价中的0.01元变化看似正收益，但要乘份数再比较双边费用，且未来价格还未知。现金管理的资金期限不能被一个收益显示替代。",
+    "先按计划停止价核风险，再比较用款日与金额：本题10-21需可取现金12000元。100份方案买后所余原现金可取，但须判断是否足额；如不足，可等待或另拟更小的整份买入，不能只因日期更早就一概不交易。"
+  ],
+  "data": {
+    "opening_cash": "20000",
+    "opening_quantity": 0,
+    "entry": "100.10",
+    "stop": "99.90",
+    "budget": "50",
+    "lot": 1,
+    "quantity": 100,
+    "buyfee": "2",
+    "sellfee": "2",
+    "trigger": "卖方报价≤100.10、规则已核；按用款日期和金额留足可取原现金，需依靠卖款的部分不得早于本题10-22可取日。",
+    "no_trade": "100份方案若无法备足10-21的12000元则不按此方案提交；可等待或先重算更小整份数。规则缺项或成本不可承受也应等待；仅因用款在10-21不能否定备付足额的另题。",
+    "yield_side_example": "若单纯假设未来一天仍按1.50%年化且一年365天，可算10010×0.015/365作为比较练习；这不是本题实际收益或保证回报。",
+    "cash_liability": {
+      "amount": "12000",
+      "date": "2026-10-21",
+      "currency": "CNY",
+      "purpose": "当日必须可取的现金支出；只核备付能力，不假定实际提现已发生。"
+    },
+    "reserve_sufficient_alternate": {
+      "separate_case": true,
+      "amount": "5000",
+      "date": "2026-10-21",
+      "currency": "CNY",
+      "other_assumptions": "其余条件同100份方案，只改变所需备付金额；与12000用款题分开回答。"
+    }
+  },
+  "current_response": [
+    "算100份的现金占用、按99.90退出的计划风险。",
+    "先核不含备付限制的现金、风险最大整份数，再核预留12000元后的较小整份上限。",
+    "比较12000元用款题与独立5000元另题：100份方案买后原现金是否足额，并据此写等待、缩量或保留方案的证据？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-MONEY",
+      "relationship": "虚构产品；包装分类不代表风险分散"
+    }
+  ],
+  "teaching_delivery": "Use only this step. Use worksheet items to include the lesson topics. Do not use them as a quiz list. Give one short part of the lesson. Then, give one check question from this part of the lesson. Before you give feedback for this step, wait for the raw response.\n\nKeep all practice in the category with tutor aid."
+}

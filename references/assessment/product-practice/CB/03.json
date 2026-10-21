@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "track": "CB",
+  "step": 3,
+  "exercise": "PRODUCT-CB-03",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "公告带来选择：卖出、转股、持有或错过期限：本步反馈",
+  "source_basis": "This packet uses only the accepted exercise terms and notices. It gives no indications that show if conversion was available before this exercise or not.",
+  "worked": [
+    "买入后现金798元、10张债；本题次日才可卖。卖出截止10-22 15:00，转股更早在14:30；应为各自通道预留确认时间。",
+    "转股价10元：1000/10=100股，余款0；转股确认后债券10张归零，股票到账和可卖分别是10-23、10-26。helper不处理此单位替换。",
+    "另题10.03元：向下取整99股，剩余面值1000−99×10.03=7.03元，待10-26付现。零碎股与余面值处理来自本题假设，不能外推真实规则。",
+    "持有与错过均转入赎回待收；在10-26回款前不能把1010元计入可用现金。信用违约须另记未收，不假定到账。",
+    "另设分支 CB-PARTIAL-SELL：买支出10×120+2=1202，余798；只卖6张净入6×123−2=736，当前总/可用现金1534、冻结现金0；可取原现金798，736到10-22才可取。累计实际费4元，不按6/10把整单费改为1.20元。",
+    "余债10−6=4张，余卖单4张仍冻结，当前自由可转/可另卖0张。须先确认撤单解冻，再在10-22 14:30前有效转股；若未转，最后卖出仍到15:00，但是否成交须凭回报。不能把卖出计划当已退出，也不能同时卖与转。余债继续承受价格、信用及错过转股后转赎回应收的风险；当前无余债处理结果。"
+  ],
+  "misconception": "“跌到面值就必然安全；只要触发赎回便已收到现金；下修提议已能使用。”依次找决定、生效及实际回款凭证。",
+  "follow_up": "若14:31才看到公告，应如何记录转股错过？不要覆盖早先原答。",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

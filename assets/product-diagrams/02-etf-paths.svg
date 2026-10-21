@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 920" role="img" aria-label="ETF 两条路径：买卖价格与申赎条件" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#24354b">
+<title>ETF 两条路径：买卖价格与申赎条件</title><desc>左列为二级市场；右列为一级市场示意。实际篮子、现金替代与资格依产品而定。</desc>
+<rect width="1440" height="920" rx="22" fill="#f2f6fa"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7757b5"/></marker></defs>
+<text x="62" y="66" font-size="36" font-weight="700">ETF 两条路径：买卖价格与申赎条件</text>
+<text x="62" y="108" font-size="21">左列为二级市场；右列为一级市场示意。实际篮子、现金替代与资格依产品而定。</text>
+<path d="M367,326 L367,358" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1071,326 L1071,358" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M367,546 L367,578" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1071,546 L1071,578" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="62" y="150" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="86" y="189" font-size="25" font-weight="700" fill="#315e86">01  交易所买卖</text>
+<text x="86" y="225" font-size="22">投资者提交委托，经撮合成交；价格来自交易，不是</text>
+<text x="86" y="252" font-size="22">净值保证价。</text>
+<rect x="766" y="150" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="790" y="189" font-size="25" font-weight="700" fill="#315e86">02  申购赎回</text>
+<text x="790" y="225" font-size="22">合资格主体按基金规定交付或取得一篮子资产、现金</text>
+<text x="790" y="252" font-size="22">或组合。</text>
+<rect x="62" y="370" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="86" y="409" font-size="25" font-weight="700" fill="#315e86">03  市场价格</text>
+<text x="86" y="445" font-size="22">看买卖价差、盘口深度、费用与限价；日成交量不能</text>
+<text x="86" y="472" font-size="22">保证当时可成交。</text>
+<rect x="766" y="370" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="790" y="409" font-size="25" font-weight="700" fill="#315e86">04  净值与 IOPV</text>
+<text x="790" y="445" font-size="22">NAV 是净值；IOPV 是参考估值。须核估值日、可获</text>
+<text x="790" y="472" font-size="22">知时间、币种和适用范围。</text>
+<rect x="62" y="590" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="86" y="629" font-size="25" font-weight="700" fill="#315e86">05  跟踪与资产风险</text>
+<text x="86" y="665" font-size="22">宽基、行业、债券、黄金与跨境各有风险；跟踪偏离</text>
+<text x="86" y="692" font-size="22">和集中度须另看资料。</text>
+<rect x="766" y="590" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="790" y="629" font-size="25" font-weight="700" fill="#315e86">06  溢价核查</text>
+<text x="790" y="665" font-size="22">价格与同一可用时点的净值比较，才有可解释的溢价</text>
+<text x="790" y="692" font-size="22">；净值未知则停止实算。</text>
+<text x="62" y="828" font-size="21" fill="#526176">跨境时区、汇率、休市和申购限制可能使路径无法同步；图示不保证套利可执行或盈利。</text>
+</svg>

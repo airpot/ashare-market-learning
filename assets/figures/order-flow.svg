@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">从交易意图到成交与结算</title><desc id="desc">委托依次经过提交、受理、撮合和成交回报，可有拒单、部分成交、撤单待确认；结算及可用状态需另行核对。</desc>
+<rect width="1200" height="760" fill="#f7f9fb"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#183044;font-size:21px} .small{font-size:17px;fill:#4c6273} .heading{font-size:32px;font-weight:700} .large{font-size:26px;font-weight:600}</style>
+<text x="48" y="58" class="heading" text-anchor="start">从交易意图到成交与结算</text>
+<text x="48" y="96" class="small" text-anchor="start">合成教学示意 · 非真实证券或交易所参数 · 图中假设仅用于解释机制</text>
+<rect x="50" y="165" width="340" height="175" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="70" y="203" class="large" text-anchor="start">1 填写委托</text>
+<text x="70" y="243" class="" text-anchor="start">价格、数量、方向</text>
+<text x="70" y="276" class="" text-anchor="start">先核对资金与规则</text>
+<rect x="430" y="165" width="340" height="175" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="450" y="203" class="large" text-anchor="start">2 受理与校验</text>
+<text x="450" y="243" class="" text-anchor="start">可能拒单或等待</text>
+<text x="450" y="276" class="" text-anchor="start">受理不等于成交</text>
+<rect x="810" y="165" width="340" height="175" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="830" y="203" class="large" text-anchor="start">3 进入撮合</text>
+<text x="830" y="243" class="" text-anchor="start">需有可成交对手方</text>
+<text x="830" y="276" class="" text-anchor="start">可能只成交一部分</text>
+<line x1="395" y1="250" x2="420" y2="250" stroke="#285f9d" stroke-width="3"/>
+<line x1="410" y1="244" x2="420" y2="250" stroke="#285f9d" stroke-width="3"/>
+<line x1="410" y1="256" x2="420" y2="250" stroke="#285f9d" stroke-width="3"/>
+<line x1="775" y1="250" x2="800" y2="250" stroke="#285f9d" stroke-width="3"/>
+<line x1="790" y1="244" x2="800" y2="250" stroke="#285f9d" stroke-width="3"/>
+<line x1="790" y1="256" x2="800" y2="250" stroke="#285f9d" stroke-width="3"/>
+<line x1="980" y1="350" x2="980" y2="420" stroke="#285f9d" stroke-width="3"/>
+<line x1="974" y1="410" x2="980" y2="420" stroke="#285f9d" stroke-width="3"/>
+<line x1="986" y1="410" x2="980" y2="420" stroke="#285f9d" stroke-width="3"/>
+<rect x="810" y="430" width="340" height="210" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="830" y="468" class="large" text-anchor="start">4 核对回报</text>
+<text x="830" y="508" class="" text-anchor="start">实际成交价与数量</text>
+<text x="830" y="541" class="" text-anchor="start">未成交与剩余数量</text>
+<text x="830" y="574" class="" text-anchor="start">费用、结算、可用状态</text>
+<rect x="50" y="430" width="665" height="210" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="70" y="468" class="large" text-anchor="start">撤单有自己的状态</text>
+<text x="70" y="508" class="" text-anchor="start">撤单申请 → 待确认 → 已撤 / 失败 / 已成交</text>
+<text x="70" y="541" class="" text-anchor="start">申请撤单时，订单仍可能发生撮合。</text>
+<text x="70" y="574" class="" text-anchor="start">以正式回报核对；不凭“按钮已按下”记账。</text>
+<line x1="48" y1="687" x2="1152" y2="687" stroke="#d4dee7" stroke-width="2"/>
+<text x="48" y="721" class="small" text-anchor="start">一般状态模型，非完整交易所时序；价格触及、提交委托、受理与成交是不同事实。</text>
+</svg>

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "track": "LOF",
+  "step": 2,
+  "exercise": "PRODUCT-LOF-02",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "有依据地不交易，也保留条件二级买入分支",
+  "cutoff": "2026-10-20T10:05:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "全包为虚构纸面教学：证券、日期、报价、委托、成交、费用与规则均为合成假设。没有真实账户、权限核验或真实成交保证。只讨论本步已给资料；缺项先写未知。",
+  "lesson": [
+    "主路径先不交易：无法核实当时净值，且一级申购暂停。写清阻断理由、待补证据与复核时间。不要把“不交易”作为免分析的口令。",
+    "为了练二级现金流，另给一个互斥的纯合成分支B：学习者明确不做申购套利，愿承担净值不明的额外风险，只在本题条件全部成立时按固定计划买入。不把该分支当作真实产品建议。"
+  ],
+  "data": {
+    "branch_A": "不下单，保留2000元现金，零持仓；次日先查是否发布净值与恢复通知，未恢复不推定已开放。",
+    "branch_B": {
+      "opening_cash": "2000",
+      "opening_quantity": 0,
+      "entry_limit": "1.20",
+      "quantity": 500,
+      "stop": "1.10",
+      "loss_budget": "60",
+      "lot": 100,
+      "buyfee": "2",
+      "sellfee": "2",
+      "trigger": "二级状态与规则复核完成，卖方价格≤1.20且学习者接受不能通过申购锁定价差",
+      "no_trade": "上述任何条件缺失，或把买入理由写成保证套利"
+    },
+    "subscription_refund_custody": "没有一级申购、配售、退款或转托管发生；不可凭二级计划推定这些状态。"
+  },
+  "current_response": [
+    "为A写两个有证据的不交易理由、一项补证动作和一个复核时点。",
+    "核B的现金占用、计划价差风险与手续费，判断预算是否可容纳500份。",
+    "B能否承诺20%套利？未知NAV应怎样出现在风险说明中？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-LOF",
+      "relationship": "本题虚构产品",
+      "scope": "描述性接触记录，不授予独立资格"
+    }
+  ]
+}

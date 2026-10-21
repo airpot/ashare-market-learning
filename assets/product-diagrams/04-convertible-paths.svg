@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 920" role="img" aria-label="可转债：同一笔债券的三条备选路径" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#24354b">
+<title>可转债：同一笔债券的三条备选路径</title><desc>机制示意；每一条路径先核公告与资格。这里没有给出真实证券的统一日期。</desc>
+<rect width="1440" height="920" rx="22" fill="#f2f6fa"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#7757b5"/></marker></defs>
+<text x="50" y="65" font-size="34" font-weight="700">可转债：同一笔债券的三条备选路径</text>
+<text x="50" y="108" font-size="22">机制示意；每一条路径先核公告与资格。这里没有给出真实证券的统一日期。</text>
+<rect x="500" y="145" width="440" height="120" rx="16" fill="white" stroke="#b8cadd"/>
+<text x="520" y="182" font-size="25" font-weight="700" fill="#315e86">当前持有：债券若干张</text>
+<text x="520" y="221" font-size="22">面值、买入成本、可用张数分开记</text>
+<path d="M720,265 L720,300 L260,300 L260,340" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="50" y="340" width="420" height="195" rx="16" fill="white" stroke="#b8cadd"/>
+<text x="70" y="377" font-size="25" font-weight="700" fill="#315e86">卖出委托</text>
+<text x="70" y="416" font-size="22">截止：最后交易日／时段之前</text>
+<text x="70" y="447" font-size="22">确认成交数量、价格和费用</text>
+<text x="70" y="478" font-size="22">未成交部分仍是债券</text>
+<path d="M260,535 L260,610" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="50" y="610" width="420" height="150" rx="16" fill="white" stroke="#b8cadd"/>
+<text x="70" y="647" font-size="25" font-weight="700" fill="#315e86">成交部分 → 现金</text>
+<text x="70" y="686" font-size="22">债券减少；确认售款与费用</text>
+<text x="70" y="717" font-size="22">现金可用、可取时点分别核验</text>
+<path d="M720,265 L720,300 L720,300 L720,340" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="510" y="340" width="420" height="195" rx="16" fill="white" stroke="#b8cadd"/>
+<text x="530" y="377" font-size="25" font-weight="700" fill="#315e86">转股申请</text>
+<text x="530" y="416" font-size="22">截止：转股期及最后转股时点</text>
+<text x="530" y="447" font-size="22">申请不等于确认，须核登记</text>
+<text x="530" y="478" font-size="22">取整和余款按该券条款</text>
+<path d="M720,535 L720,610" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="510" y="610" width="420" height="150" rx="16" fill="white" stroke="#b8cadd"/>
+<text x="530" y="647" font-size="25" font-weight="700" fill="#315e86">确认部分 → 股票及余款</text>
+<text x="530" y="686" font-size="22">原债券注销，股票增加</text>
+<text x="530" y="717" font-size="22">股票可卖、余款到账分别核验</text>
+<path d="M720,265 L720,300 L1180,300 L1180,340" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="970" y="340" width="420" height="195" rx="16" fill="white" stroke="#b8cadd"/>
+<text x="990" y="377" font-size="25" font-weight="700" fill="#315e86">继续持有／按合同付款</text>
+<text x="990" y="416" font-size="22">期限：到期或有效赎回安排</text>
+<text x="990" y="447" font-size="22">先区分触发、决定和生效</text>
+<text x="990" y="478" font-size="22">付款前仍有信用风险</text>
+<path d="M1180,535 L1180,610" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="970" y="610" width="420" height="150" rx="16" fill="white" stroke="#b8cadd"/>
+<text x="990" y="647" font-size="25" font-weight="700" fill="#315e86">应收款 → 实收现金</text>
+<text x="990" y="686" font-size="22">按合同注销债券、登记应收</text>
+<text x="990" y="717" font-size="22">实际到账才转现金，未收不补记</text>
+<text x="50" y="818" font-size="23">错过卖出或转股期限：重新核剩余债券的合同去向；不能追溯补做，也不能把待收写成已收。</text>
+<text x="50" y="860" font-size="21">三条备选路径不同时使用同一张债券；转成股票后不再保有该部分债券的还本权利。</text>
+</svg>

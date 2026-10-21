@@ -1,0 +1,24 @@
+{
+  "case_id": "H01",
+  "step": 3,
+  "teacher_only": true,
+  "symbol": "TRAIN-H01",
+  "cutoff": "2025-03-14",
+  "reveal_end": "2025-03-17",
+  "feedback": [
+    "最终买入100、卖出100，余单100已撤，持仓与有效委托均为0。净现金损益(47.4−49.9)×100−10=−260元，超过原计划200元。计划价不保证成交，不能用48元把实际亏损改写成200元。",
+    "日线不足以重建每次委托时的队列与全部路径；退出成交价来自题设回报。现金上限未超不代表风险检查合格，盈利或后来反弹也不能证明入场有效。",
+    "保留H01-R1与全部原答。任何改变触发、数量或退出条件的新版本只能从创建时点之后另测。本例只提供有限过程证据，不证明获利能力或真人掌握。"
+  ],
+  "bars": [
+    {
+      "date": "2025-03-17",
+      "open": "47.5",
+      "high": "48.6",
+      "low": "46.8",
+      "close": "48.1",
+      "volume_shares": 145000
+    }
+  ],
+  "notice": "After you record the raw response with the same example identifiers, read this packet. Subsequent market data are subsequent information. Do not change the raw response with these data. Read information only thru `reveal_end` in this packet. Do not read explanations for subsequent packets."
+}

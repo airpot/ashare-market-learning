@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "track": "ETF",
+  "step": 3,
+  "exercise": "PRODUCT-ETF-03",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "委托、部分成交和撤单是三个状态",
+  "cutoff": "2026-10-20T10:10:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "全包为虚构纸面教学：证券、日期、报价、委托、成交、费用与规则均为合成假设。没有真实账户、权限核验或真实成交保证。只讨论本步已给资料；缺项先写未知。",
+  "lesson": [
+    "提交1000份限价委托只是请求。系统受理后先冻结本题所需的资金；只有成交回报才进入现金流助手。未成交的400份既非持仓也非损益。",
+    "下面是互斥分支，不能把A、B、C的成交叠加。每个分支从2000元、零份重新开始。每个已成交买指令的总费为2元；A中按两次回报各1元分配，避免分笔后又扣全单2元。"
+  ],
+  "data": {
+    "opening": {
+      "cash": "2000",
+      "quantity": 0
+    },
+    "submitted": {
+      "quantity": 1000,
+      "limit": "1.00",
+      "reserved_cash": "1002"
+    },
+    "branches": {
+      "A": [
+        {
+          "event_id": "ETF-A-B1",
+          "kind": "buy",
+          "quantity": 600,
+          "price": "1.00",
+          "fee": "1"
+        },
+        {
+          "event_id": "ETF-A-B2",
+          "kind": "buy",
+          "quantity": 400,
+          "price": "1.00",
+          "fee": "1"
+        }
+      ],
+      "B": [
+        {
+          "event_id": "ETF-B-B1",
+          "kind": "buy",
+          "quantity": 600,
+          "price": "1.00",
+          "fee": "2"
+        },
+        "余400份撤单申请后收到撤单确认，无撤单费"
+      ],
+      "C": [
+        "无成交，1000份撤单确认，无费用"
+      ]
+    },
+    "worksheet_now": [
+      "每个分支的总现金、可用现金、冻结现金、总份额、可卖份额",
+      "A第一笔后的剩余冻结额及待确认数量",
+      "撤单申请与确认时点分别记载；持仓次一合成交易日可卖"
+    ],
+    "execution_limit": "这些是明确给出的合成回报；OHLC触及1.00不能替代成交回报。"
+  },
+  "current_response": [
+    "先列A第一笔、第二笔后的持仓现金状态，再列B撤单确认后的状态。",
+    "C是否有一笔买入？尚未撤单确认时能否花掉被冻结现金？",
+    "把已确认成交整理为有序事件；只把填单成功当成交会错在哪里？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-ETF",
+      "relationship": "本题虚构产品",
+      "scope": "描述性接触记录，不授予独立资格"
+    }
+  ]
+}

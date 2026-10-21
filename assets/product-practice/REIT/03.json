@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "track": "REIT",
+  "step": 3,
+  "exercise": "PRODUCT-REIT-03",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "登记权益、除息与现金到账分开记",
+  "cutoff": "2026-10-21T10:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "所有证券、报价、日期、成交、资格、费用、分派与规则均为合成教学假设。无真实执行资格或保证收益的结论；只用当前包。",
+  "lesson": [
+    "本步给定1000份买入已确认。按虚构登记规则，10-20截止仍持有，登记合格；10-21已除息但10-23才收现金。权益存在与钱已可用是两种状态。",
+    "登记后卖出不自动撤销已登记现金权利；也不能把预计分派先做distribution现金事件。遇扩募、提前终止或清算通知，先停下，核相应日期及应收路径，不能按原计划假定仍正常交易。",
+    "另附独立的合成部分成交账本，只用本步已确认回报处理余单与冻结；它不替代原主线，也不覆盖你的不交易原答。后续成交、撤单及收款须等下一步确认。"
+  ],
+  "data": {
+    "opening_cash": "5000",
+    "buy": {
+      "event_id": "REIT-B1",
+      "kind": "buy",
+      "quantity": 1000,
+      "price": "3.00",
+      "fee": "2"
+    },
+    "buy_date": "2026-10-20",
+    "entitlement": {
+      "eligible_units": 1000,
+      "record_confirmed": true,
+      "record_date": "2026-10-20",
+      "ex_date": "2026-10-21",
+      "per_unit": "0.10",
+      "cash_date": "2026-10-23",
+      "received_now": false
+    },
+    "worksheet_now": [
+      "总现金、可用现金、冻结现金",
+      "总份额、可卖份额、冻结份额",
+      "已登记未收现金，禁止与现金合并"
+    ],
+    "halt_counterfactual": "若收到停牌或扩募通知，本步不虚构新订单；核复牌、缴款、配售、退款日期。",
+    "liquidation_counterfactual": "若终止并清算，退出价格及付款时间未知，标记应收估计，不视为已收到现金。",
+    "separate_partial_case": {
+      "synthetic": true,
+      "separate_case": true,
+      "separate_from_main_and_no_trade": true,
+      "scope": "独立合成执行分支；不叠加到原主线、其他另题或学习者原先不交易的账本。未成交委托不是持仓或现金流。",
+      "fee_rule": "同一已成交指令只收实际整单费2元一次；余单撤销或失效不另收费用。冻结现金仍属总现金，不可再从总现金扣一次。",
+      "case_id": "REIT-PARTIAL-SELL",
+      "opening_cash": "5000",
+      "as_of": "2026-10-21T10:00:00+08:00",
+      "quantity_assumption": "与主线相同先买1000份并在10-20登记；本另题10-21申报卖1000份，仅确认600份，余400份仍挂单冻结，均符合本题100份数量组。",
+      "confirmed_fills": [
+        {
+          "event_id": "REIT-P-B1",
+          "kind": "buy",
+          "quantity": 1000,
+          "price": "3.00",
+          "fee": "2",
+          "confirmed_at": "2026-10-20T10:10:00+08:00"
+        },
+        {
+          "event_id": "REIT-P-S1",
+          "kind": "sell",
+          "quantity": 600,
+          "price": "2.92",
+          "fee": "2",
+          "confirmed_at": "2026-10-21T09:50:00+08:00"
+        }
+      ],
+      "order": {
+        "order_id": "REIT-P-S-ORDER",
+        "kind": "sell",
+        "submitted_at": "2026-10-21T09:45:00+08:00",
+        "submitted_quantity": 1000,
+        "limit_price": "2.92",
+        "filled_quantity": 600,
+        "remaining_quantity": 400,
+        "status": "partially_filled_open"
+      },
+      "frozen_cash": "0",
+      "frozen_units": 400,
+      "events_known_now": {
+        "entitlement": {
+          "eligible_units": 1000,
+          "record_confirmed": true,
+          "record_date": "2026-10-20",
+          "record_cutoff": "2026-10-20T15:00:00+08:00",
+          "ex_date": "2026-10-21",
+          "per_unit": "0.10",
+          "cash_date": "2026-10-23",
+          "received_now": false
+        },
+        "cash_withdrawable_now": "原现金可取；本另题10-21已成600份的净卖款到10-22才可取。",
+        "other_events": "未确认扩募、清算或停牌，不假造事件。"
+      },
+      "deadlines": {
+        "sale_proceeds_withdrawable": "2026-10-22",
+        "distribution_cash_due": "2026-10-23",
+        "order_review": "余400份需确认成交、撤单或失效，未确认不能解冻。"
+      },
+      "current_check": "只按当前回报，怎样把剩余持仓、挂单冻结和按1000份登记的应收分别接到下一步？"
+    }
+  },
+  "current_response": [
+    "买入后现金、总份额及10-21可卖份额各是多少？",
+    "写出已登记未收款金额及将来的收款日期，解释为何今天不能花。",
+    "如果10-21已登记后卖出，在本题规则下10-23分派归谁？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-REIT",
+      "relationship": "虚构产品；包装分类不代表风险分散"
+    }
+  ],
+  "teaching_delivery": "Use only this step. Use worksheet items to include the lesson topics. Do not use them as a quiz list. Give one short part of the lesson. Then, give one check question from this part of the lesson. Before you give feedback for this step, wait for the raw response.\n\nKeep all practice in the category with tutor aid."
+}

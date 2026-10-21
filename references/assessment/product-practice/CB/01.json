@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "track": "CB",
+  "step": 1,
+  "exercise": "PRODUCT-CB-01",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "先认清面值、报价分母和转股价值：本步反馈",
+  "source_basis": "This packet uses only the accepted exercise terms and notices. It gives no indications that show if conversion was available before this exercise or not.",
+  "worked": [
+    "100/10=10股；10×12=120元，是每100元面值的理论转股价值。132相对120溢价10%，相对面值100则32%，两者分母不同。",
+    "本题买10张：总面值1000元，现金报价成本10×100/100×120=1200元，外部买费另列。",
+    "触发门槛、发行人是否决定行权、生效日与最后申报时点各自核验。没有当时转股价、正股可得报价或权限，记录未知而不编算真实结果。"
+  ],
+  "misconception": "“面值100元，120元买入最多只损失20元且一定能转股。”面值不是二级购价的保本承诺，到账与股价还会变化。",
+  "follow_up": "请把报价分母、每张面值、张数、现金成本分别列出。",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

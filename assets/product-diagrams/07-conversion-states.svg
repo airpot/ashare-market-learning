@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 920" role="img" aria-label="转股对账：10张债券 → 62股与8元余款" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#24354b">
+<title>转股对账：10张债券 → 62股与8元余款</title><desc>引导算例；全部数字、零头处理与日期均为合成假设，与四步练习分开，不预告其答案。</desc>
+<rect width="1440" height="920" rx="22" fill="#f2f6fa"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#7757b5"/></marker></defs>
+<text x="50" y="65" font-size="34" font-weight="700">转股对账：10张债券 → 62股与8元余款</text>
+<text x="50" y="108" font-size="22">引导算例；全部数字、零头处理与日期均为合成假设，与四步练习分开，不预告其答案。</text>
+<rect x="50" y="180" width="400" height="190" rx="16" fill="white" stroke="#b8cadd"/>
+<text x="70" y="217" font-size="25" font-weight="700" fill="#315e86">D日之前：持有债券</text>
+<text x="70" y="256" font-size="22">10张 × 每张面值100元</text>
+<text x="70" y="287" font-size="22">合计面额1,000元</text>
+<text x="70" y="318" font-size="22">假设已花1,200元，暂不计费</text>
+<path d="M450,275 L510,275" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="510" y="180" width="420" height="190" rx="16" fill="white" stroke="#b8cadd"/>
+<text x="530" y="217" font-size="25" font-weight="700" fill="#315e86">D日：申请确认成功</text>
+<text x="530" y="256" font-size="22">转股价：16元每股</text>
+<text x="530" y="287" font-size="22">1,000 ÷ 16 → 62个整数股</text>
+<text x="530" y="318" font-size="22">62 × 16＝992，余面额8元</text>
+<path d="M930,255 L970,255 L970,235 L1010,235" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M930,300 L970,300 L970,530 L1010,530" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="1010" y="150" width="380" height="230" rx="16" fill="white" stroke="#b8cadd"/>
+<text x="1030" y="187" font-size="25" font-weight="700" fill="#315e86">股票状态</text>
+<text x="1030" y="226" font-size="22">登记增加62股，原债归零</text>
+<text x="1030" y="257" font-size="22">D日可卖数：0股</text>
+<text x="1030" y="288" font-size="22">D+1交易日可卖：62股</text>
+<text x="1030" y="319" font-size="22">另假定未停牌且无限制</text>
+<rect x="1010" y="440" width="380" height="200" rx="16" fill="white" stroke="#b8cadd"/>
+<text x="1030" y="477" font-size="25" font-weight="700" fill="#315e86">零头现金状态</text>
+<text x="1030" y="516" font-size="22">D日：应收8元，实收0元</text>
+<text x="1030" y="547" font-size="22">D+3：实收8元，应收归零</text>
+<text x="1030" y="578" font-size="22">不重复加入应收和现金</text>
+<rect x="50" y="445" width="880" height="195" rx="16" fill="white" stroke="#b8cadd"/>
+<text x="70" y="482" font-size="25" font-weight="700" fill="#315e86">到账后的合成估值：股票尚未卖出</text>
+<text x="70" y="521" font-size="22">假设标记价18元，股票价值62 × 18＝1,116元</text>
+<text x="70" y="552" font-size="22">加已到账余款8元，总计1,124元；相对1,200元账面差额−76元</text>
+<text x="70" y="583" font-size="22">可卖数是操作状态；账面价值不是已实现卖出现金</text>
+<text x="50" y="755" font-size="24">三个核对栏：债券张数　｜　股票持有数／可卖数　｜　余款应收／实收</text>
+<text x="50" y="812" font-size="22">D+1股票可卖与D+3零头到账是两件事。真实残余款、利息及限制须查该券当时有效规则。</text>
+<text x="50" y="858" font-size="22">这张图只配合M18-U02-P02的当前引导算例；四步练习的后续结果仍按原答保存后再揭示。</text>
+</svg>

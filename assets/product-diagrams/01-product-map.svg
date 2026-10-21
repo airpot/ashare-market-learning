@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 920" role="img" aria-label="产品地图：先问权利，再问资产与操作" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#24354b">
+<title>产品地图：先问权利，再问资产与操作</title><desc>分类有多个维度；同一产品可以同时有基金、ETF、货币资产等标签。</desc>
+<rect width="1440" height="920" rx="22" fill="#f2f6fa"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7757b5"/></marker></defs>
+<text x="62" y="66" font-size="36" font-weight="700">产品地图：先问权利，再问资产与操作</text>
+<text x="62" y="108" font-size="21">分类有多个维度；同一产品可以同时有基金、ETF、货币资产等标签。</text>
+<path d="M672,238 L754,238" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M367,326 L367,358" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1071,326 L1071,358" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M367,546 L367,578" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1071,546 L1071,578" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M672,678 L754,678" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="62" y="150" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="86" y="189" font-size="25" font-weight="700" fill="#315e86">01  法律外壳</text>
+<text x="86" y="225" font-size="22">股票是股权；基金份额代表基金权益；可转债是附条</text>
+<text x="86" y="252" font-size="22">件转股权的债权。</text>
+<rect x="766" y="150" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="790" y="189" font-size="25" font-weight="700" fill="#315e86">02  资产与目标</text>
+<text x="790" y="225" font-size="22">股票、债券、黄金、货币、境外资产与项目现金流，</text>
+<text x="790" y="252" font-size="22">决定主要风险来源。</text>
+<rect x="62" y="370" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="86" y="409" font-size="25" font-weight="700" fill="#315e86">03  基金的交易组织</text>
+<text x="86" y="445" font-size="22">ETF、LOF 均属基金；交易所买卖与申购赎回，是不</text>
+<text x="86" y="472" font-size="22">同操作路径。</text>
+<rect x="766" y="370" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="790" y="409" font-size="25" font-weight="700" fill="#315e86">04  标签可以重叠</text>
+<text x="790" y="445" font-size="22">QDII 是境外投资资格标签；FOF 是投资方式；MONEY</text>
+<text x="790" y="472" font-size="22"> 在本课是教学轨道。</text>
+<rect x="62" y="590" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="86" y="629" font-size="25" font-weight="700" fill="#315e86">05  上市结构与期限</text>
+<text x="86" y="665" font-size="22">封闭安排、剩余期限、REIT 项目与清算条款须核合</text>
+<text x="86" y="692" font-size="22">同；名称不能替代时点状态。</text>
+<rect x="766" y="590" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="790" y="629" font-size="25" font-weight="700" fill="#315e86">06  落到具体产品</text>
+<text x="790" y="665" font-size="22">写代码、日期、操作、单位、权限与规则来源；关键</text>
+<text x="790" y="692" font-size="22">项未知，先等待核实。</text>
+<text x="62" y="828" font-size="21" fill="#526176">份额不等于股票；同是上市交易，也不自动具有相同的回转、交收、申赎或准入规则。</text>
+</svg>

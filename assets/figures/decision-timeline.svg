@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">决策时序：何时知道，何时行动</title><desc id="desc">中间根位置在D2，右侧根在D3收盘才完成并可确认局部分型；D3观察后制定计划，未来可交易时段方可提交，成交仍待正式回报。</desc>
+<rect width="1200" height="760" fill="#f7f9fb"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#183044;font-size:21px} .small{font-size:17px;fill:#4c6273} .heading{font-size:32px;font-weight:700} .large{font-size:26px;font-weight:600}</style>
+<text x="48" y="58" class="heading" text-anchor="start">决策时序：何时知道，何时行动</text>
+<text x="48" y="96" class="small" text-anchor="start">合成教学示意 · 非真实证券或交易所参数 · 图中假设仅用于解释机制</text>
+<line x1="100" y1="315" x2="1100" y2="315" stroke="#285f9d" stroke-width="4"/>
+<line x1="145" y1="295" x2="145" y2="335" stroke="#285f9d" stroke-width="4"/>
+<text x="145" y="275" class="small" text-anchor="middle">D2：中间根</text>
+<line x1="455" y1="295" x2="455" y2="335" stroke="#285f9d" stroke-width="4"/>
+<text x="455" y="275" class="small" text-anchor="middle">D3：右根收完</text>
+<line x1="765" y1="295" x2="765" y2="335" stroke="#285f9d" stroke-width="4"/>
+<text x="765" y="275" class="small" text-anchor="middle">下一可交易时段</text>
+<line x1="1070" y1="295" x2="1070" y2="335" stroke="#285f9d" stroke-width="4"/>
+<text x="1070" y="275" class="small" text-anchor="middle">回报时刻</text>
+<rect x="50" y="390" width="310" height="190" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="70" y="428" class="large" text-anchor="start">结构的位置</text>
+<text x="70" y="468" class="" text-anchor="start">位置可标在 D2</text>
+<text x="70" y="501" class="" text-anchor="start">D2 不知道 D3 全貌</text>
+<text x="70" y="534" class="" text-anchor="start">当时只能暂定</text>
+<rect x="405" y="390" width="310" height="190" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="425" y="428" class="large" text-anchor="start">信息与判断</text>
+<text x="425" y="468" class="" text-anchor="start">D3 收完后才确认</text>
+<text x="425" y="501" class="" text-anchor="start">先检查完整规则</text>
+<text x="425" y="534" class="" text-anchor="start">记录信息截止时点</text>
+<rect x="760" y="390" width="390" height="190" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="780" y="428" class="large" text-anchor="start">委托与实际回报</text>
+<text x="780" y="468" class="" text-anchor="start">是否能提交取决于可交易性</text>
+<text x="780" y="501" class="" text-anchor="start">成交价、数量、时间待核对</text>
+<text x="780" y="534" class="" text-anchor="start">无法成交也须记录</text>
+<text x="65" y="190" class="" text-anchor="start">合成日线示例；箭头表示时间先后，不表示固定等待长度。</text>
+<text x="65" y="650" class="" text-anchor="start">离线回放按完整日线开放；一次只使用该截止时点可得的价格与事件。</text>
+<line x1="48" y1="687" x2="1152" y2="687" stroke="#d4dee7" stroke-width="2"/>
+<text x="48" y="721" class="small" text-anchor="start">不把结构标记日期当成已知日期，不用未来确认反填过去委托或成交。</text>
+</svg>

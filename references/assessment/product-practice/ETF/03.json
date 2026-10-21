@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "track": "ETF",
+  "step": 3,
+  "exercise": "PRODUCT-ETF-03",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "委托、部分成交和撤单是三个状态：本步反馈",
+  "source_basis": "This packet uses only the accepted exercise assumptions. It gives no indications that show if they are applicable to a trading venue or not.",
+  "worked": [
+    "A首笔成交后总现金1399、冻结401、可用998，总600份、当日可卖0；次笔后总/可用现金998、冻结0、总1000份。",
+    "B成交600份付602，总现金1398；其余冻结400，确认撤单后冻结0、可用1398、总600份；不能凭申请已提交就释放。",
+    "C无成交，撤单确认后现金2000、份额0、费用0；无需往现金流助手塞cancel事件。三条是互斥路径。"
+  ],
+  "misconception": "“600份成交所以整单1000份都算持仓；发出撤单便能花冻结款。”请逐条匹配确认回报。",
+  "follow_up": "若A第二笔一直未成交，何时可释放401元？说明费用预留与实际收费的差别。",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

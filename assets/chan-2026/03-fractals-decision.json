@@ -1,0 +1,50 @@
+{
+  "symbol": "sh688981",
+  "name": "中芯国际",
+  "interval": "1d",
+  "timezone": "Asia/Shanghai",
+  "adjustment": "unadjusted",
+  "price_unit": "CNY/share",
+  "volume_unit": "shares",
+  "start": "2026-06-01",
+  "cutoff": "2026-06-04",
+  "bars": [
+    {
+      "date": "2026-06-01",
+      "open": "139.760",
+      "high": "140.800",
+      "low": "132.040",
+      "close": "132.440",
+      "volume_shares": "100884914"
+    },
+    {
+      "date": "2026-06-02",
+      "open": "132.980",
+      "high": "135.500",
+      "low": "129.300",
+      "close": "132.480",
+      "volume_shares": "92368820"
+    },
+    {
+      "date": "2026-06-03",
+      "open": "132.000",
+      "high": "138.750",
+      "low": "131.850",
+      "close": "134.000",
+      "volume_shares": "99212745"
+    },
+    {
+      "date": "2026-06-04",
+      "open": "131.000",
+      "high": "137.570",
+      "low": "130.000",
+      "close": "134.880",
+      "volume_shares": "77852688"
+    }
+  ],
+  "questions": [
+    "分别比较相邻三组的高和低，判定顶底。",
+    "把极值发生日、三组形成日、known_at 分开；最后右组是否仍可能吸收？"
+  ],
+  "left_boundary_limit": "The packet has a local seed pair without containment. It gives no qualification for a segment before this window."
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "track": "ETF",
+  "step": 4,
+  "exercise": "PRODUCT-ETF-04",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "退出后对净收益，不用盈利证明掌握",
+  "cutoff": "2026-10-22T09:30:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "全包为虚构纸面教学：证券、日期、报价、委托、成交、费用与规则均为合成假设。没有真实账户、权限核验或真实成交保证。只讨论本步已给资料；缺项先写未知。",
+  "lesson": [
+    "本步给出A主线的后续合成卖出回报。只按真实给定的事件顺序算现金，再以期末数量与标记价核资产。价差收益没有扣掉费用，不能直接写作净收益。",
+    "B、C单独复盘，不能把A卖1000份的回报塞给B的600份。总现金、可取现金、可卖份额分别核对；资金可用未必已能取出。"
+  ],
+  "data": {
+    "opening_cash": "2000",
+    "events": [
+      {
+        "event_id": "ETF-A-B1",
+        "kind": "buy",
+        "quantity": 600,
+        "price": "1",
+        "fee": "1"
+      },
+      {
+        "event_id": "ETF-A-B2",
+        "kind": "buy",
+        "quantity": 400,
+        "price": "1",
+        "fee": "1"
+      },
+      {
+        "event_id": "ETF-A-S1",
+        "kind": "sell",
+        "quantity": 1000,
+        "price": "1.04",
+        "fee": "2"
+      }
+    ],
+    "sell_date": "2026-10-21",
+    "cash_withdrawable_date": "2026-10-22",
+    "distributions": "无",
+    "embedded_expenses": "基金内部费用已经体现在净值/价格中，不另列现金扣款",
+    "alternative_review": "B假定10-21只卖其600份，价1.04费2；C保持未交易。"
+  },
+  "current_response": [
+    "算A毛价差、双边费用、期末现金、持仓及净损益。",
+    "分别复盘B、C，与A比较执行差异及机会成本，禁止改写原计划。",
+    "若只有日线高低价而没有合成回报，哪些成交结论必须撤回？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-ETF",
+      "relationship": "本题虚构产品",
+      "scope": "描述性接触记录，不授予独立资格"
+    }
+  ]
+}

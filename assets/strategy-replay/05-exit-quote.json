@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "symbol": "QH-FICTIONAL",
+  "rule_version": "QH-LONG-0.1",
+  "price_unit": "CNY/share",
+  "notice": "All prices, quotes, eligibility, and fees are teaching assumptions. They are not security observations from a market.",
+  "cutoff": "S23 10:00",
+  "quote": {
+    "latest": "9.30",
+    "bid1": "9.30",
+    "bid1_size": 1000,
+    "ask1": "9.31"
+  },
+  "account": {
+    "held_shares": 400,
+    "sellable_shares": 400
+  },
+  "assumptions": {
+    "legal_order_at_quote": true
+  },
+  "question": "State the action implied by the previous recorded state, quantity, price boundary and required execution evidence."
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "track": "ETF",
+  "step": 4,
+  "exercise": "PRODUCT-ETF-04",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "退出后对净收益，不用盈利证明掌握：本步反馈",
+  "source_basis": "This packet uses only the accepted exercise assumptions. It gives no indications that show if they are applicable to a trading venue or not.",
+  "worked": [
+    "A成本1000+2=1002，卖出1040−2=1038；期末现金2036、份额0、净损益36元。毛价差40元，双边费4元。",
+    "B：买602、卖624−2=622，现金2020、净20元、份额0。C现金2000、净0，不承担未成交仓位的涨跌。",
+    "卖出后总现金已变化，但本题次日才可取。记过程、预算偏差和基准同期总收益；一轮盈利不证明方法或真实成交。"
+  ],
+  "misconception": "“挣40元，再扣一次管理费才净收益。”先扣显式双边费；内部已嵌入费用不得重复。",
+  "follow_up": "请用现金流方向再算一遍36元，并提出一个遵守计划但仍亏损的可能场景。",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

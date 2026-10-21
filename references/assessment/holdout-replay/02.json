@@ -1,0 +1,32 @@
+{
+  "case_id": "H01",
+  "step": 2,
+  "teacher_only": true,
+  "symbol": "TRAIN-H01",
+  "cutoff": "2025-03-12",
+  "reveal_end": "2025-03-14",
+  "feedback": [
+    "截至3月12日，无包含。第6组底分型的右侧第7组由第8组出现而获得边界；第3顶与第6底中心距仅3，未达M11至少4的要求，不是严格笔。不要用原始日数替代处理组检查。",
+    "小林已成交100股，计划风险含总费用预留200；另100股仍有效，最大可能总量200，风险390。现金9990虽未过10000，不消除风险超额。应停止新增，先处理有效余单并等确认，不能把提出撤单当撤单成功。已成交部分另按风险计划处理。",
+    "本题并未冻结具有优势的入场信号，也未提供你的委托回报。小林的持仓不能记成你的实际交易。"
+  ],
+  "bars": [
+    {
+      "date": "2025-03-13",
+      "open": "50.3",
+      "high": "50.8",
+      "low": "49",
+      "close": "49.2",
+      "volume_shares": 220000
+    },
+    {
+      "date": "2025-03-14",
+      "open": "48.4",
+      "high": "49",
+      "low": "47.2",
+      "close": "47.6",
+      "volume_shares": 250000
+    }
+  ],
+  "notice": "After you record the raw response with the same example identifiers, read this packet. Subsequent market data are subsequent information. Do not change the raw response with these data. Read information only thru `reveal_end` in this packet. Do not read explanations for subsequent packets."
+}

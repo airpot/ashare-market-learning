@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "track": "LOF",
+  "step": 4,
+  "exercise": "PRODUCT-LOF-04",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "回顾不交易与二级风险，不把旧净值当终局答案：本步反馈",
+  "source_basis": "This packet uses only the accepted exercise assumptions. It gives no indications that show if they are applicable to a trading venue or not.",
+  "worked": [
+    "A期末现金2000、零持仓、净损益0。B买入362、卖出345−2=343，期末1981、零持仓、净损益−19元。",
+    "20%保留为相对旧NAV的合成偏离，不是当时真实溢价。后见涨跌不改变A当时证据不足的理由。",
+    "申购暂停、净值未知与二级买卖是否成交是三类问题；回顾不能串成无风险套利。单轮盈亏不能证明策略优劣。"
+  ],
+  "misconception": "“B亏了所以只要溢价就不买永远对。”把估值、成本、可执行性及结果分开比较。",
+  "follow_up": "请保留原始回答，另写一条今后可检查的无交易条件。",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

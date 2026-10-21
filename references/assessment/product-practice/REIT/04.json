@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "track": "REIT",
+  "step": 4,
+  "exercise": "PRODUCT-REIT-04",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "价差、分派和费用一起看：本步反馈",
+  "source_basis": "This packet uses only the accepted assumptions made for this example. It does not show eligibility for execution in a market.",
+  "worked": [
+    "价差(2.9−3)×1000=−100，分派+100，双边费−4，总净−4元。期末现金4996、持仓0、分派应收0。",
+    "买后现金1998，卖后4896，到账后4996。distribution只记实际收款一次；不能再把应收100加到期末资产。",
+    "到账时零持仓不否定登记日资格。helper只记这笔现金，不能检查资格；资格证据来自单独权益工作表。",
+    "另设分支 REIT-PARTIAL-SELL：承接现金3748、持仓/冻结各400份、分派应收100；撤单只释放400份，不再收2元、不改变现金或登记。实际分派100到账后现金3848、应收0；余400份可卖但未卖，余单0、冻结现金/份额0。",
+    "余400份按本步2.85标记值1140，总资产3848+1140=4988，净损益−12；价差已卖600×(2.92−3)=−48，剩余标记400×(2.85−3)=−60，分派+100，实际费用−4。现金已可取3848，1140是未实现持仓价值，不能再重复加应收100。"
+  ],
+  "misconception": "“价格跌100，分派100，完全没亏。”还要扣买卖各2元；现金、应收不可重复。",
+  "follow_up": "若分派尚未到账，期末现金与应收分别写多少？不要把暂未收到说成已实现现金。",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

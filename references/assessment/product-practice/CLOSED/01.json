@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "track": "CLOSED",
+  "step": 1,
+  "exercise": "PRODUCT-CLOSED-01",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "折价要连同剩余期限和资产风险看：本步反馈",
+  "source_basis": "This packet uses only the accepted assumptions made for this example. It does not show eligibility for execution in a market.",
+  "worked": [
+    "(0.90/1.20−1)×100=−25%，表示相对该旧NAV折价25%。若假设净值固定且能按1.20兑现，涨幅应以0.90为分母算33.33%；本题并未给予该兑现保证。",
+    "以当前有效条款及变更公告确定状态，不靠名称。剩余365天不能消除资产跌价、流动性、费用或付款延迟。",
+    "未明确期末路径前，把转LOF、终止和清算日期标未知，不凭折价做套利保证。"
+  ],
+  "misconception": "“打75折买入，365天后一定拿1.20。”净值会变，期限与法律路径也不能靠当前估值替代。",
+  "follow_up": "若当日NAV未知，应怎样保留这25%的口径标签？",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

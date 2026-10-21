@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "track": "REIT",
+  "step": 2,
+  "exercise": "PRODUCT-REIT-02",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "先核登记条件，再写现金与风险计划",
+  "cutoff": "2026-10-20T10:05:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "所有证券、报价、日期、成交、资格、费用、分派与规则均为合成教学假设。无真实执行资格或保证收益的结论；只用当前包。",
+  "lesson": [
+    "买入前先确认本题分派登记假设能适用于已确认成交。预期会拿到分派不代表现在已有现金，更不能借未来分派放大仓位。",
+    "风险预算按价格下跌和双边外部费用先核，分派资格和金额尚未实现时不当作稳固止损垫。项目现金下降、债务压力、停牌或缺少公告均可构成等待理由。"
+  ],
+  "data": {
+    "opening_cash": "5000",
+    "opening_quantity": 0,
+    "proposed_quantity": 1000,
+    "entry": "3.00",
+    "stop": "2.96",
+    "budget": "50",
+    "lot": 100,
+    "buyfee": "2",
+    "sellfee": "2",
+    "entry_condition": "报价≤3.00、规则与分派资格复核、项目现金及债务未出现新未知项",
+    "no_trade": "登记资格、停牌、项目重大事件或扩募权利无法确认时等待",
+    "distribution": "尚未登记且未到账；禁止用于买入现金预算",
+    "expansion_check": "如遇扩募，另核认购资格、定价、缴款、配售和退款；二级持有不自动等于获配。"
+  },
+  "current_response": [
+    "核1000份现金占用与按2.96退出的计划损失。",
+    "列可买数量的现金、风险约束；为何最后可主动选更小的1000份？",
+    "写一条有证据的不交易条件以及补查动作。"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-REIT",
+      "relationship": "虚构产品；包装分类不代表风险分散"
+    }
+  ]
+}

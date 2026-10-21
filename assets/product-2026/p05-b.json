@@ -1,0 +1,270 @@
+{
+  "id": "p05-b",
+  "symbol": "sh513100",
+  "title": "P05-B · sh513100 · 截至 2026-09-30",
+  "product": "跨境 ETF",
+  "track": "ETF",
+  "cutoff": "2026-09-30",
+  "cutoff_time": "2026-09-30T15:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "interval": "1d",
+  "adjustment": "raw",
+  "price_unit": "CNY/fund-unit",
+  "volume_unit": "fund-units",
+  "volume_basis": "Sina volume not changed",
+  "comparison_multiplier": 100,
+  "source_provider": "Sina CN_MarketData.getKLineData",
+  "source_retrieved_at": "2026-10-20T12:44:23.843105+00:00",
+  "selection_rule": "The selection uses calendar cutoffs specified before selection and not changed. Each example has the last 30 sessions with observations available at the cutoff, with the end of this sequence at the cutoff.",
+  "qualification": "This is practice with previous observations selected after the outcomes. It is not an assessment with data that the learner did not see before this assessment.",
+  "limits": [
+    "历史图仅供回顾练习；采集时间晚于决策截止时间，不能证明未见过后续行情。",
+    "未建立完整的公司行动、分红、交易状态与历史权限日历；原始价格跳变不等于经济损失。",
+    "无同步历史净值 NAV、IOPV、汇率、持仓或转股价，不能据此计算真实历史溢价或转股溢价。",
+    "无盘口、价差、逐笔成交与订单队列，日线不能证明真实执行、成交价或可成交数量。",
+    "两家接口可能共用上游；成交量比较存在取整差异，不是独立交易所行情认证。"
+  ],
+  "bars": [
+    {
+      "date": "2026-08-19",
+      "open": "2.197",
+      "high": "2.200",
+      "low": "2.185",
+      "close": "2.200",
+      "volume": "161880420"
+    },
+    {
+      "date": "2026-08-20",
+      "open": "2.217",
+      "high": "2.223",
+      "low": "2.210",
+      "close": "2.212",
+      "volume": "86163500"
+    },
+    {
+      "date": "2026-08-21",
+      "open": "2.195",
+      "high": "2.200",
+      "low": "2.187",
+      "close": "2.195",
+      "volume": "136707400"
+    },
+    {
+      "date": "2026-08-24",
+      "open": "2.190",
+      "high": "2.191",
+      "low": "2.164",
+      "close": "2.166",
+      "volume": "144499332"
+    },
+    {
+      "date": "2026-08-25",
+      "open": "2.159",
+      "high": "2.209",
+      "low": "2.154",
+      "close": "2.195",
+      "volume": "253651800"
+    },
+    {
+      "date": "2026-08-26",
+      "open": "2.196",
+      "high": "2.209",
+      "low": "2.196",
+      "close": "2.203",
+      "volume": "120221300"
+    },
+    {
+      "date": "2026-08-27",
+      "open": "2.228",
+      "high": "2.231",
+      "low": "2.220",
+      "close": "2.229",
+      "volume": "127407528"
+    },
+    {
+      "date": "2026-08-28",
+      "open": "2.244",
+      "high": "2.247",
+      "low": "2.229",
+      "close": "2.235",
+      "volume": "108671134"
+    },
+    {
+      "date": "2026-08-31",
+      "open": "2.207",
+      "high": "2.229",
+      "low": "2.198",
+      "close": "2.223",
+      "volume": "133235483"
+    },
+    {
+      "date": "2026-09-01",
+      "open": "2.218",
+      "high": "2.245",
+      "low": "2.213",
+      "close": "2.233",
+      "volume": "143902167"
+    },
+    {
+      "date": "2026-09-02",
+      "open": "2.204",
+      "high": "2.214",
+      "low": "2.191",
+      "close": "2.195",
+      "volume": "121684084"
+    },
+    {
+      "date": "2026-09-03",
+      "open": "2.201",
+      "high": "2.208",
+      "low": "2.193",
+      "close": "2.196",
+      "volume": "116546526"
+    },
+    {
+      "date": "2026-09-04",
+      "open": "2.225",
+      "high": "2.231",
+      "low": "2.221",
+      "close": "2.222",
+      "volume": "128083712"
+    },
+    {
+      "date": "2026-09-07",
+      "open": "2.229",
+      "high": "2.238",
+      "low": "2.228",
+      "close": "2.236",
+      "volume": "113815256"
+    },
+    {
+      "date": "2026-09-08",
+      "open": "2.239",
+      "high": "2.244",
+      "low": "2.230",
+      "close": "2.233",
+      "volume": "88521396"
+    },
+    {
+      "date": "2026-09-09",
+      "open": "2.233",
+      "high": "2.235",
+      "low": "2.225",
+      "close": "2.234",
+      "volume": "87576004"
+    },
+    {
+      "date": "2026-09-10",
+      "open": "2.218",
+      "high": "2.224",
+      "low": "2.216",
+      "close": "2.219",
+      "volume": "96507458"
+    },
+    {
+      "date": "2026-09-11",
+      "open": "2.198",
+      "high": "2.207",
+      "low": "2.186",
+      "close": "2.201",
+      "volume": "151476200"
+    },
+    {
+      "date": "2026-09-14",
+      "open": "2.195",
+      "high": "2.195",
+      "low": "2.187",
+      "close": "2.191",
+      "volume": "108306329"
+    },
+    {
+      "date": "2026-09-15",
+      "open": "2.195",
+      "high": "2.202",
+      "low": "2.185",
+      "close": "2.196",
+      "volume": "140304824"
+    },
+    {
+      "date": "2026-09-16",
+      "open": "2.196",
+      "high": "2.220",
+      "low": "2.192",
+      "close": "2.218",
+      "volume": "122920460"
+    },
+    {
+      "date": "2026-09-17",
+      "open": "2.218",
+      "high": "2.221",
+      "low": "2.195",
+      "close": "2.220",
+      "volume": "129724021"
+    },
+    {
+      "date": "2026-09-18",
+      "open": "2.240",
+      "high": "2.269",
+      "low": "2.237",
+      "close": "2.269",
+      "volume": "210746494"
+    },
+    {
+      "date": "2026-09-21",
+      "open": "2.275",
+      "high": "2.287",
+      "low": "2.270",
+      "close": "2.283",
+      "volume": "212381300"
+    },
+    {
+      "date": "2026-09-22",
+      "open": "2.325",
+      "high": "2.334",
+      "low": "2.302",
+      "close": "2.316",
+      "volume": "299134150"
+    },
+    {
+      "date": "2026-09-23",
+      "open": "2.325",
+      "high": "2.339",
+      "low": "2.317",
+      "close": "2.334",
+      "volume": "232656769"
+    },
+    {
+      "date": "2026-09-24",
+      "open": "2.308",
+      "high": "2.321",
+      "low": "2.296",
+      "close": "2.312",
+      "volume": "167711697"
+    },
+    {
+      "date": "2026-09-28",
+      "open": "2.312",
+      "high": "2.317",
+      "low": "2.300",
+      "close": "2.304",
+      "volume": "137891784"
+    },
+    {
+      "date": "2026-09-29",
+      "open": "2.291",
+      "high": "2.329",
+      "low": "2.287",
+      "close": "2.324",
+      "volume": "135532268"
+    },
+    {
+      "date": "2026-09-30",
+      "open": "2.326",
+      "high": "2.354",
+      "low": "2.325",
+      "close": "2.352",
+      "volume": "254828283"
+    }
+  ],
+  "prompt": "先说价格与成交量事实，再列尚缺的信息；写出观察、等待或纸上计划及其失效条件。"
+}

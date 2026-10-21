@@ -1,0 +1,30 @@
+{
+  "synthetic": true,
+  "symbol": "QH-FICTIONAL",
+  "rule_version": "QH-LONG-0.1",
+  "price_unit": "CNY/share",
+  "notice": "All prices, quotes, eligibility, and fees are teaching assumptions. They are not security observations from a market.",
+  "cutoff": "S22 10:05 final cancel report",
+  "branch_assumption": "This branch occurs after a submitted limit buy for 900 shares at 10.10. If your decision was different, keep your decision. Compare this branch independently.",
+  "order": {
+    "submitted": 900,
+    "limit": "10.10",
+    "fills": [
+      {
+        "time": "10:00:01",
+        "shares": 300,
+        "price": "10.10"
+      },
+      {
+        "time": "10:05:00",
+        "shares": 100,
+        "price": "10.10"
+      }
+    ],
+    "cancel_requested_at": "10:05:00",
+    "cancel_confirmed_shares": 500,
+    "pending_shares": 0,
+    "buy_fee_total": "4.00"
+  },
+  "question": "Reconcile shares, cash and the cancellation race. Define future exit references only for filled shares."
+}

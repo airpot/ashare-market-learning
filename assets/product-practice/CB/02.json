@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "track": "CB",
+  "step": 2,
+  "exercise": "PRODUCT-CB-02",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "用张数核风险，计划退出不能替代执行",
+  "cutoff": "2026-10-20T10:05:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "全包为虚构纸面教学。证券、报价、转股条款、公告及日历均为合成假设，不代表真实债券资格、期限或交易规则。",
+  "lesson": [
+    "本题每张的现金入价120元、计划退出116元。损失预算先涵盖买卖外部费用，再涵盖每张4元价差。张数最后按10张一组向下取整，同时检查现金。",
+    "机会条件来自你事前写下的检查，而不是“转股价低所以买”。若公告、权限、流动性或正股信息不齐，应写明等待理由。折算损失只是计划，停牌或跳空会让退出价格更差。"
+  ],
+  "data": {
+    "opening_cash": "2000",
+    "opening_quantity": 0,
+    "budget": "50",
+    "entry_cash_per_bond": "120",
+    "stop_cash_per_bond": "116",
+    "lot_bonds": 10,
+    "buyfee": "2",
+    "sellfee": "2",
+    "proposed_quantity_bonds": 10,
+    "entry_condition": "全部条款复核通过，卖方报价不高于120；否则不提交",
+    "pause_conditions": [
+      "转股价或正股时点无法核实",
+      "新赎回公告尚未读完",
+      "未核实资格、停牌、委托规则",
+      "与已有同发行人股票暴露超出本题风险承受范围"
+    ],
+    "stress_exit_per_bond": "110"
+  },
+  "current_response": [
+    "算现金允许张数、风险允许张数和最终整组张数。",
+    "核10张入场现金、按116退出的计划损失以及110压力损失。",
+    "写一个不交易决定及恢复练习前必须补足的证据。"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-CB",
+      "relationship": "虚构可转债"
+    },
+    {
+      "instrument": "TRAIN-CB-STOCK",
+      "relationship": "同一虚构发行人的正股，存在共同风险"
+    }
+  ]
+}

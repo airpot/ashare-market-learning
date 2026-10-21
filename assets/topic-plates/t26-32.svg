@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1220" viewBox="0 0 1680 1220" role="img" aria-labelledby="plate-title plate-desc">
+<title id="plate-title">T26-32 教师专题图版</title>
+<desc id="plate-desc">仅在保存学员原答后开放；真实观察前缀的局部放大图，详细数值解释在图下方。</desc>
+<metadata>{&quot;id&quot;: &quot;t26-32&quot;, &quot;observed_bars_sha256&quot;: &quot;f9b45c78121e7e27551e01fdd273501f732b0590685076df0f32a3a3daaaa6a6&quot;, &quot;opens_after&quot;: &quot;saved_raw_answer&quot;, &quot;svg_input_sha256&quot;: &quot;b5f2fde9167fae6aa7afcd07704f5e59750317d86d296b450418f22bc914e970&quot;, &quot;teacher_only&quot;: true}</metadata>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}line{stroke-linecap:round}</style>
+<rect width="1680" height="1220" fill="#f7f9fc"/>
+<text x="70" y="62.0" font-size="30" fill="#20344b" textLength="590.4000" lengthAdjust="spacingAndGlyphs">T26-32 · 天普股份 · 边界：锚点与收盘</text>
+<text x="70" y="110.0" font-size="20" fill="#52677d" textLength="860.8000" lengthAdjust="spacingAndGlyphs">教师专用 · 保存原答后开放 · 截止 2026-09-01 · 真实未复权日线 · Asia/Shanghai</text>
+<text x="100" y="175.0" font-size="20" fill="#20344b" textLength="756.8000" lengthAdjust="spacingAndGlyphs">局部边界核查；元/股。蓝带是锚点±0.5%的教学容差，青虚线为截止；未绘制后续。</text>
+<rect x="120.000000" y="232.000000" width="836.363636" height="368.000000" fill="#f0f4f8"/>
+<rect x="120.000000" y="274.838710" width="920.000000" height="18.637944" fill="#e0edf8" id="anchor-band"/>
+<line x1="120.000000" y1="274.838710" x2="1040.000000" y2="274.838710" stroke="#2463a0" stroke-width="1.5"/>
+<line x1="120.000000" y1="293.476654" x2="1040.000000" y2="293.476654" stroke="#2463a0" stroke-width="1.5"/>
+<text x="15" y="606.0" font-size="16" fill="#20344b" textLength="51.2000" lengthAdjust="spacingAndGlyphs">63.13</text>
+<text x="15" y="426.0" font-size="16" fill="#20344b" textLength="51.2000" lengthAdjust="spacingAndGlyphs">70.47</text>
+<text x="15" y="246.0" font-size="16" fill="#20344b" textLength="51.2000" lengthAdjust="spacingAndGlyphs">77.81</text>
+<line x1="161.818182" y1="284.157682" x2="161.818182" y2="463.401694" stroke="#bd4548" stroke-width="2" id="candle-0-wick"/>
+<rect x="145.818182" y="350.607924" width="32.000000" height="74.787174" fill="#bd4548" id="candle-0-body"/>
+<circle cx="161.8181818181818" cy="284.15768187552607" r="6" fill="white" stroke="#2463a0" stroke-width="2" id="anchor-point"/>
+<line x1="245.454545" y1="397.932267" x2="245.454545" y2="480.565963" stroke="#167e67" stroke-width="2" id="candle-1-wick"/>
+<rect x="229.454545" y="419.019798" width="32.000000" height="61.546165" fill="#167e67" id="candle-1-body"/>
+<line x1="329.090909" y1="473.209848" x2="329.090909" y2="538.679275" stroke="#167e67" stroke-width="2" id="candle-2-wick"/>
+<rect x="313.090909" y="475.661886" width="32.000000" height="59.339331" fill="#167e67" id="candle-2-body"/>
+<line x1="412.727273" y1="476.887905" x2="412.727273" y2="565.161290" stroke="#bd4548" stroke-width="2" id="candle-3-wick"/>
+<rect x="396.727273" y="488.657690" width="32.000000" height="53.209235" fill="#bd4548" id="candle-3-body"/>
+<line x1="496.363636" y1="484.489225" x2="496.363636" y2="537.208052" stroke="#167e67" stroke-width="2" id="candle-4-wick"/>
+<rect x="480.363636" y="484.734429" width="32.000000" height="38.006596" fill="#167e67" id="candle-4-body"/>
+<line x1="580.000000" y1="493.316563" x2="580.000000" y2="529.361529" stroke="#bd4548" stroke-width="2" id="candle-5-wick"/>
+<rect x="564.000000" y="499.201456" width="32.000000" height="25.991607" fill="#bd4548" id="candle-5-body"/>
+<line x1="663.636364" y1="437.900494" x2="663.636364" y2="527.399898" stroke="#bd4548" stroke-width="2" id="candle-6-wick"/>
+<rect x="647.636364" y="459.723636" width="32.000000" height="43.155877" fill="#bd4548" id="candle-6-body"/>
+<line x1="747.272727" y1="475.661886" x2="747.272727" y2="524.212248" stroke="#bd4548" stroke-width="2" id="candle-7-wick"/>
+<rect x="731.272727" y="485.715244" width="32.000000" height="11.279377" fill="#bd4548" id="candle-7-body"/>
+<line x1="830.909091" y1="482.037186" x2="830.909091" y2="519.798579" stroke="#167e67" stroke-width="2" id="candle-8-wick"/>
+<rect x="814.909091" y="505.086348" width="32.000000" height="7.356115" fill="#167e67" id="candle-8-body"/>
+<line x1="914.545455" y1="506.067163" x2="914.545455" y2="551.429875" stroke="#167e67" stroke-width="2" id="candle-9-wick"/>
+<rect x="898.545455" y="524.702656" width="32.000000" height="12.995803" fill="#167e67" id="candle-9-body"/>
+<line x1="998.181818" y1="508.028794" x2="998.181818" y2="554.127117" stroke="#bd4548" stroke-width="2" id="candle-10-wick"/>
+<rect x="982.181818" y="532.794383" width="32.000000" height="21.332734" fill="#bd4548" id="candle-10-body"/>
+<line x1="998.181818" y1="232.000000" x2="998.181818" y2="610.000000" stroke="#087d80" stroke-width="2" id="cutoff" stroke-dasharray="7 5"/>
+<text x="120" y="650.0" font-size="18" fill="#20344b" textLength="115.2000" lengthAdjust="spacingAndGlyphs">2026-08-18</text>
+<text x="930.181818" y="650.0" font-size="18" fill="#20344b" textLength="115.2000" lengthAdjust="spacingAndGlyphs">2026-09-01</text>
+<line x1="120.000000" y1="683.000000" x2="956.363637" y2="683.000000" stroke="#2463a0" stroke-width="2"/>
+<line x1="120.000000" y1="676.000000" x2="120.000000" y2="690.000000" stroke="#2463a0" stroke-width="2"/>
+<line x1="956.363637" y1="676.000000" x2="956.363637" y2="690.000000" stroke="#2463a0" stroke-width="2"/>
+<text x="120" y="725.0" font-size="18" fill="#20344b" textLength="534.9600" lengthAdjust="spacingAndGlyphs">锚点取样10根：2026-08-18—2026-08-31；空心蓝点为锚点。</text>
+<text x="1120" y="229.0" font-size="19" fill="#2463a0" textLength="195.3200" lengthAdjust="spacingAndGlyphs">先前10根的最高价上沿</text>
+<text x="1120" y="271.5" font-size="19" fill="#20344b" textLength="263.7200" lengthAdjust="spacingAndGlyphs">锚点 2026-08-18：76.010</text>
+<text x="1120" y="314.0" font-size="19" fill="#20344b" textLength="336.6800" lengthAdjust="spacingAndGlyphs">带 [75.62995, 76.39005] 元/股</text>
+<text x="1120" y="356.5" font-size="19" fill="#087d80" textLength="288.0400" lengthAdjust="spacingAndGlyphs">截止 2026-09-01：C=65.870</text>
+<text x="1120" y="399.0" font-size="19" fill="#20344b" textLength="322.2400" lengthAdjust="spacingAndGlyphs">严格比较 C &gt; 76.390050：不符合</text>
+<text x="1120" y="441.5" font-size="19" fill="#20344b" textLength="422.5600" lengthAdjust="spacingAndGlyphs">H=66.880；L=65.000；触及与收盘越界分开。</text>
+<text x="1120" y="484.0" font-size="19" fill="#20344b" textLength="342.0000" lengthAdjust="spacingAndGlyphs">整根缺口：无；该方向越界候选：不符合</text>
+<text x="1120" y="526.5" font-size="19" fill="#b66c08" textLength="456.0000" lengthAdjust="spacingAndGlyphs">请求条件未获选例资格；这里只核查，不当阳性示范。</text>
+<text x="80" y="813.0" font-size="23" fill="#2463a0" textLength="184.0000" lengthAdjust="spacingAndGlyphs">把数值对应到图上</text>
+<text x="80" y="859.5" font-size="19" fill="#20344b" textLength="1430.3200" lengthAdjust="spacingAndGlyphs">只用此前10根 2026-08-18—2026-08-31；锚点为最早同价日 2026-08-18 的 76.010。低缘=锚点×0.995=75.629950，高缘=锚点×1.005=76.390050。</text>
+<text x="80" y="900.0" font-size="19" fill="#20344b" textLength="1117.2000" lengthAdjust="spacingAndGlyphs">蓝带上边是 76.39005，下边是 75.62995 元/股。先用引线和价格轴找到两条边，再看目标收盘在带内、带外还是恰等于边界。</text>
+<text x="80" y="940.5" font-size="19" fill="#20344b" textLength="1446.2800" lengthAdjust="spacingAndGlyphs">只在 2026-09-01 收盘截止核查：C=65.870 &gt; 带外缘 76.390050：不符合；相等不满足严格关系。整根缺口：无；排除该方向整根跳空后，局部候选条件不符合。</text>
+<text x="80" y="981.0" font-size="19" fill="#20344b" textLength="1214.4800" lengthAdjust="spacingAndGlyphs">H、L表示当日触及范围，C表示收盘位置；两者不能互换。容差不是置信区间，也未证明多次成交密集或经济突破；权益事件与可交易性须另核。</text>
+<text x="80" y="1021.5" font-size="19" fill="#20344b" textLength="1233.4800" lengthAdjust="spacingAndGlyphs">替代说明：在既定日期、30根先验窗口和5根后续约束下，未找到满足冻结上沿带的回访候选全部条件的样本；改为边界核查，不能充作阳性实例。</text>
+<text x="80" y="1062.0" font-size="19" fill="#20344b" textLength="1107.3200" lengthAdjust="spacingAndGlyphs">截至本题，未取得合格的冻结旧带回访链；图中蓝带只是今日之前10根的上沿，不是捏造的旧突破带。不得把靠近它说成回访成功。</text>
+<text x="80" y="1111.5" font-size="20" fill="#087d80" textLength="1138.4000" lengthAdjust="spacingAndGlyphs">检查一问：请指出锚点日、取样10根和截止日；比较当日最高/最低触及与收盘严格越界。若收盘恰等于带外缘，条件是否成立？</text>
+<text x="80" y="1156.5" font-size="17" fill="#52677d" textLength="919.3600" lengthAdjust="spacingAndGlyphs">来源：同题观察前缀（Sina OHLCV，Tencent OHLC交叉核对）；只画截止前数据。图形不是委托、成交或收益证明。</text>
+</svg>

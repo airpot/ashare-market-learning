@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "track": "CLOSED",
+  "step": 3,
+  "exercise": "PRODUCT-CLOSED-03",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "成交持仓与期末转换、清算分别处理：本步反馈",
+  "source_basis": "This packet uses only the accepted assumptions made for this example. It does not show eligibility for execution in a market.",
+  "worked": [
+    "买入支出902，剩现金1098、总1000份、冻结0、当日可卖0；次一合成交易日可卖1000。",
+    "当前没有转换/清算事件。未来正式公告的生效及可用日期决定路径；名称或传闻不足以改变通道。",
+    "清算估值不是已到现金；确认应收与实际收款分开。helper没有convert或liquidation事件，不能伪造卖出。",
+    "另设分支 CLOSED-PARTIAL-BUY：已成600份支出600×0.90+2=542，总现金1458，余买单400冻结360，可用/可取原现金1098；冻结现金不能再从总现金重复扣除。实际费用2元，未成400份未收费也未变持仓。",
+    "当前持仓600、可卖0、冻结份额0；10-21才可卖600。余400份委托待撤销或失效确认，尚未释放360；未有转换、清算或分派事件，不用旧NAV1.20把600份变成现金。"
+  ],
+  "misconception": "“期限到了自然等同按净值赎回；转LOF传闻出现便可转托管。”请找有效通知与确认日期。",
+  "follow_up": "若二级停牌，原退出计划哪里受阻，应补记什么？",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

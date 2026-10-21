@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">顶分型：位置与确认时间分开</title><desc id="desc">教学约定不含包含处理，顶分型中间K线的高低点均高于左右两根。中间K线是位置；右侧K线完成后才能确认三根关系。右侧未完成时只能暂定。</desc>
+<rect width="1200" height="760" fill="#f7f9fb"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#183044;font-size:21px} .small{font-size:17px;fill:#4c6273} .heading{font-size:32px;font-weight:700} .large{font-size:26px;font-weight:600}</style>
+<text x="48" y="58" class="heading" text-anchor="start">顶分型：位置与确认时间分开</text>
+<text x="48" y="96" class="small" text-anchor="start">合成教学示意 · 非真实证券或交易所参数 · 图中假设仅用于解释机制</text>
+<rect x="65" y="150" width="490" height="405" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="85" y="192" class="large" text-anchor="start">右侧未完成：暂定</text>
+<line x1="155" y1="365.0" x2="155" y2="470.0" stroke="#b83238" stroke-width="3"/>
+<rect x="132.5" y="385.99999999999994" width="45" height="31.500000000000057" rx="8" fill="#b83238" stroke="#b83238"/>
+<text x="155" y="515" class="" text-anchor="middle">左</text>
+<line x1="305" y1="260.0" x2="305" y2="365.0" stroke="#b83238" stroke-width="3"/>
+<rect x="282.5" y="280.9999999999999" width="45" height="31.500000000000114" rx="8" fill="#b83238" stroke="#b83238"/>
+<text x="305" y="515" class="" text-anchor="middle">中</text>
+<line x1="455" y1="344.00000000000006" x2="455" y2="438.49999999999994" stroke="#14745b" stroke-width="3" stroke-dasharray="7 6"/>
+<rect x="432.5" y="396.50000000000006" width="45" height="20.999999999999943" rx="8" fill="#ffffff" stroke="#14745b"/>
+<text x="455" y="515" class="" text-anchor="middle">右</text>
+<text x="305" y="234" class="small" text-anchor="middle">位置在中间根</text>
+<rect x="650" y="150" width="490" height="405" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="670" y="192" class="large" text-anchor="start">右侧完成：确认三根关系</text>
+<line x1="740" y1="365.0" x2="740" y2="470.0" stroke="#b83238" stroke-width="3"/>
+<rect x="717.5" y="385.99999999999994" width="45" height="31.500000000000057" rx="8" fill="#b83238" stroke="#b83238"/>
+<text x="740" y="515" class="" text-anchor="middle">左</text>
+<line x1="890" y1="260.0" x2="890" y2="365.0" stroke="#b83238" stroke-width="3"/>
+<rect x="867.5" y="280.9999999999999" width="45" height="31.500000000000114" rx="8" fill="#b83238" stroke="#b83238"/>
+<text x="890" y="515" class="" text-anchor="middle">中</text>
+<line x1="1040" y1="344.00000000000006" x2="1040" y2="438.49999999999994" stroke="#14745b" stroke-width="3"/>
+<rect x="1017.5" y="396.50000000000006" width="45" height="20.999999999999943" rx="8" fill="#14745b" stroke="#14745b"/>
+<text x="1040" y="515" class="" text-anchor="middle">右</text>
+<text x="890" y="234" class="small" text-anchor="middle">位置在中间根</text>
+<text x="85" y="609" class="small" text-anchor="start">元 / 股；红：阳线，绿：阴线。左 H/L=11/10；中=12/11；右最终=11.2/10.3。</text>
+<text x="85" y="650" class="" text-anchor="start">约定：三根无包含关系；右侧未收完时高低点可变。图示的是局部分型条件。</text>
+<line x1="48" y1="687" x2="1152" y2="687" stroke="#d4dee7" stroke-width="2"/>
+<text x="48" y="721" class="small" text-anchor="start">中间位置 ≠ 当时已知；确认分型 ≠ 笔已完成 ≠ 通用交易信号。完整判定须遵循声明的流派约定。</text>
+</svg>

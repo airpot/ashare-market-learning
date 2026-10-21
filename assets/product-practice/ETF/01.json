@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "track": "ETF",
+  "step": 1,
+  "exercise": "PRODUCT-ETF-01",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "先分清ETF份额、指数与估值时点",
+  "cutoff": "2026-10-20T10:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "全包为虚构纸面教学：证券、日期、报价、委托、成交、费用与规则均为合成假设。没有真实账户、权限核验或真实成交保证。只讨论本步已给资料；缺项先写未知。",
+  "lesson": [
+    "ETF是在交易所交易的基金份额。你买到基金权益，并非直接买入指数；指数是用一组规则计算的比较尺度。主动ETF也未必跟踪某个指数。本题只假定一只境内股票指数ETF，不能据此推定其他ETF的规则。",
+    "成交价格是买卖双方的成交数，NAV是每份资产净值，IOPV是盘中估计。估值日期、公开时间、你做决定的时间各有用途。先画“估值→公开→决定”，缺公开时间就不能把数字当作当时已知。",
+    "百分比以分母为基准：溢折价是价格相对净值的差额比例。IOPV不是可兑现的申赎报价。再检查点差、流动性、持仓重叠和费率；包装不同并不自动分散行业风险。"
+  ],
+  "data": {
+    "rules": {
+      "instrument": "TRAIN-ETF",
+      "operation": "二级市场现金买卖；本题不做申赎",
+      "eligibility": "合成练习账户已假定可买卖；现实须另核",
+      "quantity_unit": "份",
+      "buy_increment": 100,
+      "sell_increment": 100,
+      "price_tick": "0.001",
+      "phase": "虚构连续交易时段09:30–11:30、13:00–15:00",
+      "order_type": "限价",
+      "cancellation": "未成交部分可申请撤单，收到确认才释放冻结",
+      "limits_halts": "假定无停牌；价格边界0.90–1.10，越界拒绝",
+      "resale": "本题买入次一合成交易日才可卖",
+      "settlement": "本题成交即变总现金；卖出款次一合成交易日可取；日历仅列10-20、10-21、10-22",
+      "fees": "每个独立已完成买/卖指令固定外部费用2元；分笔费按后续回报分配，合计不重复",
+      "rule_source": "本题规则卡",
+      "effective_date": "2026-10-20",
+      "exceptions": "不推及真实ETF、跨境ETF、债券ETF或货币ETF"
+    },
+    "valuation_observations": [
+      {
+        "kind": "NAV",
+        "value": "1.000",
+        "value_date": "2026-10-19",
+        "available_at": "2026-10-19T20:00:00+08:00",
+        "currency": "CNY",
+        "source": "合成估值表"
+      },
+      {
+        "kind": "IOPV",
+        "value": "1.002",
+        "value_date": "2026-10-20",
+        "available_at": "2026-10-20T09:59:50+08:00",
+        "currency": "CNY",
+        "source": "合成估算表"
+      }
+    ],
+    "quote": {
+      "bid": "0.999",
+      "ask": "1.001",
+      "observed_at": "2026-10-20T09:59:55+08:00"
+    },
+    "related_index": "TRAIN-ETF-INDEX",
+    "overlap": "假定学习者已有科技股观察记录，基金60%暴露于同一虚构科技行业。"
+  },
+  "current_response": [
+    "用自己的话区分基金权益、指数、NAV和IOPV。",
+    "哪两个时间决定NAV是否可用于当时判断？旧NAV能否代表10:00的真实资产价值？",
+    "逐项核对规则卡，给出一个应暂停行动的缺项情形。"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-ETF",
+      "relationship": "本题虚构产品",
+      "scope": "描述性接触记录，不授予独立资格"
+    }
+  ]
+}

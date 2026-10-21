@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "track": "ETF",
+  "step": 1,
+  "exercise": "PRODUCT-ETF-01",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "先分清ETF份额、指数与估值时点：本步反馈",
+  "source_basis": "This packet uses only the accepted exercise assumptions. It gives no indications that show if they are applicable to a trading venue or not.",
+  "worked": [
+    "本题NAV在决定前公开，故可作“昨日净值”比较，不能称当前净值。IOPV为当时可得估计，也不保证成交或申赎价格。",
+    "申报单位、成交单位、可卖时间与可取时间是不同字段。主动ETF、联接基金与本题指数ETF不得混同。",
+    "若权限、临时停牌或强制规则缺项，记录未知并等待；行业重叠仍存在。"
+  ],
+  "misconception": "“名称含ETF，所以今天买一定今天卖；IOPV等于赎回价。”请分别查产品规则与估值性质。",
+  "follow_up": "请画出三种时点，并指出目前证据的边界。",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

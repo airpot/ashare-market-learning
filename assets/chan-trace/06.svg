@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="720" viewBox="0 0 1160 720" role="img">
+<title>合成教学 · 同一记录形成 L2 核心，再检查首次返回</title>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#18283b;font-size:17px}.small{font-size:14px}</style>
+<rect width="1160" height="720" fill="#fbfcff"/>
+<text x="28.00" y="32.00" style="font-size:22px;fill:#18283b">合成教学 · 同一记录形成 L2 核心，再检查首次返回</text>
+<rect x="110.00" y="211.00" width="825.00" height="91.00" fill="#327e66" fill-opacity="0.14" stroke="#327e66"/>
+<line x1="100.00" y1="380.00" x2="1100.00" y2="380.00" stroke="#d8e1ed" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="45.00" y="385.00" style="font-size:14px;fill:#18283b">44</text>
+<line x1="100.00" y1="328.00" x2="1100.00" y2="328.00" stroke="#d8e1ed" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="45.00" y="333.00" style="font-size:14px;fill:#18283b">48</text>
+<line x1="100.00" y1="302.00" x2="1100.00" y2="302.00" stroke="#d8e1ed" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="45.00" y="307.00" style="font-size:14px;fill:#18283b">50</text>
+<line x1="100.00" y1="211.00" x2="1100.00" y2="211.00" stroke="#d8e1ed" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="45.00" y="216.00" style="font-size:14px;fill:#18283b">57</text>
+<line x1="100.00" y1="172.00" x2="1100.00" y2="172.00" stroke="#d8e1ed" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="45.00" y="177.00" style="font-size:14px;fill:#18283b">60</text>
+<line x1="100.00" y1="120.00" x2="1100.00" y2="120.00" stroke="#d8e1ed" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="45.00" y="125.00" style="font-size:14px;fill:#18283b">64</text>
+<rect x="110.00" y="185.00" width="165.00" height="117.00" fill="#205ea6" fill-opacity="0.09" stroke="#205ea6"/>
+<line x1="110.00" y1="302.00" x2="275.00" y2="211.00" stroke="#205ea6" stroke-width="3"/>
+<text x="118.00" y="92.00" style="font-size:15px;fill:#18283b">T1 [50, 59]</text>
+<text x="114.00" y="420.00" style="font-size:14px;fill:#18283b">q0—q30</text>
+<line x1="275.00" y1="442.00" x2="412.50" y2="442.00" stroke="#8a5090" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="115.00" y="472.00" style="font-size:15px;fill:#8a5090">封口 q55</text>
+<rect x="275.00" y="211.00" width="165.00" height="117.00" fill="#205ea6" fill-opacity="0.09" stroke="#205ea6"/>
+<line x1="275.00" y1="211.00" x2="440.00" y2="302.00" stroke="#205ea6" stroke-width="3"/>
+<text x="283.00" y="92.00" style="font-size:15px;fill:#18283b">T2 [48, 57]</text>
+<text x="279.00" y="420.00" style="font-size:14px;fill:#18283b">q30—q60</text>
+<line x1="440.00" y1="442.00" x2="577.50" y2="442.00" stroke="#8a5090" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="280.00" y="472.00" style="font-size:15px;fill:#8a5090">封口 q85</text>
+<rect x="440.00" y="159.00" width="165.00" height="143.00" fill="#205ea6" fill-opacity="0.09" stroke="#205ea6"/>
+<line x1="440.00" y1="302.00" x2="605.00" y2="198.00" stroke="#205ea6" stroke-width="3"/>
+<text x="448.00" y="92.00" style="font-size:15px;fill:#18283b">T3 [50, 61]</text>
+<text x="444.00" y="420.00" style="font-size:14px;fill:#18283b">q60—q90</text>
+<line x1="605.00" y1="442.00" x2="742.50" y2="442.00" stroke="#8a5090" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="445.00" y="472.00" style="font-size:15px;fill:#8a5090">封口 q115</text>
+<rect x="605.00" y="198.00" width="165.00" height="156.00" fill="#bc5e16" fill-opacity="0.09" stroke="#bc5e16"/>
+<line x1="605.00" y1="198.00" x2="770.00" y2="328.00" stroke="#bc5e16" stroke-width="3"/>
+<text x="613.00" y="92.00" style="font-size:15px;fill:#18283b">T4 [46, 58]</text>
+<text x="609.00" y="420.00" style="font-size:14px;fill:#18283b">q90—q120</text>
+<line x1="770.00" y1="442.00" x2="907.50" y2="442.00" stroke="#8a5090" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="610.00" y="472.00" style="font-size:15px;fill:#8a5090">封口 q145</text>
+<rect x="770.00" y="133.00" width="165.00" height="195.00" fill="#bc5e16" fill-opacity="0.09" stroke="#bc5e16"/>
+<line x1="770.00" y1="328.00" x2="935.00" y2="172.00" stroke="#bc5e16" stroke-width="3"/>
+<text x="778.00" y="92.00" style="font-size:15px;fill:#18283b">T5 [48, 63]</text>
+<text x="774.00" y="420.00" style="font-size:14px;fill:#18283b">q120—q150</text>
+<line x1="935.00" y1="442.00" x2="1072.50" y2="442.00" stroke="#8a5090" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="775.00" y="472.00" style="font-size:15px;fill:#8a5090">封口 q175</text>
+<line x1="742.50" y1="100.00" x2="742.50" y2="393.00" stroke="#8a5090" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="687.50" y="505.00" style="font-size:15px;fill:#8a5090">q115</text>
+<text x="677.50" y="529.00" style="font-size:14px;fill:#8a5090">L2 核心可用</text>
+<line x1="907.50" y1="100.00" x2="907.50" y2="393.00" stroke="#8a5090" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="852.50" y="505.00" style="font-size:15px;fill:#8a5090">q145</text>
+<text x="842.50" y="529.00" style="font-size:14px;fill:#8a5090">T4 离开可用</text>
+<line x1="1072.50" y1="100.00" x2="1072.50" y2="393.00" stroke="#8a5090" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="1017.50" y="505.00" style="font-size:15px;fill:#8a5090">q175</text>
+<text x="1007.50" y="529.00" style="font-size:14px;fill:#8a5090">T5 返回可用</text>
+<text x="28.00" y="573.00" style="font-size:17px;fill:#18283b">L2=[max(50,48,50), min(59,57,61)]=[50,57]；输入为 T1—T3 的全范围，不是三个内部核心。</text>
+<text x="28.00" y="608.00" style="font-size:17px;fill:#18283b">T4：58→48，q145 完成向下离开。T5：48→60，全范围 [48,63]，q175 完成首次返回。</text>
+<text x="28.00" y="643.00" style="font-size:17px;fill:#18283b">返回范围与旧核心相交 [50,57]，高点 63&gt;50 → 本次有限三卖条件失败。</text>
+<text x="28.00" y="678.00" style="font-size:16px;fill:#18283b">T5 最早一笔到 q123 已显示越过 50；q175 是完整返回分类时刻，不是首次发现越界的时刻。</text>
+<text x="28.00" y="707.00" style="font-size:15px;fill:#18283b">绿带=固定 L2 核心；各灰蓝框=完整 L1 范围；斜线只连接块端点，不能替代框内波动。</text>
+</svg>

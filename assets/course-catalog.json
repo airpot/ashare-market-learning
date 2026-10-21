@@ -1,0 +1,1732 @@
+{
+  "schema_version": "1.0",
+  "skill_version": "0.3.4",
+  "learner_language": "zh-CN",
+  "modules": [
+    {
+      "id": "M01",
+      "title": "市场与股票",
+      "path": "references/modules/module-01.md",
+      "stage": "S01",
+      "units": [
+        {
+          "id": "M01-U01",
+          "title": "股份、价格与收益",
+          "outcome": "解释股票代表的权利及收益来源",
+          "prerequisites": [],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M01-U02",
+          "title": "公司与市场参与者",
+          "outcome": "分清公司、券商、交易所和投资者",
+          "prerequisites": [
+            "M01-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M01-U03",
+          "title": "发行与流通",
+          "outcome": "区分融资发行与持有人之间的交易",
+          "prerequisites": [
+            "M01-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M01-U04",
+          "title": "交易所、板块与指数",
+          "outcome": "把个股放回市场及指数背景",
+          "prerequisites": [
+            "M01-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M02",
+      "title": "账户、品种与交易方式",
+      "path": "references/modules/module-02.md",
+      "stage": "S01",
+      "units": [
+        {
+          "id": "M02-U01",
+          "title": "账户与资金路径",
+          "outcome": "解释证券、资金与银行账户的作用",
+          "prerequisites": [
+            "M01-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M02-U02",
+          "title": "安全与适当性",
+          "outcome": "识别权限、风险与账户安全边界",
+          "prerequisites": [
+            "M02-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M02-U03",
+          "title": "证券品种比较",
+          "outcome": "分清股票、ETF、债券和可转债",
+          "prerequisites": [
+            "M02-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M02-U04",
+          "title": "目标、风格与时间安排",
+          "outcome": "比较期限、看盘条件与风险承担",
+          "prerequisites": [
+            "M02-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M03",
+      "title": "委托、撮合与成交",
+      "path": "references/modules/module-03.md",
+      "stage": "S01",
+      "units": [
+        {
+          "id": "M03-U01",
+          "title": "价格、数量与委托",
+          "outcome": "填写一份假设委托并核对单位",
+          "prerequisites": [
+            "M02-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M03-U02",
+          "title": "竞价与匹配",
+          "outcome": "解释匹配优先序与竞价阶段",
+          "prerequisites": [
+            "M03-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M03-U03",
+          "title": "订单状态与撤单",
+          "outcome": "区分已报、部分成交、成交与撤单",
+          "prerequisites": [
+            "M03-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M03-U04",
+          "title": "价格限制及特殊交易日",
+          "outcome": "按证券及日期查找适用限制",
+          "prerequisites": [
+            "M03-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M04",
+      "title": "结算、成本与早期风险",
+      "path": "references/modules/module-04.md",
+      "stage": "S01",
+      "units": [
+        {
+          "id": "M04-U01",
+          "title": "交收与可用可取",
+          "outcome": "区分可用现金、可取现金与可卖股份",
+          "prerequisites": [
+            "M03-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M04-U02",
+          "title": "费用与净收益",
+          "outcome": "核算含费用的交易结果",
+          "prerequisites": [
+            "M04-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M04-U03",
+          "title": "计划损失与仓位",
+          "outcome": "按假设损失及资金约束计算数量",
+          "prerequisites": [
+            "M04-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M04-U04",
+          "title": "组合风险与集中度",
+          "outcome": "识别相关持仓与组合暴露",
+          "prerequisites": [
+            "M04-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M05",
+      "title": "信息、公司事件与筛选",
+      "path": "references/modules/module-05.md",
+      "stage": "S01",
+      "units": [
+        {
+          "id": "M05-U01",
+          "title": "财报、价值与价格",
+          "outcome": "用基础经营信息解释价格之外的风险",
+          "prerequisites": [
+            "M01-U04",
+            "M04-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M05-U02",
+          "title": "公告与信息时点",
+          "outcome": "判断一条信息何时可供决策",
+          "prerequisites": [
+            "M05-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M05-U03",
+          "title": "公司事件与生命周期",
+          "outcome": "辨析分红除权、申购、停牌与退市",
+          "prerequisites": [
+            "M05-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M05-U04",
+          "title": "股票池与观察名单",
+          "outcome": "写出候选与排除理由",
+          "prerequisites": [
+            "M05-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M06",
+      "title": "行情界面与市场背景",
+      "path": "references/modules/module-06.md",
+      "stage": "S02",
+      "units": [
+        {
+          "id": "M06-U01",
+          "title": "报价字段与市值",
+          "outcome": "解释报价及不同市值口径",
+          "prerequisites": [
+            "M03-U04",
+            "M05-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M06-U02",
+          "title": "量、额、换手与量比",
+          "outcome": "计算并区分常见活跃度指标",
+          "prerequisites": [
+            "M06-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M06-U03",
+          "title": "盘口与分时",
+          "outcome": "把挂单、成交和分时记录分开",
+          "prerequisites": [
+            "M06-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M06-U04",
+          "title": "市场、行业与个股",
+          "outcome": "写出不同层次的观察事实",
+          "prerequisites": [
+            "M06-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M07",
+      "title": "K线及价格表示",
+      "path": "references/modules/module-07.md",
+      "stage": "S02",
+      "units": [
+        {
+          "id": "M07-U01",
+          "title": "开高低收与实体影线",
+          "outcome": "从价格数据画出几何正确的K线",
+          "prerequisites": [
+            "M06-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M07-U02",
+          "title": "阴阳与日涨跌",
+          "outcome": "用不同比较基准解释阳线仍下跌",
+          "prerequisites": [
+            "M07-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M07-U03",
+          "title": "周期与未完成K线",
+          "outcome": "理解聚合及未收盘数值的变化",
+          "prerequisites": [
+            "M07-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M07-U04",
+          "title": "复权与除权",
+          "outcome": "选择并声明比较价格的复权口径",
+          "prerequisites": [
+            "M07-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M08",
+      "title": "日本蜡烛图体系",
+      "path": "references/modules/module-08.md",
+      "stage": "S02",
+      "units": [
+        {
+          "id": "M08-U01",
+          "title": "单根形态",
+          "outcome": "按实体影线与背景辨认形态",
+          "prerequisites": [
+            "M07-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M08-U02",
+          "title": "双根形态",
+          "outcome": "比较吞没孕线等相邻结构",
+          "prerequisites": [
+            "M08-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M08-U03",
+          "title": "多根反转与持续",
+          "outcome": "解释多根形态形成的条件",
+          "prerequisites": [
+            "M08-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M08-U04",
+          "title": "背景、确认与失效",
+          "outcome": "指出同形异义及后续失效",
+          "prerequisites": [
+            "M08-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M09",
+      "title": "趋势与价格结构",
+      "path": "references/modules/module-09.md",
+      "stage": "S03",
+      "units": [
+        {
+          "id": "M09-U01",
+          "title": "高低点及市场状态",
+          "outcome": "用高低点描述趋势及震荡",
+          "prerequisites": [
+            "M07-U04",
+            "M08-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M09-U02",
+          "title": "支撑与压力",
+          "outcome": "给出支撑压力的观察依据",
+          "prerequisites": [
+            "M09-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M09-U03",
+          "title": "趋势线、通道与缺口",
+          "outcome": "解释线条和缺口的画法与限制",
+          "prerequisites": [
+            "M09-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M09-U04",
+          "title": "突破、回踩与失败",
+          "outcome": "区分突破观察与可执行规则",
+          "prerequisites": [
+            "M09-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M10",
+      "title": "量价、指标与完整规则",
+      "path": "references/modules/module-10.md",
+      "stage": "S03",
+      "units": [
+        {
+          "id": "M10-U01",
+          "title": "量价证据",
+          "outcome": "解释量价关系并保留竞争解释",
+          "prerequisites": [
+            "M04-U04",
+            "M05-U04",
+            "M09-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M10-U02",
+          "title": "均线与MACD",
+          "outcome": "从计算直觉理解滞后指标",
+          "prerequisites": [
+            "M10-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M10-U03",
+          "title": "一套完整教学规则",
+          "outcome": "写全筛选入场仓位退出与暂停条件",
+          "prerequisites": [
+            "M10-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M10-U04",
+          "title": "期望、基准与验证",
+          "outcome": "计算费用后期望并说明验证局限",
+          "prerequisites": [
+            "M10-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M11",
+      "title": "缠论结构基础",
+      "path": "references/modules/module-11.md",
+      "stage": "S04",
+      "units": [
+        {
+          "id": "M11-U01",
+          "title": "包含处理",
+          "outcome": "按已声明口径处理包含关系",
+          "prerequisites": [
+            "M07-U04",
+            "M09-U04",
+            "M10-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M11-U02",
+          "title": "顶底分型",
+          "outcome": "区分分型位置与确认时刻",
+          "prerequisites": [
+            "M11-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M11-U03",
+          "title": "笔的形成",
+          "outcome": "检查成笔条件并标出候选状态",
+          "prerequisites": [
+            "M11-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M11-U04",
+          "title": "线段与特征序列",
+          "outcome": "解释特征序列及分段确认分支",
+          "prerequisites": [
+            "M11-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M12",
+      "title": "缠论核心关系",
+      "path": "references/modules/module-12.md",
+      "stage": "S04",
+      "units": [
+        {
+          "id": "M12-U01",
+          "title": "走势类型与中枢",
+          "outcome": "按次级别走势区间解释中枢",
+          "prerequisites": [
+            "M10-U04",
+            "M11-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M12-U02",
+          "title": "级别、递归与中枢演变",
+          "outcome": "分清图表周期与分析级别",
+          "prerequisites": [
+            "M12-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M12-U03",
+          "title": "背驰与三类买卖点",
+          "outcome": "解释买卖点条件及背驰比较对象",
+          "prerequisites": [
+            "M12-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M12-U04",
+          "title": "区间套与多种划分",
+          "outcome": "展示当前可确认和待确认的结构",
+          "prerequisites": [
+            "M12-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M13",
+      "title": "退出、管理与交易纪律",
+      "path": "references/modules/module-13.md",
+      "stage": "S05",
+      "units": [
+        {
+          "id": "M13-U01",
+          "title": "四类退出",
+          "outcome": "为亏损盈利时间和逻辑失效分别写退出",
+          "prerequisites": [
+            "M04-U04",
+            "M10-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M13-U02",
+          "title": "仓位管理与成交困难",
+          "outcome": "处理加减仓跳空及未成交",
+          "prerequisites": [
+            "M13-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M13-U03",
+          "title": "行为控制与暂停",
+          "outcome": "把常见行为偏差转为可检查约束",
+          "prerequisites": [
+            "M13-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M13-U04",
+          "title": "规则版本及风险回顾",
+          "outcome": "保留规则修改及风险复核记录",
+          "prerequisites": [
+            "M13-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M14",
+      "title": "连续模拟与独立复盘",
+      "path": "references/modules/module-14.md",
+      "stage": "S05",
+      "units": [
+        {
+          "id": "M14-U01",
+          "title": "盘前与观察名单",
+          "outcome": "形成固定的盘前观察与排除记录",
+          "prerequisites": [
+            "M05-U04",
+            "M13-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M14-U02",
+          "title": "回放、决策与对账",
+          "outcome": "在有限信息下决策并核对实际成交",
+          "prerequisites": [
+            "M14-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M14-U03",
+          "title": "前向模拟与日志",
+          "outcome": "持续记录交易及未交易选择",
+          "prerequisites": [
+            "M14-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M14-U04",
+          "title": "过程结果与下一步",
+          "outcome": "分开评价执行质量与方法证据",
+          "prerequisites": [
+            "M14-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M15",
+      "title": "产品全景与业务路径",
+      "path": "references/modules/module-15.md",
+      "stage": "S06",
+      "units": [
+        {
+          "id": "M15-U01",
+          "title": "权利、包装与资产",
+          "outcome": "区分持有权利、产品结构与资产暴露",
+          "prerequisites": [
+            "M04-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M15-U02",
+          "title": "价格、净值与可知时间",
+          "outcome": "核对估值分母与实际可获得时间",
+          "prerequisites": [
+            "M15-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M15-U03",
+          "title": "四条业务路径与规则卡",
+          "outcome": "按产品日期和具体操作核查适用条件",
+          "prerequisites": [
+            "M15-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M15-U04",
+          "title": "成本、风险与学习选择",
+          "outcome": "比较费用口径、风险和学习分支",
+          "prerequisites": [
+            "M15-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M16",
+      "title": "ETF机制与交易",
+      "path": "references/modules/module-16.md",
+      "stage": "S06",
+      "units": [
+        {
+          "id": "M16-U01",
+          "title": "名字、目标和里面的资产",
+          "outcome": "区分指数ETF、主动ETF和联接基金",
+          "prerequisites": [
+            "M15-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M16-U02",
+          "title": "净值、市场价格和执行成本",
+          "outcome": "解释交易价差、折溢价和申赎机制",
+          "prerequisites": [
+            "M16-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M16-U03",
+          "title": "债券与黄金，不能套用股票的理解",
+          "outcome": "比较债券久期、信用与黄金标的风险",
+          "prerequisites": [
+            "M16-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M16-U04",
+          "title": "跨境时钟与完整操作核验",
+          "outcome": "核查跨境时差、估值、申赎和交易条件",
+          "prerequisites": [
+            "M16-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M17",
+      "title": "LOF机制与交易",
+      "path": "references/modules/module-17.md",
+      "stage": "S06",
+      "units": [
+        {
+          "id": "M17-U01",
+          "title": "基金身份与三种操作",
+          "outcome": "区分场内买卖与场外申赎",
+          "prerequisites": [
+            "M15-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M17-U02",
+          "title": "确认、可用和跨系统转托管",
+          "outcome": "核对确认、转托管及可用时间",
+          "prerequisites": [
+            "M17-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M17-U03",
+          "title": "溢价、限制与跨境资料时点",
+          "outcome": "解释申购受限和价差消失风险",
+          "prerequisites": [
+            "M17-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M17-U04",
+          "title": "完整账户与生命周期",
+          "outcome": "记录候选、放弃、操作状态和净结果",
+          "prerequisites": [
+            "M17-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M18",
+      "title": "可转债机制与交易",
+      "path": "references/modules/module-18.md",
+      "stage": "S06",
+      "units": [
+        {
+          "id": "M18-U01",
+          "title": "先读懂债、股和价格",
+          "outcome": "区分面额、张数、价格和转股价值",
+          "prerequisites": [
+            "M15-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M18-U02",
+          "title": "把交易与转股写成不同操作",
+          "outcome": "比较交易、转股及数量和可用规则",
+          "prerequisites": [
+            "M18-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M18-U03",
+          "title": "沿公告时间线处理赎回、回售和下修",
+          "outcome": "管理赎回、回售、修正和转股路径",
+          "prerequisites": [
+            "M18-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M18-U04",
+          "title": "持有到最后之前，先把损失路径算全",
+          "outcome": "核算信用、到期风险、事件分支和账户",
+          "prerequisites": [
+            "M18-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M19",
+      "title": "其他场内基金",
+      "path": "references/modules/module-19.md",
+      "stage": "S06",
+      "units": [
+        {
+          "id": "M19-U01",
+          "title": "封闭的是申赎，不一定是交易",
+          "outcome": "解释折价、剩余期限、转型和终止",
+          "prerequisites": [
+            "M15-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M19-U02",
+          "title": "货币基金的收益与渠道要一起看",
+          "outcome": "区分收益展示、分配和真实净结果",
+          "prerequisites": [
+            "M19-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M19-U03",
+          "title": "公募REITs从募资走到项目现金流",
+          "outcome": "区分基础设施和商业不动产及其项目风险",
+          "prerequisites": [
+            "M19-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M19-U04",
+          "title": "把分配、扩募和清算接回总回报",
+          "outcome": "分析扩募、分配、清算及业务可执行性",
+          "prerequisites": [
+            "M19-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M20",
+      "title": "多品种完整交易训练",
+      "path": "references/modules/module-20.md",
+      "stage": "S06",
+      "units": [
+        {
+          "id": "M20-U01",
+          "title": "从观察名单到可执行计划",
+          "outcome": "按产品身份、图形和规则筛选候选",
+          "prerequisites": [
+            "M15-U04",
+            "M10-U04"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u01-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u01-p02"
+            }
+          ]
+        },
+        {
+          "id": "M20-U02",
+          "title": "风险、数量与多条分支",
+          "outcome": "用现金风险约束并保留等待或放弃选择",
+          "prerequisites": [
+            "M20-U01"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u02-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u02-p02"
+            }
+          ]
+        },
+        {
+          "id": "M20-U03",
+          "title": "委托、持仓与事件管理",
+          "outcome": "区分计划成交、可卖冻结与期限事件",
+          "prerequisites": [
+            "M20-U02"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u03-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u03-p02"
+            }
+          ]
+        },
+        {
+          "id": "M20-U04",
+          "title": "对账、比较与复盘",
+          "outcome": "核算净结果并评价过程与证据范围",
+          "prerequisites": [
+            "M20-U03"
+          ],
+          "parts": [
+            {
+              "id": "P01",
+              "anchor": "u04-p01"
+            },
+            {
+              "id": "P02",
+              "anchor": "u04-p02"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "routes": {
+    "systematic": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07",
+      "M08",
+      "M09",
+      "M10",
+      "M11",
+      "M12",
+      "M13",
+      "M14",
+      "M15",
+      "M16",
+      "M17",
+      "M18",
+      "M19",
+      "M20"
+    ],
+    "first_trade_cycle": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07",
+      "M08",
+      "M09",
+      "M10",
+      "M13",
+      "M14"
+    ],
+    "chan_depth": [
+      "M07",
+      "M09",
+      "M10",
+      "M11",
+      "M12"
+    ],
+    "product_first": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M06",
+      "M07",
+      "M08",
+      "M09",
+      "M10",
+      "M15",
+      "M16",
+      "M20"
+    ],
+    "etf_practice": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M06",
+      "M07",
+      "M08",
+      "M09",
+      "M10",
+      "M15",
+      "M16",
+      "M20"
+    ],
+    "lof_practice": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M06",
+      "M07",
+      "M08",
+      "M09",
+      "M10",
+      "M15",
+      "M17",
+      "M20"
+    ],
+    "convertible_practice": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M06",
+      "M07",
+      "M08",
+      "M09",
+      "M10",
+      "M15",
+      "M18",
+      "M20"
+    ],
+    "listed_funds_practice": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M06",
+      "M07",
+      "M08",
+      "M09",
+      "M10",
+      "M15",
+      "M19",
+      "M20"
+    ]
+  },
+  "route_note": "Routes select the primary topic. Examine the data for the necessary prerequisites. If the learner wants to start with a product, start with M15-U01-P01. Before the selected product module and M20, give the missing prerequisites that are the same for these modules. Chan is optional for product practice. The full course route includes all modules."
+}

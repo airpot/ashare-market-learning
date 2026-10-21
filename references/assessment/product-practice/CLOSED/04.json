@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "track": "CLOSED",
+  "step": 4,
+  "exercise": "PRODUCT-CLOSED-04",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "折价继续扩大时也要如实结账：本步反馈",
+  "source_basis": "This packet uses only the accepted assumptions made for this example. It does not show eligibility for execution in a market.",
+  "worked": [
+    "买902，卖850−2=848；期末现金1946、持仓0。毛价差−50，费4，净损益−54元，比50元预算多损失4元。",
+    "实际退出比计划低0.01，1000份多损10元；原44元估计变54元。日线触价不证明真实排队成交，不能替换已给回报。",
+    "旧NAV只支持旧净值口径比较；365天后可能有条款变更、资产跌价或清算延迟。折价不是保证收益。",
+    "另设分支 CLOSED-PARTIAL-BUY：承接现金1458、冻结360、持仓600、余买单400；10-21确认撤余400且无新买入，冻结0、可用现金1458，解冻不增加总现金，实际持仓仍600。",
+    "卖600净入600×0.85−2=508，期末现金1966，持仓/余单/冻结/应收0，10-22均可取。毛价差600×(0.85−0.90)=−30，实际双边费4，净−34；按实际600份的原0.86计划损失28，滑价多损6。相较50元预算仍余16，不可倒改原计划或原1000份全成主线。"
+  ],
+  "misconception": "“还折价，所以不该承认这54元损失；把计划止损当实际成交即可。”保留原计划及实际回报分别复盘。",
+  "follow_up": "请写一项预算失守后的复核动作，同时保留未证明的兑现问题。",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

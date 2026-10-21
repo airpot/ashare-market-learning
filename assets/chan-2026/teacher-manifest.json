@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "curation": "The script selects cases for lessons after the observations. The cases do not show the frequency in the market.",
+  "convention": "M11 center spacing must be >=4. M12 makes completed B0 necessary. This atlas gives no qualification for segments and centers.",
+  "source_sha256": "c00eff4d19ea288012ed75bcb8c30fc30505c131f229ca04397b025e70c81389",
+  "generator_sha256": "06ca8212339705ea7140aeede3cb3cc932e1a73ced5124d14effb5dbe69553b0",
+  "analyzer_sha256": "2307db5ad00740ba9105f72cb1cd98ee7afbac0238407d75a03e16ccd210db6d",
+  "renderer_sha256": "4157ce0e6f79fc601974427b1c4ff958ae7e461cacce4bc04655843f10127c67",
+  "lessons": [
+    {
+      "slug": "01-inclusion",
+      "symbol": "sz300308",
+      "start": "2026-06-01",
+      "cutoff": "2026-06-15",
+      "focus": "inclusion",
+      "raw_count": 11,
+      "processed_count": 6
+    },
+    {
+      "slug": "02-mapping",
+      "symbol": "sh688256",
+      "start": "2026-06-02",
+      "cutoff": "2026-06-16",
+      "focus": "mapping",
+      "raw_count": 11,
+      "processed_count": 7
+    },
+    {
+      "slug": "03-fractals",
+      "symbol": "sh688981",
+      "start": "2026-06-01",
+      "cutoff": "2026-06-04",
+      "focus": "fractals",
+      "raw_count": 4,
+      "processed_count": 4
+    },
+    {
+      "slug": "04-strict-stroke",
+      "symbol": "sh688981",
+      "start": "2026-06-01",
+      "cutoff": "2026-06-29",
+      "focus": "stroke",
+      "raw_count": 20,
+      "processed_count": 16
+    },
+    {
+      "slug": "05-spacing-check",
+      "symbol": "sh605255",
+      "start": "2026-06-01",
+      "cutoff": "2026-07-07",
+      "focus": "spacing",
+      "raw_count": 26,
+      "processed_count": 19
+    },
+    {
+      "slug": "06-endpoint-change",
+      "symbol": "sz300308",
+      "start": "2026-06-01",
+      "cutoff": "2026-07-08",
+      "focus": "revision",
+      "previous_cutoff": "2026-07-07",
+      "raw_count": 27,
+      "processed_count": 18
+    },
+    {
+      "slug": "07-feature-sequence",
+      "symbol": "sh688256",
+      "start": "2026-06-05",
+      "cutoff": "2026-09-30",
+      "focus": "feature",
+      "raw_count": 82,
+      "processed_count": 65
+    },
+    {
+      "slug": "08-overlap-level-check",
+      "symbol": "sh605255",
+      "start": "2026-06-01",
+      "cutoff": "2026-09-30",
+      "focus": "center",
+      "raw_count": 86,
+      "processed_count": 59
+    }
+  ]
+}

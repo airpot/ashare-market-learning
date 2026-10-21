@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "symbol": "QH-FICTIONAL",
+  "rule_version": "QH-LONG-0.1",
+  "price_unit": "CNY/share",
+  "notice": "All prices, quotes, eligibility, and fees are teaching assumptions. They are not security observations from a market.",
+  "cutoff": "S23 10:00:02 confirmed fill",
+  "branch_assumption": "This branch occurs after a submitted limit sell for 400 shares at 9.30.",
+  "order": {
+    "submitted": 400,
+    "fills": [
+      {
+        "time": "10:00:02",
+        "shares": 400,
+        "price": "9.30"
+      }
+    ],
+    "pending_shares": 0,
+    "sell_fee_total": "4.00"
+  },
+  "question": "Reconcile the final cash and holding. Evaluate process separately from net outcome and from strategy efficacy."
+}

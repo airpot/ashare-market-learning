@@ -1,0 +1,106 @@
+{
+  "symbol": "sz300308",
+  "name": "中际旭创",
+  "interval": "1d",
+  "timezone": "Asia/Shanghai",
+  "adjustment": "unadjusted",
+  "price_unit": "CNY/share",
+  "volume_unit": "shares",
+  "start": "2026-06-01",
+  "cutoff": "2026-06-15",
+  "bars": [
+    {
+      "date": "2026-06-01",
+      "open": "1161.000",
+      "high": "1183.610",
+      "low": "1113.900",
+      "close": "1130.000",
+      "volume_shares": "26978189"
+    },
+    {
+      "date": "2026-06-02",
+      "open": "1153.600",
+      "high": "1205.580",
+      "low": "1140.010",
+      "close": "1191.810",
+      "volume_shares": "29006342"
+    },
+    {
+      "date": "2026-06-03",
+      "open": "1220.000",
+      "high": "1320.000",
+      "low": "1220.000",
+      "close": "1275.000",
+      "volume_shares": "34525076"
+    },
+    {
+      "date": "2026-06-04",
+      "open": "1250.000",
+      "high": "1290.000",
+      "low": "1241.360",
+      "close": "1280.000",
+      "volume_shares": "21714212"
+    },
+    {
+      "date": "2026-06-05",
+      "open": "1273.200",
+      "high": "1301.510",
+      "low": "1160.000",
+      "close": "1179.990",
+      "volume_shares": "47474088"
+    },
+    {
+      "date": "2026-06-08",
+      "open": "1132.790",
+      "high": "1179.450",
+      "low": "1132.000",
+      "close": "1154.990",
+      "volume_shares": "33611984"
+    },
+    {
+      "date": "2026-06-09",
+      "open": "1140.970",
+      "high": "1196.160",
+      "low": "1126.900",
+      "close": "1180.000",
+      "volume_shares": "39893037"
+    },
+    {
+      "date": "2026-06-10",
+      "open": "1150.000",
+      "high": "1174.000",
+      "low": "1128.800",
+      "close": "1147.000",
+      "volume_shares": "22896530"
+    },
+    {
+      "date": "2026-06-11",
+      "open": "1136.000",
+      "high": "1174.900",
+      "low": "1093.000",
+      "close": "1124.000",
+      "volume_shares": "30592359"
+    },
+    {
+      "date": "2026-06-12",
+      "open": "1182.000",
+      "high": "1188.500",
+      "low": "1128.180",
+      "close": "1149.000",
+      "volume_shares": "34685070"
+    },
+    {
+      "date": "2026-06-15",
+      "open": "1175.000",
+      "high": "1245.000",
+      "low": "1122.000",
+      "close": "1245.000",
+      "volume_shares": "34223742"
+    }
+  ],
+  "questions": [
+    "找一处包含，列出前一对非包含区间的高低与共同方向。",
+    "逐根算合并区间；下一根应与原始区间还是当前合成区间比较？"
+  ],
+  "left_boundary_limit": "The packet has a local seed pair without containment. It gives no qualification for a segment before this window."
+}

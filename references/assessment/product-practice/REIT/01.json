@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "track": "REIT",
+  "step": 1,
+  "exercise": "PRODUCT-REIT-01",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "REIT份额对应项目权益，分派不等于存款利息：本步反馈",
+  "source_basis": "This packet uses only the accepted assumptions made for this example. It does not show eligibility for execution in a market.",
+  "worked": [
+    "债务覆盖30/20=1.5倍；现金降至18时18/20=0.9倍，不能仅凭过去分派率忽略偿债缺口。此表不能代替完整信用评估。",
+    "登记10-20、除息10-21、到账10-23。必须先核实际登记资格，公告发布不等于现金到账。",
+    "分派之后价格与基金资产都会变，总收益须把价差、现金和费用一起计算。"
+  ],
+  "misconception": "“每份分0.10就稳赚0.10，项目有资产便不亏。”请把项目债务、现金可持续性与二级价差放回分析。",
+  "follow_up": "若登记资格不明确，应在哪一栏写未知，并暂停什么结论？",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

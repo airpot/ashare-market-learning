@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">中枢重叠：先声明次级别区间</title><desc id="desc">三个已声明的连续次级别走势区间A为[10,13]，B为[11,14]，C为[10.5,12.5]；共同交集是[11,12.5]。图不使用任意三根K线定义递归级别。</desc>
+<rect width="1200" height="760" fill="#f7f9fb"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#183044;font-size:21px} .small{font-size:17px;fill:#4c6273} .heading{font-size:32px;font-weight:700} .large{font-size:26px;font-weight:600}</style>
+<text x="48" y="58" class="heading" text-anchor="start">中枢重叠：先声明次级别区间</text>
+<text x="48" y="96" class="small" text-anchor="start">合成教学示意 · 非真实证券或交易所参数 · 图中假设仅用于解释机制</text>
+<rect x="480.0" y="165" width="240.0" height="350" rx="8" fill="#e3edf7" stroke="#aac0d7"/>
+<line x1="320.0" y1="165" x2="320.0" y2="525" stroke="#d4dee7" stroke-width="1" stroke-dasharray="7 6"/>
+<text x="320.0" y="563" class="small" text-anchor="middle">10</text>
+<line x1="400.0" y1="165" x2="400.0" y2="525" stroke="#d4dee7" stroke-width="1" stroke-dasharray="7 6"/>
+<text x="400.0" y="563" class="small" text-anchor="middle">10.5</text>
+<line x1="480.0" y1="165" x2="480.0" y2="525" stroke="#d4dee7" stroke-width="1" stroke-dasharray="7 6"/>
+<text x="480.0" y="563" class="small" text-anchor="middle">11</text>
+<line x1="640.0" y1="165" x2="640.0" y2="525" stroke="#d4dee7" stroke-width="1" stroke-dasharray="7 6"/>
+<text x="640.0" y="563" class="small" text-anchor="middle">12</text>
+<line x1="720.0" y1="165" x2="720.0" y2="525" stroke="#d4dee7" stroke-width="1" stroke-dasharray="7 6"/>
+<text x="720.0" y="563" class="small" text-anchor="middle">12.5</text>
+<line x1="800.0" y1="165" x2="800.0" y2="525" stroke="#d4dee7" stroke-width="1" stroke-dasharray="7 6"/>
+<text x="800.0" y="563" class="small" text-anchor="middle">13</text>
+<line x1="960.0" y1="165" x2="960.0" y2="525" stroke="#d4dee7" stroke-width="1" stroke-dasharray="7 6"/>
+<text x="960.0" y="563" class="small" text-anchor="middle">14</text>
+<text x="65" y="231" class="" text-anchor="start">A [10, 13]</text>
+<line x1="320.0" y1="225" x2="800.0" y2="225" stroke="#285f9d" stroke-width="9"/>
+<line x1="320.0" y1="210" x2="320.0" y2="240" stroke="#285f9d" stroke-width="3"/>
+<line x1="800.0" y1="210" x2="800.0" y2="240" stroke="#285f9d" stroke-width="3"/>
+<text x="65" y="351" class="" text-anchor="start">B [11, 14]</text>
+<line x1="480.0" y1="345" x2="960.0" y2="345" stroke="#285f9d" stroke-width="9"/>
+<line x1="480.0" y1="330" x2="480.0" y2="360" stroke="#285f9d" stroke-width="3"/>
+<line x1="960.0" y1="330" x2="960.0" y2="360" stroke="#285f9d" stroke-width="3"/>
+<text x="65" y="471" class="" text-anchor="start">C [10.5, 12.5]</text>
+<line x1="400.0" y1="465" x2="720.0" y2="465" stroke="#285f9d" stroke-width="9"/>
+<line x1="400.0" y1="450" x2="400.0" y2="480" stroke="#285f9d" stroke-width="3"/>
+<line x1="720.0" y1="450" x2="720.0" y2="480" stroke="#285f9d" stroke-width="3"/>
+<text x="65" y="612" class="" text-anchor="start">交集下界 = max(10, 11, 10.5) = 11；上界 = min(13, 14, 12.5) = 12.5。</text>
+<text x="65" y="654" class="small" text-anchor="start">单位：元 / 股；教学假设：A、B、C 已按声明的次级别规则识别并完成。</text>
+<line x1="48" y1="687" x2="1152" y2="687" stroke="#d4dee7" stroke-width="2"/>
+<text x="48" y="721" class="small" text-anchor="start">此图只算区间交集；递归结构还需级别、走势连接及完成条件，不能用任意三根蜡烛替代。</text>
+</svg>

@@ -1,0 +1,105 @@
+{
+  "id": "p08-b",
+  "symbol": "sz123107",
+  "cutoff": "2026-09-30",
+  "learner_packet": "assets/product-2026/p08-b.json",
+  "release_condition": "Before you read a tutor packet, examine the raw response record in a location not in the skill. Make sure that the raw response is not empty. Compare its example ID, cutoff, and attempt with this example. If the raw response is missing, do not read the tutor packet. If its example ID, cutoff, or attempt is different, do not read the tutor packet. There is no executable gate for atlas file access.",
+  "selection_rule": "The selection uses two calendar cutoffs specified before selection and not changed for all ten symbols. There is no filter that uses the results.",
+  "future_bars": [
+    {
+      "date": "2026-10-08",
+      "open": "111.339",
+      "high": "111.382",
+      "low": "110.269",
+      "close": "110.513",
+      "volume": "547931"
+    },
+    {
+      "date": "2026-10-09",
+      "open": "110.518",
+      "high": "110.900",
+      "low": "110.218",
+      "close": "110.600",
+      "volume": "466631"
+    },
+    {
+      "date": "2026-10-12",
+      "open": "110.601",
+      "high": "111.273",
+      "low": "110.315",
+      "close": "110.470",
+      "volume": "523095"
+    },
+    {
+      "date": "2026-10-13",
+      "open": "110.495",
+      "high": "110.643",
+      "low": "110.200",
+      "close": "110.524",
+      "volume": "717534"
+    },
+    {
+      "date": "2026-10-14",
+      "open": "110.510",
+      "high": "111.239",
+      "low": "110.218",
+      "close": "110.330",
+      "volume": "491906"
+    }
+  ],
+  "source": {
+    "symbol": "sz123107",
+    "rows": 189,
+    "first": "2026-01-05",
+    "last": "2026-10-19",
+    "timezone": "Asia/Shanghai",
+    "interval": "1d",
+    "adjustment": "raw",
+    "price_unit": "CNY/bond",
+    "volume_unit": "bonds",
+    "comparison_multiplier": 10,
+    "max_comparison_volume_absolute_difference": "5.000",
+    "primary_url": "https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData?symbol=sz123107&scale=240&ma=no&datalen=1023",
+    "comparison_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz123107,day,2026-01-01,2026-10-19,250,",
+    "primary_retrieved_at": "2026-10-20T12:44:24.189052+00:00",
+    "comparison_capture_file_mtime_utc": "2026-10-20T12:44:02.044419+00:00",
+    "primary_sha256": "5f433f6b195b48fd60ddab1b3f0f874fabb35ed01fc04a15d1c0a7de00957a05",
+    "comparison_sha256": "eab5cbd9eede1a2f7d0bb3070f017646c4ebdeeb8b4aa06b1e3c1403aa87469b",
+    "label": "可转债",
+    "track": "CB",
+    "exposure": "债权与有条件的转股权",
+    "primary_provider": "Sina CN_MarketData.getKLineData",
+    "comparison_provider": "Tencent fqkline day (raw)",
+    "observed_through": "2026-10-19",
+    "comparison_time_kind": "This time is the file modification time. Verification of the retrieval time is not completed.",
+    "volume_basis": "Sina volume is not changed. The multiplier is applicable only when you compare Tencent."
+  },
+  "evidence": {
+    "prior10": {
+      "start": "2026-09-15",
+      "end": "2026-09-29",
+      "low": "109.900",
+      "high": "114.970",
+      "excludes_cutoff": true
+    },
+    "prior20_volume": {
+      "start": "2026-09-01",
+      "end": "2026-09-29",
+      "mean": "848261.05",
+      "cutoff_ratio": "0.5141070664508290225043340137",
+      "volume_unit": "bonds",
+      "excludes_cutoff": true
+    }
+  },
+  "outcome_svg": "assets/product-outcomes/p08-b.svg",
+  "outcome_png": "assets/product-outcomes/p08-b.png",
+  "outcome_html": "assets/product-outcomes/p08-b.html",
+  "interpretation": "先用原答核对当时证据，再看新增的5根日线。区间仅是已发生价格的参照，不代表必然支撑、压力或交易优势。后续涨跌不能证明资金动机，也不能倒改原计划。",
+  "limits": [
+    "历史图仅供回顾练习；采集时间晚于决策截止时间，不能证明未见过后续行情。",
+    "未建立完整的公司行动、分红、交易状态与历史权限日历；原始价格跳变不等于经济损失。",
+    "无同步历史净值 NAV、IOPV、汇率、持仓或转股价，不能据此计算真实历史溢价或转股溢价。",
+    "无盘口、价差、逐笔成交与订单队列，日线不能证明真实执行、成交价或可成交数量。",
+    "两家接口可能共用上游；成交量比较存在取整差异，不是独立交易所行情认证。"
+  ]
+}

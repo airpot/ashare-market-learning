@@ -1,0 +1,80 @@
+{
+  "case_id": "H01",
+  "step": 1,
+  "title": "H01 · 观察 01",
+  "symbol": "TRAIN-H01",
+  "name": "桥溪设备（合成）",
+  "synthetic": true,
+  "cutoff": "2025-03-10",
+  "timezone": "Asia/Shanghai",
+  "price_unit": "CNY/share",
+  "volume_unit": "shares",
+  "notice": "全部行情、日期、规则与回报均为人工合成，不对应真实证券。只按本包截止作答，先保存原话再看本包讲解。",
+  "rules": {
+    "version": "H01-R1",
+    "notice": "以下均为本题冻结的合成训练规则，并非真实证券或交易制度。",
+    "risk_budget_cny": "200",
+    "cash_cap_cny": "10000",
+    "share_increment": 100,
+    "total_fee_reserve_cny": "10",
+    "entry_reference_cny": "49.9",
+    "exit_reference_cny": "48",
+    "instructions": "新模拟委托前核对全部已成交持仓与仍有效的剩余委托。计划价差风险加费用预留不得超过预算，现金占用也要核对。撤单确认前仍按可能成交计入。这里只给练习参照价，未冻结有效入场信号；可选择不提交。成交与退出均以回报为准，不以日线触价代替。"
+  },
+  "bars": [
+    {
+      "date": "2025-03-03",
+      "open": "47",
+      "high": "48",
+      "low": "46",
+      "close": "47.4",
+      "volume_shares": 120000
+    },
+    {
+      "date": "2025-03-04",
+      "open": "47.4",
+      "high": "49",
+      "low": "47",
+      "close": "48.5",
+      "volume_shares": 140000
+    },
+    {
+      "date": "2025-03-05",
+      "open": "48.6",
+      "high": "50",
+      "low": "48",
+      "close": "49.2",
+      "volume_shares": 180000
+    },
+    {
+      "date": "2025-03-06",
+      "open": "49",
+      "high": "49.5",
+      "low": "47.5",
+      "close": "48",
+      "volume_shares": 160000
+    },
+    {
+      "date": "2025-03-07",
+      "open": "48",
+      "high": "49",
+      "low": "46.5",
+      "close": "47",
+      "volume_shares": 130000
+    },
+    {
+      "date": "2025-03-10",
+      "open": "47",
+      "high": "48",
+      "low": "46",
+      "close": "47.5",
+      "volume_shares": 125000
+    }
+  ],
+  "reports": [],
+  "questions": [
+    "读出末根的开、高、低、收及成交量。把事实、推断、未知分开。",
+    "按M11约定列出处理组、已确认与候选分型，逐项核查是否已有可连接的严格笔；写出处理号、间距与仍缺证据。",
+    "若仅作数量演算，100股与200股按冻结参照价分别占用多少现金、计划风险多少？你现在是否提交？写出依据、失效与等待条件。"
+  ]
+}

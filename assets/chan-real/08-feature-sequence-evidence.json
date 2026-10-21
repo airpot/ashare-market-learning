@@ -1,0 +1,4250 @@
+{
+  "symbol": "sh600519",
+  "cutoff": "2024-11-20",
+  "annotations": [
+    {
+      "kind": "line",
+      "start_date": "2024-07-03",
+      "start_price": "1513.01",
+      "end_date": "2024-07-09",
+      "end_price": "1410.1",
+      "label": "笔0：1513.01→1410.1；本截止内接受"
+    },
+    {
+      "kind": "line",
+      "start_date": "2024-07-09",
+      "start_price": "1410.1",
+      "end_date": "2024-07-22",
+      "end_price": "1529.98",
+      "label": "笔1：1410.1→1529.98；本截止内接受；原始特征E1=[1410.1,1529.98]"
+    },
+    {
+      "kind": "line",
+      "start_date": "2024-07-22",
+      "start_price": "1529.98",
+      "end_date": "2024-07-30",
+      "end_price": "1361.3",
+      "label": "笔2：1529.98→1361.3；本截止内接受"
+    },
+    {
+      "kind": "line",
+      "start_date": "2024-07-30",
+      "start_price": "1361.3",
+      "end_date": "2024-08-09",
+      "end_price": "1469",
+      "label": "笔3：1361.3→1469；本截止内接受；原始特征E2=[1361.3,1469]"
+    },
+    {
+      "kind": "line",
+      "start_date": "2024-08-09",
+      "start_price": "1469",
+      "end_date": "2024-09-19",
+      "end_price": "1245.83",
+      "label": "笔4：1469→1245.83；本截止内接受"
+    },
+    {
+      "kind": "line",
+      "start_date": "2024-09-19",
+      "start_price": "1245.83",
+      "end_date": "2024-10-08",
+      "end_price": "1910",
+      "label": "笔5：1245.83→1910；本截止内接受；原始特征E3=[1245.83,1910]"
+    },
+    {
+      "kind": "line",
+      "start_date": "2024-10-08",
+      "start_price": "1910",
+      "end_date": "2024-10-18",
+      "end_price": "1478.96",
+      "label": "笔6：1910→1478.96；本截止内接受"
+    },
+    {
+      "kind": "line",
+      "start_date": "2024-10-18",
+      "start_price": "1478.96",
+      "end_date": "2024-11-08",
+      "end_price": "1667.11",
+      "label": "笔7：1478.96→1667.11；末端仍可更新；原始特征E4=[1478.96,1667.11]"
+    }
+  ],
+  "analysis": {
+    "cutoff": "2024-11-20",
+    "groups": [
+      {
+        "low": "1428",
+        "high": "1472.99",
+        "source_indices": [
+          0
+        ],
+        "first_date": "2024-07-01",
+        "last_date": "2024-07-01",
+        "high_date": "2024-07-01",
+        "low_date": "2024-07-01",
+        "formed_at": "2024-07-01",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 0,
+        "known_at": "2024-07-02"
+      },
+      {
+        "low": "1433",
+        "high": "1498",
+        "source_indices": [
+          1
+        ],
+        "first_date": "2024-07-02",
+        "last_date": "2024-07-02",
+        "high_date": "2024-07-02",
+        "low_date": "2024-07-02",
+        "formed_at": "2024-07-02",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 1,
+        "known_at": "2024-07-03"
+      },
+      {
+        "low": "1488.02",
+        "high": "1513.01",
+        "source_indices": [
+          2
+        ],
+        "first_date": "2024-07-03",
+        "last_date": "2024-07-03",
+        "high_date": "2024-07-03",
+        "low_date": "2024-07-03",
+        "formed_at": "2024-07-03",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 2,
+        "known_at": "2024-07-04"
+      },
+      {
+        "low": "1481.13",
+        "high": "1512",
+        "source_indices": [
+          3
+        ],
+        "first_date": "2024-07-04",
+        "last_date": "2024-07-04",
+        "high_date": "2024-07-04",
+        "low_date": "2024-07-04",
+        "formed_at": "2024-07-04",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 3,
+        "known_at": "2024-07-05"
+      },
+      {
+        "low": "1450",
+        "high": "1493.18",
+        "source_indices": [
+          4
+        ],
+        "first_date": "2024-07-05",
+        "last_date": "2024-07-05",
+        "high_date": "2024-07-05",
+        "low_date": "2024-07-05",
+        "formed_at": "2024-07-05",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 4,
+        "known_at": "2024-07-08"
+      },
+      {
+        "low": "1419.14",
+        "high": "1457.77",
+        "source_indices": [
+          5
+        ],
+        "first_date": "2024-07-08",
+        "last_date": "2024-07-08",
+        "high_date": "2024-07-08",
+        "low_date": "2024-07-08",
+        "formed_at": "2024-07-08",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 5,
+        "known_at": "2024-07-09"
+      },
+      {
+        "low": "1410.1",
+        "high": "1454.89",
+        "source_indices": [
+          6
+        ],
+        "first_date": "2024-07-09",
+        "last_date": "2024-07-09",
+        "high_date": "2024-07-09",
+        "low_date": "2024-07-09",
+        "formed_at": "2024-07-09",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 6,
+        "known_at": "2024-07-10"
+      },
+      {
+        "low": "1435",
+        "high": "1465.88",
+        "source_indices": [
+          7
+        ],
+        "first_date": "2024-07-10",
+        "last_date": "2024-07-10",
+        "high_date": "2024-07-10",
+        "low_date": "2024-07-10",
+        "formed_at": "2024-07-10",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 7,
+        "known_at": "2024-07-11"
+      },
+      {
+        "low": "1440.21",
+        "high": "1469",
+        "source_indices": [
+          8
+        ],
+        "first_date": "2024-07-11",
+        "last_date": "2024-07-11",
+        "high_date": "2024-07-11",
+        "low_date": "2024-07-11",
+        "formed_at": "2024-07-11",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 8,
+        "known_at": "2024-07-12"
+      },
+      {
+        "low": "1465.45",
+        "high": "1486.4",
+        "source_indices": [
+          9
+        ],
+        "first_date": "2024-07-12",
+        "last_date": "2024-07-12",
+        "high_date": "2024-07-12",
+        "low_date": "2024-07-12",
+        "formed_at": "2024-07-12",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 9,
+        "known_at": "2024-07-15"
+      },
+      {
+        "low": "1470",
+        "high": "1488",
+        "source_indices": [
+          10
+        ],
+        "first_date": "2024-07-15",
+        "last_date": "2024-07-15",
+        "high_date": "2024-07-15",
+        "low_date": "2024-07-15",
+        "formed_at": "2024-07-15",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 10,
+        "known_at": "2024-07-16"
+      },
+      {
+        "low": "1465.05",
+        "high": "1482",
+        "source_indices": [
+          11
+        ],
+        "first_date": "2024-07-16",
+        "last_date": "2024-07-16",
+        "high_date": "2024-07-16",
+        "low_date": "2024-07-16",
+        "formed_at": "2024-07-16",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 11,
+        "known_at": "2024-07-17"
+      },
+      {
+        "low": "1470.02",
+        "high": "1503",
+        "source_indices": [
+          12
+        ],
+        "first_date": "2024-07-17",
+        "last_date": "2024-07-17",
+        "high_date": "2024-07-17",
+        "low_date": "2024-07-17",
+        "formed_at": "2024-07-17",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 12,
+        "known_at": "2024-07-18"
+      },
+      {
+        "low": "1492.53",
+        "high": "1529.98",
+        "source_indices": [
+          13,
+          14,
+          15
+        ],
+        "first_date": "2024-07-18",
+        "last_date": "2024-07-22",
+        "high_date": "2024-07-22",
+        "low_date": "2024-07-18",
+        "formed_at": "2024-07-22",
+        "merge_direction": "up",
+        "tentative": false,
+        "index": 13,
+        "known_at": "2024-07-23"
+      },
+      {
+        "low": "1455",
+        "high": "1501",
+        "source_indices": [
+          16
+        ],
+        "first_date": "2024-07-23",
+        "last_date": "2024-07-23",
+        "high_date": "2024-07-23",
+        "low_date": "2024-07-23",
+        "formed_at": "2024-07-23",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 14,
+        "known_at": "2024-07-24"
+      },
+      {
+        "low": "1435",
+        "high": "1463.7",
+        "source_indices": [
+          17
+        ],
+        "first_date": "2024-07-24",
+        "last_date": "2024-07-24",
+        "high_date": "2024-07-24",
+        "low_date": "2024-07-24",
+        "formed_at": "2024-07-24",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 15,
+        "known_at": "2024-07-25"
+      },
+      {
+        "low": "1420.01",
+        "high": "1448",
+        "source_indices": [
+          18
+        ],
+        "first_date": "2024-07-25",
+        "last_date": "2024-07-25",
+        "high_date": "2024-07-25",
+        "low_date": "2024-07-25",
+        "formed_at": "2024-07-25",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 16,
+        "known_at": "2024-07-26"
+      },
+      {
+        "low": "1410.9",
+        "high": "1437.72",
+        "source_indices": [
+          19
+        ],
+        "first_date": "2024-07-26",
+        "last_date": "2024-07-26",
+        "high_date": "2024-07-26",
+        "low_date": "2024-07-26",
+        "formed_at": "2024-07-26",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 17,
+        "known_at": "2024-07-29"
+      },
+      {
+        "low": "1398",
+        "high": "1421.99",
+        "source_indices": [
+          20
+        ],
+        "first_date": "2024-07-29",
+        "last_date": "2024-07-29",
+        "high_date": "2024-07-29",
+        "low_date": "2024-07-29",
+        "formed_at": "2024-07-29",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 18,
+        "known_at": "2024-07-30"
+      },
+      {
+        "low": "1361.3",
+        "high": "1390.27",
+        "source_indices": [
+          21
+        ],
+        "first_date": "2024-07-30",
+        "last_date": "2024-07-30",
+        "high_date": "2024-07-30",
+        "low_date": "2024-07-30",
+        "formed_at": "2024-07-30",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 19,
+        "known_at": "2024-07-31"
+      },
+      {
+        "low": "1384.7",
+        "high": "1427.27",
+        "source_indices": [
+          22,
+          23
+        ],
+        "first_date": "2024-07-31",
+        "last_date": "2024-08-01",
+        "high_date": "2024-07-31",
+        "low_date": "2024-08-01",
+        "formed_at": "2024-08-01",
+        "merge_direction": "up",
+        "tentative": false,
+        "index": 20,
+        "known_at": "2024-08-02"
+      },
+      {
+        "low": "1373.6",
+        "high": "1396.97",
+        "source_indices": [
+          24
+        ],
+        "first_date": "2024-08-02",
+        "last_date": "2024-08-02",
+        "high_date": "2024-08-02",
+        "low_date": "2024-08-02",
+        "formed_at": "2024-08-02",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 21,
+        "known_at": "2024-08-05"
+      },
+      {
+        "low": "1398.3",
+        "high": "1426",
+        "source_indices": [
+          25,
+          26,
+          27
+        ],
+        "first_date": "2024-08-05",
+        "last_date": "2024-08-07",
+        "high_date": "2024-08-05",
+        "low_date": "2024-08-07",
+        "formed_at": "2024-08-07",
+        "merge_direction": "up",
+        "tentative": false,
+        "index": 22,
+        "known_at": "2024-08-08"
+      },
+      {
+        "low": "1409",
+        "high": "1448.18",
+        "source_indices": [
+          28
+        ],
+        "first_date": "2024-08-08",
+        "last_date": "2024-08-08",
+        "high_date": "2024-08-08",
+        "low_date": "2024-08-08",
+        "formed_at": "2024-08-08",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 23,
+        "known_at": "2024-08-09"
+      },
+      {
+        "low": "1436.8",
+        "high": "1469",
+        "source_indices": [
+          29
+        ],
+        "first_date": "2024-08-09",
+        "last_date": "2024-08-09",
+        "high_date": "2024-08-09",
+        "low_date": "2024-08-09",
+        "formed_at": "2024-08-09",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 24,
+        "known_at": "2024-08-12"
+      },
+      {
+        "low": "1426.58",
+        "high": "1443",
+        "source_indices": [
+          30
+        ],
+        "first_date": "2024-08-12",
+        "last_date": "2024-08-12",
+        "high_date": "2024-08-12",
+        "low_date": "2024-08-12",
+        "formed_at": "2024-08-12",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 25,
+        "known_at": "2024-08-13"
+      },
+      {
+        "low": "1403.95",
+        "high": "1424.9",
+        "source_indices": [
+          31,
+          32,
+          33
+        ],
+        "first_date": "2024-08-13",
+        "last_date": "2024-08-15",
+        "high_date": "2024-08-14",
+        "low_date": "2024-08-15",
+        "formed_at": "2024-08-15",
+        "merge_direction": "down",
+        "tentative": false,
+        "index": 26,
+        "known_at": "2024-08-16"
+      },
+      {
+        "low": "1417.01",
+        "high": "1435.92",
+        "source_indices": [
+          34
+        ],
+        "first_date": "2024-08-16",
+        "last_date": "2024-08-16",
+        "high_date": "2024-08-16",
+        "low_date": "2024-08-16",
+        "formed_at": "2024-08-16",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 27,
+        "known_at": "2024-08-19"
+      },
+      {
+        "low": "1425",
+        "high": "1458.88",
+        "source_indices": [
+          35
+        ],
+        "first_date": "2024-08-19",
+        "last_date": "2024-08-19",
+        "high_date": "2024-08-19",
+        "low_date": "2024-08-19",
+        "formed_at": "2024-08-19",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 28,
+        "known_at": "2024-08-20"
+      },
+      {
+        "low": "1414",
+        "high": "1427.98",
+        "source_indices": [
+          36,
+          37
+        ],
+        "first_date": "2024-08-20",
+        "last_date": "2024-08-21",
+        "high_date": "2024-08-21",
+        "low_date": "2024-08-20",
+        "formed_at": "2024-08-21",
+        "merge_direction": "down",
+        "tentative": false,
+        "index": 29,
+        "known_at": "2024-08-22"
+      },
+      {
+        "low": "1400.01",
+        "high": "1420",
+        "source_indices": [
+          38
+        ],
+        "first_date": "2024-08-22",
+        "last_date": "2024-08-22",
+        "high_date": "2024-08-22",
+        "low_date": "2024-08-22",
+        "formed_at": "2024-08-22",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 30,
+        "known_at": "2024-08-23"
+      },
+      {
+        "low": "1406.12",
+        "high": "1423.86",
+        "source_indices": [
+          39,
+          40
+        ],
+        "first_date": "2024-08-23",
+        "last_date": "2024-08-26",
+        "high_date": "2024-08-26",
+        "low_date": "2024-08-23",
+        "formed_at": "2024-08-26",
+        "merge_direction": "up",
+        "tentative": false,
+        "index": 31,
+        "known_at": "2024-08-27"
+      },
+      {
+        "low": "1401.11",
+        "high": "1413",
+        "source_indices": [
+          41
+        ],
+        "first_date": "2024-08-27",
+        "last_date": "2024-08-27",
+        "high_date": "2024-08-27",
+        "low_date": "2024-08-27",
+        "formed_at": "2024-08-27",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 32,
+        "known_at": "2024-08-28"
+      },
+      {
+        "low": "1375",
+        "high": "1406",
+        "source_indices": [
+          42
+        ],
+        "first_date": "2024-08-28",
+        "last_date": "2024-08-28",
+        "high_date": "2024-08-28",
+        "low_date": "2024-08-28",
+        "formed_at": "2024-08-28",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 33,
+        "known_at": "2024-08-29"
+      },
+      {
+        "low": "1380",
+        "high": "1418",
+        "source_indices": [
+          43
+        ],
+        "first_date": "2024-08-29",
+        "last_date": "2024-08-29",
+        "high_date": "2024-08-29",
+        "low_date": "2024-08-29",
+        "formed_at": "2024-08-29",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 34,
+        "known_at": "2024-08-30"
+      },
+      {
+        "low": "1405",
+        "high": "1458.07",
+        "source_indices": [
+          44
+        ],
+        "first_date": "2024-08-30",
+        "last_date": "2024-08-30",
+        "high_date": "2024-08-30",
+        "low_date": "2024-08-30",
+        "formed_at": "2024-08-30",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 35,
+        "known_at": "2024-09-02"
+      },
+      {
+        "low": "1395",
+        "high": "1438",
+        "source_indices": [
+          45
+        ],
+        "first_date": "2024-09-02",
+        "last_date": "2024-09-02",
+        "high_date": "2024-09-02",
+        "low_date": "2024-09-02",
+        "formed_at": "2024-09-02",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 36,
+        "known_at": "2024-09-03"
+      },
+      {
+        "low": "1393.02",
+        "high": "1414.98",
+        "source_indices": [
+          46
+        ],
+        "first_date": "2024-09-03",
+        "last_date": "2024-09-03",
+        "high_date": "2024-09-03",
+        "low_date": "2024-09-03",
+        "formed_at": "2024-09-03",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 37,
+        "known_at": "2024-09-04"
+      },
+      {
+        "low": "1399.74",
+        "high": "1419.19",
+        "source_indices": [
+          47
+        ],
+        "first_date": "2024-09-04",
+        "last_date": "2024-09-04",
+        "high_date": "2024-09-04",
+        "low_date": "2024-09-04",
+        "formed_at": "2024-09-04",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 38,
+        "known_at": "2024-09-05"
+      },
+      {
+        "low": "1397",
+        "high": "1406",
+        "source_indices": [
+          48,
+          49
+        ],
+        "first_date": "2024-09-05",
+        "last_date": "2024-09-06",
+        "high_date": "2024-09-06",
+        "low_date": "2024-09-05",
+        "formed_at": "2024-09-06",
+        "merge_direction": "down",
+        "tentative": false,
+        "index": 39,
+        "known_at": "2024-09-09"
+      },
+      {
+        "low": "1370.08",
+        "high": "1393.71",
+        "source_indices": [
+          50
+        ],
+        "first_date": "2024-09-09",
+        "last_date": "2024-09-09",
+        "high_date": "2024-09-09",
+        "low_date": "2024-09-09",
+        "formed_at": "2024-09-09",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 40,
+        "known_at": "2024-09-10"
+      },
+      {
+        "low": "1370.02",
+        "high": "1393",
+        "source_indices": [
+          51
+        ],
+        "first_date": "2024-09-10",
+        "last_date": "2024-09-10",
+        "high_date": "2024-09-10",
+        "low_date": "2024-09-10",
+        "formed_at": "2024-09-10",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 41,
+        "known_at": "2024-09-11"
+      },
+      {
+        "low": "1365",
+        "high": "1385.88",
+        "source_indices": [
+          52
+        ],
+        "first_date": "2024-09-11",
+        "last_date": "2024-09-11",
+        "high_date": "2024-09-11",
+        "low_date": "2024-09-11",
+        "formed_at": "2024-09-11",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 42,
+        "known_at": "2024-09-12"
+      },
+      {
+        "low": "1334.91",
+        "high": "1385",
+        "source_indices": [
+          53
+        ],
+        "first_date": "2024-09-12",
+        "last_date": "2024-09-12",
+        "high_date": "2024-09-12",
+        "low_date": "2024-09-12",
+        "formed_at": "2024-09-12",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 43,
+        "known_at": "2024-09-13"
+      },
+      {
+        "low": "1297.3",
+        "high": "1332",
+        "source_indices": [
+          54
+        ],
+        "first_date": "2024-09-13",
+        "last_date": "2024-09-13",
+        "high_date": "2024-09-13",
+        "low_date": "2024-09-13",
+        "formed_at": "2024-09-13",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 44,
+        "known_at": "2024-09-18"
+      },
+      {
+        "low": "1266.66",
+        "high": "1300.01",
+        "source_indices": [
+          55
+        ],
+        "first_date": "2024-09-18",
+        "last_date": "2024-09-18",
+        "high_date": "2024-09-18",
+        "low_date": "2024-09-18",
+        "formed_at": "2024-09-18",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 45,
+        "known_at": "2024-09-19"
+      },
+      {
+        "low": "1245.83",
+        "high": "1273.9",
+        "source_indices": [
+          56,
+          57
+        ],
+        "first_date": "2024-09-19",
+        "last_date": "2024-09-20",
+        "high_date": "2024-09-20",
+        "low_date": "2024-09-19",
+        "formed_at": "2024-09-20",
+        "merge_direction": "down",
+        "tentative": false,
+        "index": 46,
+        "known_at": "2024-09-23"
+      },
+      {
+        "low": "1260.66",
+        "high": "1293.5",
+        "source_indices": [
+          58
+        ],
+        "first_date": "2024-09-23",
+        "last_date": "2024-09-23",
+        "high_date": "2024-09-23",
+        "low_date": "2024-09-23",
+        "formed_at": "2024-09-23",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 47,
+        "known_at": "2024-09-24"
+      },
+      {
+        "low": "1265.09",
+        "high": "1373",
+        "source_indices": [
+          59
+        ],
+        "first_date": "2024-09-24",
+        "last_date": "2024-09-24",
+        "high_date": "2024-09-24",
+        "low_date": "2024-09-24",
+        "formed_at": "2024-09-24",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 48,
+        "known_at": "2024-09-25"
+      },
+      {
+        "low": "1396.71",
+        "high": "1529.87",
+        "source_indices": [
+          60,
+          61
+        ],
+        "first_date": "2024-09-25",
+        "last_date": "2024-09-26",
+        "high_date": "2024-09-26",
+        "low_date": "2024-09-25",
+        "formed_at": "2024-09-26",
+        "merge_direction": "up",
+        "tentative": false,
+        "index": 49,
+        "known_at": "2024-09-27"
+      },
+      {
+        "low": "1565.36",
+        "high": "1629.2",
+        "source_indices": [
+          62
+        ],
+        "first_date": "2024-09-27",
+        "last_date": "2024-09-27",
+        "high_date": "2024-09-27",
+        "low_date": "2024-09-27",
+        "formed_at": "2024-09-27",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 50,
+        "known_at": "2024-09-30"
+      },
+      {
+        "low": "1652",
+        "high": "1759.88",
+        "source_indices": [
+          63
+        ],
+        "first_date": "2024-09-30",
+        "last_date": "2024-09-30",
+        "high_date": "2024-09-30",
+        "low_date": "2024-09-30",
+        "formed_at": "2024-09-30",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 51,
+        "known_at": "2024-10-08"
+      },
+      {
+        "low": "1680.18",
+        "high": "1910",
+        "source_indices": [
+          64
+        ],
+        "first_date": "2024-10-08",
+        "last_date": "2024-10-08",
+        "high_date": "2024-10-08",
+        "low_date": "2024-10-08",
+        "formed_at": "2024-10-08",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 52,
+        "known_at": "2024-10-09"
+      },
+      {
+        "low": "1590",
+        "high": "1639.96",
+        "source_indices": [
+          65,
+          66,
+          67
+        ],
+        "first_date": "2024-10-09",
+        "last_date": "2024-10-11",
+        "high_date": "2024-10-11",
+        "low_date": "2024-10-09",
+        "formed_at": "2024-10-11",
+        "merge_direction": "down",
+        "tentative": false,
+        "index": 53,
+        "known_at": "2024-10-14"
+      },
+      {
+        "low": "1581.17",
+        "high": "1620.63",
+        "source_indices": [
+          68
+        ],
+        "first_date": "2024-10-14",
+        "last_date": "2024-10-14",
+        "high_date": "2024-10-14",
+        "low_date": "2024-10-14",
+        "formed_at": "2024-10-14",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 54,
+        "known_at": "2024-10-15"
+      },
+      {
+        "low": "1553.01",
+        "high": "1600.99",
+        "source_indices": [
+          69
+        ],
+        "first_date": "2024-10-15",
+        "last_date": "2024-10-15",
+        "high_date": "2024-10-15",
+        "low_date": "2024-10-15",
+        "formed_at": "2024-10-15",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 55,
+        "known_at": "2024-10-16"
+      },
+      {
+        "low": "1510",
+        "high": "1549.8",
+        "source_indices": [
+          70
+        ],
+        "first_date": "2024-10-16",
+        "last_date": "2024-10-16",
+        "high_date": "2024-10-16",
+        "low_date": "2024-10-16",
+        "formed_at": "2024-10-16",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 56,
+        "known_at": "2024-10-17"
+      },
+      {
+        "low": "1478.96",
+        "high": "1537.66",
+        "source_indices": [
+          71,
+          72
+        ],
+        "first_date": "2024-10-17",
+        "last_date": "2024-10-18",
+        "high_date": "2024-10-17",
+        "low_date": "2024-10-18",
+        "formed_at": "2024-10-18",
+        "merge_direction": "down",
+        "tentative": false,
+        "index": 57,
+        "known_at": "2024-10-21"
+      },
+      {
+        "low": "1521.21",
+        "high": "1549.97",
+        "source_indices": [
+          73
+        ],
+        "first_date": "2024-10-21",
+        "last_date": "2024-10-21",
+        "high_date": "2024-10-21",
+        "low_date": "2024-10-21",
+        "formed_at": "2024-10-21",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 58,
+        "known_at": "2024-10-22"
+      },
+      {
+        "low": "1524.2",
+        "high": "1560.18",
+        "source_indices": [
+          74
+        ],
+        "first_date": "2024-10-22",
+        "last_date": "2024-10-22",
+        "high_date": "2024-10-22",
+        "low_date": "2024-10-22",
+        "formed_at": "2024-10-22",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 59,
+        "known_at": "2024-10-23"
+      },
+      {
+        "low": "1546.01",
+        "high": "1576.95",
+        "source_indices": [
+          75,
+          76,
+          77
+        ],
+        "first_date": "2024-10-23",
+        "last_date": "2024-10-25",
+        "high_date": "2024-10-23",
+        "low_date": "2024-10-25",
+        "formed_at": "2024-10-25",
+        "merge_direction": "up",
+        "tentative": false,
+        "index": 60,
+        "known_at": "2024-10-28"
+      },
+      {
+        "low": "1522.23",
+        "high": "1565",
+        "source_indices": [
+          78
+        ],
+        "first_date": "2024-10-28",
+        "last_date": "2024-10-28",
+        "high_date": "2024-10-28",
+        "low_date": "2024-10-28",
+        "formed_at": "2024-10-28",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 61,
+        "known_at": "2024-10-29"
+      },
+      {
+        "low": "1530",
+        "high": "1580",
+        "source_indices": [
+          79
+        ],
+        "first_date": "2024-10-29",
+        "last_date": "2024-10-29",
+        "high_date": "2024-10-29",
+        "low_date": "2024-10-29",
+        "formed_at": "2024-10-29",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 62,
+        "known_at": "2024-10-30"
+      },
+      {
+        "low": "1523.41",
+        "high": "1551.19",
+        "source_indices": [
+          80
+        ],
+        "first_date": "2024-10-30",
+        "last_date": "2024-10-30",
+        "high_date": "2024-10-30",
+        "low_date": "2024-10-30",
+        "formed_at": "2024-10-30",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 63,
+        "known_at": "2024-10-31"
+      },
+      {
+        "low": "1520",
+        "high": "1540",
+        "source_indices": [
+          81
+        ],
+        "first_date": "2024-10-31",
+        "last_date": "2024-10-31",
+        "high_date": "2024-10-31",
+        "low_date": "2024-10-31",
+        "formed_at": "2024-10-31",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 64,
+        "known_at": "2024-11-01"
+      },
+      {
+        "low": "1520.8",
+        "high": "1545.13",
+        "source_indices": [
+          82
+        ],
+        "first_date": "2024-11-01",
+        "last_date": "2024-11-01",
+        "high_date": "2024-11-01",
+        "low_date": "2024-11-01",
+        "formed_at": "2024-11-01",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 65,
+        "known_at": "2024-11-04"
+      },
+      {
+        "low": "1528.06",
+        "high": "1550",
+        "source_indices": [
+          83
+        ],
+        "first_date": "2024-11-04",
+        "last_date": "2024-11-04",
+        "high_date": "2024-11-04",
+        "low_date": "2024-11-04",
+        "formed_at": "2024-11-04",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 66,
+        "known_at": "2024-11-05"
+      },
+      {
+        "low": "1536.01",
+        "high": "1577.7",
+        "source_indices": [
+          84
+        ],
+        "first_date": "2024-11-05",
+        "last_date": "2024-11-05",
+        "high_date": "2024-11-05",
+        "low_date": "2024-11-05",
+        "formed_at": "2024-11-05",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 67,
+        "known_at": "2024-11-06"
+      },
+      {
+        "low": "1561.22",
+        "high": "1588.99",
+        "source_indices": [
+          85
+        ],
+        "first_date": "2024-11-06",
+        "last_date": "2024-11-06",
+        "high_date": "2024-11-06",
+        "low_date": "2024-11-06",
+        "formed_at": "2024-11-06",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 68,
+        "known_at": "2024-11-07"
+      },
+      {
+        "low": "1562.3",
+        "high": "1653.5",
+        "source_indices": [
+          86
+        ],
+        "first_date": "2024-11-07",
+        "last_date": "2024-11-07",
+        "high_date": "2024-11-07",
+        "low_date": "2024-11-07",
+        "formed_at": "2024-11-07",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 69,
+        "known_at": "2024-11-08"
+      },
+      {
+        "low": "1601.01",
+        "high": "1667.11",
+        "source_indices": [
+          87
+        ],
+        "first_date": "2024-11-08",
+        "last_date": "2024-11-08",
+        "high_date": "2024-11-08",
+        "low_date": "2024-11-08",
+        "formed_at": "2024-11-08",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 70,
+        "known_at": "2024-11-11"
+      },
+      {
+        "low": "1567.19",
+        "high": "1609.95",
+        "source_indices": [
+          88
+        ],
+        "first_date": "2024-11-11",
+        "last_date": "2024-11-11",
+        "high_date": "2024-11-11",
+        "low_date": "2024-11-11",
+        "formed_at": "2024-11-11",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 71,
+        "known_at": "2024-11-12"
+      },
+      {
+        "low": "1573.95",
+        "high": "1623",
+        "source_indices": [
+          89
+        ],
+        "first_date": "2024-11-12",
+        "last_date": "2024-11-12",
+        "high_date": "2024-11-12",
+        "low_date": "2024-11-12",
+        "formed_at": "2024-11-12",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 72,
+        "known_at": "2024-11-13"
+      },
+      {
+        "low": "1561.28",
+        "high": "1586.66",
+        "source_indices": [
+          90
+        ],
+        "first_date": "2024-11-13",
+        "last_date": "2024-11-13",
+        "high_date": "2024-11-13",
+        "low_date": "2024-11-13",
+        "formed_at": "2024-11-13",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 73,
+        "known_at": "2024-11-14"
+      },
+      {
+        "low": "1565.65",
+        "high": "1594.45",
+        "source_indices": [
+          91
+        ],
+        "first_date": "2024-11-14",
+        "last_date": "2024-11-14",
+        "high_date": "2024-11-14",
+        "low_date": "2024-11-14",
+        "formed_at": "2024-11-14",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 74,
+        "known_at": "2024-11-15"
+      },
+      {
+        "low": "1553",
+        "high": "1575.99",
+        "source_indices": [
+          92,
+          93
+        ],
+        "first_date": "2024-11-15",
+        "last_date": "2024-11-18",
+        "high_date": "2024-11-18",
+        "low_date": "2024-11-15",
+        "formed_at": "2024-11-18",
+        "merge_direction": "down",
+        "tentative": false,
+        "index": 75,
+        "known_at": "2024-11-19"
+      },
+      {
+        "low": "1525",
+        "high": "1553.97",
+        "source_indices": [
+          94,
+          95
+        ],
+        "first_date": "2024-11-19",
+        "last_date": "2024-11-20",
+        "high_date": "2024-11-20",
+        "low_date": "2024-11-19",
+        "formed_at": "2024-11-20",
+        "merge_direction": "down",
+        "tentative": true,
+        "index": 76,
+        "known_at": null
+      }
+    ],
+    "unresolved_initial": false,
+    "fractals": [
+      {
+        "kind": "top",
+        "center": 2,
+        "span": [
+          1,
+          2,
+          3
+        ],
+        "price": "1513.01",
+        "date": "2024-07-03",
+        "formed_at": "2024-07-04",
+        "right_group_updated_at": "2024-07-04",
+        "known_at": "2024-07-05",
+        "formation_source_indices": [
+          1,
+          2,
+          3
+        ],
+        "source_indices": [
+          1,
+          2,
+          3
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 6,
+        "span": [
+          5,
+          6,
+          7
+        ],
+        "price": "1410.1",
+        "date": "2024-07-09",
+        "formed_at": "2024-07-10",
+        "right_group_updated_at": "2024-07-10",
+        "known_at": "2024-07-11",
+        "formation_source_indices": [
+          5,
+          6,
+          7
+        ],
+        "source_indices": [
+          5,
+          6,
+          7
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 10,
+        "span": [
+          9,
+          10,
+          11
+        ],
+        "price": "1488",
+        "date": "2024-07-15",
+        "formed_at": "2024-07-16",
+        "right_group_updated_at": "2024-07-16",
+        "known_at": "2024-07-17",
+        "formation_source_indices": [
+          9,
+          10,
+          11
+        ],
+        "source_indices": [
+          9,
+          10,
+          11
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 11,
+        "span": [
+          10,
+          11,
+          12
+        ],
+        "price": "1465.05",
+        "date": "2024-07-16",
+        "formed_at": "2024-07-17",
+        "right_group_updated_at": "2024-07-17",
+        "known_at": "2024-07-18",
+        "formation_source_indices": [
+          10,
+          11,
+          12
+        ],
+        "source_indices": [
+          10,
+          11,
+          12
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 13,
+        "span": [
+          12,
+          13,
+          14
+        ],
+        "price": "1529.98",
+        "date": "2024-07-22",
+        "formed_at": "2024-07-23",
+        "right_group_updated_at": "2024-07-23",
+        "known_at": "2024-07-24",
+        "formation_source_indices": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "source_indices": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 19,
+        "span": [
+          18,
+          19,
+          20
+        ],
+        "price": "1361.3",
+        "date": "2024-07-30",
+        "formed_at": "2024-07-31",
+        "right_group_updated_at": "2024-08-01",
+        "known_at": "2024-08-02",
+        "formation_source_indices": [
+          20,
+          21,
+          22
+        ],
+        "source_indices": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 20,
+        "span": [
+          19,
+          20,
+          21
+        ],
+        "price": "1427.27",
+        "date": "2024-07-31",
+        "formed_at": "2024-08-02",
+        "right_group_updated_at": "2024-08-02",
+        "known_at": "2024-08-05",
+        "formation_source_indices": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "source_indices": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 21,
+        "span": [
+          20,
+          21,
+          22
+        ],
+        "price": "1373.6",
+        "date": "2024-08-02",
+        "formed_at": "2024-08-05",
+        "right_group_updated_at": "2024-08-07",
+        "known_at": "2024-08-08",
+        "formation_source_indices": [
+          22,
+          23,
+          24,
+          25
+        ],
+        "source_indices": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 24,
+        "span": [
+          23,
+          24,
+          25
+        ],
+        "price": "1469",
+        "date": "2024-08-09",
+        "formed_at": "2024-08-12",
+        "right_group_updated_at": "2024-08-12",
+        "known_at": "2024-08-13",
+        "formation_source_indices": [
+          28,
+          29,
+          30
+        ],
+        "source_indices": [
+          28,
+          29,
+          30
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 26,
+        "span": [
+          25,
+          26,
+          27
+        ],
+        "price": "1403.95",
+        "date": "2024-08-15",
+        "formed_at": "2024-08-16",
+        "right_group_updated_at": "2024-08-16",
+        "known_at": "2024-08-19",
+        "formation_source_indices": [
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "source_indices": [
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 28,
+        "span": [
+          27,
+          28,
+          29
+        ],
+        "price": "1458.88",
+        "date": "2024-08-19",
+        "formed_at": "2024-08-20",
+        "right_group_updated_at": "2024-08-21",
+        "known_at": "2024-08-22",
+        "formation_source_indices": [
+          34,
+          35,
+          36
+        ],
+        "source_indices": [
+          34,
+          35,
+          36,
+          37
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 30,
+        "span": [
+          29,
+          30,
+          31
+        ],
+        "price": "1400.01",
+        "date": "2024-08-22",
+        "formed_at": "2024-08-23",
+        "right_group_updated_at": "2024-08-26",
+        "known_at": "2024-08-27",
+        "formation_source_indices": [
+          36,
+          37,
+          38,
+          39
+        ],
+        "source_indices": [
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 31,
+        "span": [
+          30,
+          31,
+          32
+        ],
+        "price": "1423.86",
+        "date": "2024-08-26",
+        "formed_at": "2024-08-27",
+        "right_group_updated_at": "2024-08-27",
+        "known_at": "2024-08-28",
+        "formation_source_indices": [
+          38,
+          39,
+          40,
+          41
+        ],
+        "source_indices": [
+          38,
+          39,
+          40,
+          41
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 33,
+        "span": [
+          32,
+          33,
+          34
+        ],
+        "price": "1375",
+        "date": "2024-08-28",
+        "formed_at": "2024-08-29",
+        "right_group_updated_at": "2024-08-29",
+        "known_at": "2024-08-30",
+        "formation_source_indices": [
+          41,
+          42,
+          43
+        ],
+        "source_indices": [
+          41,
+          42,
+          43
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 35,
+        "span": [
+          34,
+          35,
+          36
+        ],
+        "price": "1458.07",
+        "date": "2024-08-30",
+        "formed_at": "2024-09-02",
+        "right_group_updated_at": "2024-09-02",
+        "known_at": "2024-09-03",
+        "formation_source_indices": [
+          43,
+          44,
+          45
+        ],
+        "source_indices": [
+          43,
+          44,
+          45
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 37,
+        "span": [
+          36,
+          37,
+          38
+        ],
+        "price": "1393.02",
+        "date": "2024-09-03",
+        "formed_at": "2024-09-04",
+        "right_group_updated_at": "2024-09-04",
+        "known_at": "2024-09-05",
+        "formation_source_indices": [
+          45,
+          46,
+          47
+        ],
+        "source_indices": [
+          45,
+          46,
+          47
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 38,
+        "span": [
+          37,
+          38,
+          39
+        ],
+        "price": "1419.19",
+        "date": "2024-09-04",
+        "formed_at": "2024-09-05",
+        "right_group_updated_at": "2024-09-06",
+        "known_at": "2024-09-09",
+        "formation_source_indices": [
+          46,
+          47,
+          48
+        ],
+        "source_indices": [
+          46,
+          47,
+          48,
+          49
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 46,
+        "span": [
+          45,
+          46,
+          47
+        ],
+        "price": "1245.83",
+        "date": "2024-09-19",
+        "formed_at": "2024-09-23",
+        "right_group_updated_at": "2024-09-23",
+        "known_at": "2024-09-24",
+        "formation_source_indices": [
+          55,
+          56,
+          57,
+          58
+        ],
+        "source_indices": [
+          55,
+          56,
+          57,
+          58
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 52,
+        "span": [
+          51,
+          52,
+          53
+        ],
+        "price": "1910",
+        "date": "2024-10-08",
+        "formed_at": "2024-10-09",
+        "right_group_updated_at": "2024-10-11",
+        "known_at": "2024-10-14",
+        "formation_source_indices": [
+          63,
+          64,
+          65
+        ],
+        "source_indices": [
+          63,
+          64,
+          65,
+          66,
+          67
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 57,
+        "span": [
+          56,
+          57,
+          58
+        ],
+        "price": "1478.96",
+        "date": "2024-10-18",
+        "formed_at": "2024-10-21",
+        "right_group_updated_at": "2024-10-21",
+        "known_at": "2024-10-22",
+        "formation_source_indices": [
+          70,
+          71,
+          72,
+          73
+        ],
+        "source_indices": [
+          70,
+          71,
+          72,
+          73
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 60,
+        "span": [
+          59,
+          60,
+          61
+        ],
+        "price": "1576.95",
+        "date": "2024-10-23",
+        "formed_at": "2024-10-28",
+        "right_group_updated_at": "2024-10-28",
+        "known_at": "2024-10-29",
+        "formation_source_indices": [
+          74,
+          75,
+          76,
+          77,
+          78
+        ],
+        "source_indices": [
+          74,
+          75,
+          76,
+          77,
+          78
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 61,
+        "span": [
+          60,
+          61,
+          62
+        ],
+        "price": "1522.23",
+        "date": "2024-10-28",
+        "formed_at": "2024-10-29",
+        "right_group_updated_at": "2024-10-29",
+        "known_at": "2024-10-30",
+        "formation_source_indices": [
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "source_indices": [
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 62,
+        "span": [
+          61,
+          62,
+          63
+        ],
+        "price": "1580",
+        "date": "2024-10-29",
+        "formed_at": "2024-10-30",
+        "right_group_updated_at": "2024-10-30",
+        "known_at": "2024-10-31",
+        "formation_source_indices": [
+          78,
+          79,
+          80
+        ],
+        "source_indices": [
+          78,
+          79,
+          80
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 64,
+        "span": [
+          63,
+          64,
+          65
+        ],
+        "price": "1520",
+        "date": "2024-10-31",
+        "formed_at": "2024-11-01",
+        "right_group_updated_at": "2024-11-01",
+        "known_at": "2024-11-04",
+        "formation_source_indices": [
+          80,
+          81,
+          82
+        ],
+        "source_indices": [
+          80,
+          81,
+          82
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 70,
+        "span": [
+          69,
+          70,
+          71
+        ],
+        "price": "1667.11",
+        "date": "2024-11-08",
+        "formed_at": "2024-11-11",
+        "right_group_updated_at": "2024-11-11",
+        "known_at": "2024-11-12",
+        "formation_source_indices": [
+          86,
+          87,
+          88
+        ],
+        "source_indices": [
+          86,
+          87,
+          88
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 71,
+        "span": [
+          70,
+          71,
+          72
+        ],
+        "price": "1567.19",
+        "date": "2024-11-11",
+        "formed_at": "2024-11-12",
+        "right_group_updated_at": "2024-11-12",
+        "known_at": "2024-11-13",
+        "formation_source_indices": [
+          87,
+          88,
+          89
+        ],
+        "source_indices": [
+          87,
+          88,
+          89
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 72,
+        "span": [
+          71,
+          72,
+          73
+        ],
+        "price": "1623",
+        "date": "2024-11-12",
+        "formed_at": "2024-11-13",
+        "right_group_updated_at": "2024-11-13",
+        "known_at": "2024-11-14",
+        "formation_source_indices": [
+          88,
+          89,
+          90
+        ],
+        "source_indices": [
+          88,
+          89,
+          90
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 73,
+        "span": [
+          72,
+          73,
+          74
+        ],
+        "price": "1561.28",
+        "date": "2024-11-13",
+        "formed_at": "2024-11-14",
+        "right_group_updated_at": "2024-11-14",
+        "known_at": "2024-11-15",
+        "formation_source_indices": [
+          89,
+          90,
+          91
+        ],
+        "source_indices": [
+          89,
+          90,
+          91
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 74,
+        "span": [
+          73,
+          74,
+          75
+        ],
+        "price": "1594.45",
+        "date": "2024-11-14",
+        "formed_at": "2024-11-15",
+        "right_group_updated_at": "2024-11-18",
+        "known_at": "2024-11-19",
+        "formation_source_indices": [
+          90,
+          91,
+          92
+        ],
+        "source_indices": [
+          90,
+          91,
+          92,
+          93
+        ],
+        "state": "confirmed_at_cutoff"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "top",
+        "center": 2,
+        "span": [
+          1,
+          2,
+          3
+        ],
+        "price": "1513.01",
+        "date": "2024-07-03",
+        "formed_at": "2024-07-04",
+        "right_group_updated_at": "2024-07-04",
+        "known_at": "2024-07-05",
+        "formation_source_indices": [
+          1,
+          2,
+          3
+        ],
+        "source_indices": [
+          1,
+          2,
+          3
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 6,
+        "span": [
+          5,
+          6,
+          7
+        ],
+        "price": "1410.1",
+        "date": "2024-07-09",
+        "formed_at": "2024-07-10",
+        "right_group_updated_at": "2024-07-10",
+        "known_at": "2024-07-11",
+        "formation_source_indices": [
+          5,
+          6,
+          7
+        ],
+        "source_indices": [
+          5,
+          6,
+          7
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 13,
+        "span": [
+          12,
+          13,
+          14
+        ],
+        "price": "1529.98",
+        "date": "2024-07-22",
+        "formed_at": "2024-07-23",
+        "right_group_updated_at": "2024-07-23",
+        "known_at": "2024-07-24",
+        "formation_source_indices": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "source_indices": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 19,
+        "span": [
+          18,
+          19,
+          20
+        ],
+        "price": "1361.3",
+        "date": "2024-07-30",
+        "formed_at": "2024-07-31",
+        "right_group_updated_at": "2024-08-01",
+        "known_at": "2024-08-02",
+        "formation_source_indices": [
+          20,
+          21,
+          22
+        ],
+        "source_indices": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 24,
+        "span": [
+          23,
+          24,
+          25
+        ],
+        "price": "1469",
+        "date": "2024-08-09",
+        "formed_at": "2024-08-12",
+        "right_group_updated_at": "2024-08-12",
+        "known_at": "2024-08-13",
+        "formation_source_indices": [
+          28,
+          29,
+          30
+        ],
+        "source_indices": [
+          28,
+          29,
+          30
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 46,
+        "span": [
+          45,
+          46,
+          47
+        ],
+        "price": "1245.83",
+        "date": "2024-09-19",
+        "formed_at": "2024-09-23",
+        "right_group_updated_at": "2024-09-23",
+        "known_at": "2024-09-24",
+        "formation_source_indices": [
+          55,
+          56,
+          57,
+          58
+        ],
+        "source_indices": [
+          55,
+          56,
+          57,
+          58
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 52,
+        "span": [
+          51,
+          52,
+          53
+        ],
+        "price": "1910",
+        "date": "2024-10-08",
+        "formed_at": "2024-10-09",
+        "right_group_updated_at": "2024-10-11",
+        "known_at": "2024-10-14",
+        "formation_source_indices": [
+          63,
+          64,
+          65
+        ],
+        "source_indices": [
+          63,
+          64,
+          65,
+          66,
+          67
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 57,
+        "span": [
+          56,
+          57,
+          58
+        ],
+        "price": "1478.96",
+        "date": "2024-10-18",
+        "formed_at": "2024-10-21",
+        "right_group_updated_at": "2024-10-21",
+        "known_at": "2024-10-22",
+        "formation_source_indices": [
+          70,
+          71,
+          72,
+          73
+        ],
+        "source_indices": [
+          70,
+          71,
+          72,
+          73
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 70,
+        "span": [
+          69,
+          70,
+          71
+        ],
+        "price": "1667.11",
+        "date": "2024-11-08",
+        "formed_at": "2024-11-11",
+        "right_group_updated_at": "2024-11-11",
+        "known_at": "2024-11-12",
+        "formation_source_indices": [
+          86,
+          87,
+          88
+        ],
+        "source_indices": [
+          86,
+          87,
+          88
+        ],
+        "state": "confirmed_at_cutoff"
+      }
+    ],
+    "strokes": [
+      {
+        "index": 0,
+        "start": {
+          "kind": "top",
+          "center": 2,
+          "span": [
+            1,
+            2,
+            3
+          ],
+          "price": "1513.01",
+          "date": "2024-07-03",
+          "formed_at": "2024-07-04",
+          "right_group_updated_at": "2024-07-04",
+          "known_at": "2024-07-05",
+          "formation_source_indices": [
+            1,
+            2,
+            3
+          ],
+          "source_indices": [
+            1,
+            2,
+            3
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 6,
+          "span": [
+            5,
+            6,
+            7
+          ],
+          "price": "1410.1",
+          "date": "2024-07-09",
+          "formed_at": "2024-07-10",
+          "right_group_updated_at": "2024-07-10",
+          "known_at": "2024-07-11",
+          "formation_source_indices": [
+            5,
+            6,
+            7
+          ],
+          "source_indices": [
+            5,
+            6,
+            7
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "direction": "down",
+        "low": "1410.1",
+        "high": "1513.01",
+        "center_spacing": 4,
+        "state": "accepted_at_cutoff",
+        "formed_at": "2024-07-10",
+        "known_at": "2024-07-11"
+      },
+      {
+        "index": 1,
+        "start": {
+          "kind": "bottom",
+          "center": 6,
+          "span": [
+            5,
+            6,
+            7
+          ],
+          "price": "1410.1",
+          "date": "2024-07-09",
+          "formed_at": "2024-07-10",
+          "right_group_updated_at": "2024-07-10",
+          "known_at": "2024-07-11",
+          "formation_source_indices": [
+            5,
+            6,
+            7
+          ],
+          "source_indices": [
+            5,
+            6,
+            7
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 13,
+          "span": [
+            12,
+            13,
+            14
+          ],
+          "price": "1529.98",
+          "date": "2024-07-22",
+          "formed_at": "2024-07-23",
+          "right_group_updated_at": "2024-07-23",
+          "known_at": "2024-07-24",
+          "formation_source_indices": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "source_indices": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "direction": "up",
+        "low": "1410.1",
+        "high": "1529.98",
+        "center_spacing": 7,
+        "state": "accepted_at_cutoff",
+        "formed_at": "2024-07-23",
+        "known_at": "2024-07-24"
+      },
+      {
+        "index": 2,
+        "start": {
+          "kind": "top",
+          "center": 13,
+          "span": [
+            12,
+            13,
+            14
+          ],
+          "price": "1529.98",
+          "date": "2024-07-22",
+          "formed_at": "2024-07-23",
+          "right_group_updated_at": "2024-07-23",
+          "known_at": "2024-07-24",
+          "formation_source_indices": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "source_indices": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 19,
+          "span": [
+            18,
+            19,
+            20
+          ],
+          "price": "1361.3",
+          "date": "2024-07-30",
+          "formed_at": "2024-07-31",
+          "right_group_updated_at": "2024-08-01",
+          "known_at": "2024-08-02",
+          "formation_source_indices": [
+            20,
+            21,
+            22
+          ],
+          "source_indices": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "direction": "down",
+        "low": "1361.3",
+        "high": "1529.98",
+        "center_spacing": 6,
+        "state": "accepted_at_cutoff",
+        "formed_at": "2024-07-31",
+        "known_at": "2024-08-02"
+      },
+      {
+        "index": 3,
+        "start": {
+          "kind": "bottom",
+          "center": 19,
+          "span": [
+            18,
+            19,
+            20
+          ],
+          "price": "1361.3",
+          "date": "2024-07-30",
+          "formed_at": "2024-07-31",
+          "right_group_updated_at": "2024-08-01",
+          "known_at": "2024-08-02",
+          "formation_source_indices": [
+            20,
+            21,
+            22
+          ],
+          "source_indices": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 24,
+          "span": [
+            23,
+            24,
+            25
+          ],
+          "price": "1469",
+          "date": "2024-08-09",
+          "formed_at": "2024-08-12",
+          "right_group_updated_at": "2024-08-12",
+          "known_at": "2024-08-13",
+          "formation_source_indices": [
+            28,
+            29,
+            30
+          ],
+          "source_indices": [
+            28,
+            29,
+            30
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "direction": "up",
+        "low": "1361.3",
+        "high": "1469",
+        "center_spacing": 5,
+        "state": "accepted_at_cutoff",
+        "formed_at": "2024-08-12",
+        "known_at": "2024-08-13"
+      },
+      {
+        "index": 4,
+        "start": {
+          "kind": "top",
+          "center": 24,
+          "span": [
+            23,
+            24,
+            25
+          ],
+          "price": "1469",
+          "date": "2024-08-09",
+          "formed_at": "2024-08-12",
+          "right_group_updated_at": "2024-08-12",
+          "known_at": "2024-08-13",
+          "formation_source_indices": [
+            28,
+            29,
+            30
+          ],
+          "source_indices": [
+            28,
+            29,
+            30
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 46,
+          "span": [
+            45,
+            46,
+            47
+          ],
+          "price": "1245.83",
+          "date": "2024-09-19",
+          "formed_at": "2024-09-23",
+          "right_group_updated_at": "2024-09-23",
+          "known_at": "2024-09-24",
+          "formation_source_indices": [
+            55,
+            56,
+            57,
+            58
+          ],
+          "source_indices": [
+            55,
+            56,
+            57,
+            58
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "direction": "down",
+        "low": "1245.83",
+        "high": "1469",
+        "center_spacing": 22,
+        "state": "accepted_at_cutoff",
+        "formed_at": "2024-09-23",
+        "known_at": "2024-09-24"
+      },
+      {
+        "index": 5,
+        "start": {
+          "kind": "bottom",
+          "center": 46,
+          "span": [
+            45,
+            46,
+            47
+          ],
+          "price": "1245.83",
+          "date": "2024-09-19",
+          "formed_at": "2024-09-23",
+          "right_group_updated_at": "2024-09-23",
+          "known_at": "2024-09-24",
+          "formation_source_indices": [
+            55,
+            56,
+            57,
+            58
+          ],
+          "source_indices": [
+            55,
+            56,
+            57,
+            58
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 52,
+          "span": [
+            51,
+            52,
+            53
+          ],
+          "price": "1910",
+          "date": "2024-10-08",
+          "formed_at": "2024-10-09",
+          "right_group_updated_at": "2024-10-11",
+          "known_at": "2024-10-14",
+          "formation_source_indices": [
+            63,
+            64,
+            65
+          ],
+          "source_indices": [
+            63,
+            64,
+            65,
+            66,
+            67
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "direction": "up",
+        "low": "1245.83",
+        "high": "1910",
+        "center_spacing": 6,
+        "state": "accepted_at_cutoff",
+        "formed_at": "2024-10-09",
+        "known_at": "2024-10-14"
+      },
+      {
+        "index": 6,
+        "start": {
+          "kind": "top",
+          "center": 52,
+          "span": [
+            51,
+            52,
+            53
+          ],
+          "price": "1910",
+          "date": "2024-10-08",
+          "formed_at": "2024-10-09",
+          "right_group_updated_at": "2024-10-11",
+          "known_at": "2024-10-14",
+          "formation_source_indices": [
+            63,
+            64,
+            65
+          ],
+          "source_indices": [
+            63,
+            64,
+            65,
+            66,
+            67
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 57,
+          "span": [
+            56,
+            57,
+            58
+          ],
+          "price": "1478.96",
+          "date": "2024-10-18",
+          "formed_at": "2024-10-21",
+          "right_group_updated_at": "2024-10-21",
+          "known_at": "2024-10-22",
+          "formation_source_indices": [
+            70,
+            71,
+            72,
+            73
+          ],
+          "source_indices": [
+            70,
+            71,
+            72,
+            73
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "direction": "down",
+        "low": "1478.96",
+        "high": "1910",
+        "center_spacing": 5,
+        "state": "accepted_at_cutoff",
+        "formed_at": "2024-10-21",
+        "known_at": "2024-10-22"
+      },
+      {
+        "index": 7,
+        "start": {
+          "kind": "bottom",
+          "center": 57,
+          "span": [
+            56,
+            57,
+            58
+          ],
+          "price": "1478.96",
+          "date": "2024-10-18",
+          "formed_at": "2024-10-21",
+          "right_group_updated_at": "2024-10-21",
+          "known_at": "2024-10-22",
+          "formation_source_indices": [
+            70,
+            71,
+            72,
+            73
+          ],
+          "source_indices": [
+            70,
+            71,
+            72,
+            73
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 70,
+          "span": [
+            69,
+            70,
+            71
+          ],
+          "price": "1667.11",
+          "date": "2024-11-08",
+          "formed_at": "2024-11-11",
+          "right_group_updated_at": "2024-11-11",
+          "known_at": "2024-11-12",
+          "formation_source_indices": [
+            86,
+            87,
+            88
+          ],
+          "source_indices": [
+            86,
+            87,
+            88
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "direction": "up",
+        "low": "1478.96",
+        "high": "1667.11",
+        "center_spacing": 13,
+        "state": "latest_endpoint_revisable",
+        "formed_at": "2024-11-11",
+        "known_at": "2024-11-12"
+      }
+    ],
+    "rejections": [
+      {
+        "start": {
+          "kind": "top",
+          "center": 10,
+          "span": [
+            9,
+            10,
+            11
+          ],
+          "price": "1488",
+          "date": "2024-07-15",
+          "formed_at": "2024-07-16",
+          "right_group_updated_at": "2024-07-16",
+          "known_at": "2024-07-17",
+          "formation_source_indices": [
+            9,
+            10,
+            11
+          ],
+          "source_indices": [
+            9,
+            10,
+            11
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 11,
+          "span": [
+            10,
+            11,
+            12
+          ],
+          "price": "1465.05",
+          "date": "2024-07-16",
+          "formed_at": "2024-07-17",
+          "right_group_updated_at": "2024-07-17",
+          "known_at": "2024-07-18",
+          "formation_source_indices": [
+            10,
+            11,
+            12
+          ],
+          "source_indices": [
+            10,
+            11,
+            12
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "spacing"
+      },
+      {
+        "start": {
+          "kind": "bottom",
+          "center": 19,
+          "span": [
+            18,
+            19,
+            20
+          ],
+          "price": "1361.3",
+          "date": "2024-07-30",
+          "formed_at": "2024-07-31",
+          "right_group_updated_at": "2024-08-01",
+          "known_at": "2024-08-02",
+          "formation_source_indices": [
+            20,
+            21,
+            22
+          ],
+          "source_indices": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 20,
+          "span": [
+            19,
+            20,
+            21
+          ],
+          "price": "1427.27",
+          "date": "2024-07-31",
+          "formed_at": "2024-08-02",
+          "right_group_updated_at": "2024-08-02",
+          "known_at": "2024-08-05",
+          "formation_source_indices": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "source_indices": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "spacing"
+      },
+      {
+        "start": {
+          "kind": "bottom",
+          "center": 19,
+          "span": [
+            18,
+            19,
+            20
+          ],
+          "price": "1361.3",
+          "date": "2024-07-30",
+          "formed_at": "2024-07-31",
+          "right_group_updated_at": "2024-08-01",
+          "known_at": "2024-08-02",
+          "formation_source_indices": [
+            20,
+            21,
+            22
+          ],
+          "source_indices": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 21,
+          "span": [
+            20,
+            21,
+            22
+          ],
+          "price": "1373.6",
+          "date": "2024-08-02",
+          "formed_at": "2024-08-05",
+          "right_group_updated_at": "2024-08-07",
+          "known_at": "2024-08-08",
+          "formation_source_indices": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "source_indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "same_kind_not_extreme"
+      },
+      {
+        "start": {
+          "kind": "top",
+          "center": 24,
+          "span": [
+            23,
+            24,
+            25
+          ],
+          "price": "1469",
+          "date": "2024-08-09",
+          "formed_at": "2024-08-12",
+          "right_group_updated_at": "2024-08-12",
+          "known_at": "2024-08-13",
+          "formation_source_indices": [
+            28,
+            29,
+            30
+          ],
+          "source_indices": [
+            28,
+            29,
+            30
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 26,
+          "span": [
+            25,
+            26,
+            27
+          ],
+          "price": "1403.95",
+          "date": "2024-08-15",
+          "formed_at": "2024-08-16",
+          "right_group_updated_at": "2024-08-16",
+          "known_at": "2024-08-19",
+          "formation_source_indices": [
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "source_indices": [
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "spacing"
+      },
+      {
+        "start": {
+          "kind": "top",
+          "center": 24,
+          "span": [
+            23,
+            24,
+            25
+          ],
+          "price": "1469",
+          "date": "2024-08-09",
+          "formed_at": "2024-08-12",
+          "right_group_updated_at": "2024-08-12",
+          "known_at": "2024-08-13",
+          "formation_source_indices": [
+            28,
+            29,
+            30
+          ],
+          "source_indices": [
+            28,
+            29,
+            30
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 28,
+          "span": [
+            27,
+            28,
+            29
+          ],
+          "price": "1458.88",
+          "date": "2024-08-19",
+          "formed_at": "2024-08-20",
+          "right_group_updated_at": "2024-08-21",
+          "known_at": "2024-08-22",
+          "formation_source_indices": [
+            34,
+            35,
+            36
+          ],
+          "source_indices": [
+            34,
+            35,
+            36,
+            37
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "same_kind_not_extreme"
+      },
+      {
+        "start": {
+          "kind": "bottom",
+          "center": 30,
+          "span": [
+            29,
+            30,
+            31
+          ],
+          "price": "1400.01",
+          "date": "2024-08-22",
+          "formed_at": "2024-08-23",
+          "right_group_updated_at": "2024-08-26",
+          "known_at": "2024-08-27",
+          "formation_source_indices": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "source_indices": [
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 31,
+          "span": [
+            30,
+            31,
+            32
+          ],
+          "price": "1423.86",
+          "date": "2024-08-26",
+          "formed_at": "2024-08-27",
+          "right_group_updated_at": "2024-08-27",
+          "known_at": "2024-08-28",
+          "formation_source_indices": [
+            38,
+            39,
+            40,
+            41
+          ],
+          "source_indices": [
+            38,
+            39,
+            40,
+            41
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "spacing"
+      },
+      {
+        "start": {
+          "kind": "bottom",
+          "center": 33,
+          "span": [
+            32,
+            33,
+            34
+          ],
+          "price": "1375",
+          "date": "2024-08-28",
+          "formed_at": "2024-08-29",
+          "right_group_updated_at": "2024-08-29",
+          "known_at": "2024-08-30",
+          "formation_source_indices": [
+            41,
+            42,
+            43
+          ],
+          "source_indices": [
+            41,
+            42,
+            43
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 35,
+          "span": [
+            34,
+            35,
+            36
+          ],
+          "price": "1458.07",
+          "date": "2024-08-30",
+          "formed_at": "2024-09-02",
+          "right_group_updated_at": "2024-09-02",
+          "known_at": "2024-09-03",
+          "formation_source_indices": [
+            43,
+            44,
+            45
+          ],
+          "source_indices": [
+            43,
+            44,
+            45
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "spacing"
+      },
+      {
+        "start": {
+          "kind": "bottom",
+          "center": 33,
+          "span": [
+            32,
+            33,
+            34
+          ],
+          "price": "1375",
+          "date": "2024-08-28",
+          "formed_at": "2024-08-29",
+          "right_group_updated_at": "2024-08-29",
+          "known_at": "2024-08-30",
+          "formation_source_indices": [
+            41,
+            42,
+            43
+          ],
+          "source_indices": [
+            41,
+            42,
+            43
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 37,
+          "span": [
+            36,
+            37,
+            38
+          ],
+          "price": "1393.02",
+          "date": "2024-09-03",
+          "formed_at": "2024-09-04",
+          "right_group_updated_at": "2024-09-04",
+          "known_at": "2024-09-05",
+          "formation_source_indices": [
+            45,
+            46,
+            47
+          ],
+          "source_indices": [
+            45,
+            46,
+            47
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "same_kind_not_extreme"
+      },
+      {
+        "start": {
+          "kind": "bottom",
+          "center": 33,
+          "span": [
+            32,
+            33,
+            34
+          ],
+          "price": "1375",
+          "date": "2024-08-28",
+          "formed_at": "2024-08-29",
+          "right_group_updated_at": "2024-08-29",
+          "known_at": "2024-08-30",
+          "formation_source_indices": [
+            41,
+            42,
+            43
+          ],
+          "source_indices": [
+            41,
+            42,
+            43
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 38,
+          "span": [
+            37,
+            38,
+            39
+          ],
+          "price": "1419.19",
+          "date": "2024-09-04",
+          "formed_at": "2024-09-05",
+          "right_group_updated_at": "2024-09-06",
+          "known_at": "2024-09-09",
+          "formation_source_indices": [
+            46,
+            47,
+            48
+          ],
+          "source_indices": [
+            46,
+            47,
+            48,
+            49
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "range_coverage"
+      },
+      {
+        "start": {
+          "kind": "bottom",
+          "center": 57,
+          "span": [
+            56,
+            57,
+            58
+          ],
+          "price": "1478.96",
+          "date": "2024-10-18",
+          "formed_at": "2024-10-21",
+          "right_group_updated_at": "2024-10-21",
+          "known_at": "2024-10-22",
+          "formation_source_indices": [
+            70,
+            71,
+            72,
+            73
+          ],
+          "source_indices": [
+            70,
+            71,
+            72,
+            73
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 60,
+          "span": [
+            59,
+            60,
+            61
+          ],
+          "price": "1576.95",
+          "date": "2024-10-23",
+          "formed_at": "2024-10-28",
+          "right_group_updated_at": "2024-10-28",
+          "known_at": "2024-10-29",
+          "formation_source_indices": [
+            74,
+            75,
+            76,
+            77,
+            78
+          ],
+          "source_indices": [
+            74,
+            75,
+            76,
+            77,
+            78
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "spacing"
+      },
+      {
+        "start": {
+          "kind": "bottom",
+          "center": 57,
+          "span": [
+            56,
+            57,
+            58
+          ],
+          "price": "1478.96",
+          "date": "2024-10-18",
+          "formed_at": "2024-10-21",
+          "right_group_updated_at": "2024-10-21",
+          "known_at": "2024-10-22",
+          "formation_source_indices": [
+            70,
+            71,
+            72,
+            73
+          ],
+          "source_indices": [
+            70,
+            71,
+            72,
+            73
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 61,
+          "span": [
+            60,
+            61,
+            62
+          ],
+          "price": "1522.23",
+          "date": "2024-10-28",
+          "formed_at": "2024-10-29",
+          "right_group_updated_at": "2024-10-29",
+          "known_at": "2024-10-30",
+          "formation_source_indices": [
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "source_indices": [
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "same_kind_not_extreme"
+      },
+      {
+        "start": {
+          "kind": "top",
+          "center": 62,
+          "span": [
+            61,
+            62,
+            63
+          ],
+          "price": "1580",
+          "date": "2024-10-29",
+          "formed_at": "2024-10-30",
+          "right_group_updated_at": "2024-10-30",
+          "known_at": "2024-10-31",
+          "formation_source_indices": [
+            78,
+            79,
+            80
+          ],
+          "source_indices": [
+            78,
+            79,
+            80
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 64,
+          "span": [
+            63,
+            64,
+            65
+          ],
+          "price": "1520",
+          "date": "2024-10-31",
+          "formed_at": "2024-11-01",
+          "right_group_updated_at": "2024-11-01",
+          "known_at": "2024-11-04",
+          "formation_source_indices": [
+            80,
+            81,
+            82
+          ],
+          "source_indices": [
+            80,
+            81,
+            82
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "spacing"
+      },
+      {
+        "start": {
+          "kind": "top",
+          "center": 70,
+          "span": [
+            69,
+            70,
+            71
+          ],
+          "price": "1667.11",
+          "date": "2024-11-08",
+          "formed_at": "2024-11-11",
+          "right_group_updated_at": "2024-11-11",
+          "known_at": "2024-11-12",
+          "formation_source_indices": [
+            86,
+            87,
+            88
+          ],
+          "source_indices": [
+            86,
+            87,
+            88
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 71,
+          "span": [
+            70,
+            71,
+            72
+          ],
+          "price": "1567.19",
+          "date": "2024-11-11",
+          "formed_at": "2024-11-12",
+          "right_group_updated_at": "2024-11-12",
+          "known_at": "2024-11-13",
+          "formation_source_indices": [
+            87,
+            88,
+            89
+          ],
+          "source_indices": [
+            87,
+            88,
+            89
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "spacing"
+      },
+      {
+        "start": {
+          "kind": "top",
+          "center": 70,
+          "span": [
+            69,
+            70,
+            71
+          ],
+          "price": "1667.11",
+          "date": "2024-11-08",
+          "formed_at": "2024-11-11",
+          "right_group_updated_at": "2024-11-11",
+          "known_at": "2024-11-12",
+          "formation_source_indices": [
+            86,
+            87,
+            88
+          ],
+          "source_indices": [
+            86,
+            87,
+            88
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 72,
+          "span": [
+            71,
+            72,
+            73
+          ],
+          "price": "1623",
+          "date": "2024-11-12",
+          "formed_at": "2024-11-13",
+          "right_group_updated_at": "2024-11-13",
+          "known_at": "2024-11-14",
+          "formation_source_indices": [
+            88,
+            89,
+            90
+          ],
+          "source_indices": [
+            88,
+            89,
+            90
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "same_kind_not_extreme"
+      },
+      {
+        "start": {
+          "kind": "top",
+          "center": 70,
+          "span": [
+            69,
+            70,
+            71
+          ],
+          "price": "1667.11",
+          "date": "2024-11-08",
+          "formed_at": "2024-11-11",
+          "right_group_updated_at": "2024-11-11",
+          "known_at": "2024-11-12",
+          "formation_source_indices": [
+            86,
+            87,
+            88
+          ],
+          "source_indices": [
+            86,
+            87,
+            88
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 73,
+          "span": [
+            72,
+            73,
+            74
+          ],
+          "price": "1561.28",
+          "date": "2024-11-13",
+          "formed_at": "2024-11-14",
+          "right_group_updated_at": "2024-11-14",
+          "known_at": "2024-11-15",
+          "formation_source_indices": [
+            89,
+            90,
+            91
+          ],
+          "source_indices": [
+            89,
+            90,
+            91
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "spacing"
+      },
+      {
+        "start": {
+          "kind": "top",
+          "center": 70,
+          "span": [
+            69,
+            70,
+            71
+          ],
+          "price": "1667.11",
+          "date": "2024-11-08",
+          "formed_at": "2024-11-11",
+          "right_group_updated_at": "2024-11-11",
+          "known_at": "2024-11-12",
+          "formation_source_indices": [
+            86,
+            87,
+            88
+          ],
+          "source_indices": [
+            86,
+            87,
+            88
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 74,
+          "span": [
+            73,
+            74,
+            75
+          ],
+          "price": "1594.45",
+          "date": "2024-11-14",
+          "formed_at": "2024-11-15",
+          "right_group_updated_at": "2024-11-18",
+          "known_at": "2024-11-19",
+          "formation_source_indices": [
+            90,
+            91,
+            92
+          ],
+          "source_indices": [
+            90,
+            91,
+            92,
+            93
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "same_kind_not_extreme"
+      }
+    ],
+    "revisions": [
+      {
+        "old": {
+          "kind": "top",
+          "center": 10,
+          "span": [
+            9,
+            10,
+            11
+          ],
+          "price": "1488",
+          "date": "2024-07-15",
+          "formed_at": "2024-07-16",
+          "right_group_updated_at": "2024-07-16",
+          "known_at": "2024-07-17",
+          "formation_source_indices": [
+            9,
+            10,
+            11
+          ],
+          "source_indices": [
+            9,
+            10,
+            11
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "new": {
+          "kind": "top",
+          "center": 13,
+          "span": [
+            12,
+            13,
+            14
+          ],
+          "price": "1529.98",
+          "date": "2024-07-22",
+          "formed_at": "2024-07-23",
+          "right_group_updated_at": "2024-07-23",
+          "known_at": "2024-07-24",
+          "formation_source_indices": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "source_indices": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "same_kind_more_extreme",
+        "known_at": "2024-07-23",
+        "observed_at": "2024-07-23",
+        "endpoint_confirmed_at": "2024-07-24"
+      },
+      {
+        "old": {
+          "kind": "bottom",
+          "center": 30,
+          "span": [
+            29,
+            30,
+            31
+          ],
+          "price": "1400.01",
+          "date": "2024-08-22",
+          "formed_at": "2024-08-23",
+          "right_group_updated_at": "2024-08-26",
+          "known_at": "2024-08-27",
+          "formation_source_indices": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "source_indices": [
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "new": {
+          "kind": "bottom",
+          "center": 33,
+          "span": [
+            32,
+            33,
+            34
+          ],
+          "price": "1375",
+          "date": "2024-08-28",
+          "formed_at": "2024-08-29",
+          "right_group_updated_at": "2024-08-29",
+          "known_at": "2024-08-30",
+          "formation_source_indices": [
+            41,
+            42,
+            43
+          ],
+          "source_indices": [
+            41,
+            42,
+            43
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "same_kind_more_extreme",
+        "known_at": "2024-08-29",
+        "observed_at": "2024-08-29",
+        "endpoint_confirmed_at": "2024-08-30"
+      },
+      {
+        "old": {
+          "kind": "bottom",
+          "center": 33,
+          "span": [
+            32,
+            33,
+            34
+          ],
+          "price": "1375",
+          "date": "2024-08-28",
+          "formed_at": "2024-08-29",
+          "right_group_updated_at": "2024-08-29",
+          "known_at": "2024-08-30",
+          "formation_source_indices": [
+            41,
+            42,
+            43
+          ],
+          "source_indices": [
+            41,
+            42,
+            43
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "new": {
+          "kind": "bottom",
+          "center": 46,
+          "span": [
+            45,
+            46,
+            47
+          ],
+          "price": "1245.83",
+          "date": "2024-09-19",
+          "formed_at": "2024-09-23",
+          "right_group_updated_at": "2024-09-23",
+          "known_at": "2024-09-24",
+          "formation_source_indices": [
+            55,
+            56,
+            57,
+            58
+          ],
+          "source_indices": [
+            55,
+            56,
+            57,
+            58
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "same_kind_more_extreme",
+        "known_at": "2024-09-23",
+        "observed_at": "2024-09-23",
+        "endpoint_confirmed_at": "2024-09-24"
+      },
+      {
+        "old": {
+          "kind": "top",
+          "center": 62,
+          "span": [
+            61,
+            62,
+            63
+          ],
+          "price": "1580",
+          "date": "2024-10-29",
+          "formed_at": "2024-10-30",
+          "right_group_updated_at": "2024-10-30",
+          "known_at": "2024-10-31",
+          "formation_source_indices": [
+            78,
+            79,
+            80
+          ],
+          "source_indices": [
+            78,
+            79,
+            80
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "new": {
+          "kind": "top",
+          "center": 70,
+          "span": [
+            69,
+            70,
+            71
+          ],
+          "price": "1667.11",
+          "date": "2024-11-08",
+          "formed_at": "2024-11-11",
+          "right_group_updated_at": "2024-11-11",
+          "known_at": "2024-11-12",
+          "formation_source_indices": [
+            86,
+            87,
+            88
+          ],
+          "source_indices": [
+            86,
+            87,
+            88
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "same_kind_more_extreme",
+        "known_at": "2024-11-11",
+        "observed_at": "2024-11-11",
+        "endpoint_confirmed_at": "2024-11-12"
+      }
+    ],
+    "tail_candidate": {
+      "kind": "bottom",
+      "center": 76,
+      "price": "1525",
+      "date": "2024-11-19",
+      "formed_at": "2024-11-20",
+      "known_at": null,
+      "state": "missing_right_group"
+    }
+  },
+  "higher": {
+    "qualified_segment": false,
+    "qualified_center": false,
+    "qualified_L1": false,
+    "qualified_L2": false,
+    "stroke_overlap_windows": [
+      {
+        "stroke_indices": [
+          0,
+          1,
+          2
+        ],
+        "low": "1410.1",
+        "high": "1513.01",
+        "all_fractals_stable": true
+      },
+      {
+        "stroke_indices": [
+          1,
+          2,
+          3
+        ],
+        "low": "1410.1",
+        "high": "1469",
+        "all_fractals_stable": true
+      },
+      {
+        "stroke_indices": [
+          2,
+          3,
+          4
+        ],
+        "low": "1361.3",
+        "high": "1469",
+        "all_fractals_stable": true
+      },
+      {
+        "stroke_indices": [
+          3,
+          4,
+          5
+        ],
+        "low": "1361.3",
+        "high": "1469",
+        "all_fractals_stable": true
+      },
+      {
+        "stroke_indices": [
+          5,
+          6,
+          7
+        ],
+        "low": "1478.96",
+        "high": "1667.11",
+        "all_fractals_stable": true
+      }
+    ],
+    "segment_hypotheses": [
+      {
+        "start_stroke": 0,
+        "direction": "down",
+        "features": [
+          {
+            "stroke_index": 1,
+            "low": "1410.1",
+            "high": "1529.98",
+            "start_date": "2024-07-09",
+            "end_date": "2024-07-22",
+            "state": "accepted_at_cutoff"
+          },
+          {
+            "stroke_index": 3,
+            "low": "1361.3",
+            "high": "1469",
+            "start_date": "2024-07-30",
+            "end_date": "2024-08-09",
+            "state": "accepted_at_cutoff"
+          },
+          {
+            "stroke_index": 5,
+            "low": "1245.83",
+            "high": "1910",
+            "start_date": "2024-09-19",
+            "end_date": "2024-10-08",
+            "state": "accepted_at_cutoff"
+          },
+          {
+            "stroke_index": 7,
+            "low": "1478.96",
+            "high": "1667.11",
+            "start_date": "2024-10-18",
+            "end_date": "2024-11-08",
+            "state": "latest_endpoint_revisable"
+          }
+        ],
+        "first_three_overlap": true,
+        "raw_relation": "no_raw_fractal",
+        "feature_gap": false,
+        "feature_inclusion_required": true,
+        "qualified": false,
+        "reason": "left_boundary_and_standardized_feature_completion_not_qualified"
+      },
+      {
+        "start_stroke": 1,
+        "direction": "up",
+        "features": [
+          {
+            "stroke_index": 2,
+            "low": "1361.3",
+            "high": "1529.98",
+            "start_date": "2024-07-22",
+            "end_date": "2024-07-30",
+            "state": "accepted_at_cutoff"
+          },
+          {
+            "stroke_index": 4,
+            "low": "1245.83",
+            "high": "1469",
+            "start_date": "2024-08-09",
+            "end_date": "2024-09-19",
+            "state": "accepted_at_cutoff"
+          },
+          {
+            "stroke_index": 6,
+            "low": "1478.96",
+            "high": "1910",
+            "start_date": "2024-10-08",
+            "end_date": "2024-10-18",
+            "state": "accepted_at_cutoff"
+          }
+        ],
+        "first_three_overlap": true,
+        "raw_relation": "raw_bottom",
+        "feature_gap": false,
+        "feature_inclusion_required": false,
+        "qualified": false,
+        "reason": "left_boundary_and_standardized_feature_completion_not_qualified"
+      },
+      {
+        "start_stroke": 2,
+        "direction": "down",
+        "features": [
+          {
+            "stroke_index": 3,
+            "low": "1361.3",
+            "high": "1469",
+            "start_date": "2024-07-30",
+            "end_date": "2024-08-09",
+            "state": "accepted_at_cutoff"
+          },
+          {
+            "stroke_index": 5,
+            "low": "1245.83",
+            "high": "1910",
+            "start_date": "2024-09-19",
+            "end_date": "2024-10-08",
+            "state": "accepted_at_cutoff"
+          },
+          {
+            "stroke_index": 7,
+            "low": "1478.96",
+            "high": "1667.11",
+            "start_date": "2024-10-18",
+            "end_date": "2024-11-08",
+            "state": "latest_endpoint_revisable"
+          }
+        ],
+        "first_three_overlap": true,
+        "raw_relation": "no_raw_fractal",
+        "feature_gap": false,
+        "feature_inclusion_required": true,
+        "qualified": false,
+        "reason": "left_boundary_and_standardized_feature_completion_not_qualified"
+      },
+      {
+        "start_stroke": 3,
+        "direction": "up",
+        "features": [
+          {
+            "stroke_index": 4,
+            "low": "1245.83",
+            "high": "1469",
+            "start_date": "2024-08-09",
+            "end_date": "2024-09-19",
+            "state": "accepted_at_cutoff"
+          },
+          {
+            "stroke_index": 6,
+            "low": "1478.96",
+            "high": "1910",
+            "start_date": "2024-10-08",
+            "end_date": "2024-10-18",
+            "state": "accepted_at_cutoff"
+          }
+        ],
+        "first_three_overlap": true,
+        "raw_relation": "insufficient_feature_elements",
+        "feature_gap": null,
+        "feature_inclusion_required": false,
+        "qualified": false,
+        "reason": "left_boundary_and_standardized_feature_completion_not_qualified"
+      },
+      {
+        "start_stroke": 4,
+        "direction": "down",
+        "features": [
+          {
+            "stroke_index": 5,
+            "low": "1245.83",
+            "high": "1910",
+            "start_date": "2024-09-19",
+            "end_date": "2024-10-08",
+            "state": "accepted_at_cutoff"
+          },
+          {
+            "stroke_index": 7,
+            "low": "1478.96",
+            "high": "1667.11",
+            "start_date": "2024-10-18",
+            "end_date": "2024-11-08",
+            "state": "latest_endpoint_revisable"
+          }
+        ],
+        "first_three_overlap": false,
+        "raw_relation": "insufficient_feature_elements",
+        "feature_gap": null,
+        "feature_inclusion_required": true,
+        "qualified": false,
+        "reason": "left_boundary_and_standardized_feature_completion_not_qualified"
+      },
+      {
+        "start_stroke": 5,
+        "direction": "up",
+        "features": [
+          {
+            "stroke_index": 6,
+            "low": "1478.96",
+            "high": "1910",
+            "start_date": "2024-10-08",
+            "end_date": "2024-10-18",
+            "state": "accepted_at_cutoff"
+          }
+        ],
+        "first_three_overlap": true,
+        "raw_relation": "insufficient_feature_elements",
+        "feature_gap": null,
+        "feature_inclusion_required": false,
+        "qualified": false,
+        "reason": "left_boundary_and_standardized_feature_completion_not_qualified"
+      },
+      {
+        "start_stroke": 6,
+        "direction": "down",
+        "features": [
+          {
+            "stroke_index": 7,
+            "low": "1478.96",
+            "high": "1667.11",
+            "start_date": "2024-10-18",
+            "end_date": "2024-11-08",
+            "state": "latest_endpoint_revisable"
+          }
+        ],
+        "first_three_overlap": false,
+        "raw_relation": "insufficient_feature_elements",
+        "feature_gap": null,
+        "feature_inclusion_required": false,
+        "qualified": false,
+        "reason": "left_boundary_and_standardized_feature_completion_not_qualified"
+      },
+      {
+        "start_stroke": 7,
+        "direction": "up",
+        "features": [],
+        "first_three_overlap": false,
+        "raw_relation": "insufficient_feature_elements",
+        "feature_gap": null,
+        "feature_inclusion_required": false,
+        "qualified": false,
+        "reason": "left_boundary_and_standardized_feature_completion_not_qualified"
+      }
+    ],
+    "prerequisites": [
+      "M11 strict strokes with cutoff evidence and revision evidence",
+      "The start boundary of an M11 segment from a previous context with qualification",
+      "Feature inclusion that uses the applicable direction, with source mapping",
+      "A feature fractal without a gap, or a gap plus a reverse feature fractal",
+      "For an L1 center, three B0 segments are necessary. They must be completed and have no other segment between them.",
+      "L1 blocks in the C12-F sealed state before each L2 exercise"
+    ]
+  }
+}

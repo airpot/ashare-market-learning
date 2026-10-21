@@ -1,0 +1,105 @@
+{
+  "id": "p10-a",
+  "symbol": "sh511880",
+  "cutoff": "2026-08-31",
+  "learner_packet": "assets/product-2026/p10-a.json",
+  "release_condition": "Before you read a tutor packet, examine the raw response record in a location not in the skill. Make sure that the raw response is not empty. Compare its example ID, cutoff, and attempt with this example. If the raw response is missing, do not read the tutor packet. If its example ID, cutoff, or attempt is different, do not read the tutor packet. There is no executable gate for atlas file access.",
+  "selection_rule": "The selection uses two calendar cutoffs specified before selection and not changed for all ten symbols. There is no filter that uses the results.",
+  "future_bars": [
+    {
+      "date": "2026-09-01",
+      "open": "100.756",
+      "high": "100.766",
+      "low": "100.755",
+      "close": "100.760",
+      "volume": "138327803"
+    },
+    {
+      "date": "2026-09-02",
+      "open": "100.766",
+      "high": "100.770",
+      "low": "100.764",
+      "close": "100.767",
+      "volume": "153915192"
+    },
+    {
+      "date": "2026-09-03",
+      "open": "100.765",
+      "high": "100.771",
+      "low": "100.763",
+      "close": "100.767",
+      "volume": "125705170"
+    },
+    {
+      "date": "2026-09-04",
+      "open": "100.775",
+      "high": "100.785",
+      "low": "100.774",
+      "close": "100.781",
+      "volume": "228183070"
+    },
+    {
+      "date": "2026-09-07",
+      "open": "100.778",
+      "high": "100.780",
+      "low": "100.768",
+      "close": "100.771",
+      "volume": "167322773"
+    }
+  ],
+  "source": {
+    "symbol": "sh511880",
+    "rows": 189,
+    "first": "2026-01-05",
+    "last": "2026-10-19",
+    "timezone": "Asia/Shanghai",
+    "interval": "1d",
+    "adjustment": "raw",
+    "price_unit": "CNY/fund-unit",
+    "volume_unit": "fund-units",
+    "comparison_multiplier": 100,
+    "max_comparison_volume_absolute_difference": "50.000",
+    "primary_url": "https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData?symbol=sh511880&scale=240&ma=no&datalen=1023",
+    "comparison_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh511880,day,2026-01-01,2026-10-19,250,",
+    "primary_retrieved_at": "2026-10-20T12:44:24.488044+00:00",
+    "comparison_capture_file_mtime_utc": "2026-10-20T12:44:02.890762+00:00",
+    "primary_sha256": "51b1283662f0b2f109851c4f83952384953fe8a6ceb69f11f0cd8f992a31feca",
+    "comparison_sha256": "e7e88b12f9ad4c3c49e617e4d2a89b02999c5a8a3fba552ad7a2ae4302670bf3",
+    "label": "交易型货币基金",
+    "track": "MONEY",
+    "exposure": "货币市场资产；MONEY 为教学轨道",
+    "primary_provider": "Sina CN_MarketData.getKLineData",
+    "comparison_provider": "Tencent fqkline day (raw)",
+    "observed_through": "2026-10-19",
+    "comparison_time_kind": "This time is the file modification time. Verification of the retrieval time is not completed.",
+    "volume_basis": "Sina volume is not changed. The multiplier is applicable only when you compare Tencent."
+  },
+  "evidence": {
+    "prior10": {
+      "start": "2026-08-17",
+      "end": "2026-08-28",
+      "low": "100.703",
+      "high": "100.764",
+      "excludes_cutoff": true
+    },
+    "prior20_volume": {
+      "start": "2026-08-03",
+      "end": "2026-08-28",
+      "mean": "153829799.9",
+      "cutoff_ratio": "1.100899702853998186862362291",
+      "volume_unit": "fund-units",
+      "excludes_cutoff": true
+    }
+  },
+  "outcome_svg": "assets/product-outcomes/p10-a.svg",
+  "outcome_png": "assets/product-outcomes/p10-a.png",
+  "outcome_html": "assets/product-outcomes/p10-a.html",
+  "interpretation": "先用原答核对当时证据，再看新增的5根日线。区间仅是已发生价格的参照，不代表必然支撑、压力或交易优势。后续涨跌不能证明资金动机，也不能倒改原计划。",
+  "limits": [
+    "历史图仅供回顾练习；采集时间晚于决策截止时间，不能证明未见过后续行情。",
+    "未建立完整的公司行动、分红、交易状态与历史权限日历；原始价格跳变不等于经济损失。",
+    "无同步历史净值 NAV、IOPV、汇率、持仓或转股价，不能据此计算真实历史溢价或转股溢价。",
+    "无盘口、价差、逐笔成交与订单队列，日线不能证明真实执行、成交价或可成交数量。",
+    "两家接口可能共用上游；成交量比较存在取整差异，不是独立交易所行情认证。"
+  ]
+}

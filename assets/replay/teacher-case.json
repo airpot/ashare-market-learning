@@ -1,0 +1,153 @@
+{
+  "title": "青禾制造：逐步观察练习（虚构、无真实代码）",
+  "synthetic": true,
+  "symbol": "SYNTHETIC-QINGHE",
+  "source": "内置合成数据 synthetic-v1，由 scripts/build_assets.py 确定性生成",
+  "timezone": "Asia/Shanghai",
+  "interval": "完整日线，收盘后开放",
+  "price_unit": "元 / 股",
+  "volume_unit": "股 / 日",
+  "adjustment": "无公司行动，未复权合成价格",
+  "assumptions": "现金账户、无杠杆做多的观察练习；未模拟撮合、真实费率、结算或涨跌幅参数。",
+  "bars": [
+    {
+      "index": 1,
+      "date": "2026-01-05",
+      "open": "10",
+      "high": "10.2",
+      "low": "9.8",
+      "close": "10",
+      "volume": 100000
+    },
+    {
+      "index": 2,
+      "date": "2026-01-06",
+      "open": "10",
+      "high": "10.15",
+      "low": "9.85",
+      "close": "10.05",
+      "volume": 90000
+    },
+    {
+      "index": 3,
+      "date": "2026-01-07",
+      "open": "10.05",
+      "high": "10.2",
+      "low": "9.95",
+      "close": "10.15",
+      "volume": 110000
+    },
+    {
+      "index": 4,
+      "date": "2026-01-08",
+      "open": "10.15",
+      "high": "10.6",
+      "low": "10.1",
+      "close": "10.5",
+      "volume": 180000
+    },
+    {
+      "index": 5,
+      "date": "2026-01-09",
+      "open": "10.5",
+      "high": "11",
+      "low": "10.35",
+      "close": "10.85",
+      "volume": 210000
+    },
+    {
+      "index": 6,
+      "date": "2026-01-12",
+      "open": "10.85",
+      "high": "11.2",
+      "low": "10.6",
+      "close": "10.9",
+      "volume": 160000
+    },
+    {
+      "index": 7,
+      "date": "2026-01-13",
+      "open": "10.4",
+      "high": "10.55",
+      "low": "9.9",
+      "close": "10",
+      "volume": 260000
+    },
+    {
+      "index": 8,
+      "date": "2026-01-14",
+      "open": "10",
+      "high": "10.2",
+      "low": "9.95",
+      "close": "10.05",
+      "volume": 85000
+    },
+    {
+      "index": 9,
+      "date": "2026-01-15",
+      "open": "10.05",
+      "high": "10.1",
+      "low": "9.95",
+      "close": "10",
+      "volume": 60000
+    },
+    {
+      "index": 10,
+      "date": "2026-01-16",
+      "open": "10",
+      "high": "10.3",
+      "low": "9.9",
+      "close": "10.15",
+      "volume": 70000
+    }
+  ],
+  "events": [
+    {
+      "available_after_bar": 0,
+      "text": "本练习允许等待和不交易。先写观察条件，下一步只开放一根完整日线。"
+    },
+    {
+      "available_after_bar": 3,
+      "date": "2026-01-07",
+      "text": "截至今日：已开放三个完整日线观测。"
+    },
+    {
+      "available_after_bar": 6,
+      "date": "2026-01-12",
+      "text": "本练习仅有日线 OHLC 和日成交量，没有逐笔路径与成交回报。"
+    },
+    {
+      "available_after_bar": 7,
+      "date": "2026-01-13",
+      "text": "今日开盘 10.40，前收盘 10.90；未提供开盘撮合细节。"
+    }
+  ],
+  "teacher_only": true,
+  "teacher_notice": "TEACHER SOURCE: This source contains all future observations. Before the raw response for this case at this cutoff, do not load this source. Learner entry: frame-00.html.",
+  "future_observations": [
+    {
+      "cutoff": 0,
+      "note": "There are no bars. A no-trade observation is permitted. A forecast is not available."
+    },
+    {
+      "cutoff": 4,
+      "note": "The observation shows a possible breakout from the previous range. It does not show that a rule gives a profit."
+    },
+    {
+      "cutoff": 5,
+      "note": "The continuation agrees with a possible satisfactory result for the setup. It does not show an order or realized profit."
+    },
+    {
+      "cutoff": 6,
+      "note": "The bar includes 10.70 and 11.10. The sequence of touches is unknown. Fills are unknown."
+    },
+    {
+      "cutoff": 7,
+      "note": "The opening gap puts the open and close at prices less than the minimum of the previous range. These prices show failure of the local continuation assumption. They do not show a simulated fill."
+    },
+    {
+      "cutoff": 9,
+      "note": "The overlap has a small width, and volume is lower. Thus, you can use this case for an exercise to wait. This is not a no-trade rule for all conditions."
+    }
+  ]
+}

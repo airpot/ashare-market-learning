@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 940" role="img" aria-label="P06-B · sz161725 · 截至 2026-09-30" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="17" fill="#24354b">
+<title>P06-B · sz161725 · 截至 2026-09-30</title>
+<desc>日线开高低收与成交量；交易观察等距排列，红涨绿跌灰平（收盘对开盘）。标注为调用方给定的解释，未推断未来走势。</desc>
+<rect width="1440" height="940" rx="20" fill="#ffffff"/>
+<text x="112" y="43" font-size="26" font-weight="700">P06-B · sz161725 · 截至 2026-09-30</text>
+<text x="112" y="82" >2026-08-19 至 2026-09-30 · UTC+8 · 日线 · 30 根</text>
+<text x="112" y="115" font-weight="600">价格（元/份）</text>
+<g class="price-axis" data-min="0.51084" data-max="0.57116" data-top="150" data-bottom="570">
+<line x1="112" y1="570" x2="1320" y2="570" stroke="#dde5ed" />
+<text x="98" y="576" text-anchor="end" font-size="14">0.51</text>
+<line x1="112" y1="486" x2="1320" y2="486" stroke="#dde5ed" />
+<text x="98" y="492" text-anchor="end" font-size="14">0.52</text>
+<line x1="112" y1="402" x2="1320" y2="402" stroke="#dde5ed" />
+<text x="98" y="408" text-anchor="end" font-size="14">0.53</text>
+<line x1="112" y1="318" x2="1320" y2="318" stroke="#dde5ed" />
+<text x="98" y="324" text-anchor="end" font-size="14">0.55</text>
+<line x1="112" y1="234" x2="1320" y2="234" stroke="#dde5ed" />
+<text x="98" y="240" text-anchor="end" font-size="14">0.56</text>
+<line x1="112" y1="150" x2="1320" y2="150" stroke="#dde5ed" />
+<text x="98" y="156" text-anchor="end" font-size="14">0.57</text>
+<line x1="112" y1="150" x2="112" y2="570" stroke="#dde5ed" />
+</g>
+<text x="112" y="618" font-weight="600">成交量（份）</text>
+<g class="volume-axis" data-min="0" data-max="125626152.96" data-top="640" data-bottom="780">
+<line x1="112" y1="780" x2="1320" y2="780" stroke="#dde5ed" />
+<text x="98" y="786" text-anchor="end" font-size="14">0</text>
+<line x1="112" y1="710" x2="1320" y2="710" stroke="#dde5ed" />
+<text x="98" y="716" text-anchor="end" font-size="14">62,813,076</text>
+<line x1="112" y1="640" x2="1320" y2="640" stroke="#dde5ed" />
+<text x="98" y="646" text-anchor="end" font-size="14">125,626,153</text>
+</g>
+<g class="candle" data-date="2026-08-19">
+<title>2026-08-19 开 0.557 高 0.561 低 0.548 收 0.55 元/份；量 67955161 份</title>
+<line x1="132.133333" y1="220.742706" x2="132.133333" y2="311.259947" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="123.133333" y="248.594164" width="18" height="48.740053" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-08-19" x="123.133333" y="704.26957" width="18" height="75.73043" fill="#087f5b"><title>2026-08-19 成交量 67955161 份</title></rect>
+<g class="candle" data-date="2026-08-20">
+<title>2026-08-20 开 0.55 高 0.555 低 0.549 收 0.553 元/份；量 49172395 份</title>
+<line x1="172.4" y1="262.519894" x2="172.4" y2="304.297082" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="163.4" y="276.445623" width="18" height="20.888594" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-08-20" x="163.4" y="725.201416" width="18" height="54.798584" fill="#c53643"><title>2026-08-20 成交量 49172395 份</title></rect>
+<g class="candle" data-date="2026-08-21">
+<title>2026-08-21 开 0.553 高 0.553 低 0.543 收 0.545 元/份；量 40549015 份</title>
+<line x1="212.666667" y1="276.445623" x2="212.666667" y2="346.074271" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="203.666667" y="276.445623" width="18" height="55.702918" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-08-21" x="203.666667" y="734.811463" width="18" height="45.188537" fill="#087f5b"><title>2026-08-21 成交量 40549015 份</title></rect>
+<g class="candle" data-date="2026-08-24">
+<title>2026-08-24 开 0.545 高 0.552 低 0.542 收 0.548 元/份；量 48353800 份</title>
+<line x1="252.933333" y1="283.408488" x2="252.933333" y2="353.037135" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="243.933333" y="311.259947" width="18" height="20.888594" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-08-24" x="243.933333" y="726.113673" width="18" height="53.886327" fill="#c53643"><title>2026-08-24 成交量 48353800 份</title></rect>
+<g class="candle" data-date="2026-08-25">
+<title>2026-08-25 开 0.549 高 0.551 低 0.546 收 0.549 元/份；量 29969303 份</title>
+<line x1="293.2" y1="290.371353" x2="293.2" y2="325.185676" stroke="#667085" class="wick" stroke-width="1.6"/>
+<line x1="284.2" y1="304.297082" x2="302.2" y2="304.297082" stroke="#667085" class="doji" stroke-width="1.6"/>
+</g>
+<rect class="volume-bar" data-date="2026-08-25" x="284.2" y="746.60168" width="18" height="33.39832" fill="#667085"><title>2026-08-25 成交量 29969303 份</title></rect>
+<g class="candle" data-date="2026-08-26">
+<title>2026-08-26 开 0.542 高 0.55 低 0.541 收 0.549 元/份；量 27932036 份</title>
+<line x1="333.466667" y1="297.334218" x2="333.466667" y2="360" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="324.466667" y="304.297082" width="18" height="48.740053" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-08-26" x="324.466667" y="748.872047" width="18" height="31.127953" fill="#c53643"><title>2026-08-26 成交量 27932036 份</title></rect>
+<g class="candle" data-date="2026-08-27">
+<title>2026-08-27 开 0.548 高 0.549 低 0.54 收 0.545 元/份；量 56520975 份</title>
+<line x1="373.733333" y1="304.297082" x2="373.733333" y2="366.962865" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="364.733333" y="311.259947" width="18" height="20.888594" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-08-27" x="364.733333" y="717.012029" width="18" height="62.987971" fill="#087f5b"><title>2026-08-27 成交量 56520975 份</title></rect>
+<g class="candle" data-date="2026-08-28">
+<title>2026-08-28 开 0.543 高 0.55 低 0.542 收 0.549 元/份；量 56316512 份</title>
+<line x1="414" y1="297.334218" x2="414" y2="353.037135" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="405" y="304.297082" width="18" height="41.777188" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-08-28" x="405" y="717.239886" width="18" height="62.760114" fill="#c53643"><title>2026-08-28 成交量 56316512 份</title></rect>
+<g class="candle" data-date="2026-08-31">
+<title>2026-08-31 开 0.548 高 0.552 低 0.543 收 0.544 元/份；量 33987675 份</title>
+<line x1="454.266667" y1="283.408488" x2="454.266667" y2="346.074271" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="445.266667" y="311.259947" width="18" height="27.851459" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-08-31" x="445.266667" y="742.123536" width="18" height="37.876464" fill="#087f5b"><title>2026-08-31 成交量 33987675 份</title></rect>
+<g class="candle" data-date="2026-09-01">
+<title>2026-09-01 开 0.543 高 0.562 低 0.542 收 0.557 元/份；量 75038042 份</title>
+<line x1="494.533333" y1="213.779841" x2="494.533333" y2="353.037135" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="485.533333" y="248.594164" width="18" height="97.480106" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-01" x="485.533333" y="696.376283" width="18" height="83.623717" fill="#c53643"><title>2026-09-01 成交量 75038042 份</title></rect>
+<g class="candle" data-date="2026-09-02">
+<title>2026-09-02 开 0.554 高 0.557 低 0.549 收 0.55 元/份；量 32187675 份</title>
+<line x1="534.8" y1="248.594164" x2="534.8" y2="304.297082" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="525.8" y="269.482759" width="18" height="27.851459" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-02" x="525.8" y="744.129487" width="18" height="35.870513" fill="#087f5b"><title>2026-09-02 成交量 32187675 份</title></rect>
+<g class="candle" data-date="2026-09-03">
+<title>2026-09-03 开 0.549 高 0.553 低 0.544 收 0.546 元/份；量 37690414 份</title>
+<line x1="575.066667" y1="276.445623" x2="575.066667" y2="339.111406" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="566.066667" y="304.297082" width="18" height="20.888594" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-03" x="566.066667" y="737.997138" width="18" height="42.002862" fill="#087f5b"><title>2026-09-03 成交量 37690414 份</title></rect>
+<g class="candle" data-date="2026-09-04">
+<title>2026-09-04 开 0.547 高 0.567 低 0.546 收 0.563 元/份；量 112166208 份</title>
+<line x1="615.333333" y1="178.965517" x2="615.333333" y2="325.185676" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="606.333333" y="206.816976" width="18" height="111.405836" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-04" x="606.333333" y="655" width="18" height="125" fill="#c53643"><title>2026-09-04 成交量 112166208 份</title></rect>
+<g class="candle" data-date="2026-09-07">
+<title>2026-09-07 开 0.562 高 0.564 低 0.558 收 0.563 元/份；量 38317770 份</title>
+<line x1="655.6" y1="199.854111" x2="655.6" y2="241.6313" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="646.6" y="206.816976" width="18" height="6.962865" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-07" x="646.6" y="737.298001" width="18" height="42.701999" fill="#c53643"><title>2026-09-07 成交量 38317770 份</title></rect>
+<g class="candle" data-date="2026-09-08">
+<title>2026-09-08 开 0.563 高 0.565 低 0.558 收 0.561 元/份；量 41643850 份</title>
+<line x1="695.866667" y1="192.891247" x2="695.866667" y2="241.6313" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="686.866667" y="206.816976" width="18" height="13.925729" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-08" x="686.866667" y="733.591359" width="18" height="46.408641" fill="#087f5b"><title>2026-09-08 成交量 41643850 份</title></rect>
+<g class="candle" data-date="2026-09-09">
+<title>2026-09-09 开 0.559 高 0.56 低 0.551 收 0.554 元/份；量 45254073 份</title>
+<line x1="736.133333" y1="227.70557" x2="736.133333" y2="290.371353" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="727.133333" y="234.668435" width="18" height="34.814324" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-09" x="727.133333" y="729.568063" width="18" height="50.431937" fill="#087f5b"><title>2026-09-09 成交量 45254073 份</title></rect>
+<g class="candle" data-date="2026-09-10">
+<title>2026-09-10 开 0.553 高 0.553 低 0.541 收 0.542 元/份；量 67134413 份</title>
+<line x1="776.4" y1="276.445623" x2="776.4" y2="360" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="767.4" y="276.445623" width="18" height="76.591512" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-10" x="767.4" y="705.184226" width="18" height="74.815774" fill="#087f5b"><title>2026-09-10 成交量 67134413 份</title></rect>
+<g class="candle" data-date="2026-09-11">
+<title>2026-09-11 开 0.541 高 0.542 低 0.532 收 0.533 元/份；量 65796665 份</title>
+<line x1="816.666667" y1="353.037135" x2="816.666667" y2="422.665782" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="807.666667" y="360" width="18" height="55.702918" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-11" x="807.666667" y="706.675036" width="18" height="73.324964" fill="#087f5b"><title>2026-09-11 成交量 65796665 份</title></rect>
+<g class="candle" data-date="2026-09-14">
+<title>2026-09-14 开 0.534 高 0.537 低 0.53 收 0.533 元/份；量 27731592 份</title>
+<line x1="856.933333" y1="387.851459" x2="856.933333" y2="436.591512" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="847.933333" y="408.740053" width="18" height="6.962865" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-14" x="847.933333" y="749.095425" width="18" height="30.904575" fill="#087f5b"><title>2026-09-14 成交量 27731592 份</title></rect>
+<g class="candle" data-date="2026-09-15">
+<title>2026-09-15 开 0.535 高 0.535 低 0.529 收 0.53 元/份；量 21554669 份</title>
+<line x1="897.2" y1="401.777188" x2="897.2" y2="443.554377" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="888.2" y="401.777188" width="18" height="34.814324" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-15" x="888.2" y="755.979097" width="18" height="24.020903" fill="#087f5b"><title>2026-09-15 成交量 21554669 份</title></rect>
+<g class="candle" data-date="2026-09-16">
+<title>2026-09-16 开 0.529 高 0.53 低 0.524 收 0.528 元/份；量 30187258 份</title>
+<line x1="937.466667" y1="436.591512" x2="937.466667" y2="478.3687" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="928.466667" y="443.554377" width="18" height="6.962865" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-16" x="928.466667" y="746.358787" width="18" height="33.641213" fill="#087f5b"><title>2026-09-16 成交量 30187258 份</title></rect>
+<g class="candle" data-date="2026-09-17">
+<title>2026-09-17 开 0.526 高 0.529 低 0.523 收 0.527 元/份；量 24769980 份</title>
+<line x1="977.733333" y1="443.554377" x2="977.733333" y2="485.331565" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="968.733333" y="457.480106" width="18" height="6.962865" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-17" x="968.733333" y="752.395898" width="18" height="27.604102" fill="#c53643"><title>2026-09-17 成交量 24769980 份</title></rect>
+<g class="candle" data-date="2026-09-18">
+<title>2026-09-18 开 0.525 高 0.531 低 0.525 收 0.529 元/份；量 34131841 份</title>
+<line x1="1018" y1="429.628647" x2="1018" y2="471.405836" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1009" y="443.554377" width="18" height="27.851459" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-18" x="1009" y="741.962875" width="18" height="38.037125" fill="#c53643"><title>2026-09-18 成交量 34131841 份</title></rect>
+<g class="candle" data-date="2026-09-21">
+<title>2026-09-21 开 0.531 高 0.535 低 0.527 收 0.534 元/份；量 36995470 份</title>
+<line x1="1058.266667" y1="401.777188" x2="1058.266667" y2="457.480106" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1049.266667" y="408.740053" width="18" height="20.888594" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-21" x="1049.266667" y="738.771596" width="18" height="41.228404" fill="#c53643"><title>2026-09-21 成交量 36995470 份</title></rect>
+<g class="candle" data-date="2026-09-22">
+<title>2026-09-22 开 0.532 高 0.536 低 0.53 收 0.533 元/份；量 26977856 份</title>
+<line x1="1098.533333" y1="394.814324" x2="1098.533333" y2="436.591512" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1089.533333" y="415.702918" width="18" height="6.962865" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-22" x="1089.533333" y="749.935402" width="18" height="30.064598" fill="#c53643"><title>2026-09-22 成交量 26977856 份</title></rect>
+<g class="candle" data-date="2026-09-23">
+<title>2026-09-23 开 0.532 高 0.541 低 0.531 收 0.531 元/份；量 44892436 份</title>
+<line x1="1138.8" y1="360" x2="1138.8" y2="429.628647" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1129.8" y="422.665782" width="18" height="6.962865" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-23" x="1129.8" y="729.971078" width="18" height="50.028922" fill="#087f5b"><title>2026-09-23 成交量 44892436 份</title></rect>
+<g class="candle" data-date="2026-09-24">
+<title>2026-09-24 开 0.529 高 0.531 低 0.521 收 0.521 元/份；量 40922413 份</title>
+<line x1="1179.066667" y1="429.628647" x2="1179.066667" y2="499.257294" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1170.066667" y="443.554377" width="18" height="55.702918" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-24" x="1170.066667" y="734.395341" width="18" height="45.604659" fill="#087f5b"><title>2026-09-24 成交量 40922413 份</title></rect>
+<g class="candle" data-date="2026-09-28">
+<title>2026-09-28 开 0.52 高 0.524 低 0.515 收 0.516 元/份；量 28683666 份</title>
+<line x1="1219.333333" y1="478.3687" x2="1219.333333" y2="541.034483" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1210.333333" y="506.220159" width="18" height="27.851459" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-28" x="1210.333333" y="748.034417" width="18" height="31.965583" fill="#087f5b"><title>2026-09-28 成交量 28683666 份</title></rect>
+<g class="candle" data-date="2026-09-29">
+<title>2026-09-29 开 0.516 高 0.521 低 0.515 收 0.518 元/份；量 29241414 份</title>
+<line x1="1259.6" y1="499.257294" x2="1259.6" y2="541.034483" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1250.6" y="520.145889" width="18" height="13.925729" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-29" x="1250.6" y="747.412853" width="18" height="32.587147" fill="#c53643"><title>2026-09-29 成交量 29241414 份</title></rect>
+<g class="candle" data-date="2026-09-30">
+<title>2026-09-30 开 0.519 高 0.534 低 0.517 收 0.529 元/份；量 55547538 份</title>
+<line x1="1299.866667" y1="408.740053" x2="1299.866667" y2="527.108753" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1290.866667" y="443.554377" width="18" height="69.628647" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-09-30" x="1290.866667" y="718.096844" width="18" height="61.903156" fill="#c53643"><title>2026-09-30 成交量 55547538 份</title></rect>
+<line x1="132.133333" y1="780" x2="132.133333" y2="788" stroke="#24354b" />
+<text x="132.133333" y="816" text-anchor="start" font-size="15">2026-08-19</text>
+<line x1="293.2" y1="780" x2="293.2" y2="788" stroke="#24354b" />
+<text x="293.2" y="816" text-anchor="middle" font-size="15">2026-08-25</text>
+<line x1="494.533333" y1="780" x2="494.533333" y2="788" stroke="#24354b" />
+<text x="494.533333" y="816" text-anchor="middle" font-size="15">2026-09-01</text>
+<line x1="695.866667" y1="780" x2="695.866667" y2="788" stroke="#24354b" />
+<text x="695.866667" y="816" text-anchor="middle" font-size="15">2026-09-08</text>
+<line x1="897.2" y1="780" x2="897.2" y2="788" stroke="#24354b" />
+<text x="897.2" y="816" text-anchor="middle" font-size="15">2026-09-15</text>
+<line x1="1098.533333" y1="780" x2="1098.533333" y2="788" stroke="#24354b" />
+<text x="1098.533333" y="816" text-anchor="middle" font-size="15">2026-09-22</text>
+<line x1="1299.866667" y1="780" x2="1299.866667" y2="788" stroke="#24354b" />
+<text x="1299.866667" y="816" text-anchor="end" font-size="15">2026-09-30</text>
+<text x="112" y="856" font-size="16">红：收＞开　绿：收＜开　灰：收＝开；成交量以份计。标注编号见下方说明。</text>
+</svg>

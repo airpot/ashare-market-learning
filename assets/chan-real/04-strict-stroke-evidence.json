@@ -1,0 +1,369 @@
+{
+  "symbol": "sh600519",
+  "cutoff": "2024-07-11",
+  "annotations": [
+    {
+      "kind": "line",
+      "start_date": "2024-07-03",
+      "start_price": "1513.01",
+      "end_date": "2024-07-09",
+      "end_price": "1410.1",
+      "label": "笔0：1513.01→1410.1；末端仍可更新"
+    }
+  ],
+  "analysis": {
+    "cutoff": "2024-07-11",
+    "groups": [
+      {
+        "low": "1428",
+        "high": "1472.99",
+        "source_indices": [
+          0
+        ],
+        "first_date": "2024-07-01",
+        "last_date": "2024-07-01",
+        "high_date": "2024-07-01",
+        "low_date": "2024-07-01",
+        "formed_at": "2024-07-01",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 0,
+        "known_at": "2024-07-02"
+      },
+      {
+        "low": "1433",
+        "high": "1498",
+        "source_indices": [
+          1
+        ],
+        "first_date": "2024-07-02",
+        "last_date": "2024-07-02",
+        "high_date": "2024-07-02",
+        "low_date": "2024-07-02",
+        "formed_at": "2024-07-02",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 1,
+        "known_at": "2024-07-03"
+      },
+      {
+        "low": "1488.02",
+        "high": "1513.01",
+        "source_indices": [
+          2
+        ],
+        "first_date": "2024-07-03",
+        "last_date": "2024-07-03",
+        "high_date": "2024-07-03",
+        "low_date": "2024-07-03",
+        "formed_at": "2024-07-03",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 2,
+        "known_at": "2024-07-04"
+      },
+      {
+        "low": "1481.13",
+        "high": "1512",
+        "source_indices": [
+          3
+        ],
+        "first_date": "2024-07-04",
+        "last_date": "2024-07-04",
+        "high_date": "2024-07-04",
+        "low_date": "2024-07-04",
+        "formed_at": "2024-07-04",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 3,
+        "known_at": "2024-07-05"
+      },
+      {
+        "low": "1450",
+        "high": "1493.18",
+        "source_indices": [
+          4
+        ],
+        "first_date": "2024-07-05",
+        "last_date": "2024-07-05",
+        "high_date": "2024-07-05",
+        "low_date": "2024-07-05",
+        "formed_at": "2024-07-05",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 4,
+        "known_at": "2024-07-08"
+      },
+      {
+        "low": "1419.14",
+        "high": "1457.77",
+        "source_indices": [
+          5
+        ],
+        "first_date": "2024-07-08",
+        "last_date": "2024-07-08",
+        "high_date": "2024-07-08",
+        "low_date": "2024-07-08",
+        "formed_at": "2024-07-08",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 5,
+        "known_at": "2024-07-09"
+      },
+      {
+        "low": "1410.1",
+        "high": "1454.89",
+        "source_indices": [
+          6
+        ],
+        "first_date": "2024-07-09",
+        "last_date": "2024-07-09",
+        "high_date": "2024-07-09",
+        "low_date": "2024-07-09",
+        "formed_at": "2024-07-09",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 6,
+        "known_at": "2024-07-10"
+      },
+      {
+        "low": "1435",
+        "high": "1465.88",
+        "source_indices": [
+          7
+        ],
+        "first_date": "2024-07-10",
+        "last_date": "2024-07-10",
+        "high_date": "2024-07-10",
+        "low_date": "2024-07-10",
+        "formed_at": "2024-07-10",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 7,
+        "known_at": "2024-07-11"
+      },
+      {
+        "low": "1440.21",
+        "high": "1469",
+        "source_indices": [
+          8
+        ],
+        "first_date": "2024-07-11",
+        "last_date": "2024-07-11",
+        "high_date": "2024-07-11",
+        "low_date": "2024-07-11",
+        "formed_at": "2024-07-11",
+        "merge_direction": null,
+        "tentative": true,
+        "index": 8,
+        "known_at": null
+      }
+    ],
+    "unresolved_initial": false,
+    "fractals": [
+      {
+        "kind": "top",
+        "center": 2,
+        "span": [
+          1,
+          2,
+          3
+        ],
+        "price": "1513.01",
+        "date": "2024-07-03",
+        "formed_at": "2024-07-04",
+        "right_group_updated_at": "2024-07-04",
+        "known_at": "2024-07-05",
+        "formation_source_indices": [
+          1,
+          2,
+          3
+        ],
+        "source_indices": [
+          1,
+          2,
+          3
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 6,
+        "span": [
+          5,
+          6,
+          7
+        ],
+        "price": "1410.1",
+        "date": "2024-07-09",
+        "formed_at": "2024-07-10",
+        "right_group_updated_at": "2024-07-10",
+        "known_at": "2024-07-11",
+        "formation_source_indices": [
+          5,
+          6,
+          7
+        ],
+        "source_indices": [
+          5,
+          6,
+          7
+        ],
+        "state": "confirmed_at_cutoff"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "top",
+        "center": 2,
+        "span": [
+          1,
+          2,
+          3
+        ],
+        "price": "1513.01",
+        "date": "2024-07-03",
+        "formed_at": "2024-07-04",
+        "right_group_updated_at": "2024-07-04",
+        "known_at": "2024-07-05",
+        "formation_source_indices": [
+          1,
+          2,
+          3
+        ],
+        "source_indices": [
+          1,
+          2,
+          3
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 6,
+        "span": [
+          5,
+          6,
+          7
+        ],
+        "price": "1410.1",
+        "date": "2024-07-09",
+        "formed_at": "2024-07-10",
+        "right_group_updated_at": "2024-07-10",
+        "known_at": "2024-07-11",
+        "formation_source_indices": [
+          5,
+          6,
+          7
+        ],
+        "source_indices": [
+          5,
+          6,
+          7
+        ],
+        "state": "confirmed_at_cutoff"
+      }
+    ],
+    "strokes": [
+      {
+        "index": 0,
+        "start": {
+          "kind": "top",
+          "center": 2,
+          "span": [
+            1,
+            2,
+            3
+          ],
+          "price": "1513.01",
+          "date": "2024-07-03",
+          "formed_at": "2024-07-04",
+          "right_group_updated_at": "2024-07-04",
+          "known_at": "2024-07-05",
+          "formation_source_indices": [
+            1,
+            2,
+            3
+          ],
+          "source_indices": [
+            1,
+            2,
+            3
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 6,
+          "span": [
+            5,
+            6,
+            7
+          ],
+          "price": "1410.1",
+          "date": "2024-07-09",
+          "formed_at": "2024-07-10",
+          "right_group_updated_at": "2024-07-10",
+          "known_at": "2024-07-11",
+          "formation_source_indices": [
+            5,
+            6,
+            7
+          ],
+          "source_indices": [
+            5,
+            6,
+            7
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "direction": "down",
+        "low": "1410.1",
+        "high": "1513.01",
+        "center_spacing": 4,
+        "state": "latest_endpoint_revisable",
+        "formed_at": "2024-07-10",
+        "known_at": "2024-07-11"
+      }
+    ],
+    "rejections": [],
+    "revisions": [],
+    "tail_candidate": {
+      "kind": "top",
+      "center": 8,
+      "price": "1469",
+      "date": "2024-07-11",
+      "formed_at": "2024-07-11",
+      "known_at": null,
+      "state": "missing_right_group"
+    }
+  },
+  "higher": {
+    "qualified_segment": false,
+    "qualified_center": false,
+    "qualified_L1": false,
+    "qualified_L2": false,
+    "stroke_overlap_windows": [],
+    "segment_hypotheses": [
+      {
+        "start_stroke": 0,
+        "direction": "down",
+        "features": [],
+        "first_three_overlap": false,
+        "raw_relation": "insufficient_feature_elements",
+        "feature_gap": null,
+        "feature_inclusion_required": false,
+        "qualified": false,
+        "reason": "left_boundary_and_standardized_feature_completion_not_qualified"
+      }
+    ],
+    "prerequisites": [
+      "M11 strict strokes with cutoff evidence and revision evidence",
+      "The start boundary of an M11 segment from a previous context with qualification",
+      "Feature inclusion that uses the applicable direction, with source mapping",
+      "A feature fractal without a gap, or a gap plus a reverse feature fractal",
+      "For an L1 center, three B0 segments are necessary. They must be completed and have no other segment between them.",
+      "L1 blocks in the C12-F sealed state before each L2 exercise"
+    ]
+  }
+}

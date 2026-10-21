@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "track": "REIT",
+  "step": 1,
+  "exercise": "PRODUCT-REIT-01",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "REIT份额对应项目权益，分派不等于存款利息",
+  "cutoff": "2026-10-20T10:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "所有证券、报价、日期、成交、资格、费用、分派与规则均为合成教学假设。无真实执行资格或保证收益的结论；只用当前包。",
+  "lesson": [
+    "本题以虚构基础设施REIT为例。你持有基金份额，项目经营现金、债务、资本开支与估值共同影响权益。商业房地产REIT的资产与规则须另核，不能因名称相近便混用。",
+    "分派是现金离开基金到达份额持有人，除息价格可能调整。高分派率既不能保证总收益，也不能保证项目持续产生相同现金。先区别登记资格、除息日与实际收款日。",
+    "借款增加会使份额权益承受更大波动。本题只用合成经营表检查债务覆盖，不用资产评估值给二级价格设保本底线。"
+  ],
+  "data": {
+    "rules": {
+      "instrument": "TRAIN-REIT",
+      "operation": "二级市场现金买卖，一级或权益事件另核",
+      "eligibility": "本题合成账户已假定可买卖；真实资格未知须另核",
+      "quantity_unit": "份",
+      "buy_increment": 100,
+      "sell_increment": 100,
+      "price_tick": "0.001",
+      "phase": "合成连续时段09:30–11:30、13:00–15:00",
+      "order_type": "限价",
+      "cancellation": "未成交部分可申请撤单，确认后才释放冻结",
+      "limits_halts": "假定无停牌，价界2.50–3.50",
+      "resale": "本题买入次一合成交易日才可卖，不外推真实产品",
+      "settlement": "总现金按成交变化；卖款次一合成交易日可取；未卖的原现金可取",
+      "fees": "每个已成交买/卖指令外部费用各2元，按ROUND_HALF_UP各舍入到分一次；无成交无费",
+      "rule_source": "本题合成规则卡",
+      "effective_date": "2026-10-20",
+      "exceptions": "一级申购、配售、转托管、转换、分派、终止均须相应确认；内部费用不重复扣",
+      "calendar": [
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ]
+    },
+    "quote": "3.00",
+    "project_snapshot": {
+      "cash_available_for_debt_service": "30万元/年",
+      "interest_and_scheduled_principal": "20万元/年",
+      "debt_balance": "200万元",
+      "value_date": "2026-09-30",
+      "available_at": "2026-10-19T20:00:00+08:00",
+      "currency": "CNY",
+      "source": "合成经营表"
+    },
+    "distribution_notice": {
+      "source": "合成分派公告",
+      "available_at": "2026-10-19T20:00:00+08:00",
+      "per_unit": "0.10",
+      "record_date": "2026-10-20",
+      "eligibility_rule": "本题当日已确认买入且登记截止仍持有即合格；非真实登记规则",
+      "record_cutoff": "2026-10-20T15:00:00+08:00",
+      "ex_date": "2026-10-21",
+      "cash_date": "2026-10-23",
+      "tax_and_external_distribution_fee": "本题0，0.10为最终现金金额"
+    }
+  },
+  "current_response": [
+    "说清份额、项目、债务和分派的关系。",
+    "按合成表算偿债现金覆盖倍数；若可用现金降至18万元会怎样？",
+    "只见公告能否当天把0.10元计入可用现金？资格、除息、到账各查哪一日？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-REIT",
+      "relationship": "虚构产品；包装分类不代表风险分散"
+    }
+  ]
+}

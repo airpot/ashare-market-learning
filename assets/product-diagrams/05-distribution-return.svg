@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 920" role="img" aria-label="分配与总回报：现金不是凭空多出的收益" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#24354b">
+<title>分配与总回报：现金不是凭空多出的收益</title><desc>合成算例：持有100份，期初每份2.00元；忽略税费，不作再投资。</desc>
+<rect width="1440" height="920" rx="22" fill="#f2f6fa"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7757b5"/></marker></defs>
+<text x="62" y="66" font-size="36" font-weight="700">分配与总回报：现金不是凭空多出的收益</text>
+<text x="62" y="108" font-size="21">合成算例：持有100份，期初每份2.00元；忽略税费，不作再投资。</text>
+<path d="M672,238 L754,238" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M367,326 L367,358" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1071,326 L1071,358" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M367,546 L367,578" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1071,546 L1071,578" stroke="#7757b5" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="62" y="150" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="86" y="189" font-size="25" font-weight="700" fill="#315e86">01  期初权益</text>
+<text x="86" y="225" font-size="22">100份 × 2.00元/份＝200元。先记份额、现金与期初</text>
+<text x="86" y="252" font-size="22">市值。</text>
+<rect x="766" y="150" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="790" y="189" font-size="25" font-weight="700" fill="#315e86">02  每份分配0.10元</text>
+<text x="790" y="225" font-size="22">假设持有人符合权益登记条件，现金应收为10元；先</text>
+<text x="790" y="252" font-size="22">记应收，尚非已到账。</text>
+<rect x="62" y="370" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="86" y="409" font-size="25" font-weight="700" fill="#315e86">03  除息后的假设价格</text>
+<text x="86" y="445" font-size="22">假设价格恰为1.90元/份，份额市值190元；价格下降</text>
+<text x="86" y="472" font-size="22">本身不代表损失10元。</text>
+<rect x="766" y="370" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="790" y="409" font-size="25" font-weight="700" fill="#315e86">04  到账与总权益</text>
+<text x="790" y="445" font-size="22">若10元已到账：190元市值＋10元现金＝200元。应收</text>
+<text x="790" y="472" font-size="22">与现金不能重复相加。</text>
+<rect x="62" y="590" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="86" y="629" font-size="25" font-weight="700" fill="#315e86">05  总回报计算</text>
+<text x="86" y="665" font-size="22">总回报＝（期末权益－期初权益－外部净入金）÷期</text>
+<text x="86" y="692" font-size="22">初权益；本例为0%。</text>
+<rect x="766" y="590" width="610" height="176" rx="16" fill="white" stroke="#cbd9e7"/>
+<text x="790" y="629" font-size="25" font-weight="700" fill="#315e86">06  换成真实案例</text>
+<text x="790" y="665" font-size="22">实际市场价格不保证只变化0.10元；核登记、除息、</text>
+<text x="790" y="692" font-size="22">到账、税费与基金负债。</text>
+<text x="62" y="828" font-size="21" fill="#526176">高分配率不等于高总回报。若再投资、追加资金或份额变化，须重建现金流与比较口径。</text>
+</svg>

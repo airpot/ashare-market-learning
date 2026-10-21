@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "track": "MONEY",
+  "step": 1,
+  "exercise": "PRODUCT-MONEY-01",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "货币基金用于现金管理，也有价格和流动性风险：本步反馈",
+  "source_basis": "This packet uses only the accepted assumptions made for this example. It does not show eligibility for execution in a market.",
+  "worked": [
+    "100份×100.10元/份=10010元。1.50%是过去七日收益年化显示，不等于明天确定收益或资金随时无损可取。",
+    "MONEY是教学轨，可与ETF法律包装重叠；本题次日可卖只是练习规则，不可按名称推断现实规则。",
+    "与存款不同，货币基金仍需了解基金资产、流动性和信用；报价高于旧NAV也不是未来收益保证。"
+  ],
+  "misconception": "“货币基金如同现金存款，涨一点就一定净赚。”请先把买卖费用和市场价格列齐。",
+  "follow_up": "如果明天必须提现，应核对哪个字段，而不是只看可用余额？",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

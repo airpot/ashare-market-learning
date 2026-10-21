@@ -1,0 +1,33 @@
+{
+  "authority": "Accepted amended multi-product specification and bounded atlas instruction, 2026-10-20",
+  "writing_policy": "STE-guided English; full STE conformance review not performed",
+  "state": "SVG/HTML/JSON build complete; PNG rendering and parent-owned tests are separate checks",
+  "command": "python -B tools/ashare-market-learning/build_product_atlas.py",
+  "source_crosscheck_sha256": "772d606674ebda6121ab5323af8a16777d28d9fad75d978a4254d6e0908b32cd",
+  "generator_sha256": "99b10f9fdea170e908474125cbf70930dc0421917d2c914019c7d34900747aea",
+  "renderer_sha256": "4157ce0e6f79fc601974427b1c4ff958ae7e461cacce4bc04655843f10127c67",
+  "source_history_sha256": "5548db632a872132e320174172d55b20090ae119f7971d38c87e87e1c8a2114b",
+  "checks": {
+    "source_response_hashes": 20,
+    "source_rows": 1888,
+    "case_count": 20,
+    "cutoffs": [
+      "2026-08-31",
+      "2026-09-30"
+    ],
+    "prefix_bars": 30,
+    "teacher_suffix_bars": 5,
+    "diagrams": 7,
+    "expected_pngs": 47,
+    "observed_OHLC_comparison": "equal",
+    "volume_comparison": "checked against frozen product multipliers and maximum differences"
+  },
+  "limits": [
+    "历史图仅供回顾练习；采集时间晚于决策截止时间，不能证明未见过后续行情。",
+    "未建立完整的公司行动、分红、交易状态与历史权限日历；原始价格跳变不等于经济损失。",
+    "无同步历史净值 NAV、IOPV、汇率、持仓或转股价，不能据此计算真实历史溢价或转股溢价。",
+    "无盘口、价差、逐笔成交与订单队列，日线不能证明真实执行、成交价或可成交数量。",
+    "两家接口可能共用上游；成交量比较存在取整差异，不是独立交易所行情认证。"
+  ],
+  "handoff": "Render changed SVGs and run only test_product_atlas. Parent owns shared routing. Tutor checks real-atlas raw responses by case ID, cutoff, and attempt. The separate paper-practice gate does not gate atlas file access."
+}

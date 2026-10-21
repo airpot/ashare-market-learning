@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">仓位：同时受损失与现金约束</title><desc id="desc">合成预算520元，现金8050元，入场10元，止损参考9.5元，每100股一档，固定预留总成本20元。损失约束1000股，现金约束800股，取800股，计划损失420元，所需现金8020元。</desc>
+<rect width="1200" height="760" fill="#f7f9fb"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#183044;font-size:21px} .small{font-size:17px;fill:#4c6273} .heading{font-size:32px;font-weight:700} .large{font-size:26px;font-weight:600}</style>
+<text x="48" y="58" class="heading" text-anchor="start">仓位：同时受损失与现金约束</text>
+<text x="48" y="96" class="small" text-anchor="start">合成教学示意 · 非真实证券或交易所参数 · 图中假设仅用于解释机制</text>
+<rect x="50" y="150" width="520" height="240" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="70" y="188" class="large" text-anchor="start">合成输入（不是现行费率）</text>
+<text x="70" y="228" class="" text-anchor="start">入场 10.00；止损参考 9.50 元 / 股</text>
+<text x="70" y="261" class="" text-anchor="start">损失预算 520 元；可用现金 8050 元</text>
+<text x="70" y="294" class="" text-anchor="start">每档 100 股；整笔预留总成本 20 元</text>
+<text x="70" y="327" class="" text-anchor="start">无杠杆做多；两项预算都先扣成本</text>
+<rect x="620" y="150" width="530" height="240" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="640" y="188" class="large" text-anchor="start">先计算两项股数上限</text>
+<text x="640" y="228" class="" text-anchor="start">损失：⌊(520−20) ÷ 0.5 ÷ 100⌋</text>
+<text x="640" y="261" class="" text-anchor="start">        × 100 = 1000 股</text>
+<text x="640" y="294" class="" text-anchor="start">现金：⌊(8050−20) ÷ 10 ÷ 100⌋</text>
+<text x="640" y="327" class="" text-anchor="start">        × 100 = 800 股</text>
+<rect x="50" y="430" width="1100" height="210" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="70" y="468" class="large" text-anchor="start">取较小值并检查</text>
+<text x="70" y="508" class="" text-anchor="start">股数 800；计划损失 800 × 0.5 + 20 = 420.0 元</text>
+<text x="70" y="541" class="" text-anchor="start">所需现金 800 × 10 + 20 = 8020 元 ≤ 8050 元</text>
+<text x="70" y="574" class="" text-anchor="start">预算不足一档时取 0 股，模型成本与现金占用均为 0。</text>
+<line x1="48" y1="687" x2="1152" y2="687" stroke="#d4dee7" stroke-width="2"/>
+<text x="48" y="721" class="small" text-anchor="start">计划损失不是保证上限：跳空、滑点、不能成交与实际成本均可能使损失扩大。</text>
+</svg>

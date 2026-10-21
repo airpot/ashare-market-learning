@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">净值与回撤：用同一组数字</title><desc id="desc">合成期末净值依次1、1.1、0.99、1.2、1.08、0.9、1.26元每份，回撤依次0%、0%、负10%、0%、负10%、负25%、0%。截至S6的最大回撤为25%。</desc>
+<rect width="1200" height="760" fill="#f7f9fb"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#183044;font-size:21px} .small{font-size:17px;fill:#4c6273} .heading{font-size:32px;font-weight:700} .large{font-size:26px;font-weight:600}</style>
+<text x="48" y="58" class="heading" text-anchor="start">净值与回撤：用同一组数字</text>
+<text x="48" y="96" class="small" text-anchor="start">合成期末净值 · 假设已计模型成本、无追加或提取资金 · 连线不代表期间最低净值</text>
+<text x="55" y="146" class="small" text-anchor="start">净值（元 / 份）</text>
+<line x1="160" y1="330.0" x2="1120" y2="330.0" stroke="#d4dee7" stroke-width="2"/>
+<text x="140" y="335.0" class="small" text-anchor="end">0.9</text>
+<line x1="160" y1="298.0" x2="1120" y2="298.0" stroke="#d4dee7" stroke-width="2"/>
+<text x="140" y="303.0" class="small" text-anchor="end">1.0</text>
+<line x1="160" y1="266.0" x2="1120" y2="266.0" stroke="#d4dee7" stroke-width="2"/>
+<text x="140" y="271.0" class="small" text-anchor="end">1.1</text>
+<line x1="160" y1="234.00000000000003" x2="1120" y2="234.00000000000003" stroke="#d4dee7" stroke-width="2"/>
+<text x="140" y="239.00000000000003" class="small" text-anchor="end">1.2</text>
+<polyline points="205.00,298.00 350.00,266.00 495.00,301.20 640.00,234.00 785.00,272.40 930.00,330.00 1075.00,214.80" fill="none" stroke="#285f9d" stroke-width="3"/>
+<text x="205" y="285.0" class="small" text-anchor="middle">1.00</text>
+<text x="350" y="253.0" class="small" text-anchor="middle">1.10</text>
+<text x="495" y="288.2" class="small" text-anchor="middle">0.99</text>
+<text x="640" y="221.00000000000003" class="small" text-anchor="middle">1.20</text>
+<text x="785" y="259.4" class="small" text-anchor="middle">1.08</text>
+<text x="930" y="317.0" class="small" text-anchor="middle">0.90</text>
+<text x="1075" y="201.8" class="small" text-anchor="middle">1.26</text>
+<text x="55" y="416" class="small" text-anchor="start">回撤（%）</text>
+<line x1="160" y1="450" x2="1120" y2="450" stroke="#d4dee7" stroke-width="2"/>
+<text x="140" y="456" class="small" text-anchor="end">0</text>
+<line x1="160" y1="500" x2="1120" y2="500" stroke="#d4dee7" stroke-width="2"/>
+<text x="140" y="506" class="small" text-anchor="end">-10</text>
+<line x1="160" y1="575" x2="1120" y2="575" stroke="#d4dee7" stroke-width="2"/>
+<text x="140" y="581" class="small" text-anchor="end">-25</text>
+<polyline points="205.00,450.00 350.00,450.00 495.00,500.00 640.00,450.00 785.00,500.00 930.00,575.00 1075.00,450.00" fill="none" stroke="#14745b" stroke-width="3"/>
+<text x="205" y="477.0" class="small" text-anchor="middle">0%</text>
+<text x="205" y="639" class="small" text-anchor="middle">S0</text>
+<text x="350" y="477.0" class="small" text-anchor="middle">0%</text>
+<text x="350" y="639" class="small" text-anchor="middle">S1</text>
+<text x="495" y="527.0" class="small" text-anchor="middle">-10%</text>
+<text x="495" y="639" class="small" text-anchor="middle">S2</text>
+<text x="640" y="477.0" class="small" text-anchor="middle">0%</text>
+<text x="640" y="639" class="small" text-anchor="middle">S3</text>
+<text x="785" y="527.0" class="small" text-anchor="middle">-10%</text>
+<text x="785" y="639" class="small" text-anchor="middle">S4</text>
+<text x="930" y="602.0" class="small" text-anchor="middle">-25%</text>
+<text x="930" y="639" class="small" text-anchor="middle">S5</text>
+<text x="1075" y="477.0" class="small" text-anchor="middle">0%</text>
+<text x="1075" y="639" class="small" text-anchor="middle">S6</text>
+<line x1="48" y1="687" x2="1152" y2="687" stroke="#d4dee7" stroke-width="2"/>
+<text x="48" y="721" class="small" text-anchor="start">回撤 = 当前净值 ÷ 截至当时峰值 − 1；S5：0.90 ÷ 1.20 − 1 = −25%。只覆盖列示期末观测。</text>
+</svg>

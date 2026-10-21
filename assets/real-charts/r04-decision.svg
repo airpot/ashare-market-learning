@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 955" role="img" aria-label="观察截止 2024-08-08 · 宁德时代" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="17" fill="#24354b">
+<title>观察截止 2024-08-08 · 宁德时代</title>
+<desc>日线开高低收与成交量；交易观察等距排列，红涨绿跌灰平（收盘对开盘）。标注为调用方给定的解释，未推断未来走势。</desc>
+<rect width="1440" height="955" rx="20" fill="#ffffff"/>
+<text x="112" y="43" font-size="26" font-weight="700">观察截止 2024-08-08 · 宁德时代</text>
+<text x="112" y="82" >2024-07-01 至 2024-08-08 · UTC+8 · 日线 · 29 根</text>
+<text x="112" y="115" font-weight="600">价格（元/股）</text>
+<g class="price-axis" data-min="168.19520" data-max="196.10480" data-top="150" data-bottom="570">
+<line x1="112" y1="570" x2="1320" y2="570" stroke="#dde5ed" />
+<text x="98" y="576" text-anchor="end" font-size="14">168.20</text>
+<line x1="112" y1="486" x2="1320" y2="486" stroke="#dde5ed" />
+<text x="98" y="492" text-anchor="end" font-size="14">173.78</text>
+<line x1="112" y1="402" x2="1320" y2="402" stroke="#dde5ed" />
+<text x="98" y="408" text-anchor="end" font-size="14">179.36</text>
+<line x1="112" y1="318" x2="1320" y2="318" stroke="#dde5ed" />
+<text x="98" y="324" text-anchor="end" font-size="14">184.94</text>
+<line x1="112" y1="234" x2="1320" y2="234" stroke="#dde5ed" />
+<text x="98" y="240" text-anchor="end" font-size="14">190.52</text>
+<line x1="112" y1="150" x2="1320" y2="150" stroke="#dde5ed" />
+<text x="98" y="156" text-anchor="end" font-size="14">196.10</text>
+<line x1="112" y1="150" x2="112" y2="570" stroke="#dde5ed" />
+</g>
+<text x="112" y="618" font-weight="600">成交量（股）</text>
+<g class="volume-axis" data-min="0" data-max="35833729.12" data-top="640" data-bottom="780">
+<line x1="112" y1="780" x2="1320" y2="780" stroke="#dde5ed" />
+<text x="98" y="786" text-anchor="end" font-size="14">0</text>
+<line x1="112" y1="710" x2="1320" y2="710" stroke="#dde5ed" />
+<text x="98" y="716" text-anchor="end" font-size="14">17,916,865</text>
+<line x1="112" y1="640" x2="1320" y2="640" stroke="#dde5ed" />
+<text x="98" y="646" text-anchor="end" font-size="14">35,833,729</text>
+</g>
+<g class="candle" data-date="2024-07-01">
+<title>2024-07-01 开 179.19 高 179.28 低 171.17 收 176.07 元/股；量 26995744 股</title>
+<line x1="132.827586" y1="403.18944" x2="132.827586" y2="525.233468" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="123.827586" y="404.543813" width="18" height="46.951587" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-01" x="123.827586" y="674.529421" width="18" height="105.470579" fill="#087f5b"><title>2024-07-01 成交量 26995744 股</title></rect>
+<g class="candle" data-date="2024-07-02">
+<title>2024-07-02 开 173.85 高 176.96 低 172.11 收 176.08 元/股；量 14415586 股</title>
+<line x1="174.482759" y1="438.102158" x2="174.482759" y2="511.087798" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="165.482759" y="451.344914" width="18" height="33.558346" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-02" x="165.482759" y="723.679263" width="18" height="56.320737" fill="#c53643"><title>2024-07-02 成交量 14415586 股</title></rect>
+<g class="candle" data-date="2024-07-03">
+<title>2024-07-03 开 177 高 182.5 低 176.31 收 179.5 元/股；量 16205321 股</title>
+<line x1="216.137931" y1="354.732995" x2="216.137931" y2="447.883739" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="207.137931" y="399.878751" width="18" height="37.621464" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-03" x="207.137931" y="716.686887" width="18" height="63.313113" fill="#c53643"><title>2024-07-03 成交量 16205321 股</title></rect>
+<g class="candle" data-date="2024-07-04">
+<title>2024-07-04 开 180.39 高 182.99 低 179.2 收 179.6 元/股；量 11834646 股</title>
+<line x1="257.793103" y1="347.359188" x2="257.793103" y2="404.393327" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="248.793103" y="386.48551" width="18" height="11.888382" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-04" x="248.793103" y="733.762824" width="18" height="46.237176" fill="#087f5b"><title>2024-07-04 成交量 11834646 股</title></rect>
+<g class="candle" data-date="2024-07-05">
+<title>2024-07-05 开 181 高 182.49 低 176.5 收 177.62 元/股；量 13524707 股</title>
+<line x1="299.448276" y1="354.883481" x2="299.448276" y2="445.024508" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="290.448276" y="377.305873" width="18" height="50.864219" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-05" x="290.448276" y="727.159868" width="18" height="52.840132" fill="#087f5b"><title>2024-07-05 成交量 13524707 股</title></rect>
+<g class="candle" data-date="2024-07-08">
+<title>2024-07-08 开 176.01 高 178.37 低 175.01 收 175.91 元/股；量 10806397 股</title>
+<line x1="341.103448" y1="416.883653" x2="341.103448" y2="467.4469" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="332.103448" y="452.398315" width="18" height="1.504859" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-08" x="332.103448" y="737.780125" width="18" height="42.219875" fill="#087f5b"><title>2024-07-08 成交量 10806397 股</title></rect>
+<g class="candle" data-date="2024-07-09">
+<title>2024-07-09 开 175.3 高 177.3 低 173.09 收 175.77 元/股；量 16443915 股</title>
+<line x1="382.758621" y1="432.985639" x2="382.758621" y2="496.340184" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="373.758621" y="456.009975" width="18" height="7.072835" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-09" x="373.758621" y="715.754716" width="18" height="64.245284" fill="#c53643"><title>2024-07-09 成交量 16443915 股</title></rect>
+<g class="candle" data-date="2024-07-10">
+<title>2024-07-10 开 175.01 高 180.09 低 173.05 收 173.05 元/股；量 17772919 股</title>
+<line x1="424.413793" y1="391.000086" x2="424.413793" y2="496.942127" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="415.413793" y="467.4469" width="18" height="29.495227" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-10" x="415.413793" y="710.562386" width="18" height="69.437614" fill="#087f5b"><title>2024-07-10 成交量 17772919 股</title></rect>
+<g class="candle" data-date="2024-07-11">
+<title>2024-07-11 开 175 高 178.98 低 173.49 收 177.01 元/股；量 20811148 股</title>
+<line x1="466.068966" y1="407.704016" x2="466.068966" y2="490.32075" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="457.068966" y="437.349729" width="18" height="30.247657" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-11" x="457.068966" y="698.692227" width="18" height="81.307773" fill="#c53643"><title>2024-07-11 成交量 20811148 股</title></rect>
+<g class="candle" data-date="2024-07-12">
+<title>2024-07-12 开 177.85 高 181.77 低 177 收 179.8 元/股；量 19550460 股</title>
+<line x1="507.724138" y1="365.718462" x2="507.724138" y2="437.500215" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="498.724138" y="395.364176" width="18" height="29.344742" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-12" x="498.724138" y="703.617651" width="18" height="76.382349" fill="#c53643"><title>2024-07-12 成交量 19550460 股</title></rect>
+<g class="candle" data-date="2024-07-15">
+<title>2024-07-15 开 178.3 高 179.95 低 177.11 收 178.12 元/股；量 11469696 股</title>
+<line x1="549.37931" y1="393.106888" x2="549.37931" y2="435.844871" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="540.37931" y="417.937054" width="18" height="2.708745" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-15" x="540.37931" y="735.188659" width="18" height="44.811341" fill="#087f5b"><title>2024-07-15 成交量 11469696 股</title></rect>
+<g class="candle" data-date="2024-07-16">
+<title>2024-07-16 开 177.5 高 180.5 低 177.3 收 179.3 元/股；量 15148737 股</title>
+<line x1="591.034483" y1="384.830166" x2="591.034483" y2="432.985639" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="582.034483" y="402.888468" width="18" height="27.087454" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-16" x="582.034483" y="720.814891" width="18" height="59.185109" fill="#c53643"><title>2024-07-16 成交量 15148737 股</title></rect>
+<g class="candle" data-date="2024-07-17">
+<title>2024-07-17 开 178 高 182.66 低 175.94 收 180.89 元/股；量 18590141 股</title>
+<line x1="632.689655" y1="352.325221" x2="632.689655" y2="453.451716" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="623.689655" y="378.961218" width="18" height="43.490412" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-17" x="623.689655" y="707.369554" width="18" height="72.630446" fill="#c53643"><title>2024-07-17 成交量 18590141 股</title></rect>
+<g class="candle" data-date="2024-07-18">
+<title>2024-07-18 开 180 高 189.1 低 179.68 收 188.35 元/股；量 31994401 股</title>
+<line x1="674.344828" y1="255.412331" x2="674.344828" y2="397.170006" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="665.344828" y="266.69877" width="18" height="125.655688" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-18" x="665.344828" y="655" width="18" height="125" fill="#c53643"><title>2024-07-18 成交量 31994401 股</title></rect>
+<g class="candle" data-date="2024-07-19">
+<title>2024-07-19 开 186.35 高 190.09 低 186.2 收 189.44 元/股；量 20847631 股</title>
+<line x1="716" y1="240.514232" x2="716" y2="299.053229" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="707" y="250.295812" width="18" height="46.500129" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-19" x="707" y="698.54969" width="18" height="81.45031" fill="#c53643"><title>2024-07-19 成交量 20847631 股</title></rect>
+<g class="candle" data-date="2024-07-22">
+<title>2024-07-22 开 191.19 高 194.18 低 187.4 收 189.52 元/股；量 17168252 股</title>
+<line x1="757.655172" y1="178.965517" x2="757.655172" y2="280.994926" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="748.655172" y="223.960788" width="18" height="25.131138" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-22" x="748.655172" y="712.92478" width="18" height="67.07522" fill="#087f5b"><title>2024-07-22 成交量 17168252 股</title></rect>
+<g class="candle" data-date="2024-07-23">
+<title>2024-07-23 开 189.01 高 189.7 低 186.2 收 186.2 元/股；量 11903104 股</title>
+<line x1="799.310345" y1="246.38318" x2="799.310345" y2="299.053229" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="790.310345" y="256.766704" width="18" height="42.286525" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-23" x="790.310345" y="733.495363" width="18" height="46.504637" fill="#087f5b"><title>2024-07-23 成交量 11903104 股</title></rect>
+<g class="candle" data-date="2024-07-24">
+<title>2024-07-24 开 186 高 189.09 低 185.39 收 186.32 元/股；量 14468136 股</title>
+<line x1="840.965517" y1="255.562817" x2="840.965517" y2="311.242583" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="831.965517" y="297.247399" width="18" height="4.815547" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-24" x="831.965517" y="723.473953" width="18" height="56.526047" fill="#c53643"><title>2024-07-24 成交量 14468136 股</title></rect>
+<g class="candle" data-date="2024-07-25">
+<title>2024-07-25 开 186.12 高 190.73 低 185.06 收 187.73 元/股；量 20595888 股</title>
+<line x1="882.62069" y1="230.883137" x2="882.62069" y2="316.208616" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="873.62069" y="276.028893" width="18" height="24.228223" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-25" x="873.62069" y="699.533233" width="18" height="80.466767" fill="#c53643"><title>2024-07-25 成交量 20595888 股</title></rect>
+<g class="candle" data-date="2024-07-26">
+<title>2024-07-26 开 190 高 193.3 低 188.05 收 189.35 元/股；量 23347718 股</title>
+<line x1="924.275862" y1="192.208272" x2="924.275862" y2="271.213346" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="915.275862" y="241.868604" width="18" height="9.781581" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-26" x="915.275862" y="688.782016" width="18" height="91.217984" fill="#087f5b"><title>2024-07-26 成交量 23347718 股</title></rect>
+<g class="candle" data-date="2024-07-29">
+<title>2024-07-29 开 187 高 187 低 180 收 184.53 元/股；量 21362366 股</title>
+<line x1="965.931034" y1="287.014361" x2="965.931034" y2="392.354459" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="956.931034" y="287.014361" width="18" height="37.170006" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-29" x="956.931034" y="696.538655" width="18" height="83.461345" fill="#087f5b"><title>2024-07-29 成交量 21362366 股</title></rect>
+<g class="candle" data-date="2024-07-30">
+<title>2024-07-30 开 183.22 高 185.33 低 183.22 收 184.89 元/股；量 12725163 股</title>
+<line x1="1007.586207" y1="312.145498" x2="1007.586207" y2="343.898014" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="998.586207" y="318.766876" width="18" height="25.131138" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-30" x="998.586207" y="730.283633" width="18" height="49.716367" fill="#c53643"><title>2024-07-30 成交量 12725163 股</title></rect>
+<g class="candle" data-date="2024-07-31">
+<title>2024-07-31 开 182 高 186.88 低 182 收 186.31 元/股；量 19896940 股</title>
+<line x1="1049.241379" y1="288.820191" x2="1049.241379" y2="362.257288" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1040.241379" y="297.397885" width="18" height="64.859403" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-07-31" x="1040.241379" y="702.263977" width="18" height="77.736023" fill="#c53643"><title>2024-07-31 成交量 19896940 股</title></rect>
+<g class="candle" data-date="2024-08-01">
+<title>2024-08-01 开 185 高 186 低 180.1 收 180.3 元/股；量 23012659 股</title>
+<line x1="1090.896552" y1="302.062946" x2="1090.896552" y2="390.8496" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1081.896552" y="317.111532" width="18" height="70.728352" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-08-01" x="1081.896552" y="690.09107" width="18" height="89.90893" fill="#087f5b"><title>2024-08-01 成交量 23012659 股</title></rect>
+<g class="candle" data-date="2024-08-02">
+<title>2024-08-02 开 179 高 180 低 176.74 收 177.09 元/股；量 15493685 股</title>
+<line x1="1132.551724" y1="392.354459" x2="1132.551724" y2="441.412847" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1123.551724" y="407.403044" width="18" height="28.742798" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-08-02" x="1123.551724" y="719.467202" width="18" height="60.532798" fill="#087f5b"><title>2024-08-02 成交量 15493685 股</title></rect>
+<g class="candle" data-date="2024-08-05">
+<title>2024-08-05 开 175.01 高 180.19 低 175 收 177 元/股；量 19347659 股</title>
+<line x1="1174.206897" y1="389.495227" x2="1174.206897" y2="467.597386" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1165.206897" y="437.500215" width="18" height="29.946685" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2024-08-05" x="1165.206897" y="704.409981" width="18" height="75.590019" fill="#c53643"><title>2024-08-05 成交量 19347659 股</title></rect>
+<g class="candle" data-date="2024-08-06">
+<title>2024-08-06 开 178.41 高 179.39 低 173.71 收 174.95 元/股；量 15768703 股</title>
+<line x1="1215.862069" y1="401.534096" x2="1215.862069" y2="487.010061" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1206.862069" y="416.28171" width="18" height="52.068106" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-08-06" x="1206.862069" y="718.392725" width="18" height="61.607275" fill="#087f5b"><title>2024-08-06 成交量 15768703 股</title></rect>
+<g class="candle" data-date="2024-08-07">
+<title>2024-08-07 开 174.95 高 176.23 低 173.67 收 173.67 元/股；量 12753959 股</title>
+<line x1="1257.517241" y1="449.087626" x2="1257.517241" y2="487.612004" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1248.517241" y="468.349815" width="18" height="19.262189" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-08-07" x="1248.517241" y="730.171129" width="18" height="49.828871" fill="#087f5b"><title>2024-08-07 成交量 12753959 股</title></rect>
+<g class="candle" data-date="2024-08-08">
+<title>2024-08-08 开 173.01 高 173.6 低 170.12 收 172.4 元/股；量 14658996 股</title>
+<line x1="1299.172414" y1="488.665405" x2="1299.172414" y2="541.034483" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1290.172414" y="497.544071" width="18" height="9.179637" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2024-08-08" x="1290.172414" y="722.728276" width="18" height="57.271724" fill="#087f5b"><title>2024-08-08 成交量 14658996 股</title></rect>
+<line x1="132.827586" y1="780" x2="132.827586" y2="788" stroke="#24354b" />
+<text x="132.827586" y="816" text-anchor="start" font-size="15">2024-07-01</text>
+<line x1="299.448276" y1="780" x2="299.448276" y2="788" stroke="#24354b" />
+<text x="299.448276" y="816" text-anchor="middle" font-size="15">2024-07-05</text>
+<line x1="507.724138" y1="780" x2="507.724138" y2="788" stroke="#24354b" />
+<text x="507.724138" y="816" text-anchor="middle" font-size="15">2024-07-12</text>
+<line x1="716" y1="780" x2="716" y2="788" stroke="#24354b" />
+<text x="716" y="816" text-anchor="middle" font-size="15">2024-07-19</text>
+<line x1="882.62069" y1="780" x2="882.62069" y2="788" stroke="#24354b" />
+<text x="882.62069" y="816" text-anchor="middle" font-size="15">2024-07-25</text>
+<line x1="1090.896552" y1="780" x2="1090.896552" y2="788" stroke="#24354b" />
+<text x="1090.896552" y="816" text-anchor="middle" font-size="15">2024-08-01</text>
+<line x1="1299.172414" y1="780" x2="1299.172414" y2="788" stroke="#24354b" />
+<text x="1299.172414" y="816" text-anchor="end" font-size="15">2024-08-08</text>
+<text x="112" y="856" font-size="16">红：收＞开　绿：收＜开　灰：收＝开；成交量以股计。标注编号见下方说明。</text>
+<g class="annotation marker" stroke="#7757b5" stroke-width="2" fill="none">
+<circle cx="1299.172414" cy="506.723708" r="7"/>
+<circle cx="1306" cy="488.723708" r="12" fill="#ffffff"/>
+<text x="1306" y="493.723708" text-anchor="middle" font-size="14" stroke="none" fill="#7757b5">1</text>
+</g>
+<text x="112" y="900" font-size="17">1. 观察点：本次观察截止：2024-08-08（2024-08-08 / 172.4）</text>
+</svg>

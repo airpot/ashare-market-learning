@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "track": "CB",
+  "step": 3,
+  "exercise": "PRODUCT-CB-03",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "公告带来选择：卖出、转股、持有或错过期限",
+  "cutoff": "2026-10-21T10:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "全包为虚构纸面教学。证券、报价、转股条款、公告及日历均为合成假设，不代表真实债券资格、期限或交易规则。",
+  "lesson": [
+    "合成买入回报已确认10张、每张120元、费2元。现在读到一份在本步截止前公开的虚构赎回公告。达到触发条件是第一件事；发行人决定行权及公告生效是另外两件事。本题两者均已给定，不可套到真实发行人。",
+    "为自己画一条日期线：最后卖出、最后转股、债券注销、股票到账、股票可卖、赎回现金到账。错过截止后不能用后见股价补做转股。转股不是卖债所得现金，而是债券权益转成股票和余款。",
+    "本题未开启回售；下修仅有提议未批准，不得擅改转股价。若发行人信用恶化，赎回或到期现金也未必按时到，未知应另列待收，不能立即填现金。",
+    "另附独立的合成部分成交账本，只用本步已确认回报处理余单与冻结；它不替代原主线，也不覆盖你的不交易原答。后续成交、撤单及收款须等下一步确认。"
+  ],
+  "data": {
+    "fill": {
+      "event_id": "CB-B1",
+      "kind": "buy",
+      "quantity": 10,
+      "price": "120",
+      "fee": "2"
+    },
+    "opening_cash": "2000",
+    "notice": {
+      "source": "合成发行人公告",
+      "published_at": "2026-10-21T08:00:00+08:00",
+      "trigger_met_date": "2026-10-20",
+      "issuer_decision": "已决定行使本题赎回权",
+      "effective_date": "2026-10-21",
+      "last_sell": "2026-10-22T15:00:00+08:00",
+      "last_convert": "2026-10-22T14:30:00+08:00",
+      "bond_cancel_date": "2026-10-23",
+      "redemption_cash_date": "2026-10-26",
+      "redemption_final_cash_per_bond": "101"
+    },
+    "choices": {
+      "sell": "期限内限价卖出，是否成交须等回报",
+      "convert": "本题10元转股价，面值1000元，正股参考12元；本题整股向下取整，余面值按面额付现金；转股费0税0",
+      "hold": "明确接受赎回与信用风险，等待实际回款",
+      "miss": "未卖且未有效申报转股，不能追溯补办；按本题公告转赎回待收"
+    },
+    "conversion_dates": {
+      "share_credit": "2026-10-23",
+      "stock_available_to_sell": "2026-10-26",
+      "residual_cash": "2026-10-26"
+    },
+    "synthetic_calendar": [
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-26"
+    ],
+    "rounding_variant": {
+      "separate_case": true,
+      "conversion_price": "10.03",
+      "stock_mark": "12",
+      "rule": "只转整数股；余面值按面额现金返还，不等于按正股市价出售零碎股"
+    },
+    "separate_partial_case": {
+      "synthetic": true,
+      "separate_case": true,
+      "separate_from_main_and_no_trade": true,
+      "scope": "独立合成执行分支；不叠加到原主线、其他另题或学习者原先不交易的账本。未成交委托不是持仓或现金流。",
+      "fee_rule": "同一已成交指令只收实际整单费2元一次；余单撤销或失效不另收费用。冻结现金仍属总现金，不可再从总现金扣一次。",
+      "case_id": "CB-PARTIAL-SELL",
+      "opening_cash": "2000",
+      "as_of": "2026-10-21T10:00:00+08:00",
+      "quantity_assumption": "仍按原规则申报卖10张；本另题特别假定可按1张分笔撮合，已成6张、余4张可申请撤单。这是合成成交假设，不变更主线10张申报组，也不证明真实撮合或转股资格。 本另题特别假定此卖单有效至10-22 15:00，余单在成交或撤销确认前跨日冻结；不外推真实委托有效期。",
+      "confirmed_fills": [
+        {
+          "event_id": "CB-P-B1",
+          "kind": "buy",
+          "quantity": 10,
+          "price": "120",
+          "fee": "2",
+          "confirmed_at": "2026-10-20T10:10:00+08:00"
+        },
+        {
+          "event_id": "CB-P-S1",
+          "kind": "sell",
+          "quantity": 6,
+          "price": "123",
+          "fee": "2",
+          "confirmed_at": "2026-10-21T09:50:00+08:00"
+        }
+      ],
+      "order": {
+        "order_id": "CB-P-S-ORDER",
+        "kind": "sell",
+        "submitted_at": "2026-10-21T09:45:00+08:00",
+        "submitted_quantity": 10,
+        "limit_price": "123",
+        "filled_quantity": 6,
+        "remaining_quantity": 4,
+        "status": "partially_filled_open",
+        "valid_until": "2026-10-22T15:00:00+08:00"
+      },
+      "frozen_cash": "0",
+      "frozen_bonds": 4,
+      "events_known_now": {
+        "redemption_notice": "沿用本步已生效公告；未卖且未有效转股的余债将依公告注销并转赎回应收，实际收到后才记现金。",
+        "conversion": "仍适用转股价10元、每张面值100元、转股费0税0；卖出委托冻结的债券须先确认撤单释放，才可有效转股；不得同时卖与转。",
+        "cash_withdrawable_now": "未用的原现金可取；已成6张的净卖款在10-22才可取。",
+        "receivable_received_now": false
+      },
+      "deadlines": {
+        "last_sell": "2026-10-22T15:00:00+08:00",
+        "last_convert": "2026-10-22T14:30:00+08:00",
+        "bond_cancel_date": "2026-10-23",
+        "redemption_cash_due": "2026-10-26",
+        "sale_proceeds_withdrawable": "2026-10-22"
+      },
+      "current_check": "只按当前回报，怎样把现金、剩余债券、冻结余单与先到的转股截止接到下一步，并写出余单未成时的处理动作？"
+    }
+  },
+  "current_response": [
+    "列买入后的现金与张数；为四条选择写截止与确认动作。",
+    "转股1000元面值可得多少整数股？10.03的另题有多少余面值？",
+    "公告触发、发行人决定、回售与下修各处于什么状态？错过期限还能否用12元正股价补做？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-CB",
+      "relationship": "虚构可转债"
+    },
+    {
+      "instrument": "TRAIN-CB-STOCK",
+      "relationship": "同一虚构发行人的正股，存在共同风险"
+    }
+  ],
+  "teaching_delivery": "Use only this step. Use worksheet items to include the lesson topics. Do not use them as a quiz list. Give one short part of the lesson. Then, give one check question from this part of the lesson. Before you give feedback for this step, wait for the raw response.\n\nKeep all practice in the category with tutor aid."
+}

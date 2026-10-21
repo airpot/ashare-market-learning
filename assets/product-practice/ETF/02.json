@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "track": "ETF",
+  "step": 2,
+  "exercise": "PRODUCT-ETF-02",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "先写计划，再决定是否交易",
+  "cutoff": "2026-10-20T10:05:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "全包为虚构纸面教学：证券、日期、报价、委托、成交、费用与规则均为合成假设。没有真实账户、权限核验或真实成交保证。只讨论本步已给资料；缺项先写未知。",
+  "lesson": [
+    "计划损失预算是按指定退出假设可承担的估计损失，不是担保。先扣外部买卖费用，再算价差可容纳多少份；同时用现金扣买入费计算另一上限。数量向下取整到本题申报单位。",
+    "这一小题先练预算。完整主线随后采用另一位虚构学习者已批准的1000份计划，两个账本不可混用。给出不交易理由也需说清哪个条件不成立、何时复核。"
+  ],
+  "data": {
+    "sizing_only": {
+      "cash": "1000",
+      "budget": "50",
+      "entry": "1.00",
+      "stop": "0.90",
+      "lot": 100,
+      "buyfee": "2",
+      "sellfee": "2"
+    },
+    "main_case": {
+      "opening_cash": "2000",
+      "opening_quantity": 0,
+      "entry_limit": "1.00",
+      "quantity": 1000,
+      "planned_stop": "0.96",
+      "loss_budget": "50",
+      "buyfee": "2",
+      "sellfee": "2"
+    },
+    "trigger": "只在盘口和10:00规则复核通过且卖方报价不高于1.00时提交限价；报价未达则等待",
+    "no_trade": "公告/权限/估值时点缺项、点差超自定0.004、规则变化或相关暴露超承受范围时暂停"
+  },
+  "current_response": [
+    "算预算小题的可买份数，并列现金、风险两条约束。",
+    "另核主线1000份是否符合其50元计划预算；不要套用小题数量。",
+    "写入场条件、未达条件、退出条件和一次滑点压力情景。"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-ETF",
+      "relationship": "本题虚构产品",
+      "scope": "描述性接触记录，不授予独立资格"
+    }
+  ]
+}

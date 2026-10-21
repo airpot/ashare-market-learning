@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "track": "CB",
+  "step": 2,
+  "exercise": "PRODUCT-CB-02",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "用张数核风险，计划退出不能替代执行：本步反馈",
+  "source_basis": "This packet uses only the accepted exercise terms and notices. It gives no indications that show if conversion was available before this exercise or not.",
+  "worked": [
+    "现金上限(2000−2)/120=16.65张；风险(50−2−2)/(120−116)=11.5张。10张一组，最终10张。",
+    "买10张占用1202元；按116退出时价差40元加4元=44元。若110退出则100+4=104元，超过50元预算。",
+    "面值100与报价分母100在本题相等，所以helper可用120作为每张现金价格。其他面值须先折算，不能直接传报价。"
+  ],
+  "misconception": "“损失预算50元可以都用来承受价差，手续费以后再扣。”用含外部费用44元核计划，再核跳空104元。",
+  "follow_up": "若只剩1000元现金，本题10张的申报组还能买入吗？",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

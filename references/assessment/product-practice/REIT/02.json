@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "track": "REIT",
+  "step": 2,
+  "exercise": "PRODUCT-REIT-02",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "先核登记条件，再写现金与风险计划：本步反馈",
+  "source_basis": "This packet uses only the accepted assumptions made for this example. It does not show eligibility for execution in a market.",
+  "worked": [
+    "1000份占用3002元；计划价差40元+双边4元=44元。现金上限(5000−2)/3=1666份，风险(50−4)/0.04=1150份，100份取整上限1100份；选1000份在两个上限内。",
+    "分派100元尚未实现，不能先增加现金或冲减预算。实际卖价跌穿2.96仍可能超计划损失。",
+    "扩募或重大债务公告缺项应等待核实，不依据高分派率抢登记。"
+  ],
+  "misconception": "“分派会补亏损，仓位可超过预算。”先在没有分派抵扣的情况下检验风险。",
+  "follow_up": "如果未获登记资格，买入计划中哪些假设必须重算？",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

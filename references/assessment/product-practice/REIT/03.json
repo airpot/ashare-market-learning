@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "track": "REIT",
+  "step": 3,
+  "exercise": "PRODUCT-REIT-03",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "登记权益、除息与现金到账分开记：本步反馈",
+  "source_basis": "This packet uses only the accepted assumptions made for this example. It does not show eligibility for execution in a market.",
+  "worked": [
+    "买入后总现金1998、冻结0、持仓1000份；本题10-21可卖1000。登记后应收1000×0.10=100元，现金仍1998。",
+    "本题登记确认后权益已归该持有人，10-21卖出不抹去该笔应收；实际现金事件要等10-23到账。真实资格仍须按真实公告核验。",
+    "清算、扩募与停牌是新的状态分支，不能靠现金流helper决定日期或可卖资格。",
+    "另设分支 REIT-PARTIAL-SELL：买后现金5000−3000−2=1998；卖600份净入1752−2=1750，总/可用现金3748、冻结现金0。10-21可取原现金1998，净卖款1750待10-22。累计实际费用4元。",
+    "剩400份且全被余卖单冻结，自由可卖0；撤单尚未确认，不自动解冻。登记仍按10-20的1000份，应收1000×0.10=100，10-23预定收款但当前未收，不能按剩400份改成40元，也不提前加到3748现金。"
+  ],
+  "misconception": "“除息日就已收到100元，卖掉以后又不能分。”请逐项沿登记→除息→现金到账检查。",
+  "follow_up": "若现金延期，应保留哪项应收，并改变哪项可用现金判断？",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

@@ -1,0 +1,303 @@
+{
+  "symbol": "sh688981",
+  "start": "2026-06-01",
+  "cutoff": "2026-06-04",
+  "source_sha256": "c00eff4d19ea288012ed75bcb8c30fc30505c131f229ca04397b025e70c81389",
+  "bars": [
+    {
+      "date": "2026-06-01",
+      "open": "139.760",
+      "high": "140.800",
+      "low": "132.040",
+      "close": "132.440",
+      "volume_shares": "100884914"
+    },
+    {
+      "date": "2026-06-02",
+      "open": "132.980",
+      "high": "135.500",
+      "low": "129.300",
+      "close": "132.480",
+      "volume_shares": "92368820"
+    },
+    {
+      "date": "2026-06-03",
+      "open": "132.000",
+      "high": "138.750",
+      "low": "131.850",
+      "close": "134.000",
+      "volume_shares": "99212745"
+    },
+    {
+      "date": "2026-06-04",
+      "open": "131.000",
+      "high": "137.570",
+      "low": "130.000",
+      "close": "134.880",
+      "volume_shares": "77852688"
+    }
+  ],
+  "analysis": {
+    "cutoff": "2026-06-04",
+    "groups": [
+      {
+        "low": "132.04",
+        "high": "140.8",
+        "source_indices": [
+          0
+        ],
+        "first_date": "2026-06-01",
+        "last_date": "2026-06-01",
+        "high_date": "2026-06-01",
+        "low_date": "2026-06-01",
+        "formed_at": "2026-06-01",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 0,
+        "known_at": "2026-06-02"
+      },
+      {
+        "low": "129.3",
+        "high": "135.5",
+        "source_indices": [
+          1
+        ],
+        "first_date": "2026-06-02",
+        "last_date": "2026-06-02",
+        "high_date": "2026-06-02",
+        "low_date": "2026-06-02",
+        "formed_at": "2026-06-02",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 1,
+        "known_at": "2026-06-03"
+      },
+      {
+        "low": "131.85",
+        "high": "138.75",
+        "source_indices": [
+          2
+        ],
+        "first_date": "2026-06-03",
+        "last_date": "2026-06-03",
+        "high_date": "2026-06-03",
+        "low_date": "2026-06-03",
+        "formed_at": "2026-06-03",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 2,
+        "known_at": "2026-06-04"
+      },
+      {
+        "low": "130",
+        "high": "137.57",
+        "source_indices": [
+          3
+        ],
+        "first_date": "2026-06-04",
+        "last_date": "2026-06-04",
+        "high_date": "2026-06-04",
+        "low_date": "2026-06-04",
+        "formed_at": "2026-06-04",
+        "merge_direction": null,
+        "tentative": true,
+        "index": 3,
+        "known_at": null
+      }
+    ],
+    "unresolved_initial": false,
+    "fractals": [
+      {
+        "kind": "bottom",
+        "center": 1,
+        "span": [
+          0,
+          1,
+          2
+        ],
+        "price": "129.3",
+        "date": "2026-06-02",
+        "formed_at": "2026-06-03",
+        "right_group_updated_at": "2026-06-03",
+        "known_at": "2026-06-04",
+        "formation_source_indices": [
+          0,
+          1,
+          2
+        ],
+        "source_indices": [
+          0,
+          1,
+          2
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 2,
+        "span": [
+          1,
+          2,
+          3
+        ],
+        "price": "138.75",
+        "date": "2026-06-03",
+        "formed_at": "2026-06-04",
+        "right_group_updated_at": "2026-06-04",
+        "known_at": null,
+        "formation_source_indices": [
+          1,
+          2,
+          3
+        ],
+        "source_indices": [
+          1,
+          2,
+          3
+        ],
+        "state": "provisional_right_group"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "bottom",
+        "center": 1,
+        "span": [
+          0,
+          1,
+          2
+        ],
+        "price": "129.3",
+        "date": "2026-06-02",
+        "formed_at": "2026-06-03",
+        "right_group_updated_at": "2026-06-03",
+        "known_at": "2026-06-04",
+        "formation_source_indices": [
+          0,
+          1,
+          2
+        ],
+        "source_indices": [
+          0,
+          1,
+          2
+        ],
+        "state": "confirmed_at_cutoff"
+      }
+    ],
+    "strokes": [],
+    "rejections": [
+      {
+        "start": {
+          "kind": "bottom",
+          "center": 1,
+          "span": [
+            0,
+            1,
+            2
+          ],
+          "price": "129.3",
+          "date": "2026-06-02",
+          "formed_at": "2026-06-03",
+          "right_group_updated_at": "2026-06-03",
+          "known_at": "2026-06-04",
+          "formation_source_indices": [
+            0,
+            1,
+            2
+          ],
+          "source_indices": [
+            0,
+            1,
+            2
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 2,
+          "span": [
+            1,
+            2,
+            3
+          ],
+          "price": "138.75",
+          "date": "2026-06-03",
+          "formed_at": "2026-06-04",
+          "right_group_updated_at": "2026-06-04",
+          "known_at": null,
+          "formation_source_indices": [
+            1,
+            2,
+            3
+          ],
+          "source_indices": [
+            1,
+            2,
+            3
+          ],
+          "state": "provisional_right_group"
+        },
+        "reason": "spacing"
+      }
+    ],
+    "revisions": [],
+    "tail_candidate": {
+      "kind": "bottom",
+      "center": 3,
+      "price": "130",
+      "date": "2026-06-04",
+      "formed_at": "2026-06-04",
+      "known_at": null,
+      "state": "missing_right_group"
+    }
+  },
+  "higher": {
+    "qualified_segment": false,
+    "qualified_center": false,
+    "qualified_L1": false,
+    "qualified_L2": false,
+    "stroke_overlap_windows": [],
+    "segment_hypotheses": [],
+    "prerequisites": [
+      "M11 strict strokes with cutoff evidence and revision evidence",
+      "The start boundary of an M11 segment from a previous context with qualification",
+      "Feature inclusion that uses the applicable direction, with source mapping",
+      "A feature fractal without a gap, or a gap plus a reverse feature fractal",
+      "For an L1 center, three B0 segments are necessary. They must be completed and have no other segment between them.",
+      "L1 blocks in the C12-F sealed state before each L2 exercise"
+    ]
+  },
+  "annotations": [
+    {
+      "kind": "marker",
+      "date": "2026-06-02",
+      "price": "129.3",
+      "label": "底 129.3；本截止内条件满足"
+    },
+    {
+      "kind": "marker",
+      "date": "2026-06-03",
+      "price": "138.75",
+      "label": "顶 138.75；候选：右侧仍为末组"
+    },
+    {
+      "kind": "marker",
+      "date": "2026-06-04",
+      "price": "130",
+      "label": "末组候选，缺右区间"
+    }
+  ],
+  "worked": {
+    "selected": {
+      "stable_center": 1,
+      "provisional_center": 2
+    },
+    "paragraphs": [
+      "选 底 P1，2026-06-02 的 129.3 元/股。相邻三组为 P0[132.04,140.8]、P1[129.3,135.5]、P2[131.85,138.75]；中间低 129.3<左右 132.04/131.85，中间高 135.5<左右 140.8/138.75，两项严格关系都满足。",
+      "极值发生 2026-06-02；右组首根到来、三组形成在 2026-06-03；再有独立后组时，known_at=2026-06-04，本截止状态 confirmed_at_cutoff。不能把后知的确认回填到极值当日。",
+      "同页 顶 P2，2026-06-03 的 138.75 元/股 的三组形成于 2026-06-04，但右组仍在窗口末端，known_at=未可知，仍待独立后组，状态 provisional_right_group。它与前者的可知程度不同；这只是局部关系，尚非买卖指令。"
+    ]
+  },
+  "corporate_action_calendar": "The calendar does not include all cases. It does not show that a basis-break analysis is correct. It does not show that an investor total-return calculation is correct."
+}

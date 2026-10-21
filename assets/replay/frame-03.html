@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
+<title>合成逐步观察 · 第 03 步</title>
+<style>
+body{margin:0;background:#f7f9fb;color:#183044;font:18px/1.65 "Microsoft YaHei",sans-serif}
+main{max-width:1120px;margin:auto;padding:24px}h1{font-size:29px;margin:0 0 12px}
+h2{font-size:22px}p{margin:8px 0}.meta{font-size:15px;color:#4c6273}
+section{background:white;border:1px solid #d4dee7;border-radius:10px;padding:16px 22px;margin:18px 0}
+.chart svg{display:block;width:100%;min-width:960px;height:auto}.chart{padding:0;overflow-x:auto}
+nav{display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap;margin:24px 0}
+a{color:#285f9d;font-weight:600}table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{padding:8px;text-align:right;border-bottom:1px solid #d4dee7}th:first-child,td:first-child{text-align:left}
+.scroll{overflow-x:auto}.question{border-left:5px solid #285f9d}
+@media(max-width:600px){main{padding:12px}h1{font-size:24px}body{font-size:16px}section{padding:12px}}
+</style></head><body><main>
+<h1>青禾制造：逐步观察练习（虚构、无真实代码）</h1>
+<p><strong>合成教学数据 · 第 03 步 · cutoff = 3</strong></p>
+<p class="meta">来源：内置合成数据 synthetic-v1，由 scripts/build_assets.py 确定性生成</p>
+<p class="meta">截止：2026-01-07 收盘后；时区 Asia/Shanghai；完整日线，收盘后开放。</p>
+<p class="meta">价格：元 / 股；成交量：股 / 日；无公司行动，未复权合成价格。</p>
+<p class="meta">现金账户、无杠杆做多的观察练习；未模拟撮合、真实费率、结算或涨跌幅参数。</p>
+<section class="chart"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+<title id="title">已开放价格</title><desc id="desc">仅绘制当前截止时点已开放的合成完整日线。红色为收高于开，绿色为收低于开，平线为开收相同。</desc>
+<rect width="1200" height="480" fill="#f7f9fb"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#183044;font-size:21px} .small{font-size:17px;fill:#4c6273} .heading{font-size:32px;font-weight:700} .large{font-size:26px;font-weight:600}</style>
+<text x="48" y="58" class="heading" text-anchor="start">已开放价格</text>
+<text x="48" y="96" class="small" text-anchor="start">合成日线 · 元 / 股 · 横轴为观测日 · 红：阳线；绿：阴线；横线：平线</text>
+<line x1="145" y1="340.0" x2="1130" y2="340.0" stroke="#d4dee7" stroke-width="2"/>
+<text x="130" y="346.0" class="small" text-anchor="end">9.70</text>
+<line x1="145" y1="291.2499999999997" x2="1130" y2="291.2499999999997" stroke="#d4dee7" stroke-width="2"/>
+<text x="130" y="297.2499999999997" class="small" text-anchor="end">9.85</text>
+<line x1="145" y1="242.5" x2="1130" y2="242.5" stroke="#d4dee7" stroke-width="2"/>
+<text x="130" y="248.5" class="small" text-anchor="end">10.00</text>
+<line x1="145" y1="193.75000000000028" x2="1130" y2="193.75000000000028" stroke="#d4dee7" stroke-width="2"/>
+<text x="130" y="199.75000000000028" class="small" text-anchor="end">10.15</text>
+<line x1="145" y1="145.0" x2="1130" y2="145.0" stroke="#d4dee7" stroke-width="2"/>
+<text x="130" y="151.0" class="small" text-anchor="end">10.30</text>
+<line x1="336.66666666666663" y1="177.5" x2="336.66666666666663" y2="307.5" stroke="#4c6273" stroke-width="3"/>
+<line x1="313.66666666666663" y1="242.5" x2="359.66666666666663" y2="242.5" stroke="#4c6273" stroke-width="5"/>
+<text x="336.66666666666663" y="380" class="small" text-anchor="middle">01-05</text>
+<line x1="650.0" y1="193.74999999999972" x2="650.0" y2="291.2500000000003" stroke="#b83238" stroke-width="3"/>
+<rect x="627.0" y="226.24999999999972" width="46" height="16.250000000000284" rx="8" fill="#b83238" stroke="#b83238"/>
+<text x="650.0" y="380" class="small" text-anchor="middle">01-06</text>
+<line x1="963.3333333333333" y1="177.5" x2="963.3333333333333" y2="258.7500000000003" stroke="#b83238" stroke-width="3"/>
+<rect x="940.3333333333333" y="193.74999999999972" width="46" height="32.5" rx="8" fill="#b83238" stroke="#b83238"/>
+<text x="963.3333333333333" y="380" class="small" text-anchor="middle">01-07</text>
+<line x1="48" y1="407" x2="1152" y2="407" stroke="#d4dee7" stroke-width="2"/>
+<text x="48" y="441" class="small" text-anchor="start">信息截止：已完成第 3 根日线；不含未开放的后续价格或事件。</text>
+</svg>
+</section>
+<section><h2>截至此刻已知的事件</h2><ul><li>第 0 根后已知：本练习允许等待和不交易。先写观察条件，下一步只开放一根完整日线。</li><li>第 3 根后已知：截至今日：已开放三个完整日线观测。</li></ul></section>
+<section class="question"><h2>先写观察，再继续</h2><p>请写出目前可观察的区间；你的触发条件是否已完整定义？</p>
+<p class="meta">可在自己的笔记中作答；本页面不收集也不保存输入。等待与不交易也是可记录的选择。</p></section>
+<section><h2>已开放的数据</h2><div class="scroll"><table><thead><tr><th>序号</th><th>日期</th><th>开</th><th>高</th><th>低</th><th>收</th><th>量（股）</th></tr></thead>
+<tbody><tr><td>1</td><td>2026-01-05</td><td>10</td><td>10.2</td><td>9.8</td><td>10</td><td>100000</td></tr><tr><td>2</td><td>2026-01-06</td><td>10</td><td>10.15</td><td>9.85</td><td>10.05</td><td>90000</td></tr><tr><td>3</td><td>2026-01-07</td><td>10.05</td><td>10.2</td><td>9.95</td><td>10.15</td><td>110000</td></tr></tbody></table></div></section>
+<p class="meta">图中只表示 OHLC 范围；不表示日内先后顺序、委托或保证成交。不得用后续信息改写此前记录。</p>
+<nav aria-label="逐步开放观测"><a href="frame-02.html">← 返回上一步</a><a href="frame-04.html">下一步：开放下一根完整日线 →</a></nav>
+</main></body></html>

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "track": "MONEY",
+  "step": 2,
+  "exercise": "PRODUCT-MONEY-02",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "小价差是否覆盖外部费用：本步反馈",
+  "source_basis": "This packet uses only the accepted assumptions made for this example. It does not show eligibility for execution in a market.",
+  "worked": [
+    "现金占用10010+2=10012元。按99.90退出，价差损失100×0.20=20，加双边费4=24元，小于50元。",
+    "暂不计备付时，现金上限floor((20000−2)/100.10)=199份，风险floor((50−4)/0.20)=230份，整份上限199；100份在这两个上限内，但还未通过用款检查。",
+    "买100份后原现金20000−10012=9988，本题允许可取。10-21需12000则差2012，不能靠10-21卖款补足，因为卖款10-22才可取；应否决此100份方案或另拟缩量，日期本身不是唯一理由。",
+    "保留12000原现金后，买入资金上限8000，整份上限floor((8000−2)/100.10)=79。79份支出7909.90、余12090.10、计划风险79×0.20+4=19.80；80份支出8010、余11990，不够12000。缩量仍须核规则、成本和成交条件，不能把79份计划写成已成交。",
+    "独立5000另题：同一100份方案所余9988已足额，备付后仍余4988，不能因10-21早于卖款可取日就强判不交易；其他规则或成本条件不满足仍可有证据地等待。",
+    "假设收益比较10010×0.015/365约0.41元/日，不是承诺，不能据此忽略双边4元费用或替代现金备付。"
+  ],
+  "misconception": "“现金多就把20000元全部买，反正货币安全。”可取时间、费用和风险预算仍约束数量。",
+  "follow_up": "若无法核实10-22能否提现，应把哪一条件标为未知并暂停？",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

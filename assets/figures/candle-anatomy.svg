@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">一根 K 线的四个价格</title><desc id="desc">合成完整日线：开盘10、最高11、最低9.8、收盘10.8元每股。实体由开收盘围成，上下影线延伸至最高最低；OHLC不规定日内先后路径。</desc>
+<rect width="1200" height="760" fill="#f7f9fb"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#183044;font-size:21px} .small{font-size:17px;fill:#4c6273} .heading{font-size:32px;font-weight:700} .large{font-size:26px;font-weight:600}</style>
+<text x="48" y="58" class="heading" text-anchor="start">一根 K 线的四个价格</text>
+<text x="48" y="96" class="small" text-anchor="start">合成教学示意 · 非真实证券或交易所参数 · 图中假设仅用于解释机制</text>
+<line x1="145" y1="504.9999999999997" x2="600" y2="504.9999999999997" stroke="#d4dee7" stroke-width="2"/>
+<text x="120" y="511.9999999999997" class="" text-anchor="end">9.8</text>
+<line x1="145" y1="454.9999999999999" x2="600" y2="454.9999999999999" stroke="#d4dee7" stroke-width="2"/>
+<text x="120" y="461.9999999999999" class="" text-anchor="end">10</text>
+<line x1="145" y1="254.99999999999972" x2="600" y2="254.99999999999972" stroke="#d4dee7" stroke-width="2"/>
+<text x="120" y="261.9999999999997" class="" text-anchor="end">10.8</text>
+<line x1="145" y1="204.9999999999999" x2="600" y2="204.9999999999999" stroke="#d4dee7" stroke-width="2"/>
+<text x="120" y="211.9999999999999" class="" text-anchor="end">11</text>
+<text x="70" y="150" class="small" text-anchor="start">价格（元 / 股）</text>
+<line x1="350" y1="204.9999999999999" x2="350" y2="504.9999999999997" stroke="#b83238" stroke-width="3"/>
+<rect x="302.5" y="254.99999999999972" width="95" height="200.00000000000017" rx="8" fill="#b83238" stroke="#b83238"/>
+<text x="650" y="211.9999999999999" class="" text-anchor="start">最高 11.00：上影线顶端</text>
+<text x="650" y="261.9999999999997" class="" text-anchor="start">收盘 10.80：实体上沿</text>
+<text x="650" y="461.9999999999999" class="" text-anchor="start">开盘 10.00：实体下沿</text>
+<text x="650" y="511.9999999999997" class="" text-anchor="start">最低 9.80：下影线底端</text>
+<text x="210" y="625" class="" text-anchor="start">红色＋文字：收盘高于开盘（阳线）</text>
+<line x1="48" y1="687" x2="1152" y2="687" stroke="#d4dee7" stroke-width="2"/>
+<text x="48" y="721" class="small" text-anchor="start">数据：合成普通完整日线；没有给出日内逐笔顺序，不据此画出唯一价格路径。</text>
+</svg>

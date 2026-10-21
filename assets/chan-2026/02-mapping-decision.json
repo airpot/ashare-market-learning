@@ -1,0 +1,106 @@
+{
+  "symbol": "sh688256",
+  "name": "寒武纪",
+  "interval": "1d",
+  "timezone": "Asia/Shanghai",
+  "adjustment": "unadjusted",
+  "price_unit": "CNY/share",
+  "volume_unit": "shares",
+  "start": "2026-06-02",
+  "cutoff": "2026-06-16",
+  "bars": [
+    {
+      "date": "2026-06-02",
+      "open": "1246.000",
+      "high": "1319.580",
+      "low": "1245.000",
+      "close": "1300.000",
+      "volume_shares": "12433895"
+    },
+    {
+      "date": "2026-06-03",
+      "open": "1292.300",
+      "high": "1428.010",
+      "low": "1291.000",
+      "close": "1378.100",
+      "volume_shares": "16559805"
+    },
+    {
+      "date": "2026-06-04",
+      "open": "1365.000",
+      "high": "1400.000",
+      "low": "1347.000",
+      "close": "1358.900",
+      "volume_shares": "8841560"
+    },
+    {
+      "date": "2026-06-05",
+      "open": "1342.000",
+      "high": "1407.770",
+      "low": "1287.340",
+      "close": "1299.200",
+      "volume_shares": "11635451"
+    },
+    {
+      "date": "2026-06-08",
+      "open": "1239.300",
+      "high": "1298.880",
+      "low": "1230.080",
+      "close": "1250.360",
+      "volume_shares": "11417055"
+    },
+    {
+      "date": "2026-06-09",
+      "open": "1279.000",
+      "high": "1285.800",
+      "low": "1239.020",
+      "close": "1270.010",
+      "volume_shares": "10673185"
+    },
+    {
+      "date": "2026-06-10",
+      "open": "1300.000",
+      "high": "1349.900",
+      "low": "1224.170",
+      "close": "1231.000",
+      "volume_shares": "13832746"
+    },
+    {
+      "date": "2026-06-11",
+      "open": "1221.960",
+      "high": "1255.000",
+      "low": "1199.000",
+      "close": "1219.500",
+      "volume_shares": "11181993"
+    },
+    {
+      "date": "2026-06-12",
+      "open": "1258.000",
+      "high": "1260.000",
+      "low": "1202.000",
+      "close": "1240.000",
+      "volume_shares": "14976597"
+    },
+    {
+      "date": "2026-06-15",
+      "open": "1253.000",
+      "high": "1345.990",
+      "low": "1238.880",
+      "close": "1335.000",
+      "volume_shares": "15437304"
+    },
+    {
+      "date": "2026-06-16",
+      "open": "1335.500",
+      "high": "1335.910",
+      "low": "1297.790",
+      "close": "1306.990",
+      "volume_shares": "9967179"
+    }
+  ],
+  "questions": [
+    "选一组合并区间，列出全部原始号、日期以及高低值各自的来源。",
+    "原始号与 P 号各数什么？何时知道该组不再吸收，能否替它造开收盘？"
+  ],
+  "left_boundary_limit": "The packet has a local seed pair without containment. It gives no qualification for a segment before this window."
+}

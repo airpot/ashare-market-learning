@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "track": "LOF",
+  "step": 1,
+  "exercise": "PRODUCT-LOF-01",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "同一基金的两条通道，先问净值何时可知：本步反馈",
+  "source_basis": "This packet uses only the accepted exercise assumptions. It gives no indications that show if they are applicable to a trading venue or not.",
+  "worked": [
+    "(1.20/1.00−1)×100=20%，只能标作相对昨日已披露NAV的价格偏离；当时NAV未知，所以今天真实溢价未知。",
+    "暂停申购已足以拒绝申购套利；权限、当日NAV、确认、转托管、可卖日、费用也未齐。不能把尚不存在的申购份额拿来卖。"
+  ],
+  "misconception": "“有20%溢价，申购再卖必赚。”暂停申购、时点错配与通道延迟分别破坏哪一步？",
+  "follow_up": "若旧NAV不变但其披露时间晚于决定时刻，应如何修改计算标签？",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

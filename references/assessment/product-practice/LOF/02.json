@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "track": "LOF",
+  "step": 2,
+  "exercise": "PRODUCT-LOF-02",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "有依据地不交易，也保留条件二级买入分支：本步反馈",
+  "source_basis": "This packet uses only the accepted exercise assumptions. It gives no indications that show if they are applicable to a trading venue or not.",
+  "worked": [
+    "A保留未知NAV与暂停申购两项独立阻断证据；等下一次真实可得披露与恢复通知，不能预先承诺开通。",
+    "B占用500×1.20+2=602元；止损估计500×0.10+4=54元，低于60元。条件未满足则B也不交易。",
+    "B只是带未知估值风险的二级纸面买入，不是申购套利。持仓规模仍需考虑与境外指数等既有暴露重叠。"
+  ],
+  "misconception": "“不交易不用写理由；买二级以后随时赎回就行。”请指出一级确认、费用和通道未知仍未消失。",
+  "follow_up": "若补到当日NAV但申购仍暂停，哪项动作依然被阻断？",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

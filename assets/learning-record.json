@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.2",
+  "skill_version": "0.3.4",
+  "learner_label": null,
+  "route": "systematic",
+  "course_cursor": {
+    "module": "M01",
+    "unit": "M01-U01",
+    "part": "P01"
+  },
+  "next_action": "Give one small part of the lesson about stock ownership. Then, wait for one response.",
+  "responses": [],
+  "response_entry_shape": {
+    "unit": null,
+    "part": null,
+    "exercise": null,
+    "raw_response": null,
+    "support": "untested",
+    "observed_understanding": [],
+    "feedback": null,
+    "next_action": null,
+    "run_id": null
+  },
+  "support_values": [
+    "untested",
+    "independent",
+    "hinted",
+    "worked_example_seen",
+    "copied",
+    "assisted",
+    "unknown"
+  ],
+  "review_queue": [],
+  "simulation_records": [],
+  "limits": {
+    "profitability_established": false,
+    "live_execution_verified": false,
+    "real_trading_required": false
+  },
+  "exposure_history": {
+    "status": "unknown",
+    "events": []
+  },
+  "holdout_runs": [],
+  "product_runs": [],
+  "related_exposures": []
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">形态必须放回上下文</title><desc id="desc">两个面板包含完全相同的长下影线：开10、最高10.3、最低9、收10.2。在不同先行走势和位置下，不能仅凭这根线推定相同后果。</desc>
+<rect width="1200" height="760" fill="#f7f9fb"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#183044;font-size:21px} .small{font-size:17px;fill:#4c6273} .heading{font-size:32px;font-weight:700} .large{font-size:26px;font-weight:600}</style>
+<text x="48" y="58" class="heading" text-anchor="start">形态必须放回上下文</text>
+<text x="48" y="96" class="small" text-anchor="start">合成教学示意 · 非真实证券或交易所参数 · 图中假设仅用于解释机制</text>
+<rect x="70" y="150" width="485" height="405" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="92" y="190" class="large" text-anchor="start">A：先行下行</text>
+<polyline points="115.00,250.00 185.00,280.00 255.00,322.00 325.00,358.00" fill="none" stroke="#4c6273" stroke-width="3"/>
+<line x1="450" y1="351.99999999999994" x2="450" y2="430.0" stroke="#b83238" stroke-width="3"/>
+<rect x="431.0" y="358.00000000000006" width="38" height="11.999999999999943" rx="8" fill="#b83238" stroke="#b83238"/>
+<text x="92" y="530" class="small" text-anchor="start">末根同为阳线：O10 H10.3 L9 C10.2</text>
+<rect x="645" y="150" width="485" height="405" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="667" y="190" class="large" text-anchor="start">B：先行上行</text>
+<polyline points="690.00,490.00 760.00,448.00 830.00,400.00 900.00,358.00" fill="none" stroke="#4c6273" stroke-width="3"/>
+<line x1="1025" y1="351.99999999999994" x2="1025" y2="430.0" stroke="#b83238" stroke-width="3"/>
+<rect x="1006.0" y="358.00000000000006" width="38" height="11.999999999999943" rx="8" fill="#b83238" stroke="#b83238"/>
+<text x="667" y="530" class="small" text-anchor="start">末根同为阳线：O10 H10.3 L9 C10.2</text>
+<text x="85" y="610" class="" text-anchor="start">单位：元 / 股；横轴为合成观测序列。折线只连各期收盘，不表示日内路径。</text>
+<text x="85" y="653" class="" text-anchor="start">共同待查：位置、先行趋势、量能、后续确认、失败条件与风险预算。</text>
+<line x1="48" y1="687" x2="1152" y2="687" stroke="#d4dee7" stroke-width="2"/>
+<text x="48" y="721" class="small" text-anchor="start">状态：只有观察候选，尚未确认后果；任何单根形态都不是普遍买卖指令。</text>
+</svg>

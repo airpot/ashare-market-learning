@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 940" role="img" aria-label="H01-02 · 桥溪设备 · 合成训练日线 · 截止 2025-03-12" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="17" fill="#24354b">
+<title>H01-02 · 桥溪设备 · 合成训练日线 · 截止 2025-03-12</title>
+<desc>日线开高低收与成交量；交易观察等距排列，红涨绿跌灰平（收盘对开盘）。标注为调用方给定的解释，未推断未来走势。</desc>
+<rect width="1440" height="940" rx="20" fill="#ffffff"/>
+<text x="112" y="43" font-size="26" font-weight="700">H01-02 · 桥溪设备 · 合成训练日线 · 截止 2025-03-12</text>
+<text x="112" y="82" >2025-03-03 至 2025-03-12 · UTC+8 · 日线 · 8 根</text>
+<text x="112" y="115" font-weight="600">价格（元/股）</text>
+<g class="price-axis" data-min="45.648" data-max="50.752" data-top="150" data-bottom="570">
+<line x1="112" y1="570" x2="1320" y2="570" stroke="#dde5ed" />
+<text x="98" y="576" text-anchor="end" font-size="14">45.65</text>
+<line x1="112" y1="486" x2="1320" y2="486" stroke="#dde5ed" />
+<text x="98" y="492" text-anchor="end" font-size="14">46.67</text>
+<line x1="112" y1="402" x2="1320" y2="402" stroke="#dde5ed" />
+<text x="98" y="408" text-anchor="end" font-size="14">47.69</text>
+<line x1="112" y1="318" x2="1320" y2="318" stroke="#dde5ed" />
+<text x="98" y="324" text-anchor="end" font-size="14">48.71</text>
+<line x1="112" y1="234" x2="1320" y2="234" stroke="#dde5ed" />
+<text x="98" y="240" text-anchor="end" font-size="14">49.73</text>
+<line x1="112" y1="150" x2="1320" y2="150" stroke="#dde5ed" />
+<text x="98" y="156" text-anchor="end" font-size="14">50.75</text>
+<line x1="112" y1="150" x2="112" y2="570" stroke="#dde5ed" />
+</g>
+<text x="112" y="618" font-weight="600">成交量（股）</text>
+<g class="volume-axis" data-min="0" data-max="235200.00" data-top="640" data-bottom="780">
+<line x1="112" y1="780" x2="1320" y2="780" stroke="#dde5ed" />
+<text x="98" y="786" text-anchor="end" font-size="14">0</text>
+<line x1="112" y1="710" x2="1320" y2="710" stroke="#dde5ed" />
+<text x="98" y="716" text-anchor="end" font-size="14">117,600</text>
+<line x1="112" y1="640" x2="1320" y2="640" stroke="#dde5ed" />
+<text x="98" y="646" text-anchor="end" font-size="14">235,200</text>
+</g>
+<g class="candle" data-date="2025-03-03">
+<title>2025-03-03 开 47 高 48 低 46 收 47.4 元/股；量 120000 股</title>
+<line x1="187.5" y1="376.45768" x2="187.5" y2="541.034483" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="178.5" y="425.830721" width="18" height="32.915361" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2025-03-03" x="178.5" y="708.571429" width="18" height="71.428571" fill="#c53643"><title>2025-03-03 成交量 120000 股</title></rect>
+<g class="candle" data-date="2025-03-04">
+<title>2025-03-04 开 47.4 高 49 低 47 收 48.5 元/股；量 140000 股</title>
+<line x1="338.5" y1="294.169279" x2="338.5" y2="458.746082" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="329.5" y="335.31348" width="18" height="90.517241" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2025-03-04" x="329.5" y="696.666667" width="18" height="83.333333" fill="#c53643"><title>2025-03-04 成交量 140000 股</title></rect>
+<g class="candle" data-date="2025-03-05">
+<title>2025-03-05 开 48.6 高 50 低 48 收 49.2 元/股；量 180000 股</title>
+<line x1="489.5" y1="211.880878" x2="489.5" y2="376.45768" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="480.5" y="277.711599" width="18" height="49.373041" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2025-03-05" x="480.5" y="672.857143" width="18" height="107.142857" fill="#c53643"><title>2025-03-05 成交量 180000 股</title></rect>
+<g class="candle" data-date="2025-03-06">
+<title>2025-03-06 开 49 高 49.5 低 47.5 收 48 元/股；量 160000 股</title>
+<line x1="640.5" y1="253.025078" x2="640.5" y2="417.601881" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="631.5" y="294.169279" width="18" height="82.288401" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2025-03-06" x="631.5" y="684.761905" width="18" height="95.238095" fill="#087f5b"><title>2025-03-06 成交量 160000 股</title></rect>
+<g class="candle" data-date="2025-03-07">
+<title>2025-03-07 开 48 高 49 低 46.5 收 47 元/股；量 130000 股</title>
+<line x1="791.5" y1="294.169279" x2="791.5" y2="499.890282" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="782.5" y="376.45768" width="18" height="82.288401" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2025-03-07" x="782.5" y="702.619048" width="18" height="77.380952" fill="#087f5b"><title>2025-03-07 成交量 130000 股</title></rect>
+<g class="candle" data-date="2025-03-10">
+<title>2025-03-10 开 47 高 48 低 46 收 47.5 元/股；量 125000 股</title>
+<line x1="942.5" y1="376.45768" x2="942.5" y2="541.034483" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="933.5" y="417.601881" width="18" height="41.144201" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2025-03-10" x="933.5" y="705.595238" width="18" height="74.404762" fill="#c53643"><title>2025-03-10 成交量 125000 股</title></rect>
+<g class="candle" data-date="2025-03-11">
+<title>2025-03-11 开 47.7 高 49.8 低 47 收 49.5 元/股；量 190000 股</title>
+<line x1="1093.5" y1="228.338558" x2="1093.5" y2="458.746082" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1084.5" y="253.025078" width="18" height="148.119122" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2025-03-11" x="1084.5" y="666.904762" width="18" height="113.095238" fill="#c53643"><title>2025-03-11 成交量 190000 股</title></rect>
+<g class="candle" data-date="2025-03-12">
+<title>2025-03-12 开 49.6 高 50.4 低 48.8 收 50.1 元/股；量 210000 股</title>
+<line x1="1244.5" y1="178.965517" x2="1244.5" y2="310.626959" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1235.5" y="203.652038" width="18" height="41.144201" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2025-03-12" x="1235.5" y="655" width="18" height="125" fill="#c53643"><title>2025-03-12 成交量 210000 股</title></rect>
+<line x1="187.5" y1="780" x2="187.5" y2="788" stroke="#24354b" />
+<text x="187.5" y="816" text-anchor="middle" font-size="15">2025-03-03</text>
+<line x1="338.5" y1="780" x2="338.5" y2="788" stroke="#24354b" />
+<text x="338.5" y="816" text-anchor="middle" font-size="15">2025-03-04</text>
+<line x1="489.5" y1="780" x2="489.5" y2="788" stroke="#24354b" />
+<text x="489.5" y="816" text-anchor="middle" font-size="15">2025-03-05</text>
+<line x1="640.5" y1="780" x2="640.5" y2="788" stroke="#24354b" />
+<text x="640.5" y="816" text-anchor="middle" font-size="15">2025-03-06</text>
+<line x1="791.5" y1="780" x2="791.5" y2="788" stroke="#24354b" />
+<text x="791.5" y="816" text-anchor="middle" font-size="15">2025-03-07</text>
+<line x1="942.5" y1="780" x2="942.5" y2="788" stroke="#24354b" />
+<text x="942.5" y="816" text-anchor="middle" font-size="15">2025-03-10</text>
+<line x1="1244.5" y1="780" x2="1244.5" y2="788" stroke="#24354b" />
+<text x="1244.5" y="816" text-anchor="middle" font-size="15">2025-03-12</text>
+<text x="112" y="856" font-size="16">红：收＞开　绿：收＜开　灰：收＝开；成交量以股计。标注编号见下方说明。</text>
+</svg>

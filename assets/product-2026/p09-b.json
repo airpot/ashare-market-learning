@@ -1,0 +1,270 @@
+{
+  "id": "p09-b",
+  "symbol": "sh508000",
+  "title": "P09-B · sh508000 · 截至 2026-09-30",
+  "product": "基础设施 REIT",
+  "track": "REIT",
+  "cutoff": "2026-09-30",
+  "cutoff_time": "2026-09-30T15:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "interval": "1d",
+  "adjustment": "raw",
+  "price_unit": "CNY/fund-unit",
+  "volume_unit": "fund-units",
+  "volume_basis": "Sina volume not changed",
+  "comparison_multiplier": 100,
+  "source_provider": "Sina CN_MarketData.getKLineData",
+  "source_retrieved_at": "2026-10-20T12:44:24.392048+00:00",
+  "selection_rule": "The selection uses calendar cutoffs specified before selection and not changed. Each example has the last 30 sessions with observations available at the cutoff, with the end of this sequence at the cutoff.",
+  "qualification": "This is practice with previous observations selected after the outcomes. It is not an assessment with data that the learner did not see before this assessment.",
+  "limits": [
+    "历史图仅供回顾练习；采集时间晚于决策截止时间，不能证明未见过后续行情。",
+    "未建立完整的公司行动、分红、交易状态与历史权限日历；原始价格跳变不等于经济损失。",
+    "无同步历史净值 NAV、IOPV、汇率、持仓或转股价，不能据此计算真实历史溢价或转股溢价。",
+    "无盘口、价差、逐笔成交与订单队列，日线不能证明真实执行、成交价或可成交数量。",
+    "两家接口可能共用上游；成交量比较存在取整差异，不是独立交易所行情认证。"
+  ],
+  "bars": [
+    {
+      "date": "2026-08-19",
+      "open": "1.797",
+      "high": "1.844",
+      "low": "1.789",
+      "close": "1.838",
+      "volume": "5620958"
+    },
+    {
+      "date": "2026-08-20",
+      "open": "1.840",
+      "high": "1.906",
+      "low": "1.810",
+      "close": "1.887",
+      "volume": "3755126"
+    },
+    {
+      "date": "2026-08-21",
+      "open": "1.878",
+      "high": "1.922",
+      "low": "1.865",
+      "close": "1.890",
+      "volume": "5236998"
+    },
+    {
+      "date": "2026-08-24",
+      "open": "1.882",
+      "high": "1.906",
+      "low": "1.862",
+      "close": "1.900",
+      "volume": "3168850"
+    },
+    {
+      "date": "2026-08-25",
+      "open": "1.900",
+      "high": "1.905",
+      "low": "1.862",
+      "close": "1.905",
+      "volume": "1244766"
+    },
+    {
+      "date": "2026-08-26",
+      "open": "1.905",
+      "high": "1.944",
+      "low": "1.890",
+      "close": "1.944",
+      "volume": "3146614"
+    },
+    {
+      "date": "2026-08-27",
+      "open": "1.944",
+      "high": "1.980",
+      "low": "1.936",
+      "close": "1.962",
+      "volume": "3434454"
+    },
+    {
+      "date": "2026-08-28",
+      "open": "1.960",
+      "high": "1.995",
+      "low": "1.950",
+      "close": "1.989",
+      "volume": "4445357"
+    },
+    {
+      "date": "2026-08-31",
+      "open": "1.988",
+      "high": "1.999",
+      "low": "1.940",
+      "close": "1.946",
+      "volume": "2220642"
+    },
+    {
+      "date": "2026-09-01",
+      "open": "1.941",
+      "high": "1.941",
+      "low": "1.860",
+      "close": "1.922",
+      "volume": "2467884"
+    },
+    {
+      "date": "2026-09-02",
+      "open": "1.913",
+      "high": "1.922",
+      "low": "1.862",
+      "close": "1.884",
+      "volume": "2938124"
+    },
+    {
+      "date": "2026-09-03",
+      "open": "1.875",
+      "high": "1.886",
+      "low": "1.850",
+      "close": "1.877",
+      "volume": "1657412"
+    },
+    {
+      "date": "2026-09-04",
+      "open": "1.878",
+      "high": "1.899",
+      "low": "1.871",
+      "close": "1.893",
+      "volume": "3160915"
+    },
+    {
+      "date": "2026-09-07",
+      "open": "1.893",
+      "high": "1.893",
+      "low": "1.862",
+      "close": "1.872",
+      "volume": "2824305"
+    },
+    {
+      "date": "2026-09-08",
+      "open": "1.853",
+      "high": "1.877",
+      "low": "1.828",
+      "close": "1.858",
+      "volume": "4749518"
+    },
+    {
+      "date": "2026-09-09",
+      "open": "1.849",
+      "high": "1.868",
+      "low": "1.841",
+      "close": "1.863",
+      "volume": "4639070"
+    },
+    {
+      "date": "2026-09-10",
+      "open": "1.865",
+      "high": "1.881",
+      "low": "1.837",
+      "close": "1.854",
+      "volume": "7739479"
+    },
+    {
+      "date": "2026-09-11",
+      "open": "1.855",
+      "high": "1.865",
+      "low": "1.835",
+      "close": "1.864",
+      "volume": "511424"
+    },
+    {
+      "date": "2026-09-14",
+      "open": "1.845",
+      "high": "1.870",
+      "low": "1.820",
+      "close": "1.840",
+      "volume": "8869447"
+    },
+    {
+      "date": "2026-09-15",
+      "open": "1.831",
+      "high": "1.855",
+      "low": "1.830",
+      "close": "1.847",
+      "volume": "1541001"
+    },
+    {
+      "date": "2026-09-16",
+      "open": "1.849",
+      "high": "1.868",
+      "low": "1.844",
+      "close": "1.868",
+      "volume": "1021584"
+    },
+    {
+      "date": "2026-09-17",
+      "open": "1.867",
+      "high": "1.917",
+      "low": "1.867",
+      "close": "1.909",
+      "volume": "1843229"
+    },
+    {
+      "date": "2026-09-18",
+      "open": "1.864",
+      "high": "1.899",
+      "low": "1.840",
+      "close": "1.842",
+      "volume": "1364028"
+    },
+    {
+      "date": "2026-09-21",
+      "open": "1.850",
+      "high": "1.858",
+      "low": "1.830",
+      "close": "1.834",
+      "volume": "1381656"
+    },
+    {
+      "date": "2026-09-22",
+      "open": "1.834",
+      "high": "1.850",
+      "low": "1.833",
+      "close": "1.844",
+      "volume": "1251838"
+    },
+    {
+      "date": "2026-09-23",
+      "open": "1.844",
+      "high": "1.908",
+      "low": "1.844",
+      "close": "1.904",
+      "volume": "1150326"
+    },
+    {
+      "date": "2026-09-24",
+      "open": "1.904",
+      "high": "1.910",
+      "low": "1.880",
+      "close": "1.904",
+      "volume": "3739110"
+    },
+    {
+      "date": "2026-09-28",
+      "open": "1.905",
+      "high": "1.909",
+      "low": "1.883",
+      "close": "1.902",
+      "volume": "592540"
+    },
+    {
+      "date": "2026-09-29",
+      "open": "1.903",
+      "high": "1.915",
+      "low": "1.891",
+      "close": "1.909",
+      "volume": "630282"
+    },
+    {
+      "date": "2026-09-30",
+      "open": "1.909",
+      "high": "1.926",
+      "low": "1.905",
+      "close": "1.926",
+      "volume": "1162740"
+    }
+  ],
+  "prompt": "先说价格与成交量事实，再列尚缺的信息；写出观察、等待或纸上计划及其失效条件。"
+}

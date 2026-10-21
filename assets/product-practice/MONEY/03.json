@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "track": "MONEY",
+  "step": 3,
+  "exercise": "PRODUCT-MONEY-03",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "二级成交与一级配售退款不能混账",
+  "cutoff": "2026-10-20T15:10:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "所有证券、报价、日期、成交、资格、费用、分派与规则均为合成教学假设。无真实执行资格或保证收益的结论；只用当前包。",
+  "lesson": [
+    "主线只做二级买入。100份已成交，未发生申购、配售或退款。现金流助手只录已确认买入；可卖日与可取日另在工作表核。 保留100份主线只为演示全成账本，不能视为已批准上一步12000元用款方案；若只需5000元，原现金足额。缩量79份计划也不能覆盖给定的100份成交回报。",
+    "为辨别通道，另列一个与主线互斥的合成一级小题。它只有申购缴款和配售通知，尚无退款到账。不要把这10000元冻结同时扣进主线，也不要把获配60份写成已买100份。",
+    "另附独立的合成部分成交账本，只用本步已确认回报处理余单与冻结；它不替代原主线，也不覆盖你的不交易原答。后续成交、撤单及收款须等下一步确认。"
+  ],
+  "data": {
+    "main": {
+      "opening_cash": "20000",
+      "buy": {
+        "event_id": "MONEY-B1",
+        "kind": "buy",
+        "quantity": 100,
+        "price": "100.10",
+        "fee": "2"
+      },
+      "buy_date": "2026-10-20",
+      "resale_date": "2026-10-21",
+      "frozen_cash_after_fill": "0"
+    },
+    "separate_primary_case": {
+      "opening_cash": "20000",
+      "subscription_reserved_cash": "10000",
+      "subscription_units": 100,
+      "price_per_unit": "100",
+      "fee": "0",
+      "allotment_notice_date": "2026-10-20",
+      "allotted_units": 60,
+      "refund_amount": "4000",
+      "refund_due": "2026-10-21",
+      "refund_received_now": false,
+      "units_credit": "2026-10-21",
+      "units_available": "2026-10-22",
+      "source": "合成配售与退款通知"
+    },
+    "suspension_counterfactual": "本题若申购暂停则不发出申购；复开只凭后续确认通知，不由二级交易状态推断。",
+    "separate_partial_case": {
+      "synthetic": true,
+      "separate_case": true,
+      "separate_from_main_and_no_trade": true,
+      "scope": "独立合成执行分支；不叠加到原主线、其他另题或学习者原先不交易的账本。未成交委托不是持仓或现金流。",
+      "fee_rule": "同一已成交指令只收实际整单费2元一次；余单撤销或失效不另收费用。冻结现金仍属总现金，不可再从总现金扣一次。",
+      "case_id": "MONEY-PARTIAL-BUY",
+      "opening_cash": "20000",
+      "as_of": "2026-10-20T15:10:00+08:00",
+      "quantity_assumption": "独立于主线与一级配售另题：申报100份只确认60份，余40份14:59已请求撤单，当前无解除确认。本题当日委托收市后不继续撮合，但冻结仍须等撤单或失效确认才释放；不声称真实跨日委托有效。",
+      "confirmed_fills": [
+        {
+          "event_id": "MONEY-P-B1",
+          "kind": "buy",
+          "quantity": 60,
+          "price": "100.10",
+          "fee": "2",
+          "confirmed_at": "2026-10-20T10:10:00+08:00"
+        }
+      ],
+      "order": {
+        "order_id": "MONEY-P-B-ORDER",
+        "kind": "buy",
+        "submitted_at": "2026-10-20T10:09:00+08:00",
+        "submitted_quantity": 100,
+        "limit_price": "100.10",
+        "filled_quantity": 60,
+        "remaining_quantity": 40,
+        "status": "cancel_requested_release_unconfirmed",
+        "cancel_requested_at": "2026-10-20T14:59:00+08:00"
+      },
+      "frozen_cash": "4004.00",
+      "frozen_units": 0,
+      "events_known_now": {
+        "cash_liability": {
+          "amount": "12000",
+          "date": "2026-10-21",
+          "currency": "CNY",
+          "withdrawal_confirmed": false
+        },
+        "distribution": "本题无单独现金分派；不另加过去七日年化收益。",
+        "resale": "60份已到账；10-20可卖0，10-21起本题可卖60。",
+        "refund": "这是二级未成交余单，冻结解除不是一级退款或收益。",
+        "frozen_cash_basis": "余40份×100.10=4004；已收本指令费2元，余单无额外费冻结。"
+      },
+      "deadlines": {
+        "units_available": "2026-10-21",
+        "cash_liability_due": "2026-10-21",
+        "sale_proceeds_rule": "10-21若确认卖出，卖款10-22才可取；当前尚无卖出回报。",
+        "release": "以余单撤销或失效的确认时间为准，不能因已请求便提前花用。"
+      },
+      "current_check": "把已成60份、未成40份、冻结款与10-21的12000元用款接到下一步时，当前可取原现金是否足够，尚缺什么确认？"
+    }
+  },
+  "current_response": [
+    "写二级主线的买入现金、总份数及当日可卖份数。",
+    "一级另题尚待退的钱有多少？获配、到账和可卖分别是什么状态？",
+    "为什么不能把一级10000元冻结或4000元预退款填进二级主线？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-MONEY",
+      "relationship": "虚构产品；包装分类不代表风险分散"
+    }
+  ],
+  "teaching_delivery": "Use only this step. Use worksheet items to include the lesson topics. Do not use them as a quiz list. Give one short part of the lesson. Then, give one check question from this part of the lesson. Before you give feedback for this step, wait for the raw response.\n\nKeep all practice in the category with tutor aid."
+}

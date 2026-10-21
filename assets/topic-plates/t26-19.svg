@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1139" viewBox="0 0 1680 1139" role="img" aria-labelledby="plate-title plate-desc">
+<title id="plate-title">T26-19 教师专题图版</title>
+<desc id="plate-desc">仅在保存学员原答后开放；真实观察前缀的局部放大图，详细数值解释在图下方。</desc>
+<metadata>{&quot;id&quot;: &quot;t26-19&quot;, &quot;observed_bars_sha256&quot;: &quot;242da69a80f7dbaaa91b45fa110da7d8d37d0d5a57651e0af37c55a4dd3abbd0&quot;, &quot;opens_after&quot;: &quot;saved_raw_answer&quot;, &quot;svg_input_sha256&quot;: &quot;de085c8ab30ee57b7a8b0ed8fd5fa2eb41280efcb0322d4e454dc9de0d56259d&quot;, &quot;teacher_only&quot;: true}</metadata>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}line{stroke-linecap:round}</style>
+<rect width="1680" height="1139" fill="#f7f9fc"/>
+<text x="70" y="62.0" font-size="30" fill="#20344b" textLength="628.8000" lengthAdjust="spacingAndGlyphs">T26-19 · 中芯国际 · 价量：固定20根比较</text>
+<text x="70" y="110.0" font-size="20" fill="#52677d" textLength="860.8000" lengthAdjust="spacingAndGlyphs">教师专用 · 保存原答后开放 · 截止 2026-07-14 · 真实未复权日线 · Asia/Shanghai</text>
+<text x="100" y="175.0" font-size="20" fill="#20344b" textLength="765.6000" lengthAdjust="spacingAndGlyphs">成交量（万股）；蓝色20柱是基准窗口，金色最后一柱是目标日；每柱为完整交易日。</text>
+<rect x="112.000000" y="230.000000" width="885.714286" height="380.000000" fill="#eef4fb"/>
+<rect x="121.142857" y="443.575190" width="26.000000" height="166.424810" fill="#7093b7" id="volume-0"/>
+<rect x="165.428571" y="439.696933" width="26.000000" height="170.303067" fill="#7093b7" id="volume-1"/>
+<rect x="209.714286" y="389.907024" width="26.000000" height="220.092976" fill="#7093b7" id="volume-2"/>
+<rect x="254.000000" y="325.636475" width="26.000000" height="284.363525" fill="#7093b7" id="volume-3"/>
+<rect x="298.285714" y="367.659660" width="26.000000" height="242.340340" fill="#7093b7" id="volume-4"/>
+<rect x="342.571429" y="400.268207" width="26.000000" height="209.731793" fill="#7093b7" id="volume-5"/>
+<rect x="386.857143" y="287.562573" width="26.000000" height="322.437427" fill="#7093b7" id="volume-6"/>
+<rect x="431.142857" y="339.075276" width="26.000000" height="270.924724" fill="#7093b7" id="volume-7"/>
+<rect x="475.428571" y="364.188913" width="26.000000" height="245.811087" fill="#7093b7" id="volume-8"/>
+<rect x="519.714286" y="375.325202" width="26.000000" height="234.674798" fill="#7093b7" id="volume-9"/>
+<rect x="564.000000" y="366.326891" width="26.000000" height="243.673109" fill="#7093b7" id="volume-10"/>
+<rect x="608.285714" y="348.057778" width="26.000000" height="261.942222" fill="#7093b7" id="volume-11"/>
+<rect x="652.571429" y="393.227845" width="26.000000" height="216.772155" fill="#7093b7" id="volume-12"/>
+<rect x="696.857143" y="434.025646" width="26.000000" height="175.974354" fill="#7093b7" id="volume-13"/>
+<rect x="741.142857" y="405.195263" width="26.000000" height="204.804737" fill="#7093b7" id="volume-14"/>
+<rect x="785.428571" y="452.594599" width="26.000000" height="157.405401" fill="#7093b7" id="volume-15"/>
+<rect x="829.714286" y="381.526234" width="26.000000" height="228.473766" fill="#7093b7" id="volume-16"/>
+<rect x="874.000000" y="279.642857" width="26.000000" height="330.357143" fill="#7093b7" id="volume-17"/>
+<rect x="918.285714" y="352.554884" width="26.000000" height="257.445116" fill="#7093b7" id="volume-18"/>
+<rect x="962.571429" y="363.006205" width="26.000000" height="246.993795" fill="#7093b7" id="volume-19"/>
+<rect x="1006.857143" y="344.399244" width="26.000000" height="265.600756" fill="#b66c08" id="volume-20"/>
+<line x1="110.000000" y1="610.000000" x2="1045.000000" y2="610.000000" stroke="#d8e1eb" stroke-width="1"/>
+<text x="15" y="616.0" font-size="16" fill="#20344b" textLength="10.2400" lengthAdjust="spacingAndGlyphs">0</text>
+<line x1="110.000000" y1="425.000000" x2="1045.000000" y2="425.000000" stroke="#d8e1eb" stroke-width="1"/>
+<text x="15" y="431.0" font-size="16" fill="#20344b" textLength="61.4400" lengthAdjust="spacingAndGlyphs">8099.3</text>
+<line x1="110.000000" y1="240.000000" x2="1045.000000" y2="240.000000" stroke="#d8e1eb" stroke-width="1"/>
+<text x="15" y="246.0" font-size="16" fill="#20344b" textLength="71.6800" lengthAdjust="spacingAndGlyphs">16198.5</text>
+<line x1="110.000000" y1="375.452683" x2="1045.000000" y2="375.452683" stroke="#087d80" stroke-width="2.5" id="prior20-mean" stroke-dasharray="7 5"/>
+<line x1="1019.857143" y1="230.000000" x2="1019.857143" y2="615.000000" stroke="#b66c08" stroke-width="1.5" id="cutoff" stroke-dasharray="7 5"/>
+<line x1="112.000000" y1="666.000000" x2="997.714286" y2="666.000000" stroke="#2463a0" stroke-width="2"/>
+<line x1="112.000000" y1="659.000000" x2="112.000000" y2="674.000000" stroke="#2463a0" stroke-width="2"/>
+<line x1="997.714286" y1="659.000000" x2="997.714286" y2="674.000000" stroke="#2463a0" stroke-width="2"/>
+<text x="112" y="704.0" font-size="19" fill="#20344b" textLength="519.8400" lengthAdjust="spacingAndGlyphs">基准20根：2026-06-15 至 2026-07-13（排除目标日）</text>
+<text x="953.8571428571429" y="646.0" font-size="18" fill="#20344b" textLength="115.2000" lengthAdjust="spacingAndGlyphs">2026-07-14</text>
+<text x="1120" y="229.0" font-size="19" fill="#087d80" textLength="195.3200" lengthAdjust="spacingAndGlyphs">青色虚线：前20根均量</text>
+<text x="1120" y="271.5" font-size="19" fill="#20344b" textLength="336.6800" lengthAdjust="spacingAndGlyphs">102684290 股 = 10268.429 万股</text>
+<text x="1120" y="314.0" font-size="19" fill="#b66c08" textLength="212.8000" lengthAdjust="spacingAndGlyphs">今日量 / 此前20根均量</text>
+<text x="1120" y="356.5" font-size="19" fill="#20344b" textLength="389.1200" lengthAdjust="spacingAndGlyphs">116279416 / 102684290 = 1.132397</text>
+<text x="1120" y="399.0" font-size="19" fill="#20344b" textLength="340.4800" lengthAdjust="spacingAndGlyphs">今日量 ≥ 均量；等于归入不低于均量。</text>
+<text x="1120" y="441.5" font-size="19" fill="#20344b" textLength="338.2000" lengthAdjust="spacingAndGlyphs">前收 2026-07-13：163.580 元/股</text>
+<text x="1120" y="484.0" font-size="19" fill="#20344b" textLength="428.6400" lengthAdjust="spacingAndGlyphs">今日 2026-07-14：O 165.660；C 160.990</text>
+<text x="1120" y="526.5" font-size="19" fill="#20344b" textLength="234.0800" lengthAdjust="spacingAndGlyphs">C−前收 = -2.590 元/股</text>
+<text x="1120" y="569.0" font-size="19" fill="#52677d" textLength="304.0000" lengthAdjust="spacingAndGlyphs">本课日量相对值不是软件盘中量比。</text>
+<text x="80" y="813.0" font-size="23" fill="#2463a0" textLength="184.0000" lengthAdjust="spacingAndGlyphs">把数值对应到图上</text>
+<text x="80" y="859.5" font-size="19" fill="#20344b" textLength="1292.7600" lengthAdjust="spacingAndGlyphs">基准窗口 2026-06-15—2026-07-13 共20根；原始量合计 2053685800 股，除以20得 102684290 股。目标量 116279416 股未进入分母。</text>
+<text x="80" y="900.0" font-size="19" fill="#20344b" textLength="1308.7200" lengthAdjust="spacingAndGlyphs">纵轴用万股：股数÷10000。青色虚线为此前均量 10268.429 万股；金柱高于虚线表示今日量更大，低于则更小。单位换成万股不改变两者的大小关系。</text>
+<text x="80" y="940.5" font-size="19" fill="#20344b" textLength="1131.6400" lengthAdjust="spacingAndGlyphs">目标收盘 160.990 与前收 163.580 比，下跌；今日量/此前均量=1.132397，不低于1。价格方向与相对成交量需要分别判断。</text>
+<text x="80" y="981.0" font-size="19" fill="#20344b" textLength="1083.0000" lengthAdjust="spacingAndGlyphs">先指出蓝色比较窗口、青色均量线与金色今日柱，再谈量价组合；每笔交易有买卖双方，柱高不证明资金身份、意图或后续涨跌。</text>
+<text x="80" y="1030.5" font-size="20" fill="#087d80" textLength="1105.6000" lengthAdjust="spacingAndGlyphs">检查一问：请在图上指出排除今日的20根窗口；用股与万股各算一次均量，说明今日柱与虚线的比较为何不受单位换算影响。</text>
+<text x="80" y="1075.5" font-size="17" fill="#52677d" textLength="919.3600" lengthAdjust="spacingAndGlyphs">来源：同题观察前缀（Sina OHLCV，Tencent OHLC交叉核对）；只画截止前数据。图形不是委托、成交或收益证明。</text>
+</svg>

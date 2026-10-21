@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "track": "CB",
+  "step": 4,
+  "exercise": "PRODUCT-CB-04",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "债券、股票与现金分账复盘",
+  "cutoff": "2026-10-26T16:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "全包为虚构纸面教学。证券、报价、转股条款、公告及日历均为合成假设，不代表真实债券资格、期限或交易规则。",
+  "lesson": [
+    "四条互斥路径在本步才给出确认结果。卖出路径能用零期初持仓现金流助手；转股与赎回需要权益工作表先完成债券注销、股票到账或应收变现金，不得给助手伪造sell或distribution事件。",
+    "理论转股价值与最终可卖股票的价值不同。假定股票标记价只是账面估值，未卖不等于已实现盈利。把现金、债券张数、股票股数、待收余款逐栏复核。",
+    "独立部分成交另题在此承接上一步的同名账本；只按新增确认解除冻结、结清应收或保留残余权益，不把主线结果抄入另题。"
+  ],
+  "data": {
+    "opening_cash": "2000",
+    "buy": {
+      "event_id": "CB-B1",
+      "kind": "buy",
+      "quantity": 10,
+      "price": "120",
+      "fee": "2"
+    },
+    "outcomes": {
+      "sell": {
+        "event_id": "CB-S1",
+        "kind": "sell",
+        "quantity": 10,
+        "price": "124",
+        "fee": "2",
+        "date": "2026-10-22"
+      },
+      "convert": {
+        "conversion_price": "10",
+        "total_face": "1000",
+        "stock_mark": "12",
+        "shares_credited": 100,
+        "share_credit_date": "2026-10-23",
+        "available_date": "2026-10-26",
+        "conversion_fee": "0",
+        "tax": "0",
+        "residual_cash": "0"
+      },
+      "hold": {
+        "redemption_cash_received": "1010",
+        "cash_date": "2026-10-26",
+        "bonds_cancelled": 10
+      },
+      "miss": {
+        "same_redemption_cash_received": "1010",
+        "cash_date": "2026-10-26",
+        "late_conversion": "refused"
+      }
+    },
+    "rounding_variant": {
+      "conversion_price": "10.03",
+      "face": "1000",
+      "stock_mark": "12",
+      "shares": 99,
+      "residual_cash_received": "7.03",
+      "cash_date": "2026-10-26",
+      "fee": "0",
+      "tax": "0"
+    },
+    "credit_counterfactual": "若10-26未收款，保持应收/信用风险，现金仍798；不能写成已收1010。",
+    "separate_partial_case": {
+      "synthetic": true,
+      "separate_case": true,
+      "separate_from_main_and_no_trade": true,
+      "scope": "独立合成执行分支；不叠加到原主线、其他另题或学习者原先不交易的账本。未成交委托不是持仓或现金流。",
+      "fee_rule": "同一已成交指令只收实际整单费2元一次；余单撤销或失效不另收费用。冻结现金仍属总现金，不可再从总现金扣一次。",
+      "case_id": "CB-PARTIAL-SELL",
+      "carried_from_step3": {
+        "synthetic": true,
+        "separate_case": true,
+        "separate_from_main_and_no_trade": true,
+        "scope": "独立合成执行分支；不叠加到原主线、其他另题或学习者原先不交易的账本。未成交委托不是持仓或现金流。",
+        "fee_rule": "同一已成交指令只收实际整单费2元一次；余单撤销或失效不另收费用。冻结现金仍属总现金，不可再从总现金扣一次。",
+        "case_id": "CB-PARTIAL-SELL",
+        "opening_cash": "2000",
+        "as_of": "2026-10-21T10:00:00+08:00",
+        "quantity_assumption": "仍按原规则申报卖10张；本另题特别假定可按1张分笔撮合，已成6张、余4张可申请撤单。这是合成成交假设，不变更主线10张申报组，也不证明真实撮合或转股资格。 本另题特别假定此卖单有效至10-22 15:00，余单在成交或撤销确认前跨日冻结；不外推真实委托有效期。",
+        "confirmed_fills": [
+          {
+            "event_id": "CB-P-B1",
+            "kind": "buy",
+            "quantity": 10,
+            "price": "120",
+            "fee": "2",
+            "confirmed_at": "2026-10-20T10:10:00+08:00"
+          },
+          {
+            "event_id": "CB-P-S1",
+            "kind": "sell",
+            "quantity": 6,
+            "price": "123",
+            "fee": "2",
+            "confirmed_at": "2026-10-21T09:50:00+08:00"
+          }
+        ],
+        "order": {
+          "order_id": "CB-P-S-ORDER",
+          "kind": "sell",
+          "submitted_at": "2026-10-21T09:45:00+08:00",
+          "submitted_quantity": 10,
+          "limit_price": "123",
+          "filled_quantity": 6,
+          "remaining_quantity": 4,
+          "status": "partially_filled_open",
+          "valid_until": "2026-10-22T15:00:00+08:00"
+        },
+        "frozen_cash": "0",
+        "frozen_bonds": 4,
+        "events_known_now": {
+          "redemption_notice": "沿用本步已生效公告；未卖且未有效转股的余债将依公告注销并转赎回应收，实际收到后才记现金。",
+          "conversion": "仍适用转股价10元、每张面值100元、转股费0税0；卖出委托冻结的债券须先确认撤单释放，才可有效转股；不得同时卖与转。",
+          "cash_withdrawable_now": "未用的原现金可取；已成6张的净卖款在10-22才可取。",
+          "receivable_received_now": false
+        },
+        "deadlines": {
+          "last_sell": "2026-10-22T15:00:00+08:00",
+          "last_convert": "2026-10-22T14:30:00+08:00",
+          "bond_cancel_date": "2026-10-23",
+          "redemption_cash_due": "2026-10-26",
+          "sale_proceeds_withdrawable": "2026-10-22"
+        },
+        "current_check": "只按当前回报，怎样把现金、剩余债券、冻结余单与先到的转股截止接到下一步，并写出余单未成时的处理动作？"
+      },
+      "new_confirmations": [
+        {
+          "at": "2026-10-22T14:35:00+08:00",
+          "order_id": "CB-P-S-ORDER",
+          "kind": "cancel_confirmed",
+          "cancelled_quantity": 4,
+          "additional_fee": "0",
+          "released_frozen_bonds": 4
+        },
+        {
+          "at": "2026-10-22T15:00:00+08:00",
+          "kind": "deadline_review",
+          "further_sale_fills": 0,
+          "effective_conversion_quantity": 0,
+          "late_conversion": "refused",
+          "reason": "14:35才确认撤单，已错过14:30转股截止；到15:00也没有余4张的新卖出确认。"
+        },
+        {
+          "at": "2026-10-23T09:00:00+08:00",
+          "kind": "redemption_receivable_confirmed",
+          "bonds_cancelled": 4,
+          "final_cash_per_bond": "101",
+          "amount": "404",
+          "cash_received": false
+        },
+        {
+          "at": "2026-10-26T10:00:00+08:00",
+          "kind": "redemption_cash_received",
+          "amount": "404",
+          "fee": "0",
+          "tax": "0"
+        }
+      ],
+      "closing": {
+        "open_order_quantity": 0,
+        "frozen_cash": "0",
+        "frozen_bonds": 0,
+        "bonds": 0,
+        "stock_shares": 0,
+        "receivable": "0",
+        "cash_withdrawable": "1938"
+      },
+      "credit_counterfactual": "若10-26未收到404，现金保持1534、应收404，发行人信用风险仍在；不能记录为已收或追溯补转股。",
+      "current_check": "接续CB-PARTIAL-SELL，怎样逐项结清已卖6张与余4张的现金、费用、冻结、注销和应收，并解释错过转股的过程责任？"
+    }
+  },
+  "current_response": [
+    "卖出路径算最终现金、债券数量及净损益。",
+    "转股路径核期末现金、债券、股票、股价标记与总损益；另算10.03的余款路线。",
+    "比较主动持有与错过期限：即使现金结果相同，过程证据有什么不同？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-CB",
+      "relationship": "虚构可转债"
+    },
+    {
+      "instrument": "TRAIN-CB-STOCK",
+      "relationship": "同一虚构发行人的正股，存在共同风险"
+    }
+  ],
+  "teaching_delivery": "Use only this step. Use worksheet items to include the lesson topics. Do not use them as a quiz list. Give one short part of the lesson. Then, give one check question from this part of the lesson. Before you give feedback for this step, wait for the raw response.\n\nKeep all practice in the category with tutor aid."
+}

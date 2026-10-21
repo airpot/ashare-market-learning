@@ -1,0 +1,4 @@
+interface:
+  display_name: "A股交易与图表学习"
+  short_description: "从零学习个股、ETF、LOF、可转债与场内基金，结合真实图形和完整模拟交易。"
+  default_prompt: "Use $ashare-market-learning. Give lessons about stocks and other exchange-traded products from the first concepts for beginners. Use illustrations with full information. Give the lessons in small steps in a conversation."

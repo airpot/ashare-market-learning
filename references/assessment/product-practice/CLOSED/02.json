@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "track": "CLOSED",
+  "step": 2,
+  "exercise": "PRODUCT-CLOSED-02",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "折价不替你承担下跌预算：本步反馈",
+  "source_basis": "This packet uses only the accepted assumptions made for this example. It does not show eligibility for execution in a market.",
+  "worked": [
+    "现金占用1000×0.90+2=902；计划损失1000×0.04+4=44元。现金上限2220份，风险1150份，按100份取整上限1100份；选择1000份可行。",
+    "0.85退出时损失1000×0.05+4=54，超过50元预算，说明止损是假设而非保证。",
+    "如果决策完全依赖按1.20赎回，但当前不能赎回且期末路径未知，应不交易并查有效条款与公告；不能拿旧NAV作兑付承诺。"
+  ],
+  "misconception": "“已有25%折价，继续跌就多买直到回本。”新增持仓须重新检查预算、期限与现金用途。",
+  "follow_up": "请写一条价格、时间或原逻辑失效时的暂停规则。",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

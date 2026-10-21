@@ -1,0 +1,430 @@
+{
+  "symbol": "sz300308",
+  "start": "2026-06-01",
+  "cutoff": "2026-06-15",
+  "source_sha256": "c00eff4d19ea288012ed75bcb8c30fc30505c131f229ca04397b025e70c81389",
+  "bars": [
+    {
+      "date": "2026-06-01",
+      "open": "1161.000",
+      "high": "1183.610",
+      "low": "1113.900",
+      "close": "1130.000",
+      "volume_shares": "26978189"
+    },
+    {
+      "date": "2026-06-02",
+      "open": "1153.600",
+      "high": "1205.580",
+      "low": "1140.010",
+      "close": "1191.810",
+      "volume_shares": "29006342"
+    },
+    {
+      "date": "2026-06-03",
+      "open": "1220.000",
+      "high": "1320.000",
+      "low": "1220.000",
+      "close": "1275.000",
+      "volume_shares": "34525076"
+    },
+    {
+      "date": "2026-06-04",
+      "open": "1250.000",
+      "high": "1290.000",
+      "low": "1241.360",
+      "close": "1280.000",
+      "volume_shares": "21714212"
+    },
+    {
+      "date": "2026-06-05",
+      "open": "1273.200",
+      "high": "1301.510",
+      "low": "1160.000",
+      "close": "1179.990",
+      "volume_shares": "47474088"
+    },
+    {
+      "date": "2026-06-08",
+      "open": "1132.790",
+      "high": "1179.450",
+      "low": "1132.000",
+      "close": "1154.990",
+      "volume_shares": "33611984"
+    },
+    {
+      "date": "2026-06-09",
+      "open": "1140.970",
+      "high": "1196.160",
+      "low": "1126.900",
+      "close": "1180.000",
+      "volume_shares": "39893037"
+    },
+    {
+      "date": "2026-06-10",
+      "open": "1150.000",
+      "high": "1174.000",
+      "low": "1128.800",
+      "close": "1147.000",
+      "volume_shares": "22896530"
+    },
+    {
+      "date": "2026-06-11",
+      "open": "1136.000",
+      "high": "1174.900",
+      "low": "1093.000",
+      "close": "1124.000",
+      "volume_shares": "30592359"
+    },
+    {
+      "date": "2026-06-12",
+      "open": "1182.000",
+      "high": "1188.500",
+      "low": "1128.180",
+      "close": "1149.000",
+      "volume_shares": "34685070"
+    },
+    {
+      "date": "2026-06-15",
+      "open": "1175.000",
+      "high": "1245.000",
+      "low": "1122.000",
+      "close": "1245.000",
+      "volume_shares": "34223742"
+    }
+  ],
+  "analysis": {
+    "cutoff": "2026-06-15",
+    "groups": [
+      {
+        "low": "1113.9",
+        "high": "1183.61",
+        "source_indices": [
+          0
+        ],
+        "first_date": "2026-06-01",
+        "last_date": "2026-06-01",
+        "high_date": "2026-06-01",
+        "low_date": "2026-06-01",
+        "formed_at": "2026-06-01",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 0,
+        "known_at": "2026-06-02"
+      },
+      {
+        "low": "1140.01",
+        "high": "1205.58",
+        "source_indices": [
+          1
+        ],
+        "first_date": "2026-06-02",
+        "last_date": "2026-06-02",
+        "high_date": "2026-06-02",
+        "low_date": "2026-06-02",
+        "formed_at": "2026-06-02",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 1,
+        "known_at": "2026-06-03"
+      },
+      {
+        "low": "1241.36",
+        "high": "1320",
+        "source_indices": [
+          2,
+          3
+        ],
+        "first_date": "2026-06-03",
+        "last_date": "2026-06-04",
+        "high_date": "2026-06-03",
+        "low_date": "2026-06-04",
+        "formed_at": "2026-06-04",
+        "merge_direction": "up",
+        "tentative": false,
+        "index": 2,
+        "known_at": "2026-06-05"
+      },
+      {
+        "low": "1160",
+        "high": "1301.51",
+        "source_indices": [
+          4
+        ],
+        "first_date": "2026-06-05",
+        "last_date": "2026-06-05",
+        "high_date": "2026-06-05",
+        "low_date": "2026-06-05",
+        "formed_at": "2026-06-05",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 3,
+        "known_at": "2026-06-08"
+      },
+      {
+        "low": "1093",
+        "high": "1174",
+        "source_indices": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "first_date": "2026-06-08",
+        "last_date": "2026-06-11",
+        "high_date": "2026-06-10",
+        "low_date": "2026-06-11",
+        "formed_at": "2026-06-11",
+        "merge_direction": "down",
+        "tentative": false,
+        "index": 4,
+        "known_at": "2026-06-12"
+      },
+      {
+        "low": "1128.18",
+        "high": "1245",
+        "source_indices": [
+          9,
+          10
+        ],
+        "first_date": "2026-06-12",
+        "last_date": "2026-06-15",
+        "high_date": "2026-06-15",
+        "low_date": "2026-06-12",
+        "formed_at": "2026-06-15",
+        "merge_direction": "up",
+        "tentative": true,
+        "index": 5,
+        "known_at": null
+      }
+    ],
+    "unresolved_initial": false,
+    "fractals": [
+      {
+        "kind": "top",
+        "center": 2,
+        "span": [
+          1,
+          2,
+          3
+        ],
+        "price": "1320",
+        "date": "2026-06-03",
+        "formed_at": "2026-06-05",
+        "right_group_updated_at": "2026-06-05",
+        "known_at": "2026-06-08",
+        "formation_source_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "source_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 4,
+        "span": [
+          3,
+          4,
+          5
+        ],
+        "price": "1093",
+        "date": "2026-06-11",
+        "formed_at": "2026-06-12",
+        "right_group_updated_at": "2026-06-15",
+        "known_at": null,
+        "formation_source_indices": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "source_indices": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "state": "provisional_right_group"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "top",
+        "center": 2,
+        "span": [
+          1,
+          2,
+          3
+        ],
+        "price": "1320",
+        "date": "2026-06-03",
+        "formed_at": "2026-06-05",
+        "right_group_updated_at": "2026-06-05",
+        "known_at": "2026-06-08",
+        "formation_source_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "source_indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "state": "confirmed_at_cutoff"
+      }
+    ],
+    "strokes": [],
+    "rejections": [
+      {
+        "start": {
+          "kind": "top",
+          "center": 2,
+          "span": [
+            1,
+            2,
+            3
+          ],
+          "price": "1320",
+          "date": "2026-06-03",
+          "formed_at": "2026-06-05",
+          "right_group_updated_at": "2026-06-05",
+          "known_at": "2026-06-08",
+          "formation_source_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "source_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 4,
+          "span": [
+            3,
+            4,
+            5
+          ],
+          "price": "1093",
+          "date": "2026-06-11",
+          "formed_at": "2026-06-12",
+          "right_group_updated_at": "2026-06-15",
+          "known_at": null,
+          "formation_source_indices": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "source_indices": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "state": "provisional_right_group"
+        },
+        "reason": "spacing"
+      }
+    ],
+    "revisions": [],
+    "tail_candidate": {
+      "kind": "top",
+      "center": 5,
+      "price": "1245",
+      "date": "2026-06-15",
+      "formed_at": "2026-06-15",
+      "known_at": null,
+      "state": "missing_right_group"
+    }
+  },
+  "higher": {
+    "qualified_segment": false,
+    "qualified_center": false,
+    "qualified_L1": false,
+    "qualified_L2": false,
+    "stroke_overlap_windows": [],
+    "segment_hypotheses": [],
+    "prerequisites": [
+      "M11 strict strokes with cutoff evidence and revision evidence",
+      "The start boundary of an M11 segment from a previous context with qualification",
+      "Feature inclusion that uses the applicable direction, with source mapping",
+      "A feature fractal without a gap, or a gap plus a reverse feature fractal",
+      "For an L1 center, three B0 segments are necessary. They must be completed and have no other segment between them.",
+      "L1 blocks in the C12-F sealed state before each L2 exercise"
+    ]
+  },
+  "annotations": [
+    {
+      "kind": "line",
+      "start_date": "2026-06-03",
+      "end_date": "2026-06-04",
+      "start_price": "1320",
+      "end_price": "1320",
+      "label": "P2 合并后高1320/低1241.36"
+    },
+    {
+      "kind": "line",
+      "start_date": "2026-06-08",
+      "end_date": "2026-06-11",
+      "start_price": "1174",
+      "end_price": "1174",
+      "label": "P4 合并后高1174/低1093"
+    },
+    {
+      "kind": "line",
+      "start_date": "2026-06-12",
+      "end_date": "2026-06-15",
+      "start_price": "1245",
+      "end_price": "1245",
+      "label": "P5 合并后高1245/低1128.18"
+    }
+  ],
+  "worked": {
+    "selected": {
+      "group": 2,
+      "raw_indices": [
+        2,
+        3
+      ],
+      "direction_seed": [
+        1,
+        2
+      ]
+    },
+    "paragraphs": [
+      "选 P2：此前 P1[1140.01,1205.58] → P2[1220.000,1320.000]，高低共同抬高，采用向上取两个较大值。",
+      "当前 [1220,1320] 与 raw 3（2026-06-04）[1241.360,1290.000] 合为 [1241.36,1320]。每步都与当前合成区间比较，不把包含关系当作可无限传递。",
+      "最终 P2=[1241.36,1320]；高点实际日 2026-06-03，低点实际日 2026-06-04；最后吸收 2026-06-04，known_at=2026-06-05。",
+      "包含整理改变的是结构区间，不能抹去原始最低价或把合并区间解释为当天可成交路径。下一根仍须与最新合成值比较。"
+    ]
+  },
+  "corporate_action_calendar": "The calendar does not include all cases. It does not show that a basis-break analysis is correct. It does not show that an investor total-return calculation is correct."
+}

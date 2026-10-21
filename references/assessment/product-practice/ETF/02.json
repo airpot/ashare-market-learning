@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "track": "ETF",
+  "step": 2,
+  "exercise": "PRODUCT-ETF-02",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "先写计划，再决定是否交易：本步反馈",
+  "source_basis": "This packet uses only the accepted exercise assumptions. It gives no indications that show if they are applicable to a trading venue or not.",
+  "worked": [
+    "预算小题：现金(1000−2)/1=998份；风险(50−2−2)/0.10=460份；100份一组，取400份。若卖费改3元，风险450份，仍取400份。",
+    "主线1000份：现金占用1002元；计划价差损失40元加双边4元=44元，小于50元。它使用2000元现金及0.96计划退出，不是小题。",
+    "跌穿0.96或隔夜跳空可使实际损失超44元。零数量或条件不齐时保存等待理由。"
+  ],
+  "misconception": "“预算50元除以0.1就买500份。”先把外部费用从预算扣掉，再按申报组取整。",
+  "follow_up": "若退出价变为0.90，主线风险预算还能覆盖吗？先保留原计划，再另记压力分析。",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

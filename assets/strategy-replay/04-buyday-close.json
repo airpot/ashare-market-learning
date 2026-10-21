@@ -1,0 +1,21 @@
+{
+  "synthetic": true,
+  "symbol": "QH-FICTIONAL",
+  "rule_version": "QH-LONG-0.1",
+  "price_unit": "CNY/share",
+  "notice": "All prices, quotes, eligibility, and fees are teaching assumptions. They are not security observations from a market.",
+  "cutoff": "S22 after close",
+  "bar": {
+    "session": "S22",
+    "open": "10.08",
+    "high": "10.20",
+    "low": "9.40",
+    "close": "9.50",
+    "volume_shares": 1600000
+  },
+  "account": {
+    "held_shares": 400,
+    "sellable_new_position": 0
+  },
+  "question": "Update the rule state using only this cutoff. Record any exit flag and the execution constraint."
+}

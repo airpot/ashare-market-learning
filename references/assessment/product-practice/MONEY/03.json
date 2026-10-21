@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "track": "MONEY",
+  "step": 3,
+  "exercise": "PRODUCT-MONEY-03",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "二级成交与一级配售退款不能混账：本步反馈",
+  "source_basis": "This packet uses only the accepted assumptions made for this example. It does not show eligibility for execution in a market.",
+  "worked": [
+    "二级支出10012，现金9988、总100份、当日可卖0，10-21可卖100；冻结0。 9988可取原现金对12000用款差2012，对独立5000另题则足额、备付后余4988。全成主线是执行演示，不表示12000方案合理，也不能把100份成交改写79份计划。",
+    "一级另题：预缴10000，其中获配成本6000，待退4000；未动用现金10000。60份已获配但10-21才到账、10-22可卖。退款未到不能加可用现金，若10-21按期到则可用14000。",
+    "两条账本互斥；一级配售、退款和冻结是helper之外的状态。它不能用一笔假buy或distribution替代退款确认。",
+    "另设分支 MONEY-PARTIAL-BUY：已成60份支出60×100.10+2=6008，总现金20000−6008=13992；余40份冻结4004，总现金包含冻结款，当前可用/可取原现金13992−4004=9988。已收费2，未成40份无新费；不可把申报100份都记为持仓。",
+    "持仓60、当日可卖0、冻结份额0，10-21才可卖60；余买单40不算持仓。相较10-21需12000，当前可取9988尚差2012；已请求撤单不证明4004已释放，必须取得确认再核用款。无卖出或提现确认，不把未来卖款、预期解冻或另题一级退款填成可用现金。"
+  ],
+  "misconception": "“获配60份就是100份已成交，4000退款已经可花。”分别找获配、到账、可卖、退款回报。",
+  "follow_up": "若退款延期，哪项现金保持待收？主线会不会因此多出一笔收益？",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

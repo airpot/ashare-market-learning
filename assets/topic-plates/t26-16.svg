@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1179" viewBox="0 0 1680 1179" role="img" aria-labelledby="plate-title plate-desc">
+<title id="plate-title">T26-16 教师专题图版</title>
+<desc id="plate-desc">仅在保存学员原答后开放；真实观察前缀的局部放大图，详细数值解释在图下方。</desc>
+<metadata>{&quot;id&quot;: &quot;t26-16&quot;, &quot;observed_bars_sha256&quot;: &quot;71298cd1d4542a41dad7761cc77238924983d59287c013c5d704d242def72f81&quot;, &quot;opens_after&quot;: &quot;saved_raw_answer&quot;, &quot;svg_input_sha256&quot;: &quot;4b4186d4bdb51e07f24fc61c46b272c0b8f0970c599079fe9914e25c3d812b12&quot;, &quot;teacher_only&quot;: true}</metadata>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}line{stroke-linecap:round}</style>
+<rect width="1680" height="1179" fill="#f7f9fc"/>
+<text x="70" y="62.0" font-size="30" fill="#20344b" textLength="530.4000" lengthAdjust="spacingAndGlyphs">T26-16 · 寒武纪 · 回访：冻结旧带</text>
+<text x="70" y="110.0" font-size="20" fill="#52677d" textLength="860.8000" lengthAdjust="spacingAndGlyphs">教师专用 · 保存原答后开放 · 截止 2026-09-17 · 真实未复权日线 · Asia/Shanghai</text>
+<text x="100" y="175.0" font-size="20" fill="#20344b" textLength="752.8000" lengthAdjust="spacingAndGlyphs">冻结旧带回访核查；元/股。紫带保持旧值，金虚线为旧突破日，青虚线为本题截止。</text>
+<rect x="120.000000" y="232.000000" width="843.333333" height="368.000000" fill="#f0f4f8"/>
+<rect x="120.000000" y="300.445161" width="920.000000" height="21.870968" fill="#ebe3f5" id="frozen-band"/>
+<line x1="120.000000" y1="300.445161" x2="1040.000000" y2="300.445161" stroke="#8255a6" stroke-width="1.5"/>
+<line x1="120.000000" y1="322.316129" x2="1040.000000" y2="322.316129" stroke="#8255a6" stroke-width="1.5"/>
+<text x="15" y="606.0" font-size="16" fill="#20344b" textLength="61.4400" lengthAdjust="spacingAndGlyphs">980.88</text>
+<text x="15" y="426.0" font-size="16" fill="#20344b" textLength="71.6800" lengthAdjust="spacingAndGlyphs">1073.88</text>
+<text x="15" y="246.0" font-size="16" fill="#20344b" textLength="71.6800" lengthAdjust="spacingAndGlyphs">1166.88</text>
+<line x1="158.333333" y1="311.380645" x2="158.333333" y2="398.670968" stroke="#bd4548" stroke-width="2" id="candle-0-wick"/>
+<rect x="142.333333" y="353.961290" width="32.000000" height="39.077420" fill="#bd4548" id="candle-0-body"/>
+<circle cx="158.33333333333334" cy="311.3806451612903" r="6" fill="white" stroke="#2463a0" stroke-width="2" id="anchor-point"/>
+<line x1="235.000000" y1="311.651613" x2="235.000000" y2="398.477419" stroke="#167e67" stroke-width="2" id="candle-1-wick"/>
+<rect x="219.000000" y="319.122581" width="32.000000" height="50.341935" fill="#167e67" id="candle-1-body"/>
+<line x1="311.666667" y1="330.735484" x2="311.666667" y2="440.264516" stroke="#167e67" stroke-width="2" id="candle-2-wick"/>
+<rect x="295.666667" y="340.412903" width="32.000000" height="83.225807" fill="#167e67" id="candle-2-body"/>
+<line x1="388.333333" y1="359.787097" x2="388.333333" y2="466.219355" stroke="#bd4548" stroke-width="2" id="candle-3-wick"/>
+<rect x="372.333333" y="384.193548" width="32.000000" height="28.316129" fill="#bd4548" id="candle-3-body"/>
+<line x1="465.000000" y1="368.477419" x2="465.000000" y2="465.135484" stroke="#167e67" stroke-width="2" id="candle-4-wick"/>
+<rect x="449.000000" y="382.993548" width="32.000000" height="65.825807" fill="#167e67" id="candle-4-body"/>
+<line x1="541.666667" y1="427.141935" x2="541.666667" y2="473.980645" stroke="#167e67" stroke-width="2" id="candle-5-wick"/>
+<rect x="525.666667" y="433.316129" width="32.000000" height="23.303226" fill="#167e67" id="candle-5-body"/>
+<line x1="618.333333" y1="448.993548" x2="618.333333" y2="502.741935" stroke="#167e67" stroke-width="2" id="candle-6-wick"/>
+<rect x="602.333333" y="468.154839" width="32.000000" height="9.987096" fill="#167e67" id="candle-6-body"/>
+<line x1="695.000000" y1="471.387097" x2="695.000000" y2="551.380645" stroke="#bd4548" stroke-width="2" id="candle-7-wick"/>
+<rect x="679.000000" y="485.574194" width="32.000000" height="36.793548" fill="#bd4548" id="candle-7-body"/>
+<line x1="771.666667" y1="468.193548" x2="771.666667" y2="565.161290" stroke="#bd4548" stroke-width="2" id="candle-8-wick"/>
+<rect x="755.666667" y="485.574194" width="32.000000" height="38.709677" fill="#bd4548" id="candle-8-body"/>
+<line x1="848.333333" y1="350.109677" x2="848.333333" y2="485.535484" stroke="#bd4548" stroke-width="2" id="candle-9-wick"/>
+<rect x="832.333333" y="416.303226" width="32.000000" height="59.593548" fill="#bd4548" id="candle-9-body"/>
+<line x1="925.000000" y1="274.838710" x2="925.000000" y2="415.509677" stroke="#bd4548" stroke-width="2" id="candle-10-wick"/>
+<rect x="909.000000" y="299.748387" width="32.000000" height="92.922581" fill="#bd4548" id="candle-10-body"/>
+<line x1="925.000000" y1="232.000000" x2="925.000000" y2="600.000000" stroke="#b66c08" stroke-width="2" id="break-day" stroke-dasharray="7 5"/>
+<line x1="1001.666667" y1="297.832258" x2="1001.666667" y2="362.632258" stroke="#167e67" stroke-width="2" id="candle-11-wick"/>
+<rect x="985.666667" y="311.380645" width="32.000000" height="46.470968" fill="#167e67" id="candle-11-body"/>
+<line x1="1001.666667" y1="232.000000" x2="1001.666667" y2="610.000000" stroke="#087d80" stroke-width="2" id="cutoff" stroke-dasharray="7 5"/>
+<text x="120" y="650.0" font-size="18" fill="#20344b" textLength="115.2000" lengthAdjust="spacingAndGlyphs">2026-09-02</text>
+<text x="933.666667" y="650.0" font-size="18" fill="#20344b" textLength="115.2000" lengthAdjust="spacingAndGlyphs">2026-09-17</text>
+<line x1="120.000000" y1="683.000000" x2="886.666666" y2="683.000000" stroke="#2463a0" stroke-width="2"/>
+<line x1="120.000000" y1="676.000000" x2="120.000000" y2="690.000000" stroke="#2463a0" stroke-width="2"/>
+<line x1="886.666666" y1="676.000000" x2="886.666666" y2="690.000000" stroke="#2463a0" stroke-width="2"/>
+<text x="120" y="725.0" font-size="18" fill="#20344b" textLength="534.9600" lengthAdjust="spacingAndGlyphs">锚点取样10根：2026-09-02—2026-09-15；空心蓝点为锚点。</text>
+<rect x="1024.666667" y="300.445161" width="12.000000" height="21.870968" fill="#087d80" id="return-overlap"/>
+<text x="1120" y="229.0" font-size="19" fill="#8255a6" textLength="247.0000" lengthAdjust="spacingAndGlyphs">冻结的是突破当时的旧上沿带</text>
+<text x="1120" y="271.5" font-size="19" fill="#20344b" textLength="307.0400" lengthAdjust="spacingAndGlyphs">旧锚点 2026-09-02：1130.000</text>
+<text x="1120" y="314.0" font-size="19" fill="#20344b" textLength="269.0400" lengthAdjust="spacingAndGlyphs">旧带 [1124.35, 1135.65]</text>
+<text x="1120" y="356.5" font-size="19" fill="#b66c08" textLength="452.9600" lengthAdjust="spacingAndGlyphs">突破日 2026-09-16：C=1136.010 &gt; 1135.65</text>
+<text x="1120" y="399.0" font-size="19" fill="#20344b" textLength="338.2000" lengthAdjust="spacingAndGlyphs">前收 1136.010 &gt; 旧上缘 1135.65</text>
+<text x="1120" y="441.5" font-size="19" fill="#087d80" textLength="190.7600" lengthAdjust="spacingAndGlyphs">返回日 2026-09-17</text>
+<text x="1120" y="484.0" font-size="19" fill="#087d80" textLength="338.2000" lengthAdjust="spacingAndGlyphs">最低 1103.520 ≤ 旧上缘 1135.65</text>
+<text x="1120" y="526.5" font-size="19" fill="#087d80" textLength="338.2000" lengthAdjust="spacingAndGlyphs">最高 1137.000 ≥ 旧下缘 1124.35</text>
+<text x="1120" y="569.0" font-size="19" fill="#20344b" textLength="478.0400" lengthAdjust="spacingAndGlyphs">交叠 [1124.35, 1135.65]；右侧青条为交叠高度。</text>
+<text x="1120" y="611.5" font-size="19" fill="#52677d" textLength="437.0000" lengthAdjust="spacingAndGlyphs">只确认区间交叠；未用随后数据，不能称回踩成功。</text>
+<text x="80" y="813.0" font-size="23" fill="#2463a0" textLength="184.0000" lengthAdjust="spacingAndGlyphs">把数值对应到图上</text>
+<text x="80" y="859.5" font-size="19" fill="#20344b" textLength="1446.2800" lengthAdjust="spacingAndGlyphs">旧带只取 2026-09-02—2026-09-15 的10根；高点 2026-09-02 为 1130.000，乘0.995与1.005得 [1124.350000, 1135.650000]。随后不滚动改带。</text>
+<text x="80" y="900.0" font-size="19" fill="#20344b" textLength="1428.8000" lengthAdjust="spacingAndGlyphs">2026-09-16 收 1136.010 严格高于旧上缘 1135.650000，且非向上整根缺口；返回前收 1136.010 仍在旧上缘之上。返回日 2026-09-17 不是整根缺口。</text>
+<text x="80" y="940.5" font-size="19" fill="#20344b" textLength="1355.0800" lengthAdjust="spacingAndGlyphs">返回区间 [1103.520, 1137.000] 与旧带交叠：下端=max(L,旧下缘)=1124.350000，上端=min(H,旧上缘)=1135.650000。下端≤上端才有交叠。</text>
+<text x="80" y="981.0" font-size="19" fill="#20344b" textLength="1102.0000" lengthAdjust="spacingAndGlyphs">紫带保持历史锚点不动；目标蜡烛右侧的青条只画出它与旧带共有的价格范围，青条与紫带等高表示整条旧带都在当日触及范围内。</text>
+<text x="80" y="1021.5" font-size="19" fill="#20344b" textLength="1292.7600" lengthAdjust="spacingAndGlyphs">本日 C=1105.990；此条件不要求收回旧上缘。尚无随后确认，不能把区间接触、收回上缘、后续守住混为一事；将来确认须另定规则并等新完整日线。</text>
+<text x="80" y="1071.0" font-size="20" fill="#087d80" textLength="1100.0000" lengthAdjust="spacingAndGlyphs">检查一问：请依次指出旧锚点、突破日、返回日和交叠青条；说明哪一项只证明接触旧带，为什么今天还不能宣布回踩成功？</text>
+<text x="80" y="1116.0" font-size="17" fill="#52677d" textLength="919.3600" lengthAdjust="spacingAndGlyphs">来源：同题观察前缀（Sina OHLCV，Tencent OHLC交叉核对）；只画截止前数据。图形不是委托、成交或收益证明。</text>
+</svg>

@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "curation": "The script selects cases for lessons after the observations. The cases do not show the frequency in the market.",
+  "convention": "M11 uses strict strokes. M12 has a B0 floor. This atlas gives no qualification for higher structures.",
+  "source_sha256": "ef1a9d2958b85ebfcafc092738059a5fdf9726152dcff3c05e480f7df9947b79",
+  "generator_sha256": "2307db5ad00740ba9105f72cb1cd98ee7afbac0238407d75a03e16ccd210db6d",
+  "renderer_sha256": "4157ce0e6f79fc601974427b1c4ff958ae7e461cacce4bc04655843f10127c67",
+  "lessons": [
+    {
+      "slug": "01-inclusion",
+      "symbol": "sh600519",
+      "cutoff": "2024-07-26",
+      "focus": "inclusion",
+      "raw_count": 20,
+      "processed_count": 18,
+      "fractal_count": 5,
+      "stroke_count": 2
+    },
+    {
+      "slug": "02-mapping",
+      "symbol": "sz000001",
+      "cutoff": "2024-08-13",
+      "focus": "mapping",
+      "raw_count": 32,
+      "processed_count": 26,
+      "fractal_count": 7,
+      "stroke_count": 0
+    },
+    {
+      "slug": "03-fractals",
+      "symbol": "sh600519",
+      "cutoff": "2024-07-10",
+      "focus": "fractals",
+      "raw_count": 8,
+      "processed_count": 8,
+      "fractal_count": 2,
+      "stroke_count": 1
+    },
+    {
+      "slug": "04-strict-stroke",
+      "symbol": "sh600519",
+      "cutoff": "2024-07-11",
+      "focus": "stroke",
+      "raw_count": 9,
+      "processed_count": 9,
+      "fractal_count": 2,
+      "stroke_count": 1
+    },
+    {
+      "slug": "05-spacing-check",
+      "symbol": "sz000001",
+      "cutoff": "2024-07-10",
+      "focus": "spacing",
+      "raw_count": 8,
+      "processed_count": 7,
+      "fractal_count": 2,
+      "stroke_count": 0
+    },
+    {
+      "slug": "06-endpoint-before",
+      "symbol": "sh600519",
+      "cutoff": "2024-07-22",
+      "focus": "revision_before",
+      "raw_count": 16,
+      "processed_count": 14,
+      "fractal_count": 4,
+      "stroke_count": 2
+    },
+    {
+      "slug": "07-endpoint-after",
+      "symbol": "sh600519",
+      "cutoff": "2024-07-23",
+      "focus": "revision_after",
+      "raw_count": 17,
+      "processed_count": 15,
+      "fractal_count": 5,
+      "stroke_count": 2
+    },
+    {
+      "slug": "08-feature-sequence",
+      "symbol": "sh600519",
+      "cutoff": "2024-11-20",
+      "focus": "feature",
+      "raw_count": 96,
+      "processed_count": 77,
+      "fractal_count": 29,
+      "stroke_count": 8
+    },
+    {
+      "slug": "09-center-qualification",
+      "symbol": "sz000001",
+      "cutoff": "2024-12-10",
+      "focus": "center",
+      "raw_count": 110,
+      "processed_count": 89,
+      "fractal_count": 32,
+      "stroke_count": 5
+    },
+    {
+      "slug": "10-interval-level",
+      "symbol": "sz000001",
+      "cutoff": "2024-12-24",
+      "focus": "level",
+      "raw_count": 120,
+      "processed_count": 98,
+      "fractal_count": 36,
+      "stroke_count": 5
+    },
+    {
+      "slug": "11-start-direction",
+      "symbol": "sz300750",
+      "cutoff": "2024-08-23",
+      "focus": "bootstrap",
+      "raw_count": 40,
+      "processed_count": 40,
+      "fractal_count": 0,
+      "stroke_count": 0
+    }
+  ]
+}

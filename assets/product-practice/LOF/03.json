@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "track": "LOF",
+  "step": 3,
+  "exercise": "PRODUCT-LOF-03",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "不交易路径与条件成交路径分别记账",
+  "cutoff": "2026-10-20T10:10:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "全包为虚构纸面教学：证券、日期、报价、委托、成交、费用与规则均为合成假设。没有真实账户、权限核验或真实成交保证。只讨论本步已给资料；缺项先写未知。",
+  "lesson": [
+    "本步合成回报只对满足条件的B分支生效。A仍不下单。B先报500份，只有300份成交，剩余200份收到撤单确认。外部买费按本题成交指令总额2元，不另加未成交费用。",
+    "持仓份额来自成交回报，转托管份额来自确认回报；两个来源不能互相替代。一级通道仍暂停，本题没有任何申购确认或转托管到账。"
+  ],
+  "data": {
+    "A": {
+      "orders": [],
+      "cash": "2000",
+      "quantity": 0
+    },
+    "B": {
+      "reserved_at_submission": "602",
+      "events": [
+        {
+          "event_id": "LOF-B-B1",
+          "kind": "buy",
+          "quantity": 300,
+          "price": "1.20",
+          "fee": "2"
+        }
+      ],
+      "cancelled_quantity": 200,
+      "cancel_status": "已确认",
+      "unfilled_fee": "0",
+      "cash_withdrawable_rule": "未花的原现金可取；持仓可卖时间按本题次一合成交易日"
+    },
+    "worksheet_now": [
+      "总现金/冻结现金/可用现金",
+      "总份额/冻结份额/可卖份额",
+      "申购确认、转托管到账均记无此事件，不能填已完成"
+    ]
+  },
+  "current_response": [
+    "分别写A和B成交、撤单确认后的状态。",
+    "如果只发出撤单申请尚未确认，应保留哪项冻结？",
+    "把B已成交事件送入现金流助手；解释为何不能输入500份买入。"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-LOF",
+      "relationship": "本题虚构产品",
+      "scope": "描述性接触记录，不授予独立资格"
+    }
+  ]
+}

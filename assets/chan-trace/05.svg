@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="565" viewBox="0 0 1160 565" role="img">
+<title>合成教学 · T5：成员、核心与延迟封口（C12-F）</title>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#18283b;font-size:17px}.small{font-size:14px}</style>
+<rect width="1160" height="565" fill="#fbfcff"/>
+<text x="28.00" y="32.00" style="font-size:22px;fill:#18283b">合成教学 · T5：成员、核心与延迟封口（C12-F）</text>
+<text x="28.00" y="65.00" style="font-size:17px;fill:#18283b">原核心 [54,62]；全范围 [48,63]；边界 q150；最早可用 q175</text>
+<rect x="90.00" y="109.00" width="540.00" height="210.00" fill="#71849d" fill-opacity="0.06" stroke="#71849d"/>
+<rect x="90.00" y="123.00" width="540.00" height="112.00" fill="#246cb1" fill-opacity="0.14" stroke="#246cb1"/>
+<rect x="630.00" y="249.00" width="324.00" height="112.00" fill="#be661e" fill-opacity="0.14" stroke="#be661e"/>
+<line x1="80.00" y1="375.00" x2="1095.00" y2="375.00" stroke="#d8e1ed" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="37.00" y="379.00" style="font-size:14px;fill:#18283b">44</text>
+<line x1="80.00" y1="319.00" x2="1095.00" y2="319.00" stroke="#d8e1ed" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="37.00" y="323.00" style="font-size:14px;fill:#18283b">48</text>
+<line x1="80.00" y1="263.00" x2="1095.00" y2="263.00" stroke="#d8e1ed" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="37.00" y="267.00" style="font-size:14px;fill:#18283b">52</text>
+<line x1="80.00" y1="207.00" x2="1095.00" y2="207.00" stroke="#d8e1ed" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="37.00" y="211.00" style="font-size:14px;fill:#18283b">56</text>
+<line x1="80.00" y1="151.00" x2="1095.00" y2="151.00" stroke="#d8e1ed" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="37.00" y="155.00" style="font-size:14px;fill:#18283b">60</text>
+<line x1="80.00" y1="95.00" x2="1095.00" y2="95.00" stroke="#d8e1ed" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="37.00" y="99.00" style="font-size:14px;fill:#18283b">64</text>
+<line x1="90.00" y1="319.00" x2="198.00" y2="123.00" stroke="#205ea6" stroke-width="3"/>
+<text x="185.00" y="114.00" style="font-size:14px;fill:#18283b">62</text>
+<text x="132.00" y="401.00" style="font-size:15px;fill:#205ea6">B21</text>
+<text x="185.00" y="426.00" style="font-size:14px;fill:#18283b">q126</text>
+<line x1="198.00" y1="123.00" x2="306.00" y2="235.00" stroke="#205ea6" stroke-width="3"/>
+<text x="293.00" y="226.00" style="font-size:14px;fill:#18283b">54</text>
+<text x="240.00" y="401.00" style="font-size:15px;fill:#205ea6">B22</text>
+<text x="293.00" y="426.00" style="font-size:14px;fill:#18283b">q132</text>
+<line x1="306.00" y1="235.00" x2="414.00" y2="109.00" stroke="#205ea6" stroke-width="3"/>
+<text x="401.00" y="100.00" style="font-size:14px;fill:#18283b">63</text>
+<text x="348.00" y="401.00" style="font-size:15px;fill:#205ea6">B23</text>
+<text x="401.00" y="426.00" style="font-size:14px;fill:#18283b">q138</text>
+<line x1="414.00" y1="109.00" x2="522.00" y2="305.00" stroke="#205ea6" stroke-width="3"/>
+<text x="509.00" y="296.00" style="font-size:14px;fill:#18283b">49</text>
+<text x="456.00" y="401.00" style="font-size:15px;fill:#205ea6">B24</text>
+<text x="509.00" y="426.00" style="font-size:14px;fill:#18283b">q144</text>
+<line x1="522.00" y1="305.00" x2="630.00" y2="151.00" stroke="#205ea6" stroke-width="3"/>
+<text x="617.00" y="142.00" style="font-size:14px;fill:#18283b">60</text>
+<text x="564.00" y="401.00" style="font-size:15px;fill:#205ea6">B25</text>
+<text x="617.00" y="426.00" style="font-size:14px;fill:#18283b">q150</text>
+<line x1="630.00" y1="151.00" x2="738.00" y2="361.00" stroke="#bc5e16" stroke-width="3"/>
+<text x="725.00" y="352.00" style="font-size:14px;fill:#18283b">45</text>
+<text x="672.00" y="401.00" style="font-size:15px;fill:#bc5e16">B26</text>
+<text x="725.00" y="426.00" style="font-size:14px;fill:#18283b">q156</text>
+<line x1="738.00" y1="361.00" x2="846.00" y2="249.00" stroke="#bc5e16" stroke-width="3"/>
+<text x="833.00" y="240.00" style="font-size:14px;fill:#18283b">53</text>
+<text x="780.00" y="401.00" style="font-size:15px;fill:#bc5e16">B27</text>
+<text x="833.00" y="426.00" style="font-size:14px;fill:#18283b">q162</text>
+<line x1="846.00" y1="249.00" x2="954.00" y2="375.00" stroke="#bc5e16" stroke-width="3"/>
+<text x="941.00" y="366.00" style="font-size:14px;fill:#18283b">44</text>
+<text x="888.00" y="401.00" style="font-size:15px;fill:#bc5e16">B28</text>
+<text x="941.00" y="426.00" style="font-size:14px;fill:#18283b">q168</text>
+<line x1="630.00" y1="85.00" x2="630.00" y2="435.00" stroke="#205ea6" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="1080.00" y1="85.00" x2="1080.00" y2="435.00" stroke="#bc5e16" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="1022.00" y="455.00" style="font-size:15px;fill:#bc5e16">q175 才封口</text>
+<text x="28.00" y="490.00" style="font-size:16px;fill:#18283b">蓝色成员 B21—B25；橙色见证 B26、B27、B28 属于下一块，不计入本块范围。</text>
+<text x="28.00" y="521.00" style="font-size:16px;fill:#18283b">见证交集 [45,53] 与原核心严格分离；须等三个见证各自的 M11 确认，不能只看橙线末端。</text>
+<text x="28.00" y="550.00" style="font-size:15px;fill:#18283b">灰框=全范围；蓝带=固定原核心；橙带=封口见证交集。横轴为顺序资料时刻，不是分钟级别。</text>
+</svg>

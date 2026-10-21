@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "track": "LOF",
+  "step": 1,
+  "exercise": "PRODUCT-LOF-01",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "同一基金的两条通道，先问净值何时可知",
+  "cutoff": "2026-10-20T10:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "全包为虚构纸面教学：证券、日期、报价、委托、成交、费用与规则均为合成假设。没有真实账户、权限核验或真实成交保证。只讨论本步已给资料；缺项先写未知。",
+  "lesson": [
+    "LOF可有交易所买卖及基金申赎通道。交易所价格由交易形成，申赎以规则规定的净值、确认和费用处理。跨系统转托管还可能占用时间；看见价差不是已锁定收益。",
+    "今天盘中看不到今天最终NAV。旧NAV的估值日与披露时间必须并列；跨境标的还可能隔着汇率和市场休市。未知值不要用今日页面的最新数字倒填历史。"
+  ],
+  "data": {
+    "rules": {
+      "instrument": "TRAIN-LOF",
+      "operation": "二级买卖与一级申赎分开",
+      "eligibility": "合成账户二级买卖已假定允许；一级权限未知",
+      "quantity_unit": "份",
+      "buy_increment": 100,
+      "sell_increment": 100,
+      "price_tick": "0.001",
+      "phase": "本题连续时段09:30–11:30、13:00–15:00",
+      "order_type": "限价",
+      "cancellation": "未成交可撤，确认后释放",
+      "limits_halts": "二级本题无停牌，边界1.00–1.30；一级申购暂停，恢复时间未知",
+      "resale": "本题次一合成交易日可卖",
+      "settlement": "二级卖款次一合成交易日可取；一级确认和跨系统转托管时间未知",
+      "fees": "每个二级买/卖指令各2元；一级申赎费与转托管费未知",
+      "rule_source": "合成规则卡及合成暂停通知",
+      "effective_date": "2026-10-20",
+      "exceptions": "未知项阻断一级执行；二级分支只用另列明确假设"
+    },
+    "exchange_price": "1.20",
+    "nav_history": {
+      "last_value": "1.00",
+      "value_date": "2026-10-19",
+      "available_at": "2026-10-19T22:00:00+08:00",
+      "currency": "CNY",
+      "source": "合成昨日净值表"
+    },
+    "decision_time_nav": "未知",
+    "subscription_status": {
+      "status": "暂停申购",
+      "available_at": "2026-10-20T09:00:00+08:00",
+      "source": "合成通知"
+    },
+    "related_exposure": "TRAIN-LOF-OVERSEAS-INDEX，跨境暴露不赋予通道可用性"
+  },
+  "current_response": [
+    "用两条箭头描述二级买卖和一级申赎。",
+    "1.20相对旧NAV1.00的比例能算吗？能称今天真实溢价吗？",
+    "哪几个未知字段使“申购再卖出套利”不可执行？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-LOF",
+      "relationship": "本题虚构产品",
+      "scope": "描述性接触记录，不授予独立资格"
+    }
+  ]
+}

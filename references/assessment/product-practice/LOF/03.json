@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "track": "LOF",
+  "step": 3,
+  "exercise": "PRODUCT-LOF-03",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "不交易路径与条件成交路径分别记账：本步反馈",
+  "source_basis": "This packet uses only the accepted exercise assumptions. It gives no indications that show if they are applicable to a trading venue or not.",
+  "worked": [
+    "A现金2000、零持仓、零费用。B支出300×1.20+2=362，现金1638、持仓300份；撤单确认释放200×1.20=240元，冻结0，可用1638。",
+    "B在撤单确认前总现金1638、冻结240、可用1398。次一合成交易日才有可卖300份。无申购及转托管，不虚构确认日。"
+  ],
+  "misconception": "“报500份就已买500份；没成交的200份也享受后续涨幅。”以成交300份重新列状态。",
+  "follow_up": "若转托管延迟，能否把预计到账份额算作可卖？给出等待确认的操作。",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

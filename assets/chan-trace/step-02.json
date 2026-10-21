@@ -1,0 +1,257 @@
+{
+  "synthetic": true,
+  "convention": "C12-F",
+  "cutoff": 55,
+  "input_boundary": "The input contains completed strict strokes with admission and a left start with qualification. These inputs do not show that raw K-lines give these strokes.",
+  "left_start": {
+    "price": 50,
+    "at": 0,
+    "admitted": true
+  },
+  "strokes": [
+    {
+      "id": "S1",
+      "start": 50,
+      "end": 57.9,
+      "start_at": 0,
+      "end_at": 2,
+      "known_at": 3,
+      "admitted_strict": true
+    },
+    {
+      "id": "S2",
+      "start": 57.9,
+      "end": 51.55,
+      "start_at": 2,
+      "end_at": 4,
+      "known_at": 5,
+      "admitted_strict": true
+    },
+    {
+      "id": "S3",
+      "start": 51.55,
+      "end": 58,
+      "start_at": 4,
+      "end_at": 6,
+      "known_at": 7,
+      "admitted_strict": true
+    },
+    {
+      "id": "S4",
+      "start": 58,
+      "end": 53.1,
+      "start_at": 6,
+      "end_at": 8,
+      "known_at": 9,
+      "admitted_strict": true
+    },
+    {
+      "id": "S5",
+      "start": 53.1,
+      "end": 57.95,
+      "start_at": 8,
+      "end_at": 10,
+      "known_at": 11,
+      "admitted_strict": true
+    },
+    {
+      "id": "S6",
+      "start": 57.95,
+      "end": 53,
+      "start_at": 10,
+      "end_at": 12,
+      "known_at": 13,
+      "admitted_strict": true
+    },
+    {
+      "id": "S7",
+      "start": 53,
+      "end": 57.9,
+      "start_at": 12,
+      "end_at": 14,
+      "known_at": 15,
+      "admitted_strict": true
+    },
+    {
+      "id": "S8",
+      "start": 57.9,
+      "end": 53.05,
+      "start_at": 14,
+      "end_at": 16,
+      "known_at": 17,
+      "admitted_strict": true
+    },
+    {
+      "id": "S9",
+      "start": 53.05,
+      "end": 59,
+      "start_at": 16,
+      "end_at": 18,
+      "known_at": 19,
+      "admitted_strict": true
+    },
+    {
+      "id": "S10",
+      "start": 59,
+      "end": 53.1,
+      "start_at": 18,
+      "end_at": 20,
+      "known_at": 21,
+      "admitted_strict": true
+    },
+    {
+      "id": "S11",
+      "start": 53.1,
+      "end": 57.95,
+      "start_at": 20,
+      "end_at": 22,
+      "known_at": 23,
+      "admitted_strict": true
+    },
+    {
+      "id": "S12",
+      "start": 57.95,
+      "end": 51,
+      "start_at": 22,
+      "end_at": 24,
+      "known_at": 25,
+      "admitted_strict": true
+    },
+    {
+      "id": "S13",
+      "start": 51,
+      "end": 56.9,
+      "start_at": 24,
+      "end_at": 26,
+      "known_at": 27,
+      "admitted_strict": true
+    },
+    {
+      "id": "S14",
+      "start": 56.9,
+      "end": 51.05,
+      "start_at": 26,
+      "end_at": 28,
+      "known_at": 29,
+      "admitted_strict": true
+    },
+    {
+      "id": "S15",
+      "start": 51.05,
+      "end": 57,
+      "start_at": 28,
+      "end_at": 30,
+      "known_at": 31,
+      "admitted_strict": true
+    },
+    {
+      "id": "S16",
+      "start": 57,
+      "end": 51.1,
+      "start_at": 30,
+      "end_at": 32,
+      "known_at": 33,
+      "admitted_strict": true
+    },
+    {
+      "id": "S17",
+      "start": 51.1,
+      "end": 54.45,
+      "start_at": 32,
+      "end_at": 34,
+      "known_at": 35,
+      "admitted_strict": true
+    },
+    {
+      "id": "S18",
+      "start": 54.45,
+      "end": 49,
+      "start_at": 34,
+      "end_at": 36,
+      "known_at": 37,
+      "admitted_strict": true
+    },
+    {
+      "id": "S19",
+      "start": 49,
+      "end": 51.9,
+      "start_at": 36,
+      "end_at": 38,
+      "known_at": 39,
+      "admitted_strict": true
+    },
+    {
+      "id": "S20",
+      "start": 51.9,
+      "end": 49.05,
+      "start_at": 38,
+      "end_at": 40,
+      "known_at": 41,
+      "admitted_strict": true
+    },
+    {
+      "id": "S21",
+      "start": 49.05,
+      "end": 52,
+      "start_at": 40,
+      "end_at": 42,
+      "known_at": 43,
+      "admitted_strict": true
+    },
+    {
+      "id": "S22",
+      "start": 52,
+      "end": 49.1,
+      "start_at": 42,
+      "end_at": 44,
+      "known_at": 45,
+      "admitted_strict": true
+    },
+    {
+      "id": "S23",
+      "start": 49.1,
+      "end": 51.95,
+      "start_at": 44,
+      "end_at": 46,
+      "known_at": 47,
+      "admitted_strict": true
+    },
+    {
+      "id": "S24",
+      "start": 51.95,
+      "end": 48,
+      "start_at": 46,
+      "end_at": 48,
+      "known_at": 49,
+      "admitted_strict": true
+    },
+    {
+      "id": "S25",
+      "start": 48,
+      "end": 51.9,
+      "start_at": 48,
+      "end_at": 50,
+      "known_at": 51,
+      "admitted_strict": true
+    },
+    {
+      "id": "S26",
+      "start": 51.9,
+      "end": 49.05,
+      "start_at": 50,
+      "end_at": 52,
+      "known_at": 53,
+      "admitted_strict": true
+    },
+    {
+      "id": "S27",
+      "start": 49.05,
+      "end": 56,
+      "start_at": 52,
+      "end_at": 54,
+      "known_at": 55,
+      "admitted_strict": true
+    }
+  ],
+  "pending_strokes": []
+}

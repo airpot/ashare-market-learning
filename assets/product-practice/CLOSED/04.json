@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "track": "CLOSED",
+  "step": 4,
+  "exercise": "PRODUCT-CLOSED-04",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "折价继续扩大时也要如实结账",
+  "cutoff": "2026-10-22T09:30:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "所有证券、报价、日期、成交、资格、费用、分派与规则均为合成教学假设。无真实执行资格或保证收益的结论；只用当前包。",
+  "lesson": [
+    "本步补入次日合成卖出回报。净值仍只给旧估值，无法证明当时折价究竟如何变化；能确认的是本题二级买卖现金结果。不要把卖亏改写为尚未实现的长期持有。",
+    "复盘将持有期限、原假设、预算、实际退出与手续费并列。折价是否回归、NAV是否变化和方法是否有效，需要更多证据，不能由单轮损益决定。",
+    "独立部分成交另题在此承接上一步的同名账本；只按新增确认解除冻结、结清应收或保留残余权益，不把主线结果抄入另题。"
+  ],
+  "data": {
+    "opening_cash": "2000",
+    "events": [
+      {
+        "event_id": "CLOSED-B1",
+        "kind": "buy",
+        "quantity": 1000,
+        "price": "0.90",
+        "fee": "2",
+        "date": "2026-10-20"
+      },
+      {
+        "event_id": "CLOSED-S1",
+        "kind": "sell",
+        "quantity": 1000,
+        "price": "0.85",
+        "fee": "2",
+        "date": "2026-10-21"
+      }
+    ],
+    "cash_withdrawable_date": "2026-10-22",
+    "cash_distribution": "无",
+    "old_nav": "1.20，估值10-19并非卖出当时最新净值",
+    "remaining_life_at_entry": "365天；卖出并不证明到期兑付路径已清楚",
+    "review": "原计划止损0.86，合成实际成交0.85，保留滑点，不倒改原计划。",
+    "separate_partial_case": {
+      "synthetic": true,
+      "separate_case": true,
+      "separate_from_main_and_no_trade": true,
+      "scope": "独立合成执行分支；不叠加到原主线、其他另题或学习者原先不交易的账本。未成交委托不是持仓或现金流。",
+      "fee_rule": "同一已成交指令只收实际整单费2元一次；余单撤销或失效不另收费用。冻结现金仍属总现金，不可再从总现金扣一次。",
+      "case_id": "CLOSED-PARTIAL-BUY",
+      "carried_from_step3": {
+        "synthetic": true,
+        "separate_case": true,
+        "separate_from_main_and_no_trade": true,
+        "scope": "独立合成执行分支；不叠加到原主线、其他另题或学习者原先不交易的账本。未成交委托不是持仓或现金流。",
+        "fee_rule": "同一已成交指令只收实际整单费2元一次；余单撤销或失效不另收费用。冻结现金仍属总现金，不可再从总现金扣一次。",
+        "case_id": "CLOSED-PARTIAL-BUY",
+        "opening_cash": "2000",
+        "as_of": "2026-10-20T15:10:00+08:00",
+        "quantity_assumption": "申报1000份只确认600份，余400份14:59已请求撤单，当前无解除确认；均按100份数量组。本题当日委托收市后不继续撮合，但冻结须等撤单或失效确认释放，不声称真实跨日委托有效。",
+        "confirmed_fills": [
+          {
+            "event_id": "CLOSED-P-B1",
+            "kind": "buy",
+            "quantity": 600,
+            "price": "0.90",
+            "fee": "2",
+            "confirmed_at": "2026-10-20T10:10:00+08:00"
+          }
+        ],
+        "order": {
+          "order_id": "CLOSED-P-B-ORDER",
+          "kind": "buy",
+          "submitted_at": "2026-10-20T10:09:00+08:00",
+          "submitted_quantity": 1000,
+          "limit_price": "0.90",
+          "filled_quantity": 600,
+          "remaining_quantity": 400,
+          "status": "cancel_requested_release_unconfirmed",
+          "cancel_requested_at": "2026-10-20T14:59:00+08:00"
+        },
+        "frozen_cash": "360.00",
+        "frozen_units": 0,
+        "events_known_now": {
+          "distribution": "无分派；没有生效的转换、清算或按NAV赎回确认。",
+          "resale": "600份已到账；10-20可卖0，10-21起本题可卖600。",
+          "term": "沿用封闭期到2027-10-20的合成条款；届时转LOF或清算仍未知，期限不是保证兑付日。",
+          "frozen_cash_basis": "余400份×0.90=360；已收本指令费2元，余单无额外费冻结。"
+        },
+        "deadlines": {
+          "units_available": "2026-10-21",
+          "release": "以余单撤销或失效确认时间为准，未确认不可花用冻结款。",
+          "sale_proceeds_rule": "10-21若成交卖出，卖款10-22才可取；当前尚无卖出回报。",
+          "closed_period_ends": "2027-10-20"
+        },
+        "current_check": "只按当前回报，怎样把600份持仓、400份未成委托、现金冻结及尚未发生的生命周期事件分别接到下一步？"
+      },
+      "new_confirmations": [
+        {
+          "at": "2026-10-21T09:00:00+08:00",
+          "order_id": "CLOSED-P-B-ORDER",
+          "kind": "cancel_confirmed",
+          "cancelled_quantity": 400,
+          "released_frozen_cash": "360.00",
+          "additional_fee": "0",
+          "additional_buy_fills": 0
+        },
+        {
+          "event_id": "CLOSED-P-S1",
+          "kind": "sell",
+          "quantity": 600,
+          "price": "0.85",
+          "fee": "2",
+          "confirmed_at": "2026-10-21T10:00:00+08:00"
+        }
+      ],
+      "closing": {
+        "open_order_quantity": 0,
+        "frozen_cash": "0",
+        "frozen_units": 0,
+        "units": 0,
+        "units_available_to_sell": 0,
+        "receivable": "0",
+        "cash_withdrawable": "1966"
+      },
+      "lifecycle_review": "全程无转换、清算、分派或NAV赎回确认；余400份是未成交委托，不是等待兑付的份额。卖款10-22可取。",
+      "current_check": "接续CLOSED-PARTIAL-BUY，怎样结清600份成交、400份撤销及冻结，并保留0.86原计划和0.85实际退出的区别？"
+    }
+  },
+  "current_response": [
+    "算价差、双边费、净损益、期末现金和持仓。",
+    "相对50元计划预算差多少？若只知道日线触及0.86能否把退出改写0.86？",
+    "说明折价、剩余期限与未保证兑现之间的关系。"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-CLOSED",
+      "relationship": "虚构产品；包装分类不代表风险分散"
+    }
+  ],
+  "teaching_delivery": "Use only this step. Use worksheet items to include the lesson topics. Do not use them as a quiz list. Give one short part of the lesson. Then, give one check question from this part of the lesson. Before you give feedback for this step, wait for the raw response.\n\nKeep all practice in the category with tutor aid."
+}

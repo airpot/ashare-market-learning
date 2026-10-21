@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "track": "LOF",
+  "step": 4,
+  "exercise": "PRODUCT-LOF-04",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "回顾不交易与二级风险，不把旧净值当终局答案",
+  "cutoff": "2026-10-22T09:30:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "全包为虚构纸面教学：证券、日期、报价、委托、成交、费用与规则均为合成假设。没有真实账户、权限核验或真实成交保证。只讨论本步已给资料；缺项先写未知。",
+  "lesson": [
+    "本步仅补B的合成退出回报。A保持无交易。一级NAV与通道仍未补齐，所以不能在复盘里倒称当初已知道可套利；复盘必须保留当时未知。",
+    "总损益按现金流计算。费用是外部显式费用；内部管理等费用已体现在净值与价格中。任何后来的真实图谱，都只可作为回顾材料另记接触。"
+  ],
+  "data": {
+    "A": {
+      "opening_cash": "2000",
+      "events": []
+    },
+    "B": {
+      "opening_cash": "2000",
+      "events": [
+        {
+          "event_id": "LOF-B-B1",
+          "kind": "buy",
+          "quantity": 300,
+          "price": "1.20",
+          "fee": "2"
+        },
+        {
+          "event_id": "LOF-B-S1",
+          "kind": "sell",
+          "quantity": 300,
+          "price": "1.15",
+          "fee": "2"
+        }
+      ]
+    },
+    "sell_date": "2026-10-21",
+    "withdrawable_date": "2026-10-22",
+    "valuation_at_original_cutoff": "仍未知；不得用后披露值代换",
+    "review_fields": [
+      "已知与未知",
+      "A选择的证据",
+      "B的原始条件和实际数量",
+      "预算与净损益",
+      "与基金同期总收益或合适比较物的关系，缺数据记未知"
+    ]
+  },
+  "current_response": [
+    "分别计算A、B的期末现金、持仓和净损益。",
+    "原先20%这个数现在应保留什么标签？为什么B的亏损也不能单独证明A方法有效？",
+    "若日线触及1.15而没有卖出回报，能否自动给B记退出？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-LOF",
+      "relationship": "本题虚构产品",
+      "scope": "描述性接触记录，不授予独立资格"
+    }
+  ]
+}

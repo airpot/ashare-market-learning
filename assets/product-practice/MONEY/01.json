@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "track": "MONEY",
+  "step": 1,
+  "exercise": "PRODUCT-MONEY-01",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "货币基金用于现金管理，也有价格和流动性风险",
+  "cutoff": "2026-10-20T10:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "所有证券、报价、日期、成交、资格、费用、分派与规则均为合成教学假设。无真实执行资格或保证收益的结论；只用当前包。",
+  "lesson": [
+    "货币基金持有短期货币市场资产。它不是银行存款，基金份额价格、流动性、信用和赎回安排需要另核。“货币”描述主要资产与目标，可能和ETF等包装重叠，不是互斥的法律分类。",
+    "本题是一只交易所交易的虚构货币基金，每份报价约100元；别把别的货币基金每份1元的示例搬来。七日年化是过去一段收益折算，不能承诺下一天到手多少。",
+    "二级买卖的点差与外部费用可能超过短期收益。只有当时可知的收益资料可用于当时比较；内含费用已在价格或净值中体现，不再从现金重复扣。"
+  ],
+  "data": {
+    "rules": {
+      "instrument": "TRAIN-MONEY",
+      "operation": "二级市场现金买卖，一级或权益事件另核",
+      "eligibility": "本题合成账户已假定可买卖；真实资格未知须另核",
+      "quantity_unit": "份",
+      "buy_increment": 1,
+      "sell_increment": 1,
+      "price_tick": "0.001",
+      "phase": "合成连续时段09:30–11:30、13:00–15:00",
+      "order_type": "限价",
+      "cancellation": "未成交部分可申请撤单，确认后才释放冻结",
+      "limits_halts": "本题无停牌，价格边界99–101",
+      "resale": "本题买入次一合成交易日才可卖，不外推真实产品",
+      "settlement": "总现金按成交变化；卖款次一合成交易日可取；未卖的原现金可取",
+      "fees": "每个已成交买/卖指令外部费用各2元，按ROUND_HALF_UP各舍入到分一次；无成交无费",
+      "rule_source": "本题合成规则卡",
+      "effective_date": "2026-10-20",
+      "exceptions": "一级申购、配售、转托管、转换、分派、终止均须相应确认；内部费用不重复扣",
+      "calendar": [
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ]
+    },
+    "price": "100.10",
+    "valuation_observation": {
+      "value": "100.00",
+      "value_date": "2026-10-19",
+      "available_at": "2026-10-19T20:00:00+08:00",
+      "currency": "CNY",
+      "source": "合成估值表",
+      "meaning": "昨日净值，仅作口径教学"
+    },
+    "yield_display": {
+      "past_seven_day_annualized": "1.50%",
+      "value_date": "2026-10-19",
+      "available_at": "2026-10-20T09:00:00+08:00",
+      "source": "合成过去收益表",
+      "future_yield": "未知"
+    },
+    "distribution_convention": "本题无单独现金分派，持有变化仅由成交价格体现；不再另加一笔收益。"
+  },
+  "current_response": [
+    "区分货币基金、银行存款、ETF包装与现金用途。",
+    "每份100.10买100份，先写不含费的本金单位；七日年化能否保证明天收益？",
+    "短期持有为何要先查点差、费用、可卖与可取时间？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-MONEY",
+      "relationship": "虚构产品；包装分类不代表风险分散"
+    }
+  ]
+}

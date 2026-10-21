@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1178" viewBox="0 0 1680 1178" role="img" aria-labelledby="plate-title plate-desc">
+<title id="plate-title">T26-29 教师专题图版</title>
+<desc id="plate-desc">仅在保存学员原答后开放；真实观察前缀的局部放大图，详细数值解释在图下方。</desc>
+<metadata>{&quot;id&quot;: &quot;t26-29&quot;, &quot;observed_bars_sha256&quot;: &quot;bb5ca3c67399878f85d200b667d7c128d2db3189ff8e1c25607fbbb898e57a9c&quot;, &quot;opens_after&quot;: &quot;saved_raw_answer&quot;, &quot;svg_input_sha256&quot;: &quot;e8a8d07f0565f34e683bbbe3dc93fa732ff6ad408e2d136d30a2ea363ae88876&quot;, &quot;teacher_only&quot;: true}</metadata>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}line{stroke-linecap:round}</style>
+<rect width="1680" height="1178" fill="#f7f9fc"/>
+<text x="70" y="62.0" font-size="30" fill="#20344b" textLength="650.4000" lengthAdjust="spacingAndGlyphs">T26-29 · 天普股份 · 实体与影线：双烛放大</text>
+<text x="70" y="110.0" font-size="20" fill="#52677d" textLength="860.8000" lengthAdjust="spacingAndGlyphs">教师专用 · 保存原答后开放 · 截止 2026-09-08 · 真实未复权日线 · Asia/Shanghai</text>
+<text x="80" y="170.0" font-size="20" fill="#20344b" textLength="716.8000" lengthAdjust="spacingAndGlyphs">双烛共用线性价格轴；右侧四价标签以引线对应真实高度。红：C≥O；绿：C&lt;O。</text>
+<rect x="80.000000" y="198.000000" width="720.000000" height="510.000000" fill="#ffffff"/>
+<text x="102" y="221.0" font-size="21" fill="#20344b" textLength="266.2800" lengthAdjust="spacingAndGlyphs">前一交易日  2026-09-07</text>
+<line x1="130.000000" y1="368.908189" x2="395.000000" y2="368.908189" stroke="#087d80" stroke-width="1.5" id="previous-close" stroke-dasharray="7 5"/>
+<line x1="260.000000" y1="312.663358" x2="260.000000" y2="509.520265" stroke="#bd4548" stroke-width="2" id="candle-0-wick"/>
+<rect x="228.000000" y="368.908189" width="64.000000" height="21.091811" fill="#bd4548" id="candle-0-body"/>
+<line x1="292.000000" y1="312.663358" x2="410.000000" y2="282.000000" stroke="#a9b5c0" stroke-width="1"/>
+<text x="422" y="289.0" font-size="19" fill="#20344b" textLength="159.6000" lengthAdjust="spacingAndGlyphs">H 最高  65.620</text>
+<line x1="292.000000" y1="368.908189" x2="410.000000" y2="344.000000" stroke="#a9b5c0" stroke-width="1"/>
+<text x="422" y="351.0" font-size="19" fill="#20344b" textLength="159.6000" lengthAdjust="spacingAndGlyphs">C 收盘  65.300</text>
+<line x1="292.000000" y1="390.000000" x2="410.000000" y2="406.000000" stroke="#a9b5c0" stroke-width="1"/>
+<text x="422" y="413.0" font-size="19" fill="#20344b" textLength="159.6000" lengthAdjust="spacingAndGlyphs">O 开盘  65.180</text>
+<line x1="292.000000" y1="509.520265" x2="410.000000" y2="468.000000" stroke="#a9b5c0" stroke-width="1"/>
+<text x="422" y="475.0" font-size="19" fill="#20344b" textLength="159.6000" lengthAdjust="spacingAndGlyphs">L 最低  64.500</text>
+<line x1="340.000000" y1="312.663358" x2="340.000000" y2="368.908189" stroke="#2463a0" stroke-width="3"/>
+<line x1="333.000000" y1="312.663358" x2="347.000000" y2="312.663358" stroke="#2463a0" stroke-width="2"/>
+<line x1="333.000000" y1="368.908189" x2="347.000000" y2="368.908189" stroke="#2463a0" stroke-width="2"/>
+<line x1="340.000000" y1="368.908189" x2="340.000000" y2="390.000000" stroke="#b66c08" stroke-width="3"/>
+<line x1="333.000000" y1="368.908189" x2="347.000000" y2="368.908189" stroke="#b66c08" stroke-width="2"/>
+<line x1="333.000000" y1="390.000000" x2="347.000000" y2="390.000000" stroke="#b66c08" stroke-width="2"/>
+<line x1="340.000000" y1="390.000000" x2="340.000000" y2="509.520265" stroke="#8255a6" stroke-width="3"/>
+<line x1="333.000000" y1="390.000000" x2="347.000000" y2="390.000000" stroke="#8255a6" stroke-width="2"/>
+<line x1="333.000000" y1="509.520265" x2="347.000000" y2="509.520265" stroke="#8255a6" stroke-width="2"/>
+<text x="102" y="611.0" font-size="19" fill="#2463a0" textLength="199.1200" lengthAdjust="spacingAndGlyphs">蓝：上影 0.32 元/股</text>
+<text x="102" y="645.0" font-size="19" fill="#b66c08" textLength="199.1200" lengthAdjust="spacingAndGlyphs">金：实体 0.12 元/股</text>
+<text x="102" y="679.0" font-size="19" fill="#8255a6" textLength="199.1200" lengthAdjust="spacingAndGlyphs">紫：下影 0.68 元/股</text>
+<rect x="880.000000" y="198.000000" width="720.000000" height="510.000000" fill="#ffffff"/>
+<text x="902" y="221.0" font-size="21" fill="#20344b" textLength="224.2800" lengthAdjust="spacingAndGlyphs">目标日  2026-09-08</text>
+<line x1="930.000000" y1="368.908189" x2="1195.000000" y2="368.908189" stroke="#087d80" stroke-width="1.5" id="previous-close-target" stroke-dasharray="7 5"/>
+<line x1="1060.000000" y1="252.903226" x2="1060.000000" y2="527.096774" stroke="#167e67" stroke-width="2" id="candle-1-wick"/>
+<rect x="1028.000000" y="252.903226" width="64.000000" height="226.736973" fill="#167e67" id="candle-1-body"/>
+<line x1="1092.000000" y1="252.903226" x2="1210.000000" y2="282.000000" stroke="#a9b5c0" stroke-width="1"/>
+<text x="1222" y="289.0" font-size="19" fill="#20344b" textLength="159.6000" lengthAdjust="spacingAndGlyphs">H 最高  65.960</text>
+<line x1="1092.000000" y1="252.903226" x2="1210.000000" y2="344.000000" stroke="#a9b5c0" stroke-width="1"/>
+<text x="1222" y="351.0" font-size="19" fill="#20344b" textLength="159.6000" lengthAdjust="spacingAndGlyphs">O 开盘  65.960</text>
+<line x1="1092.000000" y1="479.640199" x2="1210.000000" y2="406.000000" stroke="#a9b5c0" stroke-width="1"/>
+<text x="1222" y="413.0" font-size="19" fill="#20344b" textLength="159.6000" lengthAdjust="spacingAndGlyphs">C 收盘  64.670</text>
+<line x1="1092.000000" y1="527.096774" x2="1210.000000" y2="468.000000" stroke="#a9b5c0" stroke-width="1"/>
+<text x="1222" y="475.0" font-size="19" fill="#20344b" textLength="159.6000" lengthAdjust="spacingAndGlyphs">L 最低  64.400</text>
+<line x1="1140.000000" y1="252.903226" x2="1140.000000" y2="252.903226" stroke="#2463a0" stroke-width="3"/>
+<line x1="1133.000000" y1="252.903226" x2="1147.000000" y2="252.903226" stroke="#2463a0" stroke-width="2"/>
+<line x1="1133.000000" y1="252.903226" x2="1147.000000" y2="252.903226" stroke="#2463a0" stroke-width="2"/>
+<line x1="1140.000000" y1="252.903226" x2="1140.000000" y2="479.640199" stroke="#b66c08" stroke-width="3"/>
+<line x1="1133.000000" y1="252.903226" x2="1147.000000" y2="252.903226" stroke="#b66c08" stroke-width="2"/>
+<line x1="1133.000000" y1="479.640199" x2="1147.000000" y2="479.640199" stroke="#b66c08" stroke-width="2"/>
+<line x1="1140.000000" y1="479.640199" x2="1140.000000" y2="527.096774" stroke="#8255a6" stroke-width="3"/>
+<line x1="1133.000000" y1="479.640199" x2="1147.000000" y2="479.640199" stroke="#8255a6" stroke-width="2"/>
+<line x1="1133.000000" y1="527.096774" x2="1147.000000" y2="527.096774" stroke="#8255a6" stroke-width="2"/>
+<text x="902" y="611.0" font-size="19" fill="#2463a0" textLength="162.6400" lengthAdjust="spacingAndGlyphs">蓝：上影 0 元/股</text>
+<text x="902" y="645.0" font-size="19" fill="#b66c08" textLength="199.1200" lengthAdjust="spacingAndGlyphs">金：实体 1.29 元/股</text>
+<text x="902" y="679.0" font-size="19" fill="#8255a6" textLength="199.1200" lengthAdjust="spacingAndGlyphs">紫：下影 0.27 元/股</text>
+<text x="80" y="783.0" font-size="23" fill="#2463a0" textLength="184.0000" lengthAdjust="spacingAndGlyphs">把数值对应到图上</text>
+<text x="80" y="829.5" font-size="19" fill="#20344b" textLength="899.0800" lengthAdjust="spacingAndGlyphs">目标 2026-09-08：H−L=65.960−64.400=1.560；|C−O|=|64.670−65.960|=1.290 元/股。</text>
+<text x="80" y="870.0" font-size="19" fill="#20344b" textLength="809.4000" lengthAdjust="spacingAndGlyphs">上影 H−max(O,C)=0.000；下影 min(O,C)−L=0.270。三段相加=1.560，与全幅相等。</text>
+<text x="80" y="910.5" font-size="19" fill="#20344b" textLength="798.0000" lengthAdjust="spacingAndGlyphs">两根蜡烛共用价格刻度，右侧蓝、金、紫括线分别对应上影、实体、下影；长度可以直接比较。</text>
+<text x="80" y="951.0" font-size="19" fill="#20344b" textLength="1213.7200" lengthAdjust="spacingAndGlyphs">青色虚线是 2026-09-07 前收 65.300，不是目标日开盘 65.960。收盘减开盘=-1.290 判断阴阳；收盘减前收=-0.630 判断日涨跌。</text>
+<text x="80" y="991.5" font-size="19" fill="#20344b" textLength="1496.4400" lengthAdjust="spacingAndGlyphs">只比实体：目标下端 64.670 &lt; 前实体下端 65.180：符合；目标上端 65.960 &gt; 前实体上端 65.300：符合；方向相反：符合。相等只记临界，不能充作严格吞没；影线</text>
+<text x="80" y="1020.0" font-size="19" fill="#20344b" textLength="95.0000" lengthAdjust="spacingAndGlyphs">不用包住。</text>
+<text x="80" y="1069.5" font-size="20" fill="#087d80" textLength="1120.0000" lengthAdjust="spacingAndGlyphs">检查一问：请指着目标实体与两条影线，逐一报出各自的价格差；再指出前收虚线，说明阴阳与相对前收涨跌为何要分别判断。</text>
+<text x="80" y="1114.5" font-size="17" fill="#52677d" textLength="919.3600" lengthAdjust="spacingAndGlyphs">来源：同题观察前缀（Sina OHLCV，Tencent OHLC交叉核对）；只画截止前数据。图形不是委托、成交或收益证明。</text>
+</svg>

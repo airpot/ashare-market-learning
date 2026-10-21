@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "track": "CLOSED",
+  "step": 2,
+  "exercise": "PRODUCT-CLOSED-02",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "折价不替你承担下跌预算",
+  "cutoff": "2026-10-20T10:05:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "所有证券、报价、日期、成交、资格、费用、分派与规则均为合成教学假设。无真实执行资格或保证收益的结论；只用当前包。",
+  "lesson": [
+    "本题继续练二级买卖，预定1000份。未来折价是否收敛尚未知，所以风险预算仍按入场价与计划退出价差加双边外部费核。",
+    "资金可能长期被占用。短期交易退出依赖盘口，长期持有依赖资产与条款，两者都要说明理由；不得临时用“等待折价收敛”取消原退出。"
+  ],
+  "data": {
+    "opening_cash": "2000",
+    "opening_quantity": 0,
+    "quantity": 1000,
+    "entry": "0.90",
+    "stop": "0.86",
+    "budget": "50",
+    "lot": 100,
+    "buyfee": "2",
+    "sellfee": "2",
+    "entry_condition": "卖方报价≤0.90、当前条款和NAV时点已核、点差与关联暴露可承受",
+    "no_trade": "条款变更、停牌/流动性未知、清算路径未明且决策依赖保本兑现，或需要提前取用资金",
+    "remaining_life": "365天，仅为合成期限资料；不能当作一定成交或兑付日"
+  },
+  "current_response": [
+    "核1000份买入占用与计划价差风险。",
+    "列一条不交易理由和要补足的资料。",
+    "若退出跌到0.85，会不会超过按0.86写下的计划？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-CLOSED",
+      "relationship": "虚构产品；包装分类不代表风险分散"
+    }
+  ]
+}

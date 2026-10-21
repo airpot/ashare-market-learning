@@ -1,0 +1,68 @@
+{
+  "synthetic": true,
+  "convention": "C12-F",
+  "cutoff": 13,
+  "input_boundary": "The input contains completed strict strokes with admission and a left start with qualification. These inputs do not show that raw K-lines give these strokes.",
+  "left_start": {
+    "price": 50,
+    "at": 0,
+    "admitted": true
+  },
+  "strokes": [
+    {
+      "id": "S1",
+      "start": 50,
+      "end": 57.9,
+      "start_at": 0,
+      "end_at": 2,
+      "known_at": 3,
+      "admitted_strict": true
+    },
+    {
+      "id": "S2",
+      "start": 57.9,
+      "end": 51.55,
+      "start_at": 2,
+      "end_at": 4,
+      "known_at": 5,
+      "admitted_strict": true
+    },
+    {
+      "id": "S3",
+      "start": 51.55,
+      "end": 58,
+      "start_at": 4,
+      "end_at": 6,
+      "known_at": 7,
+      "admitted_strict": true
+    },
+    {
+      "id": "S4",
+      "start": 58,
+      "end": 53.1,
+      "start_at": 6,
+      "end_at": 8,
+      "known_at": 9,
+      "admitted_strict": true
+    },
+    {
+      "id": "S5",
+      "start": 53.1,
+      "end": 57.95,
+      "start_at": 8,
+      "end_at": 10,
+      "known_at": 11,
+      "admitted_strict": true
+    },
+    {
+      "id": "S6",
+      "start": 57.95,
+      "end": 53,
+      "start_at": 10,
+      "end_at": 12,
+      "known_at": 13,
+      "admitted_strict": true
+    }
+  ],
+  "pending_strokes": []
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">阳线，也可以是当日下跌</title><desc id="desc">开10、最高11、最低9.8、收10.8，前收11.2；收盘比开盘上涨8%，但相对前收下跌约3.57%。假设普通交易日且无除权除息等公司行动。</desc>
+<rect width="1200" height="760" fill="#f7f9fb"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#183044;font-size:21px} .small{font-size:17px;fill:#4c6273} .heading{font-size:32px;font-weight:700} .large{font-size:26px;font-weight:600}</style>
+<text x="48" y="58" class="heading" text-anchor="start">阳线，也可以是当日下跌</text>
+<text x="48" y="96" class="small" text-anchor="start">合成普通日线 · 元 / 股 · 无除权除息等公司行动 · 阳阴与涨跌使用不同参照价</text>
+<line x1="120" y1="214.00000000000006" x2="570" y2="214.00000000000006" stroke="#285f9d" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="110" y="199.00000000000006" class="" text-anchor="start" style="fill:#285f9d">前收 11.20</text>
+<line x1="330" y1="255.99999999999994" x2="330" y2="507.9999999999998" stroke="#b83238" stroke-width="3"/>
+<rect x="290.0" y="297.9999999999998" width="80" height="168.00000000000017" rx="8" fill="#b83238" stroke="#b83238"/>
+<text x="120" y="610" class="small" text-anchor="start">O 10.00 / H 11.00 / L 9.80 / C 10.80</text>
+<rect x="610" y="170" width="535" height="175" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="630" y="208" class="large" text-anchor="start">实体方向：阳线（红）</text>
+<text x="630" y="248" class="" text-anchor="start">收盘 10.80 &gt; 开盘 10.00</text>
+<text x="630" y="281" class="" text-anchor="start">(10.8 − 10) ÷ 10 = +8.00%</text>
+<rect x="610" y="390" width="535" height="175" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="630" y="428" class="large" text-anchor="start">当日收益：下跌（绿）</text>
+<text x="630" y="468" class="" text-anchor="start">收盘 10.80 &lt; 前收 11.20</text>
+<text x="630" y="501" class="" text-anchor="start">(10.8 − 11.2) ÷ 11.2 ≈ −3.57%</text>
+<text x="610" y="625" class="small" text-anchor="start">日收益返回小数比例，百分数须再乘 100。</text>
+<line x1="48" y1="687" x2="1152" y2="687" stroke="#d4dee7" stroke-width="2"/>
+<text x="48" y="721" class="small" text-anchor="start">实体颜色说明开收盘关系；当日涨跌说明本次收盘与前收盘关系。两者不可互换。</text>
+</svg>

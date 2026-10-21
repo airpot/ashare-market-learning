@@ -1,0 +1,983 @@
+{
+  "symbol": "sh688981",
+  "start": "2026-06-01",
+  "cutoff": "2026-06-29",
+  "source_sha256": "c00eff4d19ea288012ed75bcb8c30fc30505c131f229ca04397b025e70c81389",
+  "bars": [
+    {
+      "date": "2026-06-01",
+      "open": "139.760",
+      "high": "140.800",
+      "low": "132.040",
+      "close": "132.440",
+      "volume_shares": "100884914"
+    },
+    {
+      "date": "2026-06-02",
+      "open": "132.980",
+      "high": "135.500",
+      "low": "129.300",
+      "close": "132.480",
+      "volume_shares": "92368820"
+    },
+    {
+      "date": "2026-06-03",
+      "open": "132.000",
+      "high": "138.750",
+      "low": "131.850",
+      "close": "134.000",
+      "volume_shares": "99212745"
+    },
+    {
+      "date": "2026-06-04",
+      "open": "131.000",
+      "high": "137.570",
+      "low": "130.000",
+      "close": "134.880",
+      "volume_shares": "77852688"
+    },
+    {
+      "date": "2026-06-05",
+      "open": "131.000",
+      "high": "134.750",
+      "low": "126.700",
+      "close": "127.400",
+      "volume_shares": "93457433"
+    },
+    {
+      "date": "2026-06-08",
+      "open": "120.000",
+      "high": "124.280",
+      "low": "120.000",
+      "close": "121.920",
+      "volume_shares": "78122559"
+    },
+    {
+      "date": "2026-06-09",
+      "open": "123.500",
+      "high": "128.030",
+      "low": "120.890",
+      "close": "127.300",
+      "volume_shares": "76966277"
+    },
+    {
+      "date": "2026-06-10",
+      "open": "125.000",
+      "high": "131.180",
+      "low": "124.500",
+      "close": "125.340",
+      "volume_shares": "66909414"
+    },
+    {
+      "date": "2026-06-11",
+      "open": "124.000",
+      "high": "129.080",
+      "low": "123.010",
+      "close": "127.400",
+      "volume_shares": "62627599"
+    },
+    {
+      "date": "2026-06-12",
+      "open": "131.640",
+      "high": "134.870",
+      "low": "124.370",
+      "close": "124.880",
+      "volume_shares": "81743729"
+    },
+    {
+      "date": "2026-06-15",
+      "open": "128.590",
+      "high": "131.000",
+      "low": "124.890",
+      "close": "130.520",
+      "volume_shares": "72860409"
+    },
+    {
+      "date": "2026-06-16",
+      "open": "131.000",
+      "high": "134.340",
+      "low": "127.930",
+      "close": "130.140",
+      "volume_shares": "74558301"
+    },
+    {
+      "date": "2026-06-17",
+      "open": "127.910",
+      "high": "134.880",
+      "low": "126.680",
+      "close": "134.700",
+      "volume_shares": "96356212"
+    },
+    {
+      "date": "2026-06-18",
+      "open": "136.110",
+      "high": "144.630",
+      "low": "132.880",
+      "close": "140.700",
+      "volume_shares": "124493714"
+    },
+    {
+      "date": "2026-06-22",
+      "open": "140.780",
+      "high": "148.000",
+      "low": "140.000",
+      "close": "145.590",
+      "volume_shares": "106096058"
+    },
+    {
+      "date": "2026-06-23",
+      "open": "143.580",
+      "high": "148.300",
+      "low": "139.600",
+      "close": "141.700",
+      "volume_shares": "91820109"
+    },
+    {
+      "date": "2026-06-24",
+      "open": "141.500",
+      "high": "156.350",
+      "low": "141.320",
+      "close": "151.530",
+      "volume_shares": "141162383"
+    },
+    {
+      "date": "2026-06-25",
+      "open": "152.000",
+      "high": "158.660",
+      "low": "151.000",
+      "close": "156.860",
+      "volume_shares": "118610237"
+    },
+    {
+      "date": "2026-06-26",
+      "open": "153.700",
+      "high": "156.220",
+      "low": "146.500",
+      "close": "148.760",
+      "volume_shares": "107615543"
+    },
+    {
+      "date": "2026-06-29",
+      "open": "147.800",
+      "high": "152.990",
+      "low": "141.000",
+      "close": "151.000",
+      "volume_shares": "102740101"
+    }
+  ],
+  "analysis": {
+    "cutoff": "2026-06-29",
+    "groups": [
+      {
+        "low": "132.04",
+        "high": "140.8",
+        "source_indices": [
+          0
+        ],
+        "first_date": "2026-06-01",
+        "last_date": "2026-06-01",
+        "high_date": "2026-06-01",
+        "low_date": "2026-06-01",
+        "formed_at": "2026-06-01",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 0,
+        "known_at": "2026-06-02"
+      },
+      {
+        "low": "129.3",
+        "high": "135.5",
+        "source_indices": [
+          1
+        ],
+        "first_date": "2026-06-02",
+        "last_date": "2026-06-02",
+        "high_date": "2026-06-02",
+        "low_date": "2026-06-02",
+        "formed_at": "2026-06-02",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 1,
+        "known_at": "2026-06-03"
+      },
+      {
+        "low": "131.85",
+        "high": "138.75",
+        "source_indices": [
+          2
+        ],
+        "first_date": "2026-06-03",
+        "last_date": "2026-06-03",
+        "high_date": "2026-06-03",
+        "low_date": "2026-06-03",
+        "formed_at": "2026-06-03",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 2,
+        "known_at": "2026-06-04"
+      },
+      {
+        "low": "130",
+        "high": "137.57",
+        "source_indices": [
+          3
+        ],
+        "first_date": "2026-06-04",
+        "last_date": "2026-06-04",
+        "high_date": "2026-06-04",
+        "low_date": "2026-06-04",
+        "formed_at": "2026-06-04",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 3,
+        "known_at": "2026-06-05"
+      },
+      {
+        "low": "126.7",
+        "high": "134.75",
+        "source_indices": [
+          4
+        ],
+        "first_date": "2026-06-05",
+        "last_date": "2026-06-05",
+        "high_date": "2026-06-05",
+        "low_date": "2026-06-05",
+        "formed_at": "2026-06-05",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 4,
+        "known_at": "2026-06-08"
+      },
+      {
+        "low": "120",
+        "high": "124.28",
+        "source_indices": [
+          5
+        ],
+        "first_date": "2026-06-08",
+        "last_date": "2026-06-08",
+        "high_date": "2026-06-08",
+        "low_date": "2026-06-08",
+        "formed_at": "2026-06-08",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 5,
+        "known_at": "2026-06-09"
+      },
+      {
+        "low": "120.89",
+        "high": "128.03",
+        "source_indices": [
+          6
+        ],
+        "first_date": "2026-06-09",
+        "last_date": "2026-06-09",
+        "high_date": "2026-06-09",
+        "low_date": "2026-06-09",
+        "formed_at": "2026-06-09",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 6,
+        "known_at": "2026-06-10"
+      },
+      {
+        "low": "124.5",
+        "high": "131.18",
+        "source_indices": [
+          7
+        ],
+        "first_date": "2026-06-10",
+        "last_date": "2026-06-10",
+        "high_date": "2026-06-10",
+        "low_date": "2026-06-10",
+        "formed_at": "2026-06-10",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 7,
+        "known_at": "2026-06-11"
+      },
+      {
+        "low": "123.01",
+        "high": "129.08",
+        "source_indices": [
+          8
+        ],
+        "first_date": "2026-06-11",
+        "last_date": "2026-06-11",
+        "high_date": "2026-06-11",
+        "low_date": "2026-06-11",
+        "formed_at": "2026-06-11",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 8,
+        "known_at": "2026-06-12"
+      },
+      {
+        "low": "127.93",
+        "high": "134.88",
+        "source_indices": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "first_date": "2026-06-12",
+        "last_date": "2026-06-17",
+        "high_date": "2026-06-17",
+        "low_date": "2026-06-16",
+        "formed_at": "2026-06-17",
+        "merge_direction": "up",
+        "tentative": false,
+        "index": 9,
+        "known_at": "2026-06-18"
+      },
+      {
+        "low": "132.88",
+        "high": "144.63",
+        "source_indices": [
+          13
+        ],
+        "first_date": "2026-06-18",
+        "last_date": "2026-06-18",
+        "high_date": "2026-06-18",
+        "low_date": "2026-06-18",
+        "formed_at": "2026-06-18",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 10,
+        "known_at": "2026-06-22"
+      },
+      {
+        "low": "140",
+        "high": "148.3",
+        "source_indices": [
+          14,
+          15
+        ],
+        "first_date": "2026-06-22",
+        "last_date": "2026-06-23",
+        "high_date": "2026-06-23",
+        "low_date": "2026-06-22",
+        "formed_at": "2026-06-23",
+        "merge_direction": "up",
+        "tentative": false,
+        "index": 11,
+        "known_at": "2026-06-24"
+      },
+      {
+        "low": "141.32",
+        "high": "156.35",
+        "source_indices": [
+          16
+        ],
+        "first_date": "2026-06-24",
+        "last_date": "2026-06-24",
+        "high_date": "2026-06-24",
+        "low_date": "2026-06-24",
+        "formed_at": "2026-06-24",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 12,
+        "known_at": "2026-06-25"
+      },
+      {
+        "low": "151",
+        "high": "158.66",
+        "source_indices": [
+          17
+        ],
+        "first_date": "2026-06-25",
+        "last_date": "2026-06-25",
+        "high_date": "2026-06-25",
+        "low_date": "2026-06-25",
+        "formed_at": "2026-06-25",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 13,
+        "known_at": "2026-06-26"
+      },
+      {
+        "low": "146.5",
+        "high": "156.22",
+        "source_indices": [
+          18
+        ],
+        "first_date": "2026-06-26",
+        "last_date": "2026-06-26",
+        "high_date": "2026-06-26",
+        "low_date": "2026-06-26",
+        "formed_at": "2026-06-26",
+        "merge_direction": null,
+        "tentative": false,
+        "index": 14,
+        "known_at": "2026-06-29"
+      },
+      {
+        "low": "141",
+        "high": "152.99",
+        "source_indices": [
+          19
+        ],
+        "first_date": "2026-06-29",
+        "last_date": "2026-06-29",
+        "high_date": "2026-06-29",
+        "low_date": "2026-06-29",
+        "formed_at": "2026-06-29",
+        "merge_direction": null,
+        "tentative": true,
+        "index": 15,
+        "known_at": null
+      }
+    ],
+    "unresolved_initial": false,
+    "fractals": [
+      {
+        "kind": "bottom",
+        "center": 1,
+        "span": [
+          0,
+          1,
+          2
+        ],
+        "price": "129.3",
+        "date": "2026-06-02",
+        "formed_at": "2026-06-03",
+        "right_group_updated_at": "2026-06-03",
+        "known_at": "2026-06-04",
+        "formation_source_indices": [
+          0,
+          1,
+          2
+        ],
+        "source_indices": [
+          0,
+          1,
+          2
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 2,
+        "span": [
+          1,
+          2,
+          3
+        ],
+        "price": "138.75",
+        "date": "2026-06-03",
+        "formed_at": "2026-06-04",
+        "right_group_updated_at": "2026-06-04",
+        "known_at": "2026-06-05",
+        "formation_source_indices": [
+          1,
+          2,
+          3
+        ],
+        "source_indices": [
+          1,
+          2,
+          3
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 5,
+        "span": [
+          4,
+          5,
+          6
+        ],
+        "price": "120",
+        "date": "2026-06-08",
+        "formed_at": "2026-06-09",
+        "right_group_updated_at": "2026-06-09",
+        "known_at": "2026-06-10",
+        "formation_source_indices": [
+          4,
+          5,
+          6
+        ],
+        "source_indices": [
+          4,
+          5,
+          6
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 7,
+        "span": [
+          6,
+          7,
+          8
+        ],
+        "price": "131.18",
+        "date": "2026-06-10",
+        "formed_at": "2026-06-11",
+        "right_group_updated_at": "2026-06-11",
+        "known_at": "2026-06-12",
+        "formation_source_indices": [
+          6,
+          7,
+          8
+        ],
+        "source_indices": [
+          6,
+          7,
+          8
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "bottom",
+        "center": 8,
+        "span": [
+          7,
+          8,
+          9
+        ],
+        "price": "123.01",
+        "date": "2026-06-11",
+        "formed_at": "2026-06-12",
+        "right_group_updated_at": "2026-06-17",
+        "known_at": "2026-06-18",
+        "formation_source_indices": [
+          7,
+          8,
+          9
+        ],
+        "source_indices": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 13,
+        "span": [
+          12,
+          13,
+          14
+        ],
+        "price": "158.66",
+        "date": "2026-06-25",
+        "formed_at": "2026-06-26",
+        "right_group_updated_at": "2026-06-26",
+        "known_at": "2026-06-29",
+        "formation_source_indices": [
+          16,
+          17,
+          18
+        ],
+        "source_indices": [
+          16,
+          17,
+          18
+        ],
+        "state": "confirmed_at_cutoff"
+      }
+    ],
+    "endpoints": [
+      {
+        "kind": "bottom",
+        "center": 5,
+        "span": [
+          4,
+          5,
+          6
+        ],
+        "price": "120",
+        "date": "2026-06-08",
+        "formed_at": "2026-06-09",
+        "right_group_updated_at": "2026-06-09",
+        "known_at": "2026-06-10",
+        "formation_source_indices": [
+          4,
+          5,
+          6
+        ],
+        "source_indices": [
+          4,
+          5,
+          6
+        ],
+        "state": "confirmed_at_cutoff"
+      },
+      {
+        "kind": "top",
+        "center": 13,
+        "span": [
+          12,
+          13,
+          14
+        ],
+        "price": "158.66",
+        "date": "2026-06-25",
+        "formed_at": "2026-06-26",
+        "right_group_updated_at": "2026-06-26",
+        "known_at": "2026-06-29",
+        "formation_source_indices": [
+          16,
+          17,
+          18
+        ],
+        "source_indices": [
+          16,
+          17,
+          18
+        ],
+        "state": "confirmed_at_cutoff"
+      }
+    ],
+    "strokes": [
+      {
+        "index": 0,
+        "start": {
+          "kind": "bottom",
+          "center": 5,
+          "span": [
+            4,
+            5,
+            6
+          ],
+          "price": "120",
+          "date": "2026-06-08",
+          "formed_at": "2026-06-09",
+          "right_group_updated_at": "2026-06-09",
+          "known_at": "2026-06-10",
+          "formation_source_indices": [
+            4,
+            5,
+            6
+          ],
+          "source_indices": [
+            4,
+            5,
+            6
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 13,
+          "span": [
+            12,
+            13,
+            14
+          ],
+          "price": "158.66",
+          "date": "2026-06-25",
+          "formed_at": "2026-06-26",
+          "right_group_updated_at": "2026-06-26",
+          "known_at": "2026-06-29",
+          "formation_source_indices": [
+            16,
+            17,
+            18
+          ],
+          "source_indices": [
+            16,
+            17,
+            18
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "direction": "up",
+        "low": "120",
+        "high": "158.66",
+        "center_spacing": 8,
+        "state": "latest_endpoint_revisable",
+        "formed_at": "2026-06-26",
+        "known_at": "2026-06-29"
+      }
+    ],
+    "rejections": [
+      {
+        "start": {
+          "kind": "bottom",
+          "center": 1,
+          "span": [
+            0,
+            1,
+            2
+          ],
+          "price": "129.3",
+          "date": "2026-06-02",
+          "formed_at": "2026-06-03",
+          "right_group_updated_at": "2026-06-03",
+          "known_at": "2026-06-04",
+          "formation_source_indices": [
+            0,
+            1,
+            2
+          ],
+          "source_indices": [
+            0,
+            1,
+            2
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 2,
+          "span": [
+            1,
+            2,
+            3
+          ],
+          "price": "138.75",
+          "date": "2026-06-03",
+          "formed_at": "2026-06-04",
+          "right_group_updated_at": "2026-06-04",
+          "known_at": "2026-06-05",
+          "formation_source_indices": [
+            1,
+            2,
+            3
+          ],
+          "source_indices": [
+            1,
+            2,
+            3
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "spacing"
+      },
+      {
+        "start": {
+          "kind": "bottom",
+          "center": 5,
+          "span": [
+            4,
+            5,
+            6
+          ],
+          "price": "120",
+          "date": "2026-06-08",
+          "formed_at": "2026-06-09",
+          "right_group_updated_at": "2026-06-09",
+          "known_at": "2026-06-10",
+          "formation_source_indices": [
+            4,
+            5,
+            6
+          ],
+          "source_indices": [
+            4,
+            5,
+            6
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "top",
+          "center": 7,
+          "span": [
+            6,
+            7,
+            8
+          ],
+          "price": "131.18",
+          "date": "2026-06-10",
+          "formed_at": "2026-06-11",
+          "right_group_updated_at": "2026-06-11",
+          "known_at": "2026-06-12",
+          "formation_source_indices": [
+            6,
+            7,
+            8
+          ],
+          "source_indices": [
+            6,
+            7,
+            8
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "spacing"
+      },
+      {
+        "start": {
+          "kind": "bottom",
+          "center": 5,
+          "span": [
+            4,
+            5,
+            6
+          ],
+          "price": "120",
+          "date": "2026-06-08",
+          "formed_at": "2026-06-09",
+          "right_group_updated_at": "2026-06-09",
+          "known_at": "2026-06-10",
+          "formation_source_indices": [
+            4,
+            5,
+            6
+          ],
+          "source_indices": [
+            4,
+            5,
+            6
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "end": {
+          "kind": "bottom",
+          "center": 8,
+          "span": [
+            7,
+            8,
+            9
+          ],
+          "price": "123.01",
+          "date": "2026-06-11",
+          "formed_at": "2026-06-12",
+          "right_group_updated_at": "2026-06-17",
+          "known_at": "2026-06-18",
+          "formation_source_indices": [
+            7,
+            8,
+            9
+          ],
+          "source_indices": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "same_kind_not_extreme"
+      }
+    ],
+    "revisions": [
+      {
+        "old": {
+          "kind": "bottom",
+          "center": 1,
+          "span": [
+            0,
+            1,
+            2
+          ],
+          "price": "129.3",
+          "date": "2026-06-02",
+          "formed_at": "2026-06-03",
+          "right_group_updated_at": "2026-06-03",
+          "known_at": "2026-06-04",
+          "formation_source_indices": [
+            0,
+            1,
+            2
+          ],
+          "source_indices": [
+            0,
+            1,
+            2
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "new": {
+          "kind": "bottom",
+          "center": 5,
+          "span": [
+            4,
+            5,
+            6
+          ],
+          "price": "120",
+          "date": "2026-06-08",
+          "formed_at": "2026-06-09",
+          "right_group_updated_at": "2026-06-09",
+          "known_at": "2026-06-10",
+          "formation_source_indices": [
+            4,
+            5,
+            6
+          ],
+          "source_indices": [
+            4,
+            5,
+            6
+          ],
+          "state": "confirmed_at_cutoff"
+        },
+        "reason": "same_kind_more_extreme",
+        "known_at": "2026-06-09",
+        "observed_at": "2026-06-09",
+        "endpoint_confirmed_at": "2026-06-10"
+      }
+    ],
+    "tail_candidate": {
+      "kind": "bottom",
+      "center": 15,
+      "price": "141",
+      "date": "2026-06-29",
+      "formed_at": "2026-06-29",
+      "known_at": null,
+      "state": "missing_right_group"
+    }
+  },
+  "higher": {
+    "qualified_segment": false,
+    "qualified_center": false,
+    "qualified_L1": false,
+    "qualified_L2": false,
+    "stroke_overlap_windows": [],
+    "segment_hypotheses": [
+      {
+        "start_stroke": 0,
+        "direction": "up",
+        "features": [],
+        "first_three_overlap": false,
+        "raw_relation": "insufficient_feature_elements",
+        "feature_gap": null,
+        "feature_inclusion_required": false,
+        "qualified": false,
+        "reason": "left_boundary_and_standardized_feature_completion_not_qualified"
+      }
+    ],
+    "prerequisites": [
+      "M11 strict strokes with cutoff evidence and revision evidence",
+      "The start boundary of an M11 segment from a previous context with qualification",
+      "Feature inclusion that uses the applicable direction, with source mapping",
+      "A feature fractal without a gap, or a gap plus a reverse feature fractal",
+      "For an L1 center, three B0 segments are necessary. They must be completed and have no other segment between them.",
+      "L1 blocks in the C12-F sealed state before each L2 exercise"
+    ]
+  },
+  "annotations": [
+    {
+      "kind": "line",
+      "start_date": "2026-06-08",
+      "start_price": "120",
+      "end_date": "2026-06-25",
+      "end_price": "158.66",
+      "label": "笔0：120→158.66；末端仍可更新"
+    }
+  ],
+  "worked": {
+    "selected": {
+      "stroke_index": 0
+    },
+    "paragraphs": [
+      "所选两端为 底 P5，2026-06-08 的 120 元/股 → 顶 P13，2026-06-25 的 158.66 元/股；三组分别占 [4, 5, 6] 与 [12, 13, 14]。处理中心距 13−5=8，两组三组之间独立 P 号为 [7, 8, 9, 10, 11]，共 5 组。",
+      "中心至中心真实处理范围为 [120,158.66] 元/股；两端局部分型 formed_at 分别为 2026-06-09、2026-06-26，known_at 分别为 2026-06-10、2026-06-29。极值发生日不能替代这两项证据时刻。",
+      "本笔端点覆盖范围 [120,158.66]，中心距≥4，至少留一独立组；分型证据于 2026-06-29 齐备，状态 latest_endpoint_revisable。这接受的是本窗口口径内的一笔；最后端点仍可由更极端同类分型更新，尚无已完成 B0 资格。"
+    ]
+  },
+  "corporate_action_calendar": "The calendar does not include all cases. It does not show that a basis-break analysis is correct. It does not show that an investor total-return calculation is correct."
+}

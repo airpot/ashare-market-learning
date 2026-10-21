@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "track": "MONEY",
+  "step": 4,
+  "exercise": "PRODUCT-MONEY-04",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "teacher-after-current-raw",
+  "title": "价格微涨，费用后可能亏损：本步反馈",
+  "source_basis": "This packet uses only the accepted assumptions made for this example. It does not show eligibility for execution in a market.",
+  "worked": [
+    "毛价差100×(100.11−100.10)=1元；双边费4，净损益−3元。期末现金19997、份额0。",
+    "买后现金9988；卖后加10011−2=10009，得19997。没有另收七日年化收益，不重复加收益或扣内部管理费。",
+    "10-21卖出，10-22本题才可取。短期现金用途还要对可取时间、成本和替代选择负责；微涨不能单独证明操作有效。",
+    "另设分支 MONEY-PARTIAL-BUY：承接总现金13992、冻结4004、60份和余买单40；10-21 09:00确认撤余40且无新买入，冻结0、可取原现金13992，足以备付12000、备付后余1992；只是备付比较，本题没有实际提现。解冻不增加总现金，也不产生收益或新费用。",
+    "60份卖出净入60×100.11−2=6004.60，10-22可取；期末现金13992+6004.60=19996.60，持仓/余单/冻结/应收均0。毛价差60×0.01=0.60，实际双边费4，净−3.40；若另有12000实际提现，期末账户现金须另减至7996.60，含提现的投资损益仍−3.40。"
+  ],
+  "misconception": "“涨了一分钱，100份赚1元，货币产品不会亏。”把外部两笔2元扣进去重算。",
+  "follow_up": "若费用各变为0，结果会怎样？解释这仍不代表真实产品永久免费或无风险。",
+  "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
+  "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
+}

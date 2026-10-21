@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">市场资金与证券流向</title><desc id="desc">一级市场募集资金流向公司；二级市场买卖双方交换证券与资金。中介提供通道与服务，二级交易款一般不直接流入公司。</desc>
+<rect width="1200" height="760" fill="#f7f9fb"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#183044;font-size:21px} .small{font-size:17px;fill:#4c6273} .heading{font-size:32px;font-weight:700} .large{font-size:26px;font-weight:600}</style>
+<text x="48" y="58" class="heading" text-anchor="start">市场资金与证券流向</text>
+<text x="48" y="96" class="small" text-anchor="start">合成教学示意 · 非真实证券或交易所参数 · 图中假设仅用于解释机制</text>
+<rect x="70" y="160" width="300" height="195" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="90" y="198" class="large" text-anchor="start">一级市场：发行</text>
+<text x="90" y="238" class="" text-anchor="start">投资者认购新发行证券</text>
+<text x="90" y="271" class="" text-anchor="start">资金 → 公司（示意）</text>
+<text x="90" y="304" class="" text-anchor="start">公司 → 投资者：证券</text>
+<rect x="455" y="160" width="300" height="195" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="475" y="198" class="large" text-anchor="start">公司与经营</text>
+<text x="475" y="238" class="" text-anchor="start">资金用于经营等用途</text>
+<text x="475" y="271" class="" text-anchor="start">分红取决于决策与条件</text>
+<text x="475" y="304" class="" text-anchor="start">股东承担经营与价格风险</text>
+<line x1="375" y1="255" x2="445" y2="255" stroke="#285f9d" stroke-width="3"/>
+<line x1="435" y1="249" x2="445" y2="255" stroke="#285f9d" stroke-width="3"/>
+<line x1="435" y1="261" x2="445" y2="255" stroke="#285f9d" stroke-width="3"/>
+<rect x="70" y="430" width="300" height="165" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="90" y="468" class="large" text-anchor="start">二级市场：买方</text>
+<text x="90" y="508" class="" text-anchor="start">支付交易款</text>
+<text x="90" y="541" class="" text-anchor="start">取得既有证券</text>
+<rect x="455" y="430" width="300" height="165" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="475" y="468" class="large" text-anchor="start">二级市场：卖方</text>
+<text x="475" y="508" class="" text-anchor="start">交付既有证券</text>
+<text x="475" y="541" class="" text-anchor="start">取得交易款</text>
+<line x1="375" y1="480" x2="445" y2="480" stroke="#285f9d" stroke-width="3"/>
+<line x1="435" y1="474" x2="445" y2="480" stroke="#285f9d" stroke-width="3"/>
+<line x1="435" y1="486" x2="445" y2="480" stroke="#285f9d" stroke-width="3"/>
+<text x="400" y="467" class="small" text-anchor="middle">款</text>
+<line x1="445" y1="552" x2="375" y2="552" stroke="#285f9d" stroke-width="3"/>
+<line x1="385" y1="546" x2="375" y2="552" stroke="#285f9d" stroke-width="3"/>
+<line x1="385" y1="558" x2="375" y2="552" stroke="#285f9d" stroke-width="3"/>
+<text x="400" y="580" class="small" text-anchor="middle">证券</text>
+<rect x="825" y="215" width="320" height="240" rx="8" fill="#ffffff" stroke="#d4dee7"/>
+<text x="845" y="253" class="large" text-anchor="start">通道与服务</text>
+<text x="845" y="293" class="" text-anchor="start">券商：委托入口与服务</text>
+<text x="845" y="326" class="" text-anchor="start">交易所：交易组织与撮合</text>
+<text x="845" y="359" class="" text-anchor="start">登记结算：登记与结算</text>
+<text x="845" y="392" class="" text-anchor="start">具体职责须查现行来源</text>
+<line x1="48" y1="687" x2="1152" y2="687" stroke="#d4dee7" stroke-width="2"/>
+<text x="48" y="721" class="small" text-anchor="start">示意省略税费和部分参与者；买到股票不等于公司直接收到这笔二级交易款。</text>
+</svg>

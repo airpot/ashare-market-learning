@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "track": "REIT",
+  "step": 4,
+  "exercise": "PRODUCT-REIT-04",
+  "support": "assisted",
+  "synthetic": true,
+  "visibility": "learner-current-step",
+  "title": "价差、分派和费用一起看",
+  "cutoff": "2026-10-23T16:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "assumption_notice": "所有证券、报价、日期、成交、资格、费用、分派与规则均为合成教学假设。无真实执行资格或保证收益的结论；只用当前包。",
+  "lesson": [
+    "本步确认10-22卖出，10-23分派到账。先按现金流发生先后对账，再核已登记应收是否清零。卖出款与分派都到齐后，才比较期末资产与期初现金。",
+    "未经复权的价格变化与含分派总收益有不同口径。将本题与基准比较时，两边都应使用相同期间、现金流和费用口径；只有一次分派不能推断未来年化回报。",
+    "独立部分成交另题在此承接上一步的同名账本；只按新增确认解除冻结、结清应收或保留残余权益，不把主线结果抄入另题。"
+  ],
+  "data": {
+    "opening_cash": "5000",
+    "events": [
+      {
+        "event_id": "REIT-B1",
+        "kind": "buy",
+        "quantity": 1000,
+        "price": "3",
+        "fee": "2",
+        "date": "2026-10-20"
+      },
+      {
+        "event_id": "REIT-S1",
+        "kind": "sell",
+        "quantity": 1000,
+        "price": "2.9",
+        "fee": "2",
+        "date": "2026-10-22"
+      },
+      {
+        "event_id": "REIT-D1",
+        "kind": "distribution",
+        "amount": "100",
+        "date": "2026-10-23"
+      }
+    ],
+    "eligibility": "10-20已确认登记1000份，卖出发生在登记后；本题资格维持",
+    "cash_withdrawable_date": "2026-10-23",
+    "distribution_receipt_confirmed": true,
+    "tax": "本题0，100元已是最终实际收款",
+    "separate_partial_case": {
+      "synthetic": true,
+      "separate_case": true,
+      "separate_from_main_and_no_trade": true,
+      "scope": "独立合成执行分支；不叠加到原主线、其他另题或学习者原先不交易的账本。未成交委托不是持仓或现金流。",
+      "fee_rule": "同一已成交指令只收实际整单费2元一次；余单撤销或失效不另收费用。冻结现金仍属总现金，不可再从总现金扣一次。",
+      "case_id": "REIT-PARTIAL-SELL",
+      "carried_from_step3": {
+        "synthetic": true,
+        "separate_case": true,
+        "separate_from_main_and_no_trade": true,
+        "scope": "独立合成执行分支；不叠加到原主线、其他另题或学习者原先不交易的账本。未成交委托不是持仓或现金流。",
+        "fee_rule": "同一已成交指令只收实际整单费2元一次；余单撤销或失效不另收费用。冻结现金仍属总现金，不可再从总现金扣一次。",
+        "case_id": "REIT-PARTIAL-SELL",
+        "opening_cash": "5000",
+        "as_of": "2026-10-21T10:00:00+08:00",
+        "quantity_assumption": "与主线相同先买1000份并在10-20登记；本另题10-21申报卖1000份，仅确认600份，余400份仍挂单冻结，均符合本题100份数量组。",
+        "confirmed_fills": [
+          {
+            "event_id": "REIT-P-B1",
+            "kind": "buy",
+            "quantity": 1000,
+            "price": "3.00",
+            "fee": "2",
+            "confirmed_at": "2026-10-20T10:10:00+08:00"
+          },
+          {
+            "event_id": "REIT-P-S1",
+            "kind": "sell",
+            "quantity": 600,
+            "price": "2.92",
+            "fee": "2",
+            "confirmed_at": "2026-10-21T09:50:00+08:00"
+          }
+        ],
+        "order": {
+          "order_id": "REIT-P-S-ORDER",
+          "kind": "sell",
+          "submitted_at": "2026-10-21T09:45:00+08:00",
+          "submitted_quantity": 1000,
+          "limit_price": "2.92",
+          "filled_quantity": 600,
+          "remaining_quantity": 400,
+          "status": "partially_filled_open"
+        },
+        "frozen_cash": "0",
+        "frozen_units": 400,
+        "events_known_now": {
+          "entitlement": {
+            "eligible_units": 1000,
+            "record_confirmed": true,
+            "record_date": "2026-10-20",
+            "record_cutoff": "2026-10-20T15:00:00+08:00",
+            "ex_date": "2026-10-21",
+            "per_unit": "0.10",
+            "cash_date": "2026-10-23",
+            "received_now": false
+          },
+          "cash_withdrawable_now": "原现金可取；本另题10-21已成600份的净卖款到10-22才可取。",
+          "other_events": "未确认扩募、清算或停牌，不假造事件。"
+        },
+        "deadlines": {
+          "sale_proceeds_withdrawable": "2026-10-22",
+          "distribution_cash_due": "2026-10-23",
+          "order_review": "余400份需确认成交、撤单或失效，未确认不能解冻。"
+        },
+        "current_check": "只按当前回报，怎样把剩余持仓、挂单冻结和按1000份登记的应收分别接到下一步？"
+      },
+      "new_confirmations": [
+        {
+          "at": "2026-10-21T11:00:00+08:00",
+          "order_id": "REIT-P-S-ORDER",
+          "kind": "cancel_confirmed",
+          "cancelled_quantity": 400,
+          "released_frozen_units": 400,
+          "additional_fee": "0"
+        },
+        {
+          "at": "2026-10-23T10:00:00+08:00",
+          "event_id": "REIT-P-D1",
+          "kind": "distribution_cash_received",
+          "eligible_units": 1000,
+          "per_unit": "0.10",
+          "amount": "100",
+          "fee": "0",
+          "tax": "0"
+        },
+        {
+          "at": "2026-10-23T15:00:00+08:00",
+          "kind": "position_review",
+          "further_sale_fills": 0,
+          "remaining_units": 400,
+          "mark": "2.85",
+          "mark_only": true
+        }
+      ],
+      "closing": {
+        "open_order_quantity": 0,
+        "frozen_cash": "0",
+        "frozen_units": 0,
+        "units": 400,
+        "units_available_to_sell": 400,
+        "distribution_receivable": "0",
+        "cash_withdrawable": "3848"
+      },
+      "current_check": "接续REIT-PARTIAL-SELL，怎样用实际收款与400份的标记值对账，区分现金、已登记权利和未实现的持仓价值？"
+    }
+  },
+  "current_response": [
+    "算毛价差、分派、显式总费用、净损益、期末现金和份额。",
+    "登记后卖出且到账时持仓为0，为什么本题仍可有现金分派？",
+    "“分了100元所以赚100元”遗漏了哪些项目？"
+  ],
+  "related_exposure": [
+    {
+      "instrument": "TRAIN-REIT",
+      "relationship": "虚构产品；包装分类不代表风险分散"
+    }
+  ],
+  "teaching_delivery": "Use only this step. Use worksheet items to include the lesson topics. Do not use them as a quiz list. Give one short part of the lesson. Then, give one check question from this part of the lesson. Before you give feedback for this step, wait for the raw response.\n\nKeep all practice in the category with tutor aid."
+}
