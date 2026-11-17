@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">
+<title id="title">深证成指：分开比较两段下跌</title><desc id="desc">历史衍生｜P43I01，399001，2007-04-19 的 5 分钟图；价格与柱组共用示意横轴，均不按比例</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">深证成指：分开比较两段下跌</text>
+<text x="40" y="70" font-size="16">历史衍生｜P43I01，399001，2007-04-19 的 5 分钟图；价格与柱组共用示意横轴，均不按比例</text>
+<rect x="63" y="94" width="836" height="146" fill="#e6eff5"/>
+<rect x="63" y="258" width="836" height="88" fill="#e6eff5"/>
+<g fill="#a5bfcf" opacity=".28"><rect x="269" y="110" width="80" height="130"/><rect x="402" y="110" width="249" height="130"/></g>
+<text x="80" y="117" font-size="16">价格结构示意</text>
+<path d="M83 162L121 132L178 123L225 132L269 129L311 180L349 201L375 172L402 153L427 173L470 177L516 194L550 184L588 215L617 207L651 230L675 216L716 205" fill="none" stroke="#345d7d" stroke-width="4"/>
+<path d="M269 110H349M402 110H651" stroke="#8e633e" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="275" y="102" font-size="16">前段下跌</text><text x="483" y="102" font-size="16">后段再跌</text>
+<text x="724" y="210" font-size="16">末低后回拉</text>
+<path d="M269 110V311 M349 110V311 M402 110V311 M651 110V311" stroke="#607d8e" stroke-dasharray="4 5" opacity=".6" fill="none"/>
+<g fill="#345d7d"><circle cx="178" cy="123" r="4"/><circle cx="269" cy="129" r="4"/><circle cx="349" cy="201" r="4"/><circle cx="402" cy="153" r="4"/><circle cx="651" cy="230" r="4"/></g>
+<path d="M178 130V151L165 163M655 231L670 235" fill="none" stroke="#345d7d" stroke-width="1.2"/>
+<text x="96" y="181" font-size="15">前高 10445.83</text>
+<text x="96" y="200" font-size="14">比较从其后开始</text>
+<text x="675" y="236" font-size="15">末谷 9603.01</text>
+<path d="M77 290H882" stroke="#7490a4"/>
+<g fill="#ae644a"><rect x="277" y="291" width="115" height="12" rx="3"/><rect x="526" y="291" width="148" height="12" rx="3"/></g>
+<rect x="400" y="277" width="100" height="12" rx="3" fill="#398877"/>
+<text x="80" y="282" font-size="15">MACD 柱组时段</text>
+<text x="274" y="334" font-size="15">相邻前组负柱</text>
+<text x="543" y="334" font-size="15">相邻后组负柱</text>
+<path d="M449 287L449 307L410 314M665 304L703 318" stroke="#8e633e" fill="none"/>
+<text x="406" y="334" font-size="15">后跌已开始</text><text x="708" y="334" font-size="15">已回拉，负柱仍在</text>
+<text x="64" y="375">色带只标柱组的相对时段。价格窗取转折至低点；不以柱组划段，也不据图量面积。</text>
+</g></svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="795" viewBox="0 0 1000 795" role="img" aria-labelledby="title desc">
+  <title id="title">机械化操作的仓位与回接</title>
+  <desc id="desc">据 PDF 第 60 页 P60I01 独立重绘。一买确认后检查首次买入，空仓未成交时只观察 A；D 为直接次级上离，E 为其后的首次直接次级返回。</desc>
+  <style>
+    text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:18px;fill:#192f42}
+    .heading{font-size:28px;font-weight:700}
+    .small{font-size:16px}
+    .box{fill:#eef5f9;stroke:#7997ab;stroke-width:2}
+    .hold{fill:#e3f2eb;stroke:#6a9e85;stroke-width:2}
+    .exit{fill:#fff0e5;stroke:#bb8866;stroke-width:2}
+    .line,.continue,.restart{fill:none;stroke-width:2.5;stroke-linejoin:round}
+    .line{stroke:#4f697b}
+    .continue{stroke:#287956}
+    .restart{stroke:#a45430}
+    .arrow{fill:#4f697b}
+    .arrowGreen{fill:#287956}
+    .arrowOrange{fill:#a45430}
+  </style>
+  <rect width="1000" height="795" fill="#fbfcfe"/>
+  <text x="38" y="39" class="heading">机械化操作的仓位与回接</text>
+  <text class="small" x="38" y="59">据 P60I01 重绘｜首轮 C、D 对照 A；回接参照按课内约定。</text>
+
+  <g>
+    <path class="line" d="M500 127V143M500 199V211H261V225M500 211H739V225"/>
+    <path class="line" d="M261 292V305H411V322M739 292V305H589V322"/>
+    <path class="line" d="M660 347H702M500 372V410M340 360H313V413H304"/>
+    <path class="line" d="M500 471V487M500 475H198V487M500 475H802V487"/>
+    <path class="line" d="M198 536V542H427V555M500 536V555M802 536V542H573V555"/>
+    <path class="line" d="M500 600V614H261V629M500 614H739V629"/>
+    <path class="continue" d="M58 661H27V347H340"/>
+    <path class="restart" d="M942 661H973V95H661M924 347H973"/>
+    <path class="arrow" d="M495 135H505L500 143ZM256 217H266L261 225ZM734 217H744L739 225ZM406 314H416L411 322ZM584 314H594L589 322ZM694 342V352L702 347ZM495 402H505L500 410ZM193 479H203L198 487ZM495 479H505L500 487ZM797 479H807L802 487ZM422 547H432L427 555ZM495 547H505L500 555ZM568 547H578L573 555ZM256 621H266L261 629ZM734 621H744L739 629Z"/>
+    <path class="arrowGreen" d="M332 342V352L340 347Z"/>
+    <path class="arrowOrange" d="M669 90V100L661 95Z"/>
+  </g>
+
+  <rect class="box" x="340" y="65" width="320" height="62" rx="9"/>
+  <text x="364" y="90">下跌背驰，确认一买，核首次买入</text>
+  <text class="small" x="364" y="113">成交才记仓位；未成交只观察</text>
+  <rect class="box" x="340" y="143" width="320" height="56" rx="9"/>
+  <text x="364" y="166">A 结束：有可卖仓位才卖或减</text>
+  <text class="small" x="364" y="187">空仓不卖；记实际仓位，等 B 完成</text>
+  <rect class="hold" x="58" y="225" width="406" height="67" rx="9"/>
+  <text class="small" x="77" y="250">B 完成后未破 A 低点，或破低且盘背已证</text>
+  <text class="small" x="77" y="275">核入场或加仓，再观察 C</text>
+  <rect class="box" x="536" y="225" width="406" height="67" rx="9"/>
+  <text class="small" x="555" y="246">B 已完且破低：与 A 前同级下跌核盘背</text>
+  <text class="small" x="555" y="265">已证无盘背：不加；未知：暂不加，补证</text>
+  <text class="small" x="555" y="284">均保留实际仓位，观察 C</text>
+
+  <rect class="box" x="340" y="322" width="320" height="50" rx="9"/>
+  <text class="small" x="355" y="344">C 完成：首轮比 A，回接比前一上行</text>
+  <text class="small" x="355" y="363">先比全段高点，创新高才查盘背</text>
+  <rect class="box" x="43" y="385" width="261" height="58" rx="9"/>
+  <text class="small" x="56" y="408">参照或全段高点未核：待核</text>
+  <text class="small" x="56" y="430">已创新高，盘背未知：待核</text>
+  <path class="arrow" d="M310 408V418L303 413Z"/>
+  <rect class="exit" x="702" y="314" width="222" height="65" rx="9"/>
+  <text class="small" x="714" y="332">不创新高，或相对参照盘背</text>
+  <text class="small" x="714" y="351">有仓核退出，按成交记</text>
+  <text class="small" x="714" y="370">空仓重找起点</text>
+  <text class="small" x="511" y="396">创新高且已核无盘背：有仓续持，空仓观察</text>
+  <text class="small" x="44" y="335">回接 C：等下一段完整上行</text>
+
+  <rect class="box" x="326" y="410" width="348" height="61" rx="9"/>
+  <text class="small" x="350" y="428">① 合格构件已确认新的上升中枢</text>
+  <text class="small" x="350" y="447">② 该中枢的直接次级上离 D 已完成</text>
+  <text class="small" x="350" y="465">D 沿用本轮 C 的参照；可比才比较</text>
+  <rect class="hold" x="58" y="487" width="280" height="49" rx="9"/>
+  <text class="small" x="77" y="507">D 比参照强</text>
+  <text class="small" x="77" y="526">已有仓位可持有或减仓</text>
+  <rect class="box" x="360" y="487" width="280" height="49" rx="9"/>
+  <text class="small" x="376" y="507">D 无调仓证据（含力度待核）</text>
+  <text class="small" x="376" y="526">保留实际仓位，继续观察 E</text>
+  <rect class="exit" x="662" y="487" width="280" height="49" rx="9"/>
+  <text class="small" x="681" y="507">D 与参照背驰</text>
+  <text class="small" x="681" y="526">已有仓位进入清仓检查</text>
+  <rect class="box" x="340" y="555" width="320" height="45" rx="9"/>
+  <text class="small" x="363" y="575">继续观察 E</text>
+  <text class="small" x="363" y="593">E 就是 D 后首次直接次级返回</text>
+
+  <rect class="hold" x="58" y="629" width="406" height="64" rx="9"/>
+  <text x="77" y="653">E 完成且低点高于核心上界</text>
+  <text class="small" x="77" y="677">核三买与仓位门槛，回接 C</text>
+  <rect class="exit" x="536" y="629" width="406" height="64" rx="9"/>
+  <text x="555" y="653">E 已观察到入核心的价位</text>
+  <text class="small" x="555" y="677">有仓：反弹时核清仓；空仓：保持空仓</text>
+  <text class="small" x="38" y="717">历史图衍生｜P60I01。资格未知，或 E 未完且仍在界外：待核。</text>
+  <text class="small" x="38" y="738">同一次 E 暂低已≤上界，即排除严格三买。入带证据＝实际价在 [下界,上界)。</text>
+  <text class="small" x="38" y="758">仅触上界或跳过且未证入带：有仓先核风控，空仓不加。仓位按实际成交记。</text>
+  <text class="small" x="38" y="780">B 破低后空仓：若无盘背，E 只记结构，等新下跌背驰；若盘背待核，先补证，E 不触发入场。</text>
+</svg>

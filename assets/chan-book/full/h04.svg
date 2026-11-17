@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 807" role="img">
+<title>先定最近的中枢，再问 16 点是不是三卖</title>
+<desc>教学关系图：标号间距、时间与价格不按比例，已知关系见注；未给出值的点位未知。</desc>
+<rect width="100%" height="100%" fill="#f3f7fb"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17283d">
+<text x="38" y="35" font-size="24" font-weight="bold">先定最近的中枢，再问 16 点是不是三卖</text>
+<text x="38" y="62" font-size="15">原创教学图｜历史关系据书，合成算例另标｜坐标不按比例；未标值未知</text>
+<g><rect x="32" y="76" width="1056" height="216" rx="12" fill="#fff" stroke="#cfdae5"/><text x="52" y="102" font-size="18" font-weight="bold">例 4｜历史：16 相对于 10–13 的核心</text><rect x="76.0" y="148.02" width="580.8" height="27.52" fill="#91d3cc" fill-opacity=".58"/><path d="M52 248 H1068" stroke="#d9e2ec"/><path d="M76.0 145.44 L172.8 175.54 L269.6 148.02 L366.4 186.72 L463.2 145.44 L560.0 215.96 L656.8 195.32 L753.6 224.56 M947.2 234.12 L1044.0 186.72" fill="none" stroke="#24648d" stroke-width="3" stroke-linejoin="round"/><circle cx="76.0" cy="145.44" r="4" fill="#245776"/><text x="76.0" y="137.44" font-size="13" text-anchor="middle">10</text><circle cx="172.8" cy="175.54" r="4" fill="#245776"/><text x="172.8" y="191.54" font-size="13" text-anchor="middle">11</text><circle cx="269.6" cy="148.02" r="4" fill="#245776"/><text x="269.6" y="140.02" font-size="13" text-anchor="middle">12</text><circle cx="366.4" cy="186.72" r="4" fill="#245776"/><text x="366.4" y="202.72" font-size="13" text-anchor="middle">13</text><circle cx="463.2" cy="145.44" r="4" fill="#245776"/><text x="463.2" y="137.44" font-size="13" text-anchor="middle">14</text><circle cx="560.0" cy="215.96" r="4" fill="#245776"/><text x="560.0" y="231.96" font-size="13" text-anchor="middle">15</text><circle cx="656.8" cy="195.32" r="4" fill="#245776"/><text x="656.8" y="187.32" font-size="13" text-anchor="middle">16</text><circle cx="753.6" cy="224.56" r="4" fill="#245776"/><text x="753.6" y="240.56" font-size="13" text-anchor="middle">右端3659.32</text><circle cx="947.2" cy="234.12" r="4" fill="#245776"/><text x="947.2" y="250.12" font-size="13" text-anchor="middle">19≈3404</text><circle cx="1044.0" cy="186.72" r="4" fill="#245776"/><text x="1044.0" y="178.72" font-size="13" text-anchor="middle">20 待结束</text><path d="M852 128V250" stroke="#879aab" stroke-dasharray="6 5"/><text x="892" y="138" font-size="15">附录后续记录</text><text x="52" y="274" font-size="15">14→15 的折返见中窗。P68I01 编号止于 16；右侧据页 69 附录，19 另见 P69I01；两处不共用比例。</text></g>
+<g transform="translate(0 302)">
+<rect x="32" y="0" width="1056" height="249" fill="#fff" rx="12" stroke="#cfdae5"/>
+<text x="52" y="27" font-size="18" font-weight="bold">P68I01 局部｜14→15：第二上够不到第一上的起点</text>
+<path d="M223 106H230M236 106H243M249 106H256M262 106H269M275 106H282M288 106H295M301 106H308M314 106H321M327 106H334M340 106H347M353 106H360M366 106H373M379 106H386M392 106H399M405 106H412M418 106H425M431 106H438M444 106H451M457 106H464M470 106H477M483 106H490M496 106H503M509 106H516M522 106H529M535 106H542M548 106H555M561 106H568M574 106H581M587 106H594M600 106H607M613 106H620M626 106H633M639 106H646M652 106H659M665 106H672M678 106H685M691 106H698M704 106H711M717 106H724M730 106H737M743 106H750M756 106H763M769 106H776M782 106H789M795 106H800" fill="none" stroke="#ab641e" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<text x="644" y="97" font-size="15" >第一上起点水平线</text>
+<path d="M105 54L150 68L223 106L322 71L365 83L447 94L515 151L612 124L680 145L772 170L825 191L874 179L932 217L1032 165" fill="none" stroke="#24648d" stroke-width="3" stroke-linejoin="round"/>
+<path d="M223 106L322 71M515 151L612 124" fill="none" stroke="#237969" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="105" cy="54" r="4" fill="#245776"/>
+<circle cx="223" cy="106" r="4" fill="#245776"/>
+<circle cx="322" cy="71" r="4" fill="#245776"/>
+<circle cx="515" cy="151" r="4" fill="#245776"/>
+<circle cx="612" cy="124" r="4" fill="#245776"/>
+<circle cx="932" cy="217" r="4" fill="#245776"/>
+<circle cx="1032" cy="165" r="4" fill="#245776"/>
+<path d="M322 65l-6 -7h4v-7h4v7h4z" fill="#a4438b"/>
+<path d="M515 158l-6 7h4v7h4v-7h4z" fill="#237969"/>
+<text x="99" y="46" font-size="15" >14</text>
+<text x="219" y="129" font-size="14" text-anchor="middle">第一上起点</text>
+<text x="344" y="63" font-size="14" >第一上终点（原图上方箭头）</text>
+<text x="515" y="191" font-size="14" text-anchor="middle">第二上起点（原图下方箭头）</text>
+<text x="621" y="121" font-size="14" >第二上终点</text>
+<text x="925" y="204" font-size="14" >15</text>
+<text x="1037" y="155" font-size="14" >16</text>
+<text x="52" y="231" font-size="15" >第二上终点仍低于虚线；两上价幅无交。折返有省略，未标端点的精确价未知。</text>
+</g>
+<g transform="translate(0 259)"><rect x="32" y="302" width="1056" height="216" rx="12" fill="#fff" stroke="#cfdae5"/><text x="52" y="328" font-size="18" font-weight="bold">合成｜两次上折范围不相交</text><path d="M52 472 H1068" stroke="#d9e2ec"/><path d="M269.6 396.8 H850.4" stroke="#d58530" stroke-width="2" stroke-dasharray="6 5"/><path d="M76 352.64 L269.6 396.8 L463.2 380.24 L656.8 429.92 L850.4 410.6 L1044 443.72 " fill="none" stroke="#24648d" stroke-width="3" stroke-linejoin="round"/><circle cx="76" cy="352.64" r="4" fill="#245776"/><text x="76" y="344.64" font-size="13" text-anchor="middle">120</text><circle cx="269.6" cy="396.8" r="4" fill="#245776"/><text x="269.6" y="413.8" font-size="13" text-anchor="middle">101</text><circle cx="463.2" cy="380.24" r="4" fill="#245776"/><text x="463.2" y="372.24" font-size="13" text-anchor="middle">108</text><circle cx="656.8" cy="429.92" r="4" fill="#245776"/><text x="656.8" y="446.92" font-size="13" text-anchor="middle">88</text><circle cx="850.4" cy="410.6" r="4" fill="#245776"/><text x="850.4" y="402.6" font-size="13" text-anchor="middle">96</text><circle cx="1044" cy="443.72" r="4" fill="#245776"/><text x="1044" y="460.72" font-size="13" text-anchor="middle">78</text><text x="52" y="500" font-size="15">第二上顶 96 低于第一上底 101，所以原样例没有相交；改到 104 则相交。</text></g>
+</g>
+</svg>

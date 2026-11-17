@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 416" role="img" aria-labelledby="title">
+<title id="title">合成图｜一个旧枢的三条后续路径</title>
+<rect width="1000" height="416" rx="16" fill="#f5f9fc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" fill="#18354b">
+<text x="35" y="44" font-size="26" font-weight="bold">合成图｜一个旧枢的三条后续路径</text>
+<path d="M225 93V345 M405 93V345 M584 93V345 M764 93V345 M890 93V345" fill="none" stroke="#b5c8d1" stroke-width="2" stroke-dasharray="5 7"/>
+<g stroke-linecap="round" stroke-width="12"><path d="M225 132H477 M225 221H477 M513 221H657 M729 221H873 M225 310H477 M441 310H693" stroke="#96adbb"/><path d="M297 132H405 M297 221H405 M549 221H621 M765 221H837 M297 310H405 M549 310H621" stroke="#19736f"/></g>
+<g font-size="18"><text x="65" y="138">只绕 A 延伸</text><text x="65" y="228">同级趋势延伸</text><text x="65" y="316">待核扩展</text><text x="336" y="117">A</text><text x="336" y="205">A</text><text x="579" y="205">B</text><text x="796" y="205">C</text><text x="336" y="293">A</text><text x="575" y="293">B'</text><text x="216" y="371">18</text><text x="399" y="371">23</text><text x="575" y="371">28</text><text x="755" y="371">33</text><text x="904" y="371">价格 →</text></g>
+<path d="M405 119Q456 104 447 80Q430 64 387 93" fill="none" stroke="#986520" stroke-width="3"/>
+<path d="M389 86L386 94L395 94 M441 322V337H477V322" fill="none" stroke="#986520" stroke-width="2"/>
+<text x="473" y="94">低层离开后返回</text><text x="488" y="341">外围交 [24,25]：只满足空间条件</text>
+</g>
+</svg>

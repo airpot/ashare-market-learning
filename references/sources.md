@@ -42,6 +42,24 @@
 
 本版自编合成数据与本地展示，不要求学习者安装这些项目。调研范围是项目说明与关键文档，不能等同完整源码、性能或安全审计。
 
+## 缠论全书专题的来源
+
+用户提供的《“缠中说禅”股市技术理论》为85页专题汇编，前言与三章共43节。它提供本路线的内容清单；博客正文及后续订正用于核对归属和定义。用[逐节索引](chan-book/coverage.md)反查 PDF 页序。附件未纳入课程包，不把汇编直接归为作者的108课原稿。文章名可检索而正文或原图未能核对时，保留这项限制。
+
+2026-11-16 调研将做法落到教学行为：
+
+| 来源 | 采用或保留的做法 | 限制 |
+| --- | --- | --- |
+| [chan.py 当前帧和确认状态](https://github.com/Vespa314/chan.py/blob/main/quick_guide.md) | 逐帧保存候选、确认和撤销，端点位置与可知时点分开 | 项目里的确认标志属于该配置；不作为原文的唯一解释 |
+| [CZSC 信号配置](https://github.com/waditu/czsc) | 复盘时明示信号版本及所需周期，把结构发现和行动规则分开 | 不以软件标记代替学员自行论证，不作为实盘效果验证 |
+| [chan-lun 时间边界](https://github.com/lushi78778/chan-lun) | 先截取可见输入、再算结构，数据收盘与实际到达另记 | 所列递归接口须自行满足输入资格；未在本课运行或引入 |
+| [horcus/chanlun 的差分检查](https://github.com/horcus/chanlun) | 需要比较实现时，先固定输入和口径，再逐笔定位分歧 | 项目报告的差分检查只是方法参考，不把多数算法的答案当真值 |
+| [Freqtrade 前视偏差检查](https://github.com/freqtrade/freqtrade/blob/develop/docs/lookahead-analysis.md) | 在同一时点对截断输入重算，比较是否受未来数据影响 | 私有行情、跨周期和不同历史修订版本须另核；工具不替代交易制度 |
+| [文章专题目录](https://github.com/fongzhizhi/jiao-ni-chao-gu-piao) | 先按依赖学，再按原书页序和原博文反查 | 目录、转载及代码许可不能证明书、图或行情的再分发权 |
+| [IES 学习指南](https://ies.ed.gov/ncee/WWC/PracticeGuide/1/Published) | 示范与练习交替，逐步减少提示，换题并延迟复测 | 这是一般学习研究的应用；本课尚无学员实测结果 |
+
+另外查看了 [chanlun-pro](https://github.com/yijixiuxin/chanlun-pro) 的分析和回测文档、[KLineChart](https://github.com/klinecharts/KLineChart) 与 [Lightweight Charts](https://github.com/tradingview/lightweight-charts) 的图表展示。本次不增加依赖：先用已有离线图谱、自绘图和表说明问题。以后确需引入时，逐项检查版本、实现差异、许可证与标注、行情授权和运行结果。
+
 ## 验证与结论的边界
 
 回测可能因反复筛选参数和样本得到过于乐观的结果。[Bailey等人的原始研究](https://www.davidhbailey.com/dhbpapers/backtest-prob.pdf)讨论此类过拟合。本课先用小例子理解费用、基准、样本、未来信息和规则修改，再按需深入统计方法。

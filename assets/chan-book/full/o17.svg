@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="t">
+<title id="t">一次复盘把五次行动分流</title>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:20px;fill:#192f42} .title{font-size:25px;font-weight:700} .small{font-size:17px} .axis{stroke:#667b8a;stroke-width:2;fill:none} .dash{stroke-dasharray:7 5} .blue,.orange,.green{stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#17658c}.orange{stroke:#aa4f23}.green{stroke:#22745f}.band{fill:#dcece6;stroke:#8faf9f}.node{fill:#eff5f9;stroke:#6a8da7;stroke-width:2}.warn{fill:#fff0e2;stroke:#c88665;stroke-width:2}</style>
+<rect width="960" height="320" fill="#fbfcfe"/>
+<text x="34" y="39" class="title">一次复盘把五次行动分流</text>
+<rect x="90" y="99" width="432" height="57" fill="#f0d0bb"/><rect x="522" y="99" width="144" height="57" fill="#c3e5d9"/><rect x="666" y="99" width="144" height="57" fill="#e1edf6"/><path d="M234 99V156M378 99V156M522 99V156M666 99V156" class="axis"/><text x="306" y="86" text-anchor="middle">3 次：绕规则</text><text x="548" y="135">1 次：按规</text><text x="687" y="135">1 次：撤单</text><path d="M305 160V212M594 160V212M738 160V212" class="axis"/><text x="192" y="243">复核消息与门槛</text><text x="516" y="243">查触发</text><text x="686" y="243">查缺数规则</text>
+<text x="34" y="303" class="small">合成记录｜横条按 5 次等分；分流后逐笔找原因</text>
+</svg>

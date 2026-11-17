@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="t">
+<title id="t">第三类点在返回段：向上与向下的镜像</title>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:20px;fill:#192f42} .title{font-size:25px;font-weight:700} .small{font-size:17px} .axis{stroke:#667b8a;stroke-width:2;fill:none} .dash{stroke-dasharray:7 5} .blue,.orange,.green{stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#17658c}.orange{stroke:#aa4f23}.green{stroke:#22745f}.band{fill:#dcece6;stroke:#8faf9f}.node{fill:#eff5f9;stroke:#6a8da7;stroke-width:2}.warn{fill:#fff0e2;stroke:#c88665;stroke-width:2}</style>
+<rect width="960" height="320" fill="#fbfcfe"/>
+<text x="34" y="39" class="title">第三类点在返回段：向上与向下的镜像</text>
+<rect x="95" y="134" width="770" height="55" class="band"/><text x="105" y="155">12</text><text x="105" y="184">10</text><path d="M170 165L365 76L545 123L725 76" class="blue"/><path d="M170 165L365 255L545 197L725 255" class="orange"/><path d="M548 117L571 86M548 202L571 245" class="axis"/><text x="578" y="82">回试低 12.4</text><text x="578" y="264">反抽高 9.7</text>
+<text x="34" y="303" class="small">合成走势｜绿色带是核心 [10, 12]；两条线为独立路径</text>
+</svg>

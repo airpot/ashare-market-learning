@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="t">
+<title id="t">回到买价卖出后再追高，第二笔仍可能亏损</title>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:20px;fill:#192f42} .title{font-size:25px;font-weight:700} .small{font-size:17px} .axis{stroke:#667b8a;stroke-width:2;fill:none} .dash{stroke-dasharray:7 5} .blue,.orange,.green{stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#17658c}.orange{stroke:#aa4f23}.green{stroke:#22745f}.band{fill:#dcece6;stroke:#8faf9f}.node{fill:#eff5f9;stroke:#6a8da7;stroke-width:2}.warn{fill:#fff0e2;stroke:#c88665;stroke-width:2}</style>
+<rect width="960" height="320" fill="#fbfcfe"/>
+<text x="34" y="39" class="title">回到买价卖出后再追高，第二笔仍可能亏损</text>
+<path d="M92 66V264H846" class="axis"/><path d="M125 151L286 215L450 151L625 71L800 167" class="blue"/><path d="M119 151H455M625 71H799" class="axis dash"/><text x="105" y="138">买 20</text><text x="252" y="243">跌到 12</text><text x="422" y="138">卖 20</text><text x="596" y="60">追买 30</text><text x="775" y="195">卖 18</text><text x="478" y="236">合计净额 −12.8 / 股</text>
+<text x="34" y="303" class="small">合成价格｜两个成交回合；折线含未成交价格</text>
+</svg>

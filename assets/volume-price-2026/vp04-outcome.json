@@ -1,0 +1,51 @@
+{
+  "id": "vp04",
+  "symbol": "sh688256",
+  "name": "寒武纪",
+  "cutoff": "2026-09-04",
+  "family": "pull",
+  "first_day": "2026-08-06",
+  "last_day": "2026-09-11",
+  "anchor": "2026-09-02",
+  "edge": "1084.900",
+  "previous_close": "1099.990",
+  "signal": {
+    "date": "2026-09-04",
+    "open": "1115.000",
+    "high": "1120.000",
+    "low": "1063.410",
+    "close": "1072.000",
+    "volume_shares": "8282775"
+  },
+  "average_5": "9375421.6",
+  "average_20": "12331052.5",
+  "ratio_5": "0.883456",
+  "ratio_20": "0.671701",
+  "return_vs_prior_pct": "-2.544569",
+  "return_vs_open_pct": "-3.856502",
+  "background_return_pct": "4.960878",
+  "qualified": true,
+  "branch": "失守",
+  "followup": [
+    {
+      "date": "2026-09-07",
+      "close": "1092.380"
+    },
+    {
+      "date": "2026-09-08",
+      "close": "1058.990"
+    },
+    {
+      "date": "2026-09-09",
+      "close": "1054.960"
+    },
+    {
+      "date": "2026-09-10",
+      "close": "1043.840"
+    },
+    {
+      "date": "2026-09-11",
+      "close": "1040.000"
+    }
+  ]
+}

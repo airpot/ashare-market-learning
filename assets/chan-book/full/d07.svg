@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-labelledby="title"><title id="title">合成示意｜首次反弹与末中枢阈值</title>
+<rect width="1000" height="320" rx="18" fill="#f5fafb"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#15324b">
+<text x="34" y="37" font-size="25" font-weight="bold">合成示意｜首次反弹与末中枢阈值</text>
+<path d="M104 62v191h815M104 85h816M104 141h816M104 183h816" stroke="#9eb8c7" fill="none"/>
+<rect x="110" y="85" width="785" height="56" fill="#8dbed5" opacity=".3"/>
+<text x="35" y="91">100</text><text x="45" y="147">96</text><text x="45" y="189">93</text><text x="45" y="259">88</text>
+<path d="M110 183h788" stroke="#a65b36" stroke-width="2" stroke-dasharray="7 5"/>
+<path d="M145 253L322 183M409 253L586 127M670 253L838 197" stroke="#17758f" stroke-width="4" fill="none"/>
+<g fill="#17758f"><circle cx="322" cy="183" r="6"/><circle cx="586" cy="127" r="6"/><circle cx="838" cy="197" r="6"/></g>
+<text x="168" y="172">到 93，仅到 DD</text><text x="472" y="113">到 97，已入核心</text><text x="737" y="174">到 92，未及 DD</text>
+<text x="123" y="296">三条互斥路径都从 88 出发；首次反弹触及的层次不等于最终走势类型。</text>
+</g></svg>

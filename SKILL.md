@@ -2,7 +2,7 @@
 name: ashare-market-learning
 description: Use this skill for lessons about Chinese exchange markets for beginners. It includes stocks, ETFs, LOFs, convertible bonds and listed funds. It includes K-line charts, Japanese candlesticks and Chan theory. It gives course routes with figures, paper-trading practice and procedures to continue a course.
 metadata:
-  version: "0.3.4"
+  version: "0.5.1"
 ---
 
 # A-share Market Learning
@@ -27,9 +27,11 @@ Read [teaching](references/teaching.md). Read the applicable route in [course ma
 
 Use the guidance for clear expression in the teaching reference. Module labels and checklists do not give a mandatory outline for replies.
 
-For a new beginner, read only M01-U01-P01 in [module 01](references/modules/module-01.md#u01-p01). Give information about this one topic. Show its small diagram or example. Give one question as a check in the conversation. Wait for the answer.
+If the learner asks for the Chan book, use the [Chan book route](references/chan-book/index.md). Start with the first prerequisite that the learner needs. For each book section, use the [full course list](references/chan-book/full-course.md). Open one lesson. Show the figure. Keep the raw response before you open the answer for this lesson. For CB05, use the assessment steps in the book route.
 
-Do not give the full market syllabus, OHLC, Chan theory or a personal-finance questionnaire at the start. Give the information in more than one small exchange.
+For a new beginner on the general route, read only M01-U01-P01 in [module 01](references/modules/module-01.md#u01-p01). Give information about this one topic. Show its small diagram or example. Give one question as a check in the conversation. Wait for the answer.
+
+At the start of the general route, do not give the full market syllabus, OHLC, Chan theory or a personal-finance questionnaire. Give the information in more than one small exchange.
 
 If a new beginner wants ETFs, LOFs, convertible bonds or other listed funds, use this initial route:
 1. Start with the one comparison of rights in [M15-U01-P01](references/modules/module-15.md#u01-p01).
@@ -52,13 +54,15 @@ A raw response is the learner's answer before feedback, without changes. In asse
 | Definition or comparison | Read [Concept index](references/concepts.md). Then read the unit at its link. Give the answer directly. Do not change the lesson cursor. |
 | Full handout with figures | Read the selected module. Keep the necessary information. Keep the full explanation that the learner wants. Keep the text length that the learner wants. |
 | Trading profile, screening, sizing, rules or journal | Read [Trading practice](references/trading-practice.md). Read the selected [template](references/trading-practice.md#templates). |
-| Stage exercise for assessment | Read [Exercise index](references/exercises/index.md). Then read only the learner packet. Wait for the learner's answer. |
-| Feedback after a full stage | Read [Assessment](references/assessment.md). After you keep all raw responses for this stage, read only the full teacher guide for this stage. For feedback for one question, use only learner data for this question and definitions from previous lessons. |
-| Charts from history, volume and price, support and pressure, or breakdowns | Read [Primary 2026 atlas](references/tech-2026-atlas.md), [handbook for chart reading](references/chart-reading.md) and [2026 data](references/data-2026.md). The 2024 atlas gives more examples. Open only the selected decision page. Keep the raw response. Then open only its related outcome. |
+| Stage exercise in the general course | Read [Exercise index](references/exercises/index.md). Then read only the learner packet. Wait for the learner's answer. |
+| Feedback after a stage in the general course | Read [Assessment](references/assessment.md). After you keep all raw responses for this stage, read only the full teacher guide for this stage. For feedback for one question, use only learner data for this question and definitions from previous lessons. |
+| Practice with volume and price | Use only the [volume and price course](references/volume-price.md) for its exercises. |
+| Other charts from history | Read the [primary 2026 atlas](references/tech-2026-atlas.md) and the [chart reading handbook](references/chart-reading.md). Open only the selected decision page. Keep the raw response. Then open only its related outcome. The 2024 atlas gives more examples. |
 | Chan analysis of candles from history | Read [Primary Chan charts from 2026](references/chan-2026-atlas.md) and the specified M11/M12 convention. Show candidate status and missing prerequisites. |
 | Replay | Read trading practice. Read [learner entry](assets/replay/frame-00.html). Then read only the cutoff snapshot that the learner selected. |
 | Practice with the full teaching rule in M10 | Read [Strategy case](references/strategy-case.md). Read one packet for this step at a time. Then wait. Subsequent reports are part of a specified branch with conditions. |
 | Transfer assessment without previous exposure, in sequence | Read [Replay for the reserved case](references/holdout-replay.md) and [progress](references/progress.md). Before you select the packet for this step, do an exposure-history check. Do not use a worked replay as evidence of understanding without aid. |
+| Study the full Chan book | Use the [Chan book route](references/chan-book/index.md). Read the lesson for the current step. |
 | Chan construction with finite inputs at higher levels | After M11/M12, read [Chan trace](references/chan-trace.md). Keep specified bottom-level inputs, finite completion witnesses and claims about the original theory in different categories. Open only the learner step for this time. |
 | Trading rule or fee at this time | Read [Sources](references/sources.md). Before you give an accurate statement, make sure that the rule from its issuing authority is applicable at this time. |
 | Product taxonomy, NAV or comparison of trading with subscription and redemption | Read [M15](references/modules/module-15.md). Then read the applicable [worksheet](references/product-worked-sheets.md). |

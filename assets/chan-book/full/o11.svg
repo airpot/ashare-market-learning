@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 335" role="img" aria-labelledby="title desc">
+<title id="title">预测是带边界的当下分段</title><desc id="desc">合成例｜核心 [10,12]；只有首次次级返回结束才计算 X</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="335" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">预测是带边界的当下分段</text>
+<text x="40" y="70" font-size="16">合成例｜核心 [10,12]；只有首次次级返回结束才计算 X</text>
+<path d="M108 153H893" stroke="#526f88" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M109 153H380" stroke="#b15e42" stroke-width="7"/><path d="M380 153H655" stroke="#6c8ca4" stroke-width="7"/><path d="M655 153H875" stroke="#228779" stroke-width="7"/>
+<circle cx="380" cy="153" r="7" fill="#17324b"/><circle cx="655" cy="153" r="8" fill="#f3f7fa" stroke="#17324b" stroke-width="3"/>
+<text x="164" y="123">X＜−2</text><text x="465" y="123">−2≤X＜0</text><text x="764" y="123">X＞0</text>
+<text x="324" y="184">−2 对应 10</text><text x="601" y="184">0 对应 12</text>
+<text x="110" y="225">上离计划失效</text><text x="426" y="225">回到核心</text><text x="761" y="225">查三买</text>
+<text x="545" y="264">X＝0：触上沿；不构成三买</text>
+<text x="105" y="304">X 未知时不进数轴各支；未完、数据断档与结构失效先单独记录。</text>
+</g></svg>

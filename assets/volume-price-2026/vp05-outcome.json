@@ -1,0 +1,51 @@
+{
+  "id": "vp05",
+  "symbol": "sz300308",
+  "name": "中际旭创",
+  "cutoff": "2026-06-12",
+  "family": "stall",
+  "first_day": "2026-05-14",
+  "last_day": "2026-06-22",
+  "anchor": "2026-06-09",
+  "edge": "1196.160",
+  "previous_close": "1124.000",
+  "signal": {
+    "date": "2026-06-12",
+    "open": "1182.000",
+    "high": "1188.500",
+    "low": "1128.180",
+    "close": "1149.000",
+    "volume_shares": "34685070"
+  },
+  "average_5": "34893599.6",
+  "average_20": "28213310.95",
+  "ratio_5": "0.994024",
+  "ratio_20": "1.229387",
+  "return_vs_prior_pct": "2.224199",
+  "return_vs_open_pct": "-2.791878",
+  "background_return_pct": "-12.187500",
+  "qualified": true,
+  "branch": "恢复推进",
+  "followup": [
+    {
+      "date": "2026-06-15",
+      "close": "1245.000"
+    },
+    {
+      "date": "2026-06-16",
+      "close": "1248.090"
+    },
+    {
+      "date": "2026-06-17",
+      "close": "1276.110"
+    },
+    {
+      "date": "2026-06-18",
+      "close": "1367.880"
+    },
+    {
+      "date": "2026-06-22",
+      "close": "1382.330"
+    }
+  ]
+}

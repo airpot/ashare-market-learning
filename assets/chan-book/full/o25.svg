@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 322" role="img">
+<title>从走势案例读出证据与判定时点</title>
+<desc>教学关系图：标号间距、时间与价格不按比例，已知关系见注；未给出值的点位未知。</desc>
+<rect width="100%" height="100%" fill="#f3f7fb"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17283d">
+<text x="38" y="35" font-size="24" font-weight="bold">从走势案例读出证据与判定时点</text>
+<text x="38" y="62" font-size="15">原创教学图｜历史关系据书，合成算例另标｜坐标不按比例；未标值未知</text>
+<g><rect x="32" y="76" width="1056" height="216" rx="12" fill="#fff" stroke="#cfdae5"/><text x="52" y="102" font-size="18" font-weight="bold">合成｜两条不同的首次回试</text><rect x="76.0" y="188.44" width="242.0" height="18.06" fill="#91d3cc" fill-opacity=".58"/><rect x="560.0" y="188.44" width="484.0" height="18.06" fill="#91d3cc" fill-opacity=".58"/><path d="M52 248 H1068" stroke="#d9e2ec"/><path d="M76.0 188.44 L197.0 160.92 L318.0 184.14 M560.0 188.44 L681.0 160.92 L802.0 180.7 L923.0 173.82 L1044.0 194.46" fill="none" stroke="#24648d" stroke-width="3" stroke-linejoin="round"/><circle cx="76.0" cy="188.44" r="4" fill="#245776"/><text x="76.0" y="180.44" font-size="13" text-anchor="middle">出发</text><circle cx="197.0" cy="160.92" r="4" fill="#245776"/><text x="197.0" y="176.92" font-size="13" text-anchor="middle">离开到15</text><circle cx="318.0" cy="184.14" r="4" fill="#245776"/><text x="318.0" y="176.14" font-size="13" text-anchor="middle">回试结束12.4</text><circle cx="560.0" cy="188.44" r="4" fill="#245776"/><text x="560.0" y="180.44" font-size="13" text-anchor="middle">出发</text><circle cx="681.0" cy="160.92" r="4" fill="#245776"/><text x="681.0" y="176.92" font-size="13" text-anchor="middle">离开到15</text><circle cx="802.0" cy="180.7" r="4" fill="#245776"/><text x="802.0" y="172.7" font-size="13" text-anchor="middle">暂见12.6</text><circle cx="923.0" cy="173.82" r="4" fill="#245776"/><text x="923.0" y="189.82" font-size="13" text-anchor="middle">途中回升</text><circle cx="1044.0" cy="194.46" r="4" fill="#245776"/><text x="1044.0" y="186.46" font-size="13" text-anchor="middle">后来11.7</text><text x="52" y="274" font-size="15">阴影为 [10,12]。左路完成且高于上沿；右路未完成时又触及中枢。</text></g>
+</g>
+</svg>

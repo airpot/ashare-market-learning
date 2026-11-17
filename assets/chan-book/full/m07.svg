@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 481" role="img" aria-labelledby="title">
+<title id="title">合成图｜线段在 13 结束的两条确认路径</title>
+<rect width="1000" height="481" rx="16" fill="#f5f9fc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" fill="#18354b">
+<text x="35" y="44" font-size="26" font-weight="bold">合成图｜线段在 13 结束的两条确认路径</text>
+<path d="M490 70V452" stroke="#a0b0bb" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="50" y="76">第一种：旧序列无缺口</text><text x="520" y="76">第二种：旧序列有缺口</text>
+<rect x="89" y="172" width="273" height="21" fill="#d8ebe7"/>
+
+<g stroke="#1b637e" stroke-width="8"><path d="M145 172V256 M242 88V193 M343 109V214 M615 176V260 M715 92V155 M815 113V218"/></g>
+<path d="M627 176H706V155" fill="none" stroke="#986520" stroke-width="2" stroke-dasharray="5 4"/>
+<g font-size="17"><text x="108" y="280">[5,9]</text><text x="209" y="280">[8,13]</text><text x="315" y="280">[7,12]</text><text x="590" y="280">[5,9]</text><text x="685" y="280">[10,13]</text><text x="789" y="280">[7,12]</text></g>
+<text x="85" y="313">重叠 [8,9]，有顶即可确认</text><text x="555" y="309">缺口在 9 与 10 之间；还要看新序列</text>
+<g stroke="#9a651c" stroke-width="7"><path d="M615 322V354 M715 366V398 M815 338V383"/></g>
+<g font-size="17"><text x="586" y="424">[10,12]</text><text x="688" y="424">[7,9]</text><text x="789" y="424">[8,11]</text></g>
+<text x="561" y="456">新向下段抽向上笔；底在中间</text>
+</g>
+</svg>

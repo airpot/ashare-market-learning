@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 335" role="img" aria-labelledby="title desc">
+<title id="title">缺口的回补和层次</title><desc id="desc">合成例｜同一 [10,12] 缺口，回补和创新高是两个判据</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="335" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">缺口的回补和层次</text>
+<text x="40" y="70" font-size="16">合成例｜同一 [10,12] 缺口，回补和创新高是两个判据</text>
+<rect x="91" y="185" width="787" height="55" fill="#d0e5ee"/>
+<path d="M70 185H892M70 240H892M70 129H892" stroke="#7f99aa" stroke-dasharray="6 5"/>
+<text x="40" y="191">12</text><text x="40" y="246">10</text><text x="40" y="135">14</text>
+<path d="M125 242L170 240M206 185L250 129L328 169L392 147" fill="none" stroke="#3a6381" stroke-width="4"/>
+<path d="M250 129L483 245L642 110" fill="none" stroke="#1f8072" stroke-width="4"/>
+<path d="M250 129L593 252L716 140L847 235" fill="none" stroke="#b9623f" stroke-width="4"/>
+<text x="300" y="143">甲：未补</text><text x="664" y="114">乙：补后创新高 14.8</text><text x="666" y="275">丙：补后确认转折</text>
+<text x="94" y="314">浅蓝带为缺口；丙仅一次未创新高时，仍待结构确认。</text>
+</g></svg>

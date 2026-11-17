@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 1020" role="img">
+<title>五月三十日：低开后怎样识别二卖与新核心</title>
+<desc>教学关系图：标号间距、时间与价格不按比例，已知关系见注；未给出值的点位未知。</desc>
+<rect width="100%" height="100%" fill="#f3f7fb"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17283d">
+<text x="38" y="35" font-size="24" font-weight="bold">五月三十日：低开后怎样识别二卖与新核心</text>
+<text x="38" y="62" font-size="15">原创教学图｜历史关系据书，合成算例另标｜坐标不按比例；未标值未知</text>
+<g>
+<rect x="32" y="76" width="1056" height="308" rx="12" fill="#fff" stroke="#cfdae5"/>
+<text x="52" y="102" font-size="18" font-weight="bold">例 2｜历史结构：当日依次读五段</text>
+<rect x="271" y="173" width="749" height="21" fill="#91d3cc" fill-opacity=".58"/>
+<path d="M52 248H1068" stroke="#d9e2ec"/>
+<path d="M90 130L271 194" fill="none" stroke="#617d92" stroke-width="3" stroke-dasharray="7 5"/>
+<path d="M271 194L449 141L640 217L820 173L1020 201" fill="none" stroke="#24648d" stroke-width="3"/>
+<circle cx="90" cy="130" r="4" fill="#245776"/><text x="90" y="118" font-size="14" text-anchor="middle">前日高位</text>
+<circle cx="271" cy="194" r="4" fill="#245776"/><text x="271" y="215" font-size="14" text-anchor="middle">低开／首绿箭头</text>
+<circle cx="449" cy="141" r="4" fill="#245776"/><text x="449" y="130" font-size="14" text-anchor="middle">A 顶／本例二卖</text>
+<circle cx="640" cy="217" r="4" fill="#245776"/><text x="640" y="234" font-size="14" text-anchor="middle">B 底</text>
+<circle cx="820" cy="173" r="4" fill="#245776"/><text x="820" y="162" font-size="14" text-anchor="middle">C 顶</text>
+<circle cx="1020" cy="201" r="4" fill="#245776"/><text x="1020" y="220" font-size="14" text-anchor="middle">后续下行</text>
+<text x="52" y="274" font-size="15">缺口所在首段＋A、B、C＋C 后下行，共五段；只有 A、B、C 参与 [4087,4122] 最初成核。</text>
+<text x="52" y="297" font-size="15">常规二卖先核本级一卖；小转大若无本级一卖，先核小级别背驰触发的转折。两路都要查后续次级下跌。</text>
+<text x="52" y="320" font-size="15">首个合格次级反抽完成后，按未创新高或可比盘整顶背驰判别。</text>
+<text x="52" y="343" font-size="15">5 月 29 日高收时，30 分钟背驰仍未确认。作者称夜间消息确认的是前段背驰；此时已无法按一卖操作。</text>
+<text x="52" y="366" font-size="15">盘前预案：若实际大幅低开，开盘后按结构查二卖或三卖；弱股可走三卖。指数 A 顶 9:48 的二卖是开盘后判断。</text>
+</g>
+<g transform="translate(0 394)">
+<rect x="32" y="0" width="1056" height="370" fill="#fff" rx="12" stroke="#cfdae5"/>
+<text x="52" y="27" font-size="18" font-weight="bold">P64I01 局部｜分开读三项证据</text>
+<text x="52" y="58" font-size="15" font-weight="bold">① A 内部的价格结构（据原书；此行不与下方时轴对齐）</text>
+<path d="M570 84L640 58L695 74L771 50" fill="none" stroke="#24648d" stroke-width="3" stroke-linejoin="round"/>
+<text x="605" y="49" font-size="14" text-anchor="middle">前上</text>
+<text x="730" y="47" font-size="14" text-anchor="middle">后上</text>
+<text x="810" y="74" font-size="14" >比两次上折；后上减弱帮助找结束</text>
+<path d="M52 96H1068" fill="none" stroke="#d9e2ec" stroke-width="1" stroke-linejoin="round"/>
+<text x="52" y="119" font-size="15" font-weight="bold">② 低开急跌接回升：价格与 MACD 共用下方时序</text>
+<text x="52" y="151" font-size="15" >价格</text>
+<path d="M143 129H190L213 194L250 159L271 169L312 138L370 155L425 174L482 162L545 190L600 175L663 200L713 188L835 214" fill="none" stroke="#24648d" stroke-width="3" stroke-linejoin="round"/>
+<path d="M213 197V285M312 144V244" fill="none" stroke="#7b8fa1" stroke-width="1" stroke-linejoin="round" stroke-dasharray="4 5"/>
+<path d="M213 191l-6 -7h4v-7h4v7h4z" fill="#237969"/>
+<path d="M312 135l-6 -7h4v-7h4v7h4z" fill="#237969"/>
+<text x="198" y="215" font-size="14" text-anchor="end">首绿：缺口段末／A 起</text>
+<text x="321" y="141" font-size="14" >次绿：A 顶</text>
+<text x="668" y="174" font-size="14" text-anchor="middle">B 下行</text>
+<text x="52" y="246" font-size="15" >MACD</text>
+<text x="80" y="269" font-size="13" >零轴</text>
+<path d="M122 264H970" fill="none" stroke="#7b8fa1" stroke-width="1" stroke-linejoin="round"/>
+<rect x="215" y="264" width="6" height="29" fill="#365b82" /><rect x="224" y="264" width="6" height="46" fill="#365b82" /><rect x="233" y="264" width="6" height="44" fill="#365b82" /><rect x="242" y="264" width="6" height="39" fill="#365b82" /><rect x="251" y="264" width="6" height="34" fill="#365b82" /><rect x="260" y="264" width="6" height="27" fill="#365b82" /><rect x="269" y="264" width="6" height="21" fill="#365b82" /><rect x="278" y="264" width="6" height="15" fill="#365b82" /><rect x="287" y="264" width="6" height="10" fill="#365b82" /><rect x="296" y="264" width="6" height="6" fill="#365b82" />
+<rect x="306" y="257" width="5" height="7" fill="#4c9d90" /><rect x="314" y="249" width="5" height="15" fill="#4c9d90" /><rect x="322" y="246" width="5" height="18" fill="#4c9d90" /><rect x="330" y="249" width="5" height="15" fill="#4c9d90" /><rect x="338" y="251" width="5" height="13" fill="#4c9d90" /><rect x="346" y="254" width="5" height="10" fill="#4c9d90" /><rect x="354" y="252" width="5" height="12" fill="#4c9d90" /><rect x="362" y="255" width="5" height="9" fill="#4c9d90" /><rect x="370" y="259" width="5" height="5" fill="#4c9d90" />
+<rect x="410" y="264" width="6" height="3" fill="#365b82" /><rect x="419" y="264" width="6" height="6" fill="#365b82" /><rect x="428" y="264" width="6" height="4" fill="#365b82" />
+<rect x="532" y="264" width="6" height="5" fill="#365b82" /><rect x="541" y="264" width="6" height="10" fill="#365b82" /><rect x="550" y="264" width="6" height="13" fill="#365b82" /><rect x="559" y="264" width="6" height="8" fill="#365b82" />
+<rect x="657" y="264" width="6" height="5" fill="#365b82" /><rect x="666" y="264" width="6" height="12" fill="#365b82" /><rect x="675" y="264" width="6" height="16" fill="#365b82" /><rect x="684" y="264" width="6" height="11" fill="#365b82" /><rect x="693" y="264" width="6" height="6" fill="#365b82" />
+<rect x="770" y="264" width="6" height="8" fill="#365b82" /><rect x="779" y="264" width="6" height="16" fill="#365b82" /><rect x="788" y="264" width="6" height="21" fill="#365b82" /><rect x="797" y="264" width="6" height="27" fill="#365b82" /><rect x="806" y="264" width="6" height="30" fill="#365b82" /><rect x="815" y="264" width="6" height="33" fill="#365b82" /><rect x="824" y="264" width="6" height="27" fill="#365b82" /><rect x="833" y="264" width="6" height="20" fill="#365b82" /><rect x="842" y="264" width="6" height="11" fill="#365b82" />
+<path d="M236 312l-6 7h4v7h4v-7h4z" fill="#ac3848"/>
+<path d="M819 302l-6 7h4v7h4v-7h4z" fill="#ac3848"/>
+<text x="252" y="324" font-size="14" >指标红①：低开负柱</text>
+<text x="838" y="310" font-size="14" >指标红②</text>
+<text x="320" y="243" font-size="14" >随后转正</text>
+<text x="390" y="289" font-size="14" >小组 1</text>
+<text x="527" y="291" font-size="14" >小组 2</text>
+<text x="651" y="292" font-size="14" >小组 3</text>
+<text x="858" y="283" font-size="14" >末组</text>
+<text x="483" y="232" font-size="14" >异号柱看绝对高度，只作辅助</text>
+<text x="52" y="350" font-size="15" >③ 缺口段对照 B：只累加各自同向负柱。B 含三小组和末组；图示定性，逐柱截点和面积未知。</text>
+</g>
+<g transform="translate(0 472)"><rect x="32" y="302" width="1056" height="216" rx="12" fill="#fff" stroke="#cfdae5"/><text x="52" y="328" font-size="18" font-weight="bold">合成｜缺口对照 B 负柱组绝对面积</text><path d="M52 472 H1068" stroke="#d9e2ec"/><path d="M76 374.72 M398.6666666666667 446.48 L560 442.8 L721.3333333333334 439.12 L882.6666666666666 407.84 L1044 380.24 " fill="none" stroke="#24648d" stroke-width="3" stroke-linejoin="round"/><circle cx="76" cy="374.72" r="4" fill="#245776"/><text x="76" y="366.72" font-size="13" text-anchor="middle">缺口 42</text><circle cx="398.6666666666667" cy="446.48" r="4" fill="#245776"/><text x="398.6666666666667" y="438.48" font-size="13" text-anchor="middle">3</text><circle cx="560" cy="442.8" r="4" fill="#245776"/><text x="560" y="459.8" font-size="13" text-anchor="middle">5</text><circle cx="721.3333333333334" cy="439.12" r="4" fill="#245776"/><text x="721.3333333333334" y="431.12" font-size="13" text-anchor="middle">7</text><circle cx="882.6666666666666" cy="407.84" r="4" fill="#245776"/><text x="882.6666666666666" y="424.84" font-size="13" text-anchor="middle">24</text><circle cx="1044" cy="380.24" r="4" fill="#245776"/><text x="1044" y="372.24" font-size="13" text-anchor="middle">全段 39</text><text x="52" y="500" font-size="15">三组小柱和末组都计入：3＋5＋7＋24＝39；B 末组变 30 时总量为 45。</text></g>
+</g>
+</svg>

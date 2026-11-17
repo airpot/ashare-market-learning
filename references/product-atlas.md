@@ -3,6 +3,8 @@
 These are 2026 lessons about previous market events. The sample uses ten frozen symbols and two calendar cutoffs that do not change.
 Each decision packet has 30 bars of recorded observations. The sample does not use subsequent price changes to select cases.
 
+场内量价迁移见[五类场内产品练习](exercises/volume-price-products.md)。用指定的原图和当时已可得资料分别检查交易活跃度、折溢价和实际可执行条件。
+
 ## Decision material for this cutoff
 
 Select one case. Before the learner records a raw response, open only its packet and chart for this cutoff.

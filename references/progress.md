@@ -30,6 +30,8 @@ A second run keeps the first run and all its exposures. Thus, a different attemp
 
 For a new session, first compare the cursor with [catalog](../assets/course-catalog.json). Read only the applicable module and record entries that the learner wants. If the record does not give evidence for the prerequisite, give a short retrieval check. Then adapt. A missing record stays unknown. It does not make a mandatory start of the full course again.
 
+For the [Chan book route](chan-book/index.md), keep a different lesson record. Identify the book step and topic. For an assessment, give the group, support and exposure. Keep the raw answer and the next task. Do not change the course cursor during this route.
+
 A concept lookup is a temporary branch. Unless the learner selects a different route, do not change course_cursor. When you give a lesson again, keep raw response evidence. Keep the previous result together with the new result. Without a clear statement, do not replace the previous result.
 
 For simulation records, keep decision time, information cutoff, order submission, fill, fees, outcome and process deviation in different fields. An order without execution or an order opportunity without execution stays part of the record. Without fill evidence, do not change a plan for an operation into a trade with execution.

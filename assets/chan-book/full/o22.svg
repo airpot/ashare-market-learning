@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="t">
+<title id="t">二买以后，看下一上行能否超过 13</title>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:20px;fill:#192f42} .title{font-size:25px;font-weight:700} .small{font-size:17px} .axis{stroke:#667b8a;stroke-width:2;fill:none} .dash{stroke-dasharray:7 5} .blue,.orange,.green{stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#17658c}.orange{stroke:#aa4f23}.green{stroke:#22745f}.band{fill:#dcece6;stroke:#8faf9f}.node{fill:#eff5f9;stroke:#6a8da7;stroke-width:2}.warn{fill:#fff0e2;stroke:#c88665;stroke-width:2}</style>
+<rect width="960" height="320" fill="#fbfcfe"/>
+<text x="34" y="39" class="title">二买以后，看下一上行能否超过 13</text>
+<path d="M90 117H825M90 235H825" class="axis dash"/><path d="M125 235L309 117L506 196" class="blue"/><path d="M506 196L699 125" class="orange"/><path d="M506 196L744 70" class="green dash"/><text x="100" y="261">一买 10</text><text x="214" y="104">首段高 13</text><text x="471" y="223">回试 11</text><text x="712" y="150">12.8：退出检查</text><text x="746" y="75">14.2：等三买</text>
+<text x="34" y="303" class="small">合成走势｜同一回试低点出发；橙线未破 13，绿线破 13。</text>
+</svg>

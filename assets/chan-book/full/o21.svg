@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="415" viewBox="0 0 960 415" role="img" aria-labelledby="t">
+<title id="t">图中的三条位置路径与两个候选</title>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:20px;fill:#192f42} .title{font-size:25px;font-weight:700} .small{font-size:17px} .axis{stroke:#667b8a;stroke-width:2;fill:none} .dash{stroke-dasharray:7 5} .blue,.orange,.green{stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#17658c}.orange{stroke:#aa4f23}.green{stroke:#22745f}.band{fill:#dcece6;stroke:#8faf9f}.node{fill:#eff5f9;stroke:#6a8da7;stroke-width:2}.warn{fill:#fff0e2;stroke:#c88665;stroke-width:2}</style>
+<rect width="960" height="415" fill="#fbfcfe"/>
+<text x="34" y="39" class="title">图中的三条位置路径与两个候选</text>
+<path d="M478 98V119H176V138M478 119V138M478 119H769V138M176 178V207H95V227M176 207H265V227M769 178V207H657V227M769 207H846V227M478 178V227" class="axis"/><rect x="365" y="63" width="226" height="35" class="node"/><rect x="88" y="138" width="176" height="40" class="node"/><rect x="387" y="138" width="181" height="40" class="band"/><rect x="681" y="138" width="176" height="40" class="node"/><text x="386" y="88">相对核心的位置</text><text x="107" y="165">上方：高于 ZG</text><text x="411" y="165">核心 [ZD,ZG]</text><text x="704" y="165">下方：低于 ZD</text><text x="38" y="251">有三买：①</text><text x="204" y="251">无三买：停</text><text x="439" y="251">不操作</text><text x="595" y="251">有三卖：停</text><text x="747" y="251" class="small">尚无已确认三卖：②观察</text>
+<rect x="34" y="274" width="892" height="94" rx="7" class="node"/>
+<text x="50" y="298" class="small">① 距三买形成的时间、距买点价位均近，才考虑介入；任一超限或缺证则不据此介入。</text>
+<text x="50" y="324" class="small">② 段未完或可比性待核：可缩小观察窗，不确认衰减，不据此行动。</text>
+<text x="50" y="350" class="small">两段均已完成、可比且后段确弱：再核较小级别定位、确认和执行条件。</text>
+<text x="34" y="392" class="small">据 P57I01 重画｜ZD 为核心下沿，ZG 为上沿；用当前题设的边界。</text>
+</svg>

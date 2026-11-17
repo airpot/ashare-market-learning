@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-labelledby="title desc">
+<title id="title">合成示意｜从三段价幅到两个后续分支</title>
+<desc id="desc">前三段的下限取最大值103，上限取最小值106；返回幅与旧核心相交。另一独立路径在更高价域形成第二个中枢。</desc>
+<rect width="1000" height="470" rx="18" fill="#f5fafb"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" fill="#15324b">
+  <text x="34" y="43" font-size="26" font-weight="bold">合成示意｜从三段价幅到两个后续分支</text>
+  <rect x="34" y="65" width="443" height="336" rx="12" fill="#fff" stroke="#b9cdd9"/>
+  <text x="54" y="96" font-size="20" font-weight="bold">先算核心：三段全幅的交集</text>
+  <path d="M122 135V335" stroke="#8299a8" stroke-width="1.5"/>
+  <path d="M116 145H448M116 181H448M116 217H448M116 271H448M116 289H448M116 325H448" fill="none" stroke="#d8e7ec" stroke-dasharray="5 4"/>
+  <rect x="123" y="217" width="325" height="54" fill="#a8ccdf" opacity=".55"/>
+  <g text-anchor="end" font-size="15">
+    <text x="86" y="150">110</text><text x="86" y="186">108</text><text x="86" y="222">106</text>
+    <text x="86" y="276">103</text><text x="86" y="294">102</text><text x="86" y="330">100</text>
+  </g>
+  <path d="M180 181V325M279 145V271M378 217V289" stroke="#176c9a" stroke-width="9"/>
+  <path d="M171 181h18M171 325h18M270 145h18M270 271h18M369 217h18M369 289h18" stroke="#176c9a" stroke-width="3"/>
+  <g text-anchor="middle" font-size="15">
+    <text x="180" y="358">第 1 段</text><text x="279" y="358">第 2 段</text><text x="378" y="358">第 3 段</text>
+    <text x="180" y="380">[100,108]</text><text x="279" y="380">[103,110]</text><text x="378" y="380">[102,106]</text>
+  </g>
+  <rect x="499" y="65" width="467" height="336" rx="12" fill="#fff" stroke="#b9cdd9"/>
+  <text x="519" y="96" font-size="20" font-weight="bold">再看两条互相独立的路径</text>
+  <text x="519" y="129" font-size="16">下列横条按价格排，不按时间排。</text>
+  <path d="M733 170V228M763 170V228" stroke="#8fabba" stroke-dasharray="4 4"/>
+  <text x="519" y="160" font-size="17" font-weight="bold">甲｜回到原核心</text>
+  <text x="519" y="190" font-size="15">旧核心 [103,106]</text>
+  <text x="519" y="218" font-size="15">返回幅 [104,109]</text>
+  <rect x="718" y="180" width="45" height="12" fill="#8dbed5"/>
+  <rect x="733" y="208" width="75" height="12" fill="#7fcdb8"/>
+  <text x="519" y="244" font-size="15">两条交于 [104,106]，继续观察原中枢。</text>
+  <path d="M519 261H944" stroke="#d8e7ec"/>
+  <text x="519" y="291" font-size="17" font-weight="bold">乙｜形成更高的独立中枢</text>
+  <text x="519" y="322" font-size="15">旧核心 [103,106]</text>
+  <text x="519" y="349" font-size="15">新核心 [115,118]</text>
+  <rect x="718" y="312" width="45" height="12" fill="#8dbed5"/>
+  <rect x="898" y="339" width="45" height="12" fill="#7fcdb8"/>
+  <text x="519" y="379" font-size="15">题设外围也不相交，达到向上趋势所需的最少中枢数。</text>
+  <text x="46" y="437" font-size="17">左图蓝带＝[103,106]；三段均连续、合格且已完成。两条后续路径均未给出结束时刻。</text>
+</g></svg>

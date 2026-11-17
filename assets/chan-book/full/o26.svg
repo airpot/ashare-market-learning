@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="t">
+<title id="t">同样描述跌后再涨，先算清两个基数</title>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:20px;fill:#192f42} .title{font-size:25px;font-weight:700} .small{font-size:17px} .axis{stroke:#667b8a;stroke-width:2;fill:none} .dash{stroke-dasharray:7 5} .blue,.orange,.green{stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#17658c}.orange{stroke:#aa4f23}.green{stroke:#22745f}.band{fill:#dcece6;stroke:#8faf9f}.node{fill:#eff5f9;stroke:#6a8da7;stroke-width:2}.warn{fill:#fff0e2;stroke:#c88665;stroke-width:2}</style>
+<rect width="960" height="320" fill="#fbfcfe"/>
+<text x="34" y="39" class="title">同样描述跌后再涨，先算清两个基数</text>
+<path d="M80 69V266H884M80 73H884M80 254H884" class="axis dash"/><path d="M144 73L396 254L668 138" class="blue"/><path d="M668 138V73" class="orange dash"/><path d="M391 251L365 244" class="axis"/><text x="84" y="66">旧高 100</text><text x="292" y="250">低点 6</text><text x="680" y="153">反弹至 66</text><text x="185" y="174">跌 94%</text><text x="510" y="243">由 6 涨 1000%</text><text x="685" y="103">仍差 34</text>
+<text x="34" y="303" class="small">合成刻度｜两条灰线是旧高与低点；折线不代表原书个股</text>
+</svg>

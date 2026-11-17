@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-labelledby="title">
+<title id="title">合成图｜不同取样，同一顶分型规则</title>
+<rect width="1000" height="320" rx="16" fill="#f5f9fc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" fill="#18354b">
+<text x="35" y="44" font-size="26" font-weight="bold">合成图｜不同取样，同一顶分型规则</text>
+<path d="M70 75V255H450 M545 75V255H925" fill="none" stroke="#718e9c" stroke-width="2"/>
+<g stroke="#235c81" stroke-width="7"><path d="M135 210V170 M255 170V110 M375 190V150 M610 220V157.5 M730 192.5V90 M850 212.5V122.5"/></g>
+<g font-size="20"><text x="146" y="174">11</text><text x="266" y="115">14</text><text x="387" y="157">12</text><text x="146" y="215">9</text><text x="266" y="175">11</text><text x="387" y="195">10</text><text x="620" y="161">105</text><text x="740" y="95">132</text><text x="860" y="127">119</text><text x="620" y="225">80</text><text x="740" y="197">91</text><text x="860" y="217">83</text></g>
+<text x="125" y="292">甲：1 分钟取样</text><text x="605" y="292">乙：年线取样</text>
+</g>
+</svg>

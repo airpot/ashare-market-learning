@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 410" role="img" aria-labelledby="title desc">
+<title id="title">三个日内形态怎样分开看</title><desc id="desc">源图形态衍生与合成判据｜P40I01 图①、P41I01 图②、P41I02 图③；不复原原图逐根值</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="410" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">三个日内形态怎样分开看</text>
+<text x="40" y="70" font-size="16">源图形态衍生与合成判据｜P40I01 图①、P41I01 图②、P41I02 图③；不复原原图逐根值</text>
+<g fill="#e5eef4"><rect x="36" y="96" width="282" height="212" rx="7"/><rect x="339" y="96" width="282" height="212" rx="7"/><rect x="642" y="96" width="282" height="212" rx="7"/></g>
+<g font-size="17"><text x="55" y="126">① 一处：平衡</text><text x="357" y="126">② 两处：两簇隔开</text><text x="659" y="126">③ 零处：无三线交集</text></g>
+<rect x="113" y="220" width="191" height="2" fill="#aedacb"/>
+<rect x="350" y="233" width="81" height="19" fill="#aedacb"/><rect x="479" y="178" width="129" height="22" fill="#aedacb"/>
+<g stroke="#375e7c" stroke-width="5" stroke-linecap="round">
+<path d="M61 151v34m31-18v28m31 23v34m31-32v32m31-57v35m31-44v36m31-25v32m31-30v34"/>
+<path d="M362 221v31m30-19v29m30-31v27m30-55v23m39-48v34m32-44v32m31-29v29m31-24v29"/>
+<path d="M666 251v19m33-43v18m33-42v17m33-40v18m33-42v19m33 21v20m33 4v19m33 6v19"/>
+</g>
+<path d="M452 203V226" stroke="#b3643f" stroke-width="7" stroke-linecap="round"/>
+<g font-size="15"><text x="63" y="287">重叠不一定在早段</text><text x="353" y="287">棕色条隔离两处核心</text><text x="654" y="287">尖峰后也可转向，仍无交集</text></g>
+<text x="45" y="348" font-size="17">均用八根高低范围作示意；浅绿带标可核的核心相交区，横向按根数。</text>
+<text x="45" y="379" font-size="17">图②位置关系按正文取上移示意，下移镜像；中心数须以三线交集检验。</text>
+</g></svg>

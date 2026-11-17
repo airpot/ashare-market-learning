@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 445" role="img" aria-labelledby="title desc">
+<title id="title">澄星股份的 A–T 路径和 Z1–Z5</title><desc id="desc">历史衍生｜依据 P37I02 的标签与相对位置重构；仅为拓扑示意，时间与价格不按比例</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="445" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">澄星股份的 A–T 路径和 Z1–Z5</text>
+<text x="40" y="70" font-size="16">历史衍生｜依据 P37I02 的标签与相对位置重构；仅为拓扑示意，时间与价格不按比例</text>
+<path d="M52 365V102M52 365H920" fill="none" stroke="#879cad" stroke-width="2" marker-end="url(#arrow)"/>
+<g fill="#d8e7ef" stroke="#799aaf" stroke-width="2">
+<rect x="77" y="154" width="151" height="56"/><rect x="283" y="212" width="106" height="58"/>
+<rect x="446" y="284" width="135" height="40"/><rect x="581" y="231" width="160" height="32"/><rect x="727" y="162" width="92" height="42"/>
+</g>
+<path d="M579 277H900" stroke="#a27655" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M62 267L88 221L133 160L164 194L177 221L205 172L232 116L243 133L256 105L269 149L294 137L321 209L337 276L355 252L372 209L395 245L420 282L448 342L466 322L478 291L494 334L507 304L522 272L541 313L561 300L574 324L591 278L613 251L628 238L647 261L660 270L680 253L710 219L725 245L741 258L753 208L765 170L777 217L790 150L800 203L818 146L830 174L842 165L851 179L862 153L877 204L890 226L900 211L918 249" fill="none" stroke="#225a79" stroke-width="3.5"/>
+<g fill="#a84f35">
+<circle cx="62" cy="267" r="4"/><circle cx="133" cy="160" r="4"/><circle cx="177" cy="221" r="4"/><circle cx="294" cy="137" r="4"/>
+<circle cx="337" cy="276" r="4"/><circle cx="372" cy="209" r="4"/><circle cx="448" cy="342" r="4"/><circle cx="478" cy="291" r="4"/><circle cx="494" cy="334" r="4"/>
+<circle cx="574" cy="324" r="4"/><circle cx="628" cy="238" r="4"/><circle cx="660" cy="270" r="4"/><circle cx="741" cy="258" r="4"/><circle cx="765" cy="170" r="4"/>
+<circle cx="777" cy="217" r="4"/><circle cx="800" cy="203" r="4"/><circle cx="818" cy="146" r="4"/><circle cx="862" cy="153" r="4"/><circle cx="900" cy="211" r="4"/>
+</g>
+<g font-size="16" font-weight="bold">
+<text x="64" y="292">A</text><text x="127" y="146">B</text><text x="170" y="247">C</text><text x="218" y="112">D</text><text x="285" y="126">E</text>
+<text x="328" y="301">F</text><text x="365" y="197">G</text><text x="423" y="359">H</text><text x="476" y="276">I</text><text x="490" y="355">J</text>
+<text x="565" y="350">K</text><text x="623" y="225">L</text><text x="655" y="301">M</text><text x="733" y="279">N</text>
+<text x="760" y="150">O</text><text x="772" y="242">P</text><text x="796" y="224">Q</text><text x="812" y="132">R</text><text x="855" y="139">S</text><text x="897" y="193">T</text>
+</g>
+<g font-size="16" fill="#345d75"><text x="93" y="196">Z1</text><text x="305" y="245">Z2</text><text x="514" y="318">Z3</text><text x="686" y="247">Z4</text><text x="741" y="190">Z5</text></g>
+<path d="M257 105L272 94" fill="none" stroke="#426079" stroke-width="1.4"/>
+<text x="278" y="98" font-size="14">16.36：右侧峰的图标价</text><text x="439" y="359" font-size="14">8.03</text><text x="765" y="299" font-size="14">10.26–10.38 参考带</text>
+<text x="56" y="389" font-size="15" font-weight="bold">回看候选旧框：I → Z2 下沿（低于）　M → Z3 上沿（高于）　P → Z4 上沿（高于）</text>
+<text x="56" y="409" font-size="15">Z3：J 低于下沿，反弹越过上沿，K 回到下沿附近且高于 J；M 高于参照带、低于 Z4。</text>
+<text x="56" y="429" font-size="15">Z5：P 低于下沿，随后首个反弹顶越过上沿，Q 回到下沿附近且高于 P。</text>
+</g></svg>

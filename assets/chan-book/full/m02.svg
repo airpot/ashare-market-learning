@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 335" role="img" aria-labelledby="title">
+<title id="title">合成图｜短长均线之差的三种走法</title>
+<rect width="1000" height="335" rx="16" fill="#f5f9fc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" fill="#18354b">
+<text x="35" y="44" font-size="26" font-weight="bold">合成图｜短长均线之差的三种走法</text>
+<path d="M80 78V255H930 M80 187H930" fill="none" stroke="#718e9c" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="35" y="193">0</text><text x="82" y="78">短线－长线</text>
+<path d="M140 102L210 140 280 161 350 106" fill="none" stroke="#00727a" stroke-width="5"/>
+<path d="M420 107L480 187 550 107" fill="none" stroke="#8a5600" stroke-width="5"/>
+<path d="M635 105L700 219 780 133 860 232" fill="none" stroke="#96465c" stroke-width="5"/>
+<g font-size="18"><text x="130" y="97">1</text><text x="210" y="133">0.55</text><text x="279" y="181">0.30</text><text x="347" y="100">0.95</text><text x="469" y="212">0</text></g>
+<text x="114" y="288">间距缩小再扩大</text><text x="408" y="288">触零后回原侧</text><text x="655" y="288">反复换侧</text><text x="860" y="310">时间 →</text>
+</g>
+</svg>

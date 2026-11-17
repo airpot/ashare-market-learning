@@ -1,0 +1,51 @@
+{
+  "id": "vp07",
+  "symbol": "sh688981",
+  "name": "中芯国际",
+  "cutoff": "2026-03-25",
+  "family": "break",
+  "first_day": "2026-02-24",
+  "last_day": "2026-04-01",
+  "anchor": "2026-03-16",
+  "edge": "110.320",
+  "previous_close": "99.250",
+  "signal": {
+    "date": "2026-03-25",
+    "open": "99.670",
+    "high": "100.940",
+    "low": "99.280",
+    "close": "99.990",
+    "volume_shares": "32130643"
+  },
+  "average_5": "37335422.8",
+  "average_20": "34983800.95",
+  "ratio_5": "0.860594",
+  "ratio_20": "0.918443",
+  "return_vs_prior_pct": "0.745592",
+  "return_vs_open_pct": "0.321059",
+  "background_return_pct": "-6.385588",
+  "qualified": false,
+  "branch": "未满足触发",
+  "followup": [
+    {
+      "date": "2026-03-26",
+      "close": "96.880"
+    },
+    {
+      "date": "2026-03-27",
+      "close": "97.500"
+    },
+    {
+      "date": "2026-03-30",
+      "close": "95.830"
+    },
+    {
+      "date": "2026-03-31",
+      "close": "94.050"
+    },
+    {
+      "date": "2026-04-01",
+      "close": "96.330"
+    }
+  ]
+}

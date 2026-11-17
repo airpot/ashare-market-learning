@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-labelledby="title"><title id="title">合成示意｜均线间距的等宽面积格</title>
+<rect width="1000" height="320" rx="18" fill="#f5fafb"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#15324b">
+<text x="34" y="37" font-size="25" font-weight="bold">合成示意｜均线间距的等宽面积格</text>
+<path d="M98 247h820M100 89v158" stroke="#6b8897" fill="none"/>
+<g fill="#82bfd6" stroke="#17638b" stroke-width="2"><rect x="151" y="179" width="85" height="68"/><rect x="236" y="179" width="85" height="68"/><rect x="321" y="179" width="85" height="68"/></g>
+<g fill="#94ceba" stroke="#126954" stroke-width="2"><rect x="580" y="145" width="85" height="102"/><rect x="665" y="179" width="85" height="68"/></g>
+<rect x="750" y="179" width="85" height="68" fill="none" stroke="#126954" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="170" y="167">2</text><text x="255" y="167">2</text><text x="340" y="167">2</text><text x="600" y="132">3</text><text x="688" y="167">2</text>
+<text x="148" y="104">前段闭合：总量 6，均值 2</text><text x="565" y="104">当下两格：累计 5，均值 2.5</text>
+<text x="752" y="274">后续未知</text><text x="151" y="301">横轴是等宽时间格；格高是均线绝对间距，色块的面积才可累加。</text>
+</g></svg>

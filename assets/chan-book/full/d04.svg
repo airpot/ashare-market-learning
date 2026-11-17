@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-labelledby="title"><title id="title">合成示意｜柱峰、面积与尾段不是一回事</title>
+<rect width="1000" height="330" rx="18" fill="#f5fafb"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#15324b">
+<text x="34" y="37" font-size="25" font-weight="bold">合成示意｜柱峰、面积与尾段不是一回事</text>
+<path d="M104 252h820M104 91v161M104 128h820" stroke="#91aab7" fill="none"/>
+<g fill="#4c9fc1"><rect x="153" y="190" width="44" height="62"/><rect x="208" y="128" width="44" height="124"/><rect x="263" y="159" width="44" height="93"/><rect x="318" y="221" width="44" height="31"/></g>
+<g fill="#07856f"><rect x="570" y="221" width="44" height="31"/><rect x="625" y="159" width="44" height="93"/><rect x="680" y="190" width="44" height="62"/></g>
+<g fill="none" stroke="#07856f" stroke-width="2" stroke-dasharray="5 4"><rect x="735" y="159" width="44" height="93"/><rect x="790" y="190" width="44" height="62"/></g>
+<text x="124" y="100">A：峰 4，累计 10</text><text x="568" y="100">C：目前峰 3，累计 6</text><text x="729" y="278">若再增 3、2</text>
+<text x="394" y="230">B：结构先核</text><text x="124" y="311">空心柱加入后：C 的峰仍较低，累计却变为 11，超过 A 的 10。</text>
+</g></svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 761" role="img">
+<title>106–111：精度、缺口与两个过早的底背驰判断</title>
+<desc>教学关系图：标号间距、时间与价格不按比例，已知关系见注；未给出值的点位未知。</desc>
+<rect width="100%" height="100%" fill="#f3f7fb"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17283d">
+<text x="38" y="35" font-size="24" font-weight="bold">106–111：精度、缺口与两个过早的底背驰判断</text>
+<text x="38" y="62" font-size="15">原创教学图｜历史关系据书，合成算例另标｜坐标不按比例；未标值未知</text>
+<g><rect x="32" y="76" width="1056" height="216" rx="12" fill="#fff" stroke="#cfdae5"/><text x="52" y="96" font-size="18" font-weight="bold">例 12｜历史编号与外层同向比较</text><path d="M76.00 109.00 L80.65 114.23 M83.97 117.97 L88.62 123.20 M91.94 126.94 L96.60 132.17 M99.92 135.91 L104.57 141.14 M107.89 144.88 L112.54 150.11 M115.86 153.84 L120.51 159.08 M123.83 162.81 L128.48 168.05 M131.81 171.78 L136.46 177.01 M139.78 180.75 L144.43 185.98 M147.75 189.72 L152.40 194.95 M155.72 198.69 L160.37 203.92 M163.70 207.66 L164.00 208.00 M164.00 208.00 L169.12 203.23 M172.78 199.82 L177.90 195.05 M181.56 191.64 L186.68 186.87 M190.34 183.46 L195.46 178.69 M199.12 175.28 L204.24 170.51 M207.90 167.10 L213.02 162.32 M216.68 158.92 L221.80 154.14 M225.46 150.74 L230.58 145.96 M234.23 142.55 L239.36 137.78 M243.01 134.37 L248.13 129.60 M251.79 126.19 L252.00 126.00 M252.00 126.00 L258.35 128.96 M262.88 131.07 L269.22 134.02 M273.75 136.14 L280.10 139.09 M284.63 141.20 L290.98 144.16 M295.51 146.27 L301.85 149.23 M306.39 151.34 L312.73 154.30 M317.26 156.41 L323.61 159.36 M328.14 161.48 L334.49 164.43 M339.02 166.54 L340.00 167.00 M340.00 167.00 L346.84 165.52 M351.73 164.47 L358.57 162.99 M363.46 161.93 L370.30 160.46 M375.19 159.40 L382.03 157.93 M386.92 156.87 L393.76 155.39 M398.65 154.34 L405.49 152.86 M410.38 151.80 L417.22 150.33 M422.11 149.27 L428.00 148.00 M428.00 148.00 L434.12 151.41 M438.48 153.84 L444.60 157.24 M448.97 159.68 L455.08 163.08 M459.45 165.51 L465.57 168.92 M469.94 171.35 L476.05 174.76 M480.42 177.19 L486.54 180.59 M490.91 183.03 L497.02 186.43 M501.39 188.86 L507.51 192.27 M511.87 194.70 L516.00 197.00 M516.00 197.00 L522.37 194.10 M526.92 192.03 L533.30 189.14 M537.85 187.07 L544.22 184.17 M548.77 182.10 L555.15 179.21 M559.70 177.14 L566.07 174.24 M570.62 172.17 L576.99 169.28 M581.55 167.21 L587.92 164.31 M592.47 162.24 L598.84 159.34 M603.40 157.27 L604.00 157.00 M604.00 157.00 L610.32 160.02 M614.83 162.17 L621.15 165.18 M625.66 167.34 L631.98 170.35 M636.49 172.51 L642.81 175.52 M647.32 177.68 L653.64 180.69 M658.15 182.84 L664.47 185.86 M668.98 188.01 L675.30 191.03 M679.81 193.18 L686.13 196.20 M690.64 198.35 L692.00 199.00 M692.00 199.00 L698.98 199.48 M703.97 199.82 L710.96 200.29 M715.94 200.63 L722.93 201.11 M727.92 201.45 L734.90 201.93 M739.89 202.27 L746.87 202.74 M751.86 203.08 L758.84 203.56 M763.83 203.90 L770.82 204.37 M775.81 204.71 L780.00 205.00 M780.00 205.00 L786.87 206.33 M791.78 207.28 L798.66 208.60 M803.56 209.55 L810.44 210.88 M815.35 211.83 L822.22 213.16 M827.13 214.10 L834.00 215.43 M838.91 216.38 L845.78 217.71 M850.69 218.66 L857.57 219.98 M862.48 220.93 L868.00 222.00 M868.00 222.00 L874.98 221.44 M879.96 221.05 L886.94 220.49 M891.92 220.10 L898.90 219.54 M903.89 219.15 L910.86 218.59 M915.85 218.19 L922.83 217.64 M927.81 217.24 L934.79 216.69 M939.77 216.29 L946.75 215.74 M951.74 215.34 L956.00 215.00 M956.00 215.00 L962.79 216.70 M967.64 217.91 L974.43 219.61 M979.28 220.82 L986.07 222.52 M990.93 223.73 L997.72 225.43 M1002.57 226.64 L1009.36 228.34 M1014.21 229.55 L1021.00 231.25 M1025.85 232.46 L1032.64 234.16 M1037.49 235.37 L1044.00 237.00" fill="none" stroke="#24648d" stroke-width="2" stroke-linejoin="round"/><circle cx="76" cy="109" r="4" fill="#245776"/><text x="76" y="129" font-size="13" text-anchor="middle">104</text><circle cx="164" cy="208" r="4" fill="#245776"/><text x="164" y="224" font-size="13" text-anchor="middle">105</text><circle cx="252" cy="126" r="4" fill="#245776"/><text x="252" y="117" font-size="13" text-anchor="middle">106</text><circle cx="340" cy="167" r="4" fill="#245776"/><text x="340" y="183" font-size="13" text-anchor="middle">107</text><circle cx="428" cy="148" r="4" fill="#245776"/><text x="428" y="139" font-size="13" text-anchor="middle">108</text><circle cx="516" cy="197" r="4" fill="#245776"/><text x="516" y="213" font-size="13" text-anchor="middle">109</text><circle cx="604" cy="157" r="4" fill="#245776"/><text x="604" y="148" font-size="13" text-anchor="middle">110</text><circle cx="1044" cy="237" r="4" fill="#245776"/><text x="1044" y="253" font-size="13" text-anchor="middle">111</text><path d="M164 248v6H604v-6" fill="none" stroke="#2e796f" stroke-width="2"/><text x="384" y="277" font-size="15" text-anchor="middle">105–110：中间结构的横向范围</text><text x="643" y="277" font-size="15" >虚线省折返；同核比 104→105 与 110→111。箭头见下。</text></g>
+<g transform="translate(0 302)">
+<rect x="32" y="0" width="1056" height="435" fill="#fff" rx="12" stroke="#cfdae5"/>
+<text x="52" y="27" font-size="18" font-weight="bold">P79I02 右端局部｜第二处在价图上只见近接</text>
+<text x="52" y="54" font-size="15" >价图与 MACD 共用时轴；纵向高低只示关系，不提供原价或逐柱数据。</text>
+<rect x="166" y="108" width="233" height="23" fill="#a6d8d1" fill-opacity=".65"/>
+<text x="291" y="80" font-size="14" text-anchor="middle">首处：首回低点至第二上峰</text>
+<path d="M102 77L166 147L233 103L292 131L399 108L539 200L618 161L712 232L769 207L875 263L922 227L960 248L1010 204" fill="none" stroke="#24648d" stroke-width="3" stroke-linejoin="round"/>
+<path d="M539 200H546M552 200H559M565 200H572M578 200H585M591 200H598M604 200H611M617 200H624M630 200H637M643 200H650M656 200H663M669 200H676M682 200H689M695 200H702M708 200H715M721 200H728M734 200H741M747 200H754M760 200H767M773 200H780M786 200H793" fill="none" stroke="#ab641e" stroke-width="2" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<path d="M539 200L618 161M712 232L769 207" fill="none" stroke="#237969" stroke-width="3.5" stroke-linejoin="round"/>
+<circle cx="166" cy="147" r="4" fill="#245776"/>
+<circle cx="233" cy="103" r="4" fill="#245776"/>
+<circle cx="292" cy="131" r="4" fill="#245776"/>
+<circle cx="399" cy="108" r="4" fill="#245776"/>
+<circle cx="539" cy="200" r="4" fill="#245776"/>
+<circle cx="618" cy="161" r="4" fill="#245776"/>
+<circle cx="712" cy="232" r="4" fill="#245776"/>
+<circle cx="769" cy="207" r="4" fill="#245776"/>
+<circle cx="875" cy="263" r="4" fill="#245776"/>
+<path d="M166 68V383M233 94V350M519 99V389M618 92V350M712 135V350M850 136V389" fill="none" stroke="#a5b1be" stroke-width="1" stroke-linejoin="round" stroke-dasharray="4 5"/>
+<path d="M166 152l-6 7h4v7h4v-7h4z" fill="#ac3848"/>
+<text x="156" y="182" font-size="14" text-anchor="end">价红①</text>
+<path d="M618 156l-6 -7h4v-7h4v7h4z" fill="#237969"/>
+<text x="618" y="121" font-size="14" text-anchor="middle">价绿：第一上终点</text>
+<text x="618" y="140" font-size="14" text-anchor="middle">对首处为类三卖（书）</text>
+<text x="532" y="219" font-size="14" text-anchor="end">第一上起点</text>
+<path d="M712 236l-6 7h4v7h4v-7h4z" fill="#ac3848"/>
+<text x="704" y="267" font-size="14" text-anchor="end">价红②附近低点</text>
+<text x="789" y="189" font-size="14" >虚线：第一上起点水平</text>
+<text x="790" y="220" font-size="14" >次上峰：近接待核</text>
+<text x="885" y="269" font-size="14" >111：3724.19</text>
+<path d="M52 282H1068" fill="none" stroke="#d9e2ec" stroke-width="1" stroke-linejoin="round"/>
+<text x="52" y="309" font-size="15" >MACD</text>
+<text x="64" y="346" font-size="13" >零轴</text>
+<path d="M121 340H1040" fill="none" stroke="#7b8fa1" stroke-width="1" stroke-linejoin="round"/>
+<rect x="139" y="340" width="6" height="6" fill="#365b82" /><rect x="148" y="340" width="6" height="16" fill="#365b82" /><rect x="157" y="340" width="6" height="24" fill="#365b82" /><rect x="166" y="340" width="6" height="19" fill="#365b82" /><rect x="175" y="340" width="6" height="10" fill="#365b82" /><rect x="184" y="340" width="6" height="4" fill="#365b82" />
+<rect x="233" y="332" width="13" height="8" fill="#4c9d90" /><rect x="249" y="326" width="13" height="14" fill="#4c9d90" /><rect x="265" y="330" width="13" height="10" fill="#4c9d90" /><rect x="281" y="335" width="13" height="5" fill="#4c9d90" /><rect x="297" y="329" width="13" height="11" fill="#4c9d90" /><rect x="313" y="324" width="13" height="16" fill="#4c9d90" /><rect x="329" y="321" width="13" height="19" fill="#4c9d90" /><rect x="345" y="326" width="13" height="14" fill="#4c9d90" /><rect x="361" y="332" width="13" height="8" fill="#4c9d90" /><rect x="377" y="336" width="13" height="4" fill="#4c9d90" />
+<rect x="454" y="340" width="10" height="6" fill="#365b82" /><rect x="467" y="340" width="10" height="13" fill="#365b82" /><rect x="480" y="340" width="10" height="21" fill="#365b82" /><rect x="493" y="340" width="10" height="27" fill="#365b82" /><rect x="506" y="340" width="10" height="30" fill="#365b82" /><rect x="519" y="340" width="10" height="25" fill="#365b82" /><rect x="532" y="340" width="10" height="18" fill="#365b82" /><rect x="545" y="340" width="10" height="9" fill="#365b82" />
+<rect x="620" y="336" width="6" height="4" fill="#4c9d90"/><rect x="630" y="332" width="6" height="8" fill="#4c9d90"/><rect x="640" y="336" width="6" height="4" fill="#4c9d90"/><rect x="755" y="336" width="6" height="4" fill="#4c9d90"/><rect x="765" y="331" width="6" height="9" fill="#4c9d90"/><rect x="775" y="336" width="6" height="4" fill="#4c9d90"/><rect x="655" y="340" width="9" height="4" fill="#365b82" /><rect x="667" y="340" width="9" height="10" fill="#365b82" /><rect x="679" y="340" width="9" height="13" fill="#365b82" /><rect x="691" y="340" width="9" height="10" fill="#365b82" /><rect x="703" y="340" width="9" height="4" fill="#365b82" />
+<rect x="805" y="340" width="9" height="5" fill="#365b82" /><rect x="817" y="340" width="9" height="11" fill="#365b82" /><rect x="829" y="340" width="9" height="18" fill="#365b82" /><rect x="841" y="340" width="9" height="23" fill="#365b82" /><rect x="853" y="340" width="9" height="18" fill="#365b82" /><rect x="865" y="340" width="9" height="10" fill="#365b82" /><rect x="877" y="340" width="9" height="4" fill="#365b82" />
+<rect x="895" y="333" width="10" height="7" fill="#4c9d90" /><rect x="908" y="325" width="10" height="15" fill="#4c9d90" /><rect x="921" y="322" width="10" height="18" fill="#4c9d90" /><rect x="934" y="316" width="10" height="24" fill="#4c9d90" /><rect x="947" y="313" width="10" height="27" fill="#4c9d90" /><rect x="960" y="320" width="10" height="20" fill="#4c9d90" /><rect x="973" y="327" width="10" height="13" fill="#4c9d90" />
+<path d="M233 305l-6 -7h4v-7h4v7h4z" fill="#237969"/>
+<text x="246" y="309" font-size="14" >指标绿（另一个标记）</text>
+<path d="M519 373l-6 7h4v7h4v-7h4z" fill="#ac3848"/>
+<text x="510" y="393" font-size="14" text-anchor="end">指标红①：前侧负柱群</text>
+<path d="M850 367l-6 7h4v7h4v-7h4z" fill="#ac3848"/>
+<text x="864" y="388" font-size="14" >指标红②：后侧负柱群</text>
+<text x="52" y="417" font-size="15" >原书按奔走型类中枢比较前后同向下段；中间回拉不计作第三段。箭头不等于逐柱截点。</text>
+</g>
+</g>
+</svg>

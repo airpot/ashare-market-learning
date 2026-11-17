@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="t">
+<title id="t">同一筛选起点，买入后分出两条路径</title>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:20px;fill:#192f42} .title{font-size:25px;font-weight:700} .small{font-size:17px} .axis{stroke:#667b8a;stroke-width:2;fill:none} .dash{stroke-dasharray:7 5} .blue,.orange,.green{stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#17658c}.orange{stroke:#aa4f23}.green{stroke:#22745f}.band{fill:#dcece6;stroke:#8faf9f}.node{fill:#eff5f9;stroke:#6a8da7;stroke-width:2}.warn{fill:#fff0e2;stroke:#c88665;stroke-width:2}</style>
+<rect width="960" height="320" fill="#fbfcfe"/>
+<text x="34" y="39" class="title">同一筛选起点，买入后分出两条路径</text>
+<rect id="core" x="187" y="144" width="707" height="34" class="band"/>
+<path d="M66 72V236M58 76H66M58 144H66M58 178H66M58 229H66" class="axis"/>
+<text x="52" y="82" text-anchor="end" class="small">18</text>
+<text x="52" y="150" text-anchor="end" class="small">14</text>
+<text x="52" y="184" text-anchor="end" class="small">12</text>
+<text x="52" y="235" text-anchor="end" class="small">9</text>
+<path id="approach" d="M105 76L190 178" class="blue"/>
+<path id="components" d="M190 178L270 127L350 195L430 144" class="blue"/>
+<path id="departure" d="M430 144L548 229" class="blue"/>
+<path id="consolidation" d="M548 229L610 201L672 219L736 197L802 212" class="orange"/>
+<path id="advance" d="M548 229L644 195L731 168L842 153" class="green dash"/>
+<text x="135" y="90" class="small">前一段下跌</text>
+<text x="223" y="136" class="small">A</text>
+<text x="302" y="143" class="small">B</text>
+<text x="392" y="187" class="small">C</text>
+<text x="497" y="167" class="small">核心 [12,14]</text>
+<text x="418" y="250" class="small">跌至 9；假定一买成立</text>
+<text x="663" y="248" class="small">盘整分支：确认后核退出</text>
+<text x="666" y="121" class="small">上涨分支：核是否回原区间</text>
+<text x="34" y="279" class="small">三段价幅：A [12,15]，B [11,15]，C [11,14]。交集 [12,14]。</text>
+<text x="34" y="305" class="small">合成价幅｜A、B、C 为前三段已完成的合格次级别走势；右侧仅示意分支，未标确认点。</text>
+</svg>

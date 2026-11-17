@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 325" role="img" aria-labelledby="title">
+<title id="title">合成图｜同一串价格，取样精度不同</title>
+<rect width="1000" height="325" rx="16" fill="#f5f9fc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" fill="#18354b">
+<text x="35" y="44" font-size="26" font-weight="bold">合成图｜同一串价格，取样精度不同</text>
+<path d="M80 80V251H523 M565 80V251H938" fill="none" stroke="#718e9c" stroke-width="2"/>
+<polyline points="100,224 175,104 250,164 325,74 400,194 475,134" fill="none" stroke="#176881" stroke-width="5"/>
+<g fill="#176881"><text x="100" y="247">9</text><text x="175" y="98">13</text><text x="250" y="188">11</text><text x="325" y="68">14</text><text x="400" y="217">10</text><text x="475" y="126">12</text></g>
+<path d="M659 104V224 M810 74V194" stroke="#807137" stroke-width="12"/>
+<text x="672" y="110">13</text><text x="672" y="230">9</text><text x="824" y="80">14</text><text x="824" y="201">10</text>
+<text x="135" y="281">有先后顺序的六点</text><text x="604" y="281">每三点只保留高低</text>
+</g>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 701" role="img" aria-labelledby="m08-title m08-desc">
+<title id="m08-title">合成图｜两种成枢路径与向下分支</title>
+<desc id="m08-desc">先看回调、回升的三段交集与 Z 段延伸；再比较向下新生与向下扩展的外围。各图为合成示意。</desc>
+<rect x="0" y="0" width="1000" height="701" fill="#f5f9fc" rx="16"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#18354b">
+<text x="34" y="42" fill="#18354b" font-size="26" font-weight="bold">合成图｜两种成枢路径与向下分支</text>
+<text x="48" y="85" fill="#18354b" font-size="22">回调成枢：下 → 上 → 下</text>
+<text x="538" y="85" fill="#18354b" font-size="22">回升成枢：上 → 下 → 上</text>
+<text x="48" y="110" fill="#18354b" font-size="17">同向 Z 段向下；绿带是固定核心。</text>
+<text x="538" y="110" fill="#18354b" font-size="17">同向 Z 段向上；绿带是固定核心。</text>
+<line x1="507" y1="70" x2="507" y2="343" stroke="#b9ccd3" stroke-width="2"/>
+<g id="down-up-down">
+<rect x="60" y="201" width="389" height="33" fill="#d7ebe5" rx="3"/>
+<polyline points="72,168 124,256 176,201 228,234 280,179 332,245 384,146 436,223" fill="none" stroke="#1b637e" stroke-width="3.5" stroke-linejoin="round"/>
+<polyline points="72,168 124,256" fill="none" stroke="#147662" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="176,201 228,234" fill="none" stroke="#147662" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="280,179 332,245" fill="none" stroke="#975b13" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="384,146 436,223" fill="none" stroke="#975b13" stroke-width="5" stroke-linejoin="round"/>
+<text x="55" y="158" fill="#18354b" font-size="17">19</text>
+<text x="109" y="279" fill="#18354b" font-size="17">11</text>
+<text x="163" y="189" fill="#18354b" font-size="17">16</text>
+<text x="216" y="258" fill="#18354b" font-size="17">13</text>
+<text x="268" y="167" fill="#18354b" font-size="17">18</text>
+<text x="320" y="268" fill="#18354b" font-size="17">12</text>
+<text x="373" y="134" fill="#18354b" font-size="17">21</text>
+<text x="426" y="247" fill="#18354b" font-size="17">14</text>
+</g>
+<g id="up-down-up">
+<rect x="535" y="179" width="365" height="51" fill="#d7ebe5" rx="3"/>
+<polyline points="547,281 615,145 683,230 751,179 819,247 887,162" fill="none" stroke="#1b637e" stroke-width="3.5" stroke-linejoin="round"/>
+<polyline points="547,281 615,145" fill="none" stroke="#147662" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="683,230 751,179" fill="none" stroke="#147662" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="819,247 887,162" fill="none" stroke="#975b13" stroke-width="5" stroke-linejoin="round"/>
+<text x="538" y="304" fill="#18354b" font-size="17">5</text>
+<text x="605" y="133" fill="#18354b" font-size="17">13</text>
+<text x="673" y="253" fill="#18354b" font-size="17">8</text>
+<text x="742" y="167" fill="#18354b" font-size="17">11</text>
+<text x="810" y="270" fill="#18354b" font-size="17">7</text>
+<text x="878" y="150" fill="#18354b" font-size="17">12</text>
+</g>
+<g id="indexed-z">
+<text x="85" y="302" fill="#147662" font-size="18">Z₁</text>
+<text x="188" y="302" fill="#147662" font-size="18">Z₂</text>
+<text x="295" y="302" fill="#975b13" font-size="18">Z₃</text>
+<text x="398" y="302" fill="#975b13" font-size="18">Z₄</text>
+<text x="557" y="302" fill="#147662" font-size="18">Z₁</text>
+<text x="698" y="302" fill="#147662" font-size="18">Z₂</text>
+<text x="834" y="302" fill="#975b13" font-size="18">Z₃</text>
+<text x="48" y="327" fill="#18354b" font-size="17">ZD/ZG＝13/16；GG/G/D/DD＝21/16/14/11。</text>
+<text x="538" y="327" fill="#18354b" font-size="17">核心 [8,11] 不动；Z₃=[7,12] 仍与之重叠。</text>
+</g>
+<line x1="39" y1="351" x2="960" y2="351" stroke="#b9ccd3" stroke-width="2"/>
+<text x="48" y="387" fill="#18354b" font-size="22">向下比较｜都在旧核心下方，关键看外围</text>
+<g id="down-separation">
+<text x="54" y="431" fill="#18354b" font-size="22">甲｜向下新生</text>
+<text x="426" y="432" fill="#18354b" font-size="18">旧中枢</text>
+<text x="740" y="432" fill="#18354b" font-size="18">后中枢</text>
+<g id="down-separation-old">
+<rect x="355" y="463.8" width="245" height="8.699999999999989" fill="#d7ebe5" rx="3"/>
+<polyline points="367,458 411,478.3 455,463.8 499,472.5 543,460.9 587,481.2" fill="none" stroke="#1b637e" stroke-width="3.5" stroke-linejoin="round"/>
+<text x="342" y="450" fill="#18354b" font-size="17">GG 50</text>
+<text x="588" y="503.2" fill="#18354b" font-size="17">DD 42</text>
+</g>
+<g id="down-separation-new">
+<rect x="682" y="501.5" width="245" height="8.699999999999989" fill="#d7ebe5" rx="3"/>
+<polyline points="694,487 738,513.1 782,501.5 826,510.2 870,495.7 914,516" fill="none" stroke="#1b637e" stroke-width="3.5" stroke-linejoin="round"/>
+<text x="674" y="479" fill="#18354b" font-size="17">GG 40</text>
+<text x="915" y="535" fill="#18354b" font-size="17">DD 30</text>
+</g>
+<text x="54" y="482" fill="#18354b" font-size="18">后 GG＝40 ＜ 旧 DD＝42</text>
+<text x="54" y="509" fill="#18354b" font-size="18">后核心 [32,35]，旧核心 [45,48]。</text>
+</g>
+<line x1="46" y1="552" x2="955" y2="552" stroke="#b9ccd3" stroke-width="1.5"/>
+<g id="down-expansion">
+<text x="54" y="572" fill="#18354b" font-size="22">乙｜两枢完整时为向下扩展</text>
+<text x="426" y="573" fill="#18354b" font-size="18">旧中枢</text>
+<text x="740" y="573" fill="#18354b" font-size="18">后中枢</text>
+<g id="down-expansion-old">
+<rect x="355" y="604.8" width="245" height="8.700000000000045" fill="#d7ebe5" rx="3"/>
+<polyline points="367,599 411,619.3 455,604.8 499,613.5 543,601.9 587,622.2" fill="none" stroke="#1b637e" stroke-width="3.5" stroke-linejoin="round"/>
+<text x="342" y="591" fill="#18354b" font-size="17">GG 50</text>
+<text x="588" y="644.2" fill="#18354b" font-size="17">DD 42</text>
+</g>
+<g id="down-expansion-new">
+<rect x="682" y="630.9" width="245" height="8.700000000000045" fill="#d7ebe5" rx="3"/>
+<polyline points="694,616.4 738,642.5 782,630.9 826,639.6 870,625.1 914,645.4" fill="none" stroke="#1b637e" stroke-width="3.5" stroke-linejoin="round"/>
+<text x="674" y="608.4" fill="#18354b" font-size="17">GG 44</text>
+<text x="915" y="664.4" fill="#18354b" font-size="17">DD 34</text>
+</g>
+<text x="54" y="623" fill="#18354b" font-size="18">后 GG＝44 ≥ 旧 DD＝42</text>
+<text x="54" y="650" fill="#18354b" font-size="18">后核心 [36,39]，旧核心 [45,48]。</text>
+</g>
+</g>
+</svg>

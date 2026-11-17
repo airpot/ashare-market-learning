@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 364" role="img" aria-labelledby="title">
+<title id="title">合成图｜包含处理保留高低端的来源</title>
+<rect width="1000" height="364" rx="16" fill="#f5f9fc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" fill="#18354b">
+<text x="35" y="44" font-size="26" font-weight="bold">合成图｜包含处理保留高低端的来源</text>
+<path d="M70 305H932 M418 75V308 M687 75V308" stroke="#94aab6" fill="none" stroke-dasharray="6 5"/>
+<g stroke="#176881" stroke-width="7"><path d="M108 200V263 M180 158V221 M252 116V284 M324 137V200 M456 116V221 M551 137V200 M723 116V200 M845 179V242"/></g>
+<g font-size="18"><text x="89" y="327">A1</text><text x="166" y="327">A2</text><text x="245" y="327">A</text><text x="311" y="327">A3</text><text x="428" y="327">[9,14]</text><text x="524" y="327">A3</text><text x="694" y="327">[10,14]</text><text x="828" y="327">A4</text></g>
+<path d="M180 221H460 M252 116H734 M324 200H734" stroke="#a7690c" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="95" y="91">先找上行方向</text><text x="452" y="91">合 A2 与 A</text><text x="711" y="91">再合入 A3；A4 不并</text>
+</g>
+</svg>

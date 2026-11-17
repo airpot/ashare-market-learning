@@ -416,7 +416,7 @@ def higher_html(higher, state):
         parts.append(f'<p>起始三笔正宽重叠：{hyp["first_three_overlap"]}；原始三元素关系：{hyp["raw_relation"]}；存在包含待整理：{hyp["feature_inclusion_required"]}；首两特征缺口：{hyp["feature_gap"]}。这些只是原始区间检查，未宣告标准特征分型或段结束。还缺可绑定的左边界、特征包含处理完成记录；若有缺口，还缺候选端点之后反向标准特征分型的逐笔确认。</p>')
     if not higher["segment_hypotheses"]:
         parts.append('<p>当前严格笔尚不足以列出线段特征序列，继续等待真实资料。</p>')
-    parts.append(table(["连续选笔", "最大低点", "最小高点", "资格结论"], [[w["stroke_indices"], w["low"], w["high"], "正宽笔区间交集；不是 B0 中枢"] for w in higher["stroke_overlap_windows"]]))
+    parts.append(table(["连续选笔", "最大低点", "最小高点", "资格结论"], [[w["stroke_indices"], w["low"], w["high"], "正宽笔区间交集；未证明 L1 中枢"] for w in higher["stroke_overlap_windows"]]))
     parts.append(table(["M12 资格清单", "当前状态"], [
         ["固定日线、未复权、同一股票与截止", "已声明"],
         ["连续严格笔及端点、间距、范围证据", "见上表；末笔仍可修订"],

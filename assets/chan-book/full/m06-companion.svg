@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 547" role="img" aria-labelledby="m06-title m06-desc">
+<title id="m06-title">合成图｜两种无效连接与候选取舍</title>
+<desc id="m06-desc">共享一根与两组紧挨均不成笔；另一个例子保留较高的顶并检验独立根。</desc>
+<rect x="0" y="0" width="1000" height="547" fill="#f5f9fc" rx="16"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#18354b">
+<text x="34" y="42" fill="#18354b" font-size="26" font-weight="bold">合成图｜两种无效连接与候选取舍</text>
+<g id="shared">
+<text x="55" y="84" fill="#18354b" font-size="22">甲｜第 3 根由两组共用</text>
+<rect x="55" y="105" width="169" height="116" fill="#e0eef3" rx="8"/>
+<rect x="162" y="115" width="169" height="116" fill="#d7ebe5" rx="8"/>
+<rect x="171" y="111" width="34" height="112" fill="#f9ddc4" rx="5"/>
+<line x1="79" y1="151" x2="79" y2="179" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<line x1="133" y1="123" x2="133" y2="158" stroke="#147662" stroke-width="7" stroke-linecap="round"/>
+<line x1="187" y1="158" x2="187" y2="200" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<line x1="241" y1="193" x2="241" y2="228" stroke="#147662" stroke-width="7" stroke-linecap="round"/>
+<line x1="295" y1="172" x2="295" y2="214" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<text x="73" y="250" fill="#18354b" font-size="17">1</text>
+<text x="127" y="250" fill="#18354b" font-size="17">2</text>
+<text x="181" y="250" fill="#18354b" font-size="17">3</text>
+<text x="235" y="250" fill="#18354b" font-size="17">4</text>
+<text x="289" y="250" fill="#18354b" font-size="17">5</text>
+<text x="55" y="279" fill="#18354b" font-size="18">顶 1–3，底 3–5；第 3 根共用。</text>
+</g>
+<g id="adjacent">
+<text x="518" y="84" fill="#18354b" font-size="22">乙｜两组紧挨，没有独立一根</text>
+<rect x="518" y="105" width="157" height="116" fill="#e0eef3" rx="8"/>
+<rect x="675" y="115" width="169" height="116" fill="#d7ebe5" rx="8"/>
+<line x1="669" y1="109" x2="669" y2="230" stroke="#975b13" stroke-width="2"/>
+<line x1="542" y1="151" x2="542" y2="179" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<line x1="596" y1="123" x2="596" y2="158" stroke="#147662" stroke-width="7" stroke-linecap="round"/>
+<line x1="650" y1="158" x2="650" y2="186" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<line x1="704" y1="186" x2="704" y2="214" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<line x1="758" y1="200" x2="758" y2="235" stroke="#147662" stroke-width="7" stroke-linecap="round"/>
+<line x1="812" y1="179" x2="812" y2="221" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<text x="536" y="250" fill="#18354b" font-size="17">1</text>
+<text x="590" y="250" fill="#18354b" font-size="17">2</text>
+<text x="644" y="250" fill="#18354b" font-size="17">3</text>
+<text x="698" y="250" fill="#18354b" font-size="17">4</text>
+<text x="752" y="250" fill="#18354b" font-size="17">5</text>
+<text x="806" y="250" fill="#18354b" font-size="17">6</text>
+<text x="518" y="279" fill="#18354b" font-size="18">顶 1–3，底 4–6；没有独立根。</text>
+</g>
+<line x1="40" y1="298" x2="960" y2="298" stroke="#b9ccd3" stroke-width="2"/>
+<text x="55" y="331" fill="#18354b" font-size="22">丙｜顶 2 与更高的顶 4 之间，底 3 不够成笔</text>
+<g id="keep-later">
+<rect x="253" y="352" width="264" height="141" fill="#e0eef3" rx="8"/>
+<rect x="581" y="352" width="270" height="141" fill="#d7ebe5" rx="8"/>
+<line x1="131" y1="408" x2="131" y2="438.4" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<line x1="214" y1="385.20000000000005" x2="214" y2="415.6" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<line x1="297" y1="400.4" x2="297" y2="430.8" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<line x1="380" y1="370" x2="380" y2="408" stroke="#147662" stroke-width="7" stroke-linecap="round"/>
+<line x1="463" y1="392.8" x2="463" y2="423.2" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<line x1="546" y1="408" x2="546" y2="438.4" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<line x1="629" y1="423.2" x2="629" y2="453.6" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<line x1="712" y1="438.4" x2="712" y2="468.8" stroke="#147662" stroke-width="7" stroke-linecap="round"/>
+<line x1="795" y1="430.8" x2="795" y2="461.2" stroke="#1b637e" stroke-width="7" stroke-linecap="round"/>
+<line x1="380" y1="370" x2="712" y2="469" stroke="#975b13" stroke-width="3"/>
+<text x="193" y="368" fill="#a83f32" font-size="25">×</text>
+<text x="280" y="454" fill="#a83f32" font-size="24">×</text>
+<text x="127" y="503" fill="#18354b" font-size="17">1</text>
+<text x="210" y="503" fill="#18354b" font-size="17">2</text>
+<text x="293" y="503" fill="#18354b" font-size="17">3</text>
+<text x="376" y="503" fill="#18354b" font-size="17">4</text>
+<text x="459" y="503" fill="#18354b" font-size="17">5</text>
+<text x="542" y="503" fill="#18354b" font-size="17">6</text>
+<text x="625" y="503" fill="#18354b" font-size="17">7</text>
+<text x="708" y="503" fill="#18354b" font-size="17">8</text>
+<text x="791" y="503" fill="#18354b" font-size="17">9</text>
+<text x="543" y="467" fill="#975b13" font-size="18">独立</text>
+</g>
+<text x="54" y="531" fill="#18354b" font-size="18">舍去顶 2；底 3 与相邻顶共享 K 线。顶 4、底 8 之间有独立的第 6 根。</text>
+</g>
+</svg>

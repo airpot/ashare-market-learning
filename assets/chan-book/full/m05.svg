@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 383" role="img" aria-labelledby="title">
+<title id="title">合成图｜一个顶分型，两道中点</title>
+<rect width="1000" height="383" rx="16" fill="#f5f9fc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" fill="#18354b">
+<text x="35" y="44" font-size="26" font-weight="bold">合成图｜一个顶分型，两道中点</text>
+<path d="M93 72V323H912" fill="none" stroke="#7892a1" stroke-width="2"/>
+<path d="M130 155H900 M130 227H900" fill="none" stroke="#986e28" stroke-width="2" stroke-dasharray="7 5"/>
+<g stroke="#176881" stroke-width="5"><path d="M245 173V281 M465 83V227 M685 155V299"/></g>
+<g fill="#176881"><rect x="232" y="191" width="26" height="72"/><rect x="452" y="155" width="26" height="36"/><rect x="672" y="236" width="26" height="10"/></g>
+<text x="478" y="89">顶 21</text><text x="715" y="146">乙中点 17</text><text x="715" y="220">甲中点 13</text>
+<text x="705" y="253">丙收 12.5</text><text x="705" y="301">丙低 9</text><text x="151" y="286">甲低 10</text>
+<text x="229" y="352">甲</text><text x="449" y="352">乙</text><text x="669" y="352">丙</text>
+</g>
+</svg>

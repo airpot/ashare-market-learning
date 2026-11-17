@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="t">
+<title id="t">上下上交在窄带，后一个高点仍可很低</title>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:20px;fill:#192f42} .title{font-size:25px;font-weight:700} .small{font-size:17px} .axis{stroke:#667b8a;stroke-width:2;fill:none} .dash{stroke-dasharray:7 5} .blue,.orange,.green{stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#17658c}.orange{stroke:#aa4f23}.green{stroke:#22745f}.band{fill:#dcece6;stroke:#8faf9f}.node{fill:#eff5f9;stroke:#6a8da7;stroke-width:2}.warn{fill:#fff0e2;stroke:#c88665;stroke-width:2}</style>
+<rect width="960" height="320" fill="#fbfcfe"/>
+<text x="34" y="39" class="title">上下上交在窄带，后一个高点仍可很低</text>
+<path d="M90 68V248H848" class="axis"/><rect x="90" y="218" width="758" height="5" class="band"/><path d="M120 223L325 78L550 229L790 219" class="blue"/><path d="M550 234V260" class="axis"/><text x="98" y="208">10</text><text x="312" y="70">15</text><text x="534" y="282">9.8</text><text x="770" y="203">10.1</text><text x="577" y="175">三段共同经过 [10, 10.1]</text>
+<text x="34" y="303" class="small">合成走势｜纵轴为价格；折点是结构位置</text>
+</svg>

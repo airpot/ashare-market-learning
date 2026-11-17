@@ -1,0 +1,51 @@
+{
+  "id": "vp03",
+  "symbol": "sh605255",
+  "name": "天普股份",
+  "cutoff": "2026-07-08",
+  "family": "pull",
+  "first_day": "2026-06-08",
+  "last_day": "2026-07-15",
+  "anchor": "2026-07-03",
+  "edge": "68.100",
+  "previous_close": "72.420",
+  "signal": {
+    "date": "2026-07-08",
+    "open": "73.150",
+    "high": "75.490",
+    "low": "70.300",
+    "close": "71.690",
+    "volume_shares": "1311100"
+  },
+  "average_5": "1899951.2",
+  "average_20": "1640560.8",
+  "ratio_5": "0.690070",
+  "ratio_20": "0.799178",
+  "return_vs_prior_pct": "-1.008009",
+  "return_vs_open_pct": "-1.995899",
+  "background_return_pct": "10.077519",
+  "qualified": true,
+  "branch": "守住",
+  "followup": [
+    {
+      "date": "2026-07-09",
+      "close": "73.230"
+    },
+    {
+      "date": "2026-07-10",
+      "close": "70.620"
+    },
+    {
+      "date": "2026-07-13",
+      "close": "72.050"
+    },
+    {
+      "date": "2026-07-14",
+      "close": "79.260"
+    },
+    {
+      "date": "2026-07-15",
+      "close": "87.190"
+    }
+  ]
+}

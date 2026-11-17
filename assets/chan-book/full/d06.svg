@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-labelledby="title"><title id="title">历史衍生示意｜从 187 的前导走势至 195 的确认</title>
+<rect width="1000" height="320" rx="18" fill="#f5fafb"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#15324b">
+<text x="34" y="37" font-size="25" font-weight="bold">历史衍生示意｜从 187 的前导走势至 195 的确认</text>
+<path d="M62 247h884M62 73v174" stroke="#8ca8b7" fill="none"/>
+<rect x="197" y="117" width="409" height="67" fill="#8dbed5" opacity=".34"/><text x="211" y="140">189 起的观察带</text>
+<path d="M83 194L131 208L204 101L294 176L389 79L480 151L554 102L658 219L747 188L863 239" stroke="#176c9a" stroke-width="4" fill="none"/>
+<g fill="#176c9a"><circle cx="83" cy="194" r="5"/><circle cx="131" cy="208" r="5"/><circle cx="204" cy="101" r="5"/><circle cx="294" cy="176" r="5"/><circle cx="389" cy="79" r="6"/><circle cx="480" cy="151" r="5"/><circle cx="554" cy="102" r="5"/><circle cx="658" cy="219" r="5"/><circle cx="747" cy="188" r="6"/><circle cx="863" cy="239" r="5"/></g>
+<text x="74" y="169">187</text><text x="111" y="236">188</text><text x="190" y="88">189</text><text x="274" y="204">190</text><text x="405" y="82">191：6004.79</text><text x="462" y="177">192</text><text x="540" y="88">193</text><text x="637" y="243">194</text><text x="752" y="169">195：首回未入</text><text x="811" y="271">196：5740.40</text>
+<text x="65" y="299">仅重绘价格编号与相对高低；观察带不标精确上下界，成交量和 MACD 未重绘。</text>
+</g></svg>

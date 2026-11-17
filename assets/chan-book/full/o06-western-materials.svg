@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 1190" role="img" aria-labelledby="west-title west-desc">
+<title id="west-title">西部材料三层区间套：价格形态、中枢与比较窗</title>
+<desc id="west-desc">依据 PDF 物理第39页 P39I01、P39I02、P39I03 手绘的原创结构示意。不重建实际 OHLC 或 MACD；各层横轴、纵轴不按比例。</desc>
+<rect width="1120" height="1190" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="17">
+<text x="38" y="39" font-size="28" font-weight="bold">西部材料三层区间套：先定位目标段，再比较前后</text>
+<text x="38" y="66">历史衍生｜只画价格的相对路径和原图框的位置；各图横轴、纵轴不共用比例。</text>
+<text x="38" y="91">深蓝线：价格示意　浅蓝框：中枢　青线：a　绿线：b　棕框：原 MACD 比较窗定位</text>
+<g transform="translate(0 109)">
+<rect x="31" width="1058" height="333" rx="11" fill="#fff" stroke="#cbd9e3"/>
+<text x="50" y="33" font-size="22" font-weight="bold">① 30 分钟前复权图｜P39I01：两个框下移，锁定末段 a</text>
+<rect x="61" y="58" width="995" height="176" fill="#f7fafc"/>
+<path d="M61 58V234H1056" fill="none" stroke="#8098ac"/>
+<rect x="215" y="102" width="220" height="54" fill="#dcecf4" stroke="#627e94" stroke-width="1.5"/><text x="238" y="92" font-size="16">第一中枢框</text>
+<rect x="624" y="160" width="226" height="29" fill="#dcecf4" stroke="#627e94" stroke-width="1.5"/><text x="676" y="139" font-size="16">第二中枢框</text>
+<polyline points="63,224 76,230 85,199 99,178 110,167 125,143 138,142 149,108 158,81 171,122 179,106 194,155 208,173 225,145 242,102 263,126 275,136 291,130 313,154 331,135 350,96 366,131 380,139 395,131 419,149 437,140 454,155 475,153 491,164 507,160 523,169 545,160 566,184 578,172 590,199 604,192 617,206 640,164 651,174 670,185 684,174 704,143 721,152 738,168 755,172 773,181 792,186 807,194 821,161 830,176 847,197 860,191 874,205 887,200 903,212 922,223 935,201 948,205 961,192 975,201 990,191 1007,183 1021,153 1047,146" fill="none" stroke="#285874" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M704 143L922 223" fill="none" stroke="#147f88" stroke-width="2.5" stroke-dasharray="7 5"/><text x="895" y="156" fill="#147f88" font-size="16" font-weight="bold">a → 图②放大</text>
+<circle cx="158" cy="81" r="4" fill="#1b536d"/><text x="175" y="79" font-size="15">60.80</text>
+<circle cx="76" cy="230" r="4" fill="#1b536d"/><text x="80" y="246" font-size="15">40.16</text>
+<rect x="61" y="255" width="995" height="28" rx="4" fill="#f4eee5"/>
+<path d="M148 234V255M304 234V255" stroke="#ab8664" stroke-dasharray="3 4"/><rect x="148" y="255" width="156" height="28" rx="4" fill="#efdfc8" stroke="#a97b51"/><text x="226" y="275" font-size="15" text-anchor="middle">前窗</text>
+<path d="M376 234V255M634 234V255" stroke="#ab8664" stroke-dasharray="3 4"/><rect x="376" y="255" width="258" height="28" rx="4" fill="#efdfc8" stroke="#a97b51"/><text x="505" y="275" font-size="15" text-anchor="middle">中窗</text>
+<path d="M805 234V255M929 234V255" stroke="#ab8664" stroke-dasharray="3 4"/><rect x="805" y="255" width="124" height="28" rx="4" fill="#efdfc8" stroke="#a97b51"/><text x="867" y="275" font-size="15" text-anchor="middle">后窗</text>
+<text x="53" y="307" font-size="15">第一框的两次上折：第一处约触上沿，第二处略越上沿；只读图上位置。</text>
+<text x="53" y="326" font-size="15">原指标图有三处框；后窗在 a 的末部。只标原框位置，不指定三框的精确力度关系。</text>
+</g>
+<g transform="translate(0 469)">
+<rect x="31" width="1058" height="333" rx="11" fill="#fff" stroke="#cbd9e3"/>
+<text x="50" y="33" font-size="22" font-weight="bold">② 5 分钟前复权图｜P39I02：放大 a，围绕一个框再圈 b</text>
+<rect x="61" y="58" width="995" height="176" fill="#f7fafc"/>
+<path d="M61 58V234H1056" fill="none" stroke="#8098ac"/>
+<rect x="430" y="156" width="445" height="30" fill="#dcecf4" stroke="#627e94" stroke-width="1.5"/><text x="492" y="204" font-size="16">中枢框</text>
+<polyline points="61,161 78,177 89,160 101,170 115,143 126,150 140,77 152,110 164,100 178,117 194,110 211,131 224,120 241,147 254,137 272,145 287,135 304,154 326,146 347,164 365,149 385,173 403,166 417,175 438,168 456,178 467,164 482,173 507,185 520,159 535,131 548,105 562,133 577,139 595,160 615,173 629,162 648,184 664,199 679,207 693,177 713,180 732,189 750,195 768,182 784,173 803,157 817,172 835,165 852,172 866,168 877,188 895,181 911,197 927,200 942,195 958,207 973,213 991,224 1001,225 1011,205 1022,176 1035,184 1047,164" fill="none" stroke="#285874" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M140 77L1001 225" fill="none" stroke="#147f88" stroke-width="2.5" stroke-dasharray="7 5"/><text x="463" y="82" fill="#147f88" font-size="16" font-weight="bold">a：从图①带入</text>
+<path d="M803 157L1001 225" fill="none" stroke="#68802c" stroke-width="2.5" stroke-dasharray="7 5"/><text x="894" y="149" fill="#68802c" font-size="16" font-weight="bold">b → 图③放大</text>
+<circle cx="140" cy="77" r="4" fill="#1b536d"/><text x="156" y="75" font-size="15">48.60</text>
+<circle cx="1001" cy="225" r="4" fill="#1b536d"/><text x="1010" y="236" font-size="15">40.60</text>
+<rect x="61" y="255" width="995" height="28" rx="4" fill="#f4eee5"/>
+<path d="M151 234V255M511 234V255" stroke="#ab8664" stroke-dasharray="3 4"/><rect x="151" y="255" width="360" height="28" rx="4" fill="#efdfc8" stroke="#a97b51"/><text x="331" y="275" font-size="15" text-anchor="middle">前窗：较早同向下跌</text>
+<path d="M798 234V255M1008 234V255" stroke="#ab8664" stroke-dasharray="3 4"/><rect x="798" y="255" width="210" height="28" rx="4" fill="#efdfc8" stroke="#a97b51"/><text x="903" y="275" font-size="15" text-anchor="middle">后窗：b 末段</text>
+<text x="53" y="307" font-size="15">a 内先长跌，后冲出框上方再跌到框下，又返回框上沿附近；从这里跟随后一段 b。</text>
+<text x="53" y="326" font-size="15">对照首、尾两个已框的同向下行窗口；中间有波动，但不是这两个比较窗。</text>
+</g>
+<g transform="translate(0 829)">
+<rect x="31" width="1058" height="333" rx="11" fill="#fff" stroke="#cbd9e3"/>
+<text x="50" y="33" font-size="22" font-weight="bold">③ 1 分钟前复权图｜P39I03：放大 b，比较一个框前后的两跌</text>
+<rect x="61" y="58" width="995" height="176" fill="#f7fafc"/>
+<path d="M61 58V234H1056" fill="none" stroke="#8098ac"/>
+<rect x="283" y="138" width="360" height="34" fill="#dcecf4" stroke="#627e94" stroke-width="1.5"/><text x="374" y="191" font-size="16">中枢框</text>
+<polyline points="64,103 83,98 102,101 121,94 143,82 157,94 174,98 203,98 218,108 231,128 250,142 267,151 284,165 295,145 309,150 326,159 344,163 356,155 371,151 385,159 400,152 414,154 431,150 447,160 464,158 480,165 497,158 513,157 529,148 546,148 561,156 577,162 596,155 610,156 627,161 642,164 655,183 670,188 686,184 702,192 714,211 730,203 747,209 765,217 780,212 795,228 808,213 821,207 840,204 851,207 870,209 882,213 894,204 906,185 918,115 930,105 942,126 953,113 966,130 977,111 989,120 1003,125 1017,118 1032,128 1047,124" fill="none" stroke="#285874" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M156 72L795 228" fill="none" stroke="#68802c" stroke-width="2.5" stroke-dasharray="7 5"/><text x="528" y="90" fill="#68802c" font-size="16" font-weight="bold">b：从图②带入</text>
+<path d="M194 98V65M194 65L215 68" fill="none" stroke="#285874" stroke-width="1.5"/><text x="219" y="72" font-size="15">43.68</text>
+<circle cx="795" cy="228" r="4" fill="#1b536d"/><text x="804" y="241" font-size="15">40.60</text>
+<rect x="61" y="255" width="995" height="28" rx="4" fill="#f4eee5"/>
+<path d="M120 234V255M288 234V255" stroke="#ab8664" stroke-dasharray="3 4"/><rect x="120" y="255" width="168" height="28" rx="4" fill="#efdfc8" stroke="#a97b51"/><text x="204" y="275" font-size="15" text-anchor="middle">前窗：进框前的下跌</text>
+<path d="M637 234V255M785 234V255" stroke="#ab8664" stroke-dasharray="3 4"/><rect x="637" y="255" width="148" height="28" rx="4" fill="#efdfc8" stroke="#a97b51"/><text x="711" y="275" font-size="15" text-anchor="middle">后窗：破框后的下跌</text>
+<text x="53" y="307" font-size="15">依次找前窗左边、早段价格峰、绿色 b 起笔、43.68 的原标上影。</text>
+<text x="53" y="326" font-size="15">后窗在 40.60 之前闭合，右侧急升在窗外。指标窗不替代价格转折，也不表示 MACD 面积。</text>
+</g>
+</g></svg>

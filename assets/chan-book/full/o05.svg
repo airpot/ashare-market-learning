@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 335" role="img" aria-labelledby="title desc">
+<title id="title">顶底是构造区间</title><desc id="desc">合成例｜同一筑底区，[10,12] 两侧首返决定确认或失败</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="335" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">顶底是构造区间</text>
+<text x="40" y="70" font-size="16">合成例｜同一筑底区，[10,12] 两侧首返决定确认或失败</text>
+<rect x="105" y="161" width="748" height="61" fill="#d4e5ef"/><path d="M70 161H889M70 222H889" stroke="#527995" stroke-dasharray="6 6"/>
+<text x="40" y="166">12</text><text x="40" y="228">10</text>
+<path d="M115 283L245 161L320 222L468 161" fill="none" stroke="#496d89" stroke-width="4"/>
+<path d="M468 161L540 191.5L598 115.25L714 148.8L827 102" fill="none" stroke="#1a8274" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M468 161L598 258.6L714 231.15L827 279" fill="none" stroke="#b45e39" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="95" y="302">一买 8</text><text x="242" y="277" font-size="16">第三段完成，确认 [10,12]</text>
+<g fill="#1a8274">
+<circle cx="540" cy="191.5" r="4"/><circle cx="598" cy="115.25" r="4"/><circle cx="714" cy="148.8" r="4"/>
+<path d="M518 125L539 185M707 98L714 143" stroke="#1a8274" fill="none"/>
+<text x="432" y="119" font-size="16">11：反向段完成</text><text x="581" y="102">13.5</text><text x="698" y="94">甲 12.4：三买先到</text>
+</g>
+<g fill="#a14e2a">
+<circle cx="598" cy="258.6" r="4"/><circle cx="714" cy="231.15" r="4"/>
+<text x="586" y="284">8.8</text><text x="727" y="215">乙 9.7：三卖先到</text>
+</g>
+</g></svg>

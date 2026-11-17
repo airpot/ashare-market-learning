@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 411" role="img" aria-labelledby="title desc">
+<title id="title">合成状态图｜两周期各自取得证据</title>
+<desc id="desc">5 分钟顶分型构造中及顶已确认而反向笔待核，均用 (+1,0)。反向成笔才用 (−1,1)；有原向延伸证据则回到 (+1,1)。</desc>
+<rect width="1000" height="411" rx="18" fill="#f5fafb"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#15324b">
+<text x="34" y="38" font-size="25" font-weight="bold">合成状态图｜两周期各自取得证据</text>
+<text x="36" y="107">1 分钟</text><text x="36" y="209">5 分钟</text>
+<g stroke="#176c9a" stroke-width="3" fill="none">
+<path d="M235 101H280"/><path d="M413 101H457"/>
+<path d="M235 202H280"/><path d="M413 202H457"/><path d="M595 202H629"/><path d="M803 202H842"/>
+<path d="M527 244V286H842"/><path d="M716 244V286"/>
+</g>
+<path fill="#176c9a" d="M280 101l-9 -4v8zM457 101l-9 -4v8zM280 202l-9 -4v8zM457 202l-9 -4v8zM629 202l-9 -4v8zM842 202l-9 -4v8zM842 286l-9 -4v8z"/>
+<g fill="#eff8fc" stroke="#7ea4b7" stroke-width="2">
+<rect x="124" y="79" width="108" height="44" rx="9"/><rect x="284" y="79" width="126" height="44" rx="9"/><rect x="462" y="79" width="130" height="44" rx="9"/>
+<rect x="124" y="180" width="108" height="44" rx="9"/><rect x="284" y="180" width="126" height="44" rx="9"/>
+<rect x="462" y="163" width="130" height="78" rx="9"/><rect x="634" y="163" width="166" height="78" rx="9"/>
+<rect x="847" y="163" width="119" height="78" rx="9"/><rect x="847" y="255" width="119" height="63" rx="9"/>
+</g>
+<g>
+<text text-anchor="middle" x="178" y="108">(+1,1)</text><text text-anchor="middle" x="347" y="108">(+1,0)</text><text text-anchor="middle" x="527" y="108">(−1,1)</text>
+<text text-anchor="middle" x="178" y="209">(+1,1)</text><text text-anchor="middle" x="347" y="209">(+1,1)</text>
+<text text-anchor="middle" x="527" y="192">(+1,0)</text><text text-anchor="middle" x="527" y="220" font-size="18">顶构造中</text>
+<text text-anchor="middle" x="717" y="186">(+1,0)</text><text text-anchor="middle" x="717" y="208" font-size="18">顶已确认</text><text text-anchor="middle" x="717" y="230" font-size="17">反向笔待核</text>
+<text text-anchor="middle" x="906" y="192">(−1,1)</text><text text-anchor="middle" x="906" y="220" font-size="17">反向成笔</text>
+<text text-anchor="middle" x="906" y="280">(+1,1)</text><text text-anchor="middle" x="906" y="303" font-size="17">原向延伸</text>
+</g>
+<path d="M347 125v7m0 5v7m0 5v7m0 5v7m0 5v3M527 125v7m0 5v7m0 5v7" stroke="#07856f" stroke-width="2"/>
+<text x="247" y="154" font-size="18">低层先警告</text><text x="545" y="150" font-size="18">高层另核</text>
+<text x="535" y="315" font-size="17">候选消散或顶失去端点资格，且证实续涨</text>
+<text x="124" y="346" font-size="18">图示低层已满足先决条件的路径；仍须本周期证据，不能借低层直接改高层码。</text>
+<text x="124" y="373" font-size="17">课堂约定：单见高点先不改码；独立右邻未收盘、两端均低，才标顶构造中。</text>
+<text x="124" y="396" font-size="17">右邻收盘后再核几何；若确认顶，另记当时的确认时刻。</text>
+</g></svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img" aria-labelledby="title desc">
+<title id="title">两组不重叠的中枢：新中心后的两个回试</title>
+<desc id="desc">合成例。旧中枢核心是十一至十五，新中枢是十七至二十。C 在十六结束，下个交易时段跳空到二十一；缺口独立连接两组。两种首次返回最低分别为二十点四与十九点七。</desc>
+<rect width="1000" height="460" rx="16" fill="#f5f9fb"/>
+<g fill="#192f42" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17">
+<text x="35" y="47" font-size="26" font-weight="bold">两组不重叠的中枢：新中心后的两个回试</text>
+<text x="35" y="79">合成例｜纵向按价格；横向表示先后，连接段不计入两组构件。</text>
+<rect x="75" y="293" width="245" height="56" fill="#cde4f2"/>
+<rect x="465" y="223" width="421" height="42" fill="#cce8dc"/>
+<path d="M64 118V380H940" stroke="#95aab7" fill="none"/>
+<path d="M64 293H320M64 349H320M465 223H886M465 265H886" stroke="#7e9aac" stroke-dasharray="5 5" fill="none"/>
+<g fill="#35546a" font-size="16">
+<text x="95" y="242">旧构件外围 [10,16]</text><text x="95" y="266">旧核心 [11,15]</text>
+<text x="475" y="153">新构件外围 [17,21]</text><text x="475" y="177">新核心 [17,20]</text>
+</g>
+<path d="M79 363L160 293L240 349L320 279" stroke="#236a95" fill="none" stroke-width="4"/>
+<path d="M331 274L360 260M371 254L399 241M410 235L438 222M449 217L455 214" stroke="#637c8a" fill="none" stroke-width="4"/>
+<path d="M465 209L535 265L600 223L665 265L740 167" stroke="#236a95" fill="none" stroke-width="4"/>
+<path d="M740 167L847 217.4" stroke="#196d50" fill="none" stroke-width="4"/>
+<path d="M740 167L847 227.2" stroke="#a45031" fill="none" stroke-width="4" stroke-dasharray="7 5"/>
+<g fill="#236a95">
+<circle cx="79" cy="363" r="4"/><circle cx="160" cy="293" r="4"/><circle cx="240" cy="349" r="4"/><circle cx="320" cy="279" r="4"/>
+<circle cx="465" cy="209" r="4"/><circle cx="535" cy="265" r="4"/><circle cx="600" cy="223" r="4"/><circle cx="665" cy="265" r="4"/><circle cx="740" cy="167" r="4"/>
+</g>
+<g font-size="16">
+<text x="78" y="354">10</text><text x="145" y="284">A 15</text><text x="221" y="372">B 11</text><text x="302" y="269">C 16</text>
+<text x="333" y="307">跳空连接（低于 30 分钟）</text><text x="435" y="201">21</text><text x="526" y="286">17</text><text x="588" y="214">20</text>
+<text x="655" y="286">17</text><text x="725" y="155">D 24</text>
+</g>
+<circle cx="847" cy="217.4" r="5" fill="#196d50"/><circle cx="847" cy="227.2" r="5" fill="#a45031"/>
+<path d="M847 217.4L866 189H904" stroke="#196d50" fill="none"/>
+<path d="M847 227.2L876 277H904" stroke="#a45031" fill="none"/>
+<text x="856" y="179" font-size="16">E 甲 20.4</text><text x="856" y="300" font-size="16">E 乙 19.7</text>
+<text x="35" y="412">新组最低 17＞旧组最高 16；构件和连接均合格，才记新中枢。甲在界外，乙有入带价。</text>
+<text x="35" y="438" font-size="16">题设：C 已在 16 结束，下一时段跳空至 21。虚线不表示中间成交，也不计入任一组三段。</text>
+</g></svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 335" role="img" aria-labelledby="title desc">
+<title id="title">三个程序怎样组合</title><desc id="desc">合成例｜相同的三个边际概率，两种失败定义</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="335" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">三个程序怎样组合</text>
+<text x="40" y="70" font-size="16">合成例｜相同的三个边际概率，两种失败定义</text>
+<path d="M115 112H800M478 113V145" fill="none" stroke="#426079" stroke-width="2"/>
+<g fill="#dceaf4" stroke="#426079"><circle cx="150" cy="112" r="26"/><circle cx="478" cy="112" r="26"/><circle cx="800" cy="112" r="26"/></g>
+<g text-anchor="middle"><text x="150" y="118">30%</text><text x="478" y="118">40%</text><text x="800" y="118">30%</text></g>
+<path d="M478 144L238 194M478 144L713 194" stroke="#426079" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="79" y="204" width="275" height="72" rx="9" fill="#d6eee5"/><rect x="581" y="204" width="294" height="72" rx="9" fill="#f5e3c9"/>
+<text x="100" y="232">全失败：3.6%</text><text x="100" y="257">0.3 × 0.4 × 0.3</text>
+<text x="600" y="232">至少一项失败：70.6%</text><text x="600" y="257">1 − 0.7 × 0.6 × 0.7</text>
+<text x="40" y="312">图中乘法以相互独立为前提；样本次数另行统计。</text>
+</g></svg>

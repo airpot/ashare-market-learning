@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 335" role="img" aria-labelledby="title desc">
+<title id="title">暴跌中的逐时决策</title><desc id="desc">历史衍生｜2007-04-19 书中节点；纵向只表示相对位置</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="335" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">暴跌中的逐时决策</text>
+<text x="40" y="70" font-size="16">历史衍生｜2007-04-19 书中节点；纵向只表示相对位置</text>
+<rect x="305" y="128" width="252" height="39" fill="#c7dfe9"/><text x="373" y="96" font-size="16">当日 10:30–13:30 三线重叠</text>
+<path d="M97 121L230 187L320 143L403 160L478 145L554 163L621 217L670 184L776 252L866 186" fill="none" stroke="#35627b" stroke-width="4"/>
+<path d="M554 168H890M670 186H879" stroke="#a07458" stroke-dasharray="6 6"/>
+<circle cx="320" cy="143" r="6" fill="#ae5637"/><circle cx="776" cy="252" r="6" fill="#ae5637"/>
+<g font-size="16"><text x="152" y="116">早跌</text><text x="250" y="123">11:08 对前日核心三卖</text><text x="542" y="117">13:30 有重叠</text><text x="617" y="264">书标 14:43 分笔背驰</text><text x="733" y="198">最后小反弹参考</text></g>
+<text x="41" y="310">书称尾盘回到最后一个小反弹处，尚不能据此认定回到整个日内核心。</text>
+</g></svg>

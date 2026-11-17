@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 403" role="img" aria-labelledby="title">
+<title id="title">合成图｜独立一根与两种计数</title>
+<rect width="1000" height="403" rx="16" fill="#f5f9fc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" fill="#18354b">
+<text x="35" y="44" font-size="26" font-weight="bold">合成图｜独立一根与两种计数</text>
+<rect x="92" y="80" width="335" height="241" fill="#e2eef2"/><rect x="580" y="80" width="335" height="241" fill="#e2eef2"/>
+<path d="M123 130V178 M246 82V146 M368 146V194 M491 178V226 M614 210V258 M737 242V290 M860 226V274" stroke="#176881" stroke-width="8"/>
+<path d="M246 82L737 290" stroke="#a96910" stroke-width="4" stroke-dasharray="7 6"/>
+<text x="260" y="104">19</text><text x="748" y="290">6</text><text x="446" y="261">独立</text>
+<g font-size="19"><text x="117" y="310">1</text><text x="240" y="310">2</text><text x="363" y="310">3</text><text x="486" y="310">4</text><text x="609" y="310">5</text><text x="732" y="310">6</text><text x="854" y="310">7</text></g>
+<path d="M246 329V340H737V329 M123 363V375H860V363" stroke="#718e9c" stroke-width="2" fill="none"/>
+<text x="389" y="360">中心至中心 5 根</text><text x="391" y="397">完整展示 7 根</text>
+</g>
+</svg>

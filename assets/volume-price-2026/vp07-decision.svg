@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 940" role="img" aria-label="中芯国际 · VP07 · 截点原图" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="17" fill="#24354b">
+<title>中芯国际 · VP07 · 截点原图</title>
+<desc>日线开高低收与成交量；交易观察等距排列，红涨绿跌灰平（收盘对开盘）。标注为调用方给定的解释，未推断未来走势。</desc>
+<rect width="1440" height="940" rx="20" fill="#ffffff"/>
+<text x="112" y="43" font-size="26" font-weight="700">中芯国际 · VP07 · 截点原图</text>
+<text x="112" y="82" >2026-02-24 至 2026-03-25 · UTC+8 · 日线 · 22 根</text>
+<text x="112" y="115" font-weight="600">价格（元/股）</text>
+<g class="price-axis" data-min="95.57560" data-max="119.85440" data-top="150" data-bottom="570">
+<line x1="112" y1="570" x2="1320" y2="570" stroke="#dde5ed" />
+<text x="98" y="576" text-anchor="end" font-size="14">95.58</text>
+<line x1="112" y1="486" x2="1320" y2="486" stroke="#dde5ed" />
+<text x="98" y="492" text-anchor="end" font-size="14">100.43</text>
+<line x1="112" y1="402" x2="1320" y2="402" stroke="#dde5ed" />
+<text x="98" y="408" text-anchor="end" font-size="14">105.29</text>
+<line x1="112" y1="318" x2="1320" y2="318" stroke="#dde5ed" />
+<text x="98" y="324" text-anchor="end" font-size="14">110.14</text>
+<line x1="112" y1="234" x2="1320" y2="234" stroke="#dde5ed" />
+<text x="98" y="240" text-anchor="end" font-size="14">115.00</text>
+<line x1="112" y1="150" x2="1320" y2="150" stroke="#dde5ed" />
+<text x="98" y="156" text-anchor="end" font-size="14">119.85</text>
+<line x1="112" y1="150" x2="112" y2="570" stroke="#dde5ed" />
+</g>
+<text x="112" y="618" font-weight="600">成交量（股）</text>
+<g class="volume-axis" data-min="0" data-max="60590544.00" data-top="640" data-bottom="780">
+<line x1="112" y1="780" x2="1320" y2="780" stroke="#dde5ed" />
+<text x="98" y="786" text-anchor="end" font-size="14">0</text>
+<line x1="112" y1="710" x2="1320" y2="710" stroke="#dde5ed" />
+<text x="98" y="716" text-anchor="end" font-size="14">30,295,272</text>
+<line x1="112" y1="640" x2="1320" y2="640" stroke="#dde5ed" />
+<text x="98" y="646" text-anchor="end" font-size="14">60,590,544</text>
+</g>
+<g class="candle" data-date="2026-02-24">
+<title>2026-02-24 开 118.03 高 118.18 低 115.62 收 115.82 元/股；量 27615568 股</title>
+<line x1="139.454545" y1="178.965517" x2="139.454545" y2="223.251067" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="130.454545" y="181.560374" width="18" height="38.230885" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-02-24" x="130.454545" y="716.191701" width="18" height="63.808299" fill="#087f5b"><title>2026-02-24 成交量 27615568 股</title></rect>
+<g class="candle" data-date="2026-02-25">
+<title>2026-02-25 开 117 高 117.5 低 115.85 收 116.13 元/股；量 27552856 股</title>
+<line x1="194.363636" y1="190.728866" x2="194.363636" y2="219.272287" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="185.363636" y="199.378388" width="18" height="15.050167" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-02-25" x="185.363636" y="716.336603" width="18" height="63.663397" fill="#087f5b"><title>2026-02-25 成交量 27552856 股</title></rect>
+<g class="candle" data-date="2026-02-26">
+<title>2026-02-26 开 116.13 高 117.23 低 114.29 收 116.65 元/股；量 32702183 股</title>
+<line x1="249.272727" y1="195.399608" x2="249.272727" y2="246.258794" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="240.272727" y="205.433053" width="18" height="8.995502" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-02-26" x="240.272727" y="704.438612" width="18" height="75.561388" fill="#c53643"><title>2026-02-26 成交量 32702183 股</title></rect>
+<g class="candle" data-date="2026-02-27">
+<title>2026-02-27 开 115.03 高 115.87 低 114.32 收 115 元/股；量 27930878 股</title>
+<line x1="304.181818" y1="218.926306" x2="304.181818" y2="245.739822" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="295.181818" y="233.457502" width="18" height="0.518971" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-02-27" x="295.181818" y="715.463149" width="18" height="64.536851" fill="#087f5b"><title>2026-02-27 成交量 27930878 股</title></rect>
+<g class="candle" data-date="2026-03-02">
+<title>2026-03-02 开 112.88 高 114.2 低 112.3 收 112.53 元/股；量 34978475 股</title>
+<line x1="359.090909" y1="247.815708" x2="359.090909" y2="280.683889" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="350.090909" y="270.650444" width="18" height="6.054665" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-02" x="350.090909" y="699.179031" width="18" height="80.820969" fill="#087f5b"><title>2026-03-02 成交量 34978475 股</title></rect>
+<g class="candle" data-date="2026-03-03">
+<title>2026-03-03 开 113.23 高 114.75 低 107.69 收 108.31 元/股；量 54098700 股</title>
+<line x1="414" y1="238.301234" x2="414" y2="360.432476" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="405" y="264.595779" width="18" height="85.111291" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-03" x="405" y="655" width="18" height="125" fill="#087f5b"><title>2026-03-03 成交量 54098700 股</title></rect>
+<g class="candle" data-date="2026-03-04">
+<title>2026-03-04 开 107.32 高 109.7 低 106.12 收 106.69 元/股；量 32274958 股</title>
+<line x1="468.909091" y1="325.6614" x2="468.909091" y2="387.591973" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="459.909091" y="366.833122" width="18" height="10.898397" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-04" x="459.909091" y="705.425754" width="18" height="74.574246" fill="#087f5b"><title>2026-03-04 成交量 32274958 股</title></rect>
+<g class="candle" data-date="2026-03-05">
+<title>2026-03-05 开 108.6 高 109.26 低 106.09 收 106.9 元/股；量 35353181 股</title>
+<line x1="523.818182" y1="333.272979" x2="523.818182" y2="388.110945" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="514.818182" y="344.690347" width="18" height="29.408373" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-05" x="514.818182" y="698.313238" width="18" height="81.686762" fill="#087f5b"><title>2026-03-05 成交量 35353181 股</title></rect>
+<g class="candle" data-date="2026-03-06">
+<title>2026-03-06 开 107 高 108.34 低 106.17 收 106.5 元/股；量 34048616 股</title>
+<line x1="578.727273" y1="349.188098" x2="578.727273" y2="386.727021" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="569.727273" y="372.368816" width="18" height="8.649521" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-06" x="569.727273" y="701.327555" width="18" height="78.672445" fill="#087f5b"><title>2026-03-06 成交量 34048616 股</title></rect>
+<g class="candle" data-date="2026-03-09">
+<title>2026-03-09 开 103.97 高 105.79 低 101.63 收 105.14 元/股；量 39355967 股</title>
+<line x1="633.636364" y1="393.300657" x2="633.636364" y2="465.264675" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="624.636364" y="404.545035" width="18" height="20.23988" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-09" x="624.636364" y="689.064435" width="18" height="90.935565" fill="#c53643"><title>2026-03-09 成交量 39355967 股</title></rect>
+<g class="candle" data-date="2026-03-10">
+<title>2026-03-10 开 106.9 高 107.75 低 105.7 收 107.28 元/股；量 31832190 股</title>
+<line x1="688.545455" y1="359.394534" x2="688.545455" y2="394.857571" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="679.545455" y="367.525084" width="18" height="6.573636" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-10" x="679.545455" y="706.44881" width="18" height="73.55119" fill="#c53643"><title>2026-03-10 成交量 31832190 股</title></rect>
+<g class="candle" data-date="2026-03-11">
+<title>2026-03-11 开 107.23 高 108.8 低 107 收 107.1 元/股；量 27998297 股</title>
+<line x1="743.454545" y1="341.230539" x2="743.454545" y2="372.368816" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="734.454545" y="368.390036" width="18" height="2.248876" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-11" x="734.454545" y="715.307371" width="18" height="64.692629" fill="#087f5b"><title>2026-03-11 成交量 27998297 股</title></rect>
+<g class="candle" data-date="2026-03-12">
+<title>2026-03-12 开 107 高 108.55 低 104.95 收 106.01 元/股；量 28881977 股</title>
+<line x1="798.363636" y1="345.555299" x2="798.363636" y2="407.831853" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="789.363636" y="372.368816" width="18" height="17.126052" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-12" x="789.363636" y="713.265548" width="18" height="66.734452" fill="#087f5b"><title>2026-03-12 成交量 28881977 股</title></rect>
+<g class="candle" data-date="2026-03-13">
+<title>2026-03-13 开 105.02 高 107.83 低 104.5 收 107.06 元/股；量 34163326 股</title>
+<line x1="853.272727" y1="358.01061" x2="853.272727" y2="415.616423" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="844.272727" y="371.330873" width="18" height="35.290047" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-13" x="844.272727" y="701.062507" width="18" height="78.937493" fill="#c53643"><title>2026-03-13 成交量 34163326 股</title></rect>
+<g class="candle" data-date="2026-03-16">
+<title>2026-03-16 开 106.31 高 110.32 低 105.5 收 108.6 元/股；量 42255497 股</title>
+<line x1="908.181818" y1="314.935994" x2="908.181818" y2="398.31738" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="899.181818" y="344.690347" width="18" height="39.614808" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-16" x="899.181818" y="682.364805" width="18" height="97.635195" fill="#c53643"><title>2026-03-16 成交量 42255497 股</title></rect>
+<g class="candle" data-date="2026-03-17">
+<title>2026-03-17 开 108.54 高 108.58 低 105.99 收 106.02 元/股；量 29571804 股</title>
+<line x1="963.090909" y1="345.036328" x2="963.090909" y2="389.840849" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="954.090909" y="345.72829" width="18" height="43.593588" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-17" x="954.090909" y="711.671639" width="18" height="68.328361" fill="#087f5b"><title>2026-03-17 成交量 29571804 股</title></rect>
+<g class="candle" data-date="2026-03-18">
+<title>2026-03-18 开 105.78 高 106.88 低 105.25 收 106.6 元/股；量 26334592 股</title>
+<line x1="1018" y1="374.444701" x2="1018" y2="402.64214" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1009" y="379.288433" width="18" height="14.185215" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-18" x="1009" y="719.151514" width="18" height="60.848486" fill="#c53643"><title>2026-03-18 成交量 26334592 股</title></rect>
+<g class="candle" data-date="2026-03-19">
+<title>2026-03-19 开 105.01 高 107.69 低 104.51 收 105.96 元/股；量 37865595 股</title>
+<line x1="1072.909091" y1="360.432476" x2="1072.909091" y2="415.443432" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1063.909091" y="390.35982" width="18" height="16.434091" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-19" x="1063.909091" y="692.508076" width="18" height="87.491924" fill="#c53643"><title>2026-03-19 成交量 37865595 股</title></rect>
+<g class="candle" data-date="2026-03-20">
+<title>2026-03-20 开 105.2 高 105.72 低 102.18 收 102.18 元/股；量 38129475 股</title>
+<line x1="1127.818182" y1="394.51159" x2="1127.818182" y2="455.750202" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1118.818182" y="403.507093" width="18" height="52.243109" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-20" x="1118.818182" y="691.898357" width="18" height="88.101643" fill="#087f5b"><title>2026-03-20 成交量 38129475 股</title></rect>
+<g class="candle" data-date="2026-03-23">
+<title>2026-03-23 开 100.01 高 101.99 低 97.4 收 98.04 元/股；量 50667126 股</title>
+<line x1="1182.727273" y1="459.03702" x2="1182.727273" y2="538.439626" stroke="#087f5b" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1173.727273" y="493.289125" width="18" height="34.079114" fill="#087f5b"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-23" x="1173.727273" y="662.928966" width="18" height="117.071034" fill="#087f5b"><title>2026-03-23 成交量 50667126 股</title></rect>
+<g class="candle" data-date="2026-03-24">
+<title>2026-03-24 开 98.9 高 99.37 低 97.25 收 99.25 元/股；量 33680326 股</title>
+<line x1="1237.636364" y1="504.360512" x2="1237.636364" y2="541.034483" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1228.636364" y="506.436397" width="18" height="6.054665" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-24" x="1228.636364" y="702.178523" width="18" height="77.821477" fill="#c53643"><title>2026-03-24 成交量 33680326 股</title></rect>
+<g class="candle" data-date="2026-03-25">
+<title>2026-03-25 开 99.67 高 100.94 低 99.28 收 99.99 元/股；量 32130643 股</title>
+<line x1="1292.545455" y1="477.201015" x2="1292.545455" y2="505.917426" stroke="#c53643" class="wick" stroke-width="1.6"/>
+<rect class="body" x="1283.545455" y="493.635106" width="18" height="5.535694" fill="#c53643"/>
+</g>
+<rect class="volume-bar" data-date="2026-03-25" x="1283.545455" y="705.759207" width="18" height="74.240793" fill="#c53643"><title>2026-03-25 成交量 32130643 股</title></rect>
+<line x1="139.454545" y1="780" x2="139.454545" y2="788" stroke="#24354b" />
+<text x="139.454545" y="816" text-anchor="start" font-size="15">2026-02-24</text>
+<line x1="304.181818" y1="780" x2="304.181818" y2="788" stroke="#24354b" />
+<text x="304.181818" y="816" text-anchor="middle" font-size="15">2026-02-27</text>
+<line x1="523.818182" y1="780" x2="523.818182" y2="788" stroke="#24354b" />
+<text x="523.818182" y="816" text-anchor="middle" font-size="15">2026-03-05</text>
+<line x1="688.545455" y1="780" x2="688.545455" y2="788" stroke="#24354b" />
+<text x="688.545455" y="816" text-anchor="middle" font-size="15">2026-03-10</text>
+<line x1="908.181818" y1="780" x2="908.181818" y2="788" stroke="#24354b" />
+<text x="908.181818" y="816" text-anchor="middle" font-size="15">2026-03-16</text>
+<line x1="1072.909091" y1="780" x2="1072.909091" y2="788" stroke="#24354b" />
+<text x="1072.909091" y="816" text-anchor="middle" font-size="15">2026-03-19</text>
+<line x1="1292.545455" y1="780" x2="1292.545455" y2="788" stroke="#24354b" />
+<text x="1292.545455" y="816" text-anchor="end" font-size="15">2026-03-25</text>
+<text x="112" y="856" font-size="16">红：收＞开　绿：收＜开　灰：收＝开；成交量以股计。标注编号见下方说明。</text>
+</svg>

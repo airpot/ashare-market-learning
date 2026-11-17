@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="t">
+<title id="t">同一个年级核心，两条不同的月层路径</title>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:20px;fill:#192f42} .title{font-size:25px;font-weight:700} .small{font-size:17px} .axis{stroke:#667b8a;stroke-width:2;fill:none} .dash{stroke-dasharray:7 5} .blue,.orange,.green{stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#17658c}.orange{stroke:#aa4f23}.green{stroke:#22745f}.band{fill:#dcece6;stroke:#8faf9f}.node{fill:#eff5f9;stroke:#6a8da7;stroke-width:2}.warn{fill:#fff0e2;stroke:#c88665;stroke-width:2}</style>
+<rect width="960" height="320" fill="#fbfcfe"/>
+<text x="34" y="39" class="title">同一个年级核心，两条不同的月层路径</text>
+<path d="M85 68V265H865" class="axis"/><rect x="90" y="122" width="765" height="66" class="band"/><text x="100" y="146">100</text><text x="100" y="180">80</text><path d="M190 221L340 175" class="blue"/><path d="M530 122L725 69" class="orange"/><path d="M730 76L664 111L668 98M664 111L681 112" class="axis dash"/><text x="202" y="245">70 → 84</text><text x="696" y="104">116</text><text x="375" y="156">年级核心</text>
+<text x="34" y="303" class="small">合成走势｜蓝线是自下回拉，橙线是向上离开</text>
+</svg>

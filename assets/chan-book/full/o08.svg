@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 335" role="img" aria-labelledby="title desc">
+<title id="title">用八根 K 线分类全天</title><desc id="desc">合成例｜八根高低范围，前后三线窗分开；粗竖线表示高低而非开收</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="335" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">用八根 K 线分类全天</text>
+<text x="40" y="70" font-size="16">合成例｜八根高低范围，前后三线窗分开；粗竖线表示高低而非开收</text>
+<path d="M68 273H899" stroke="#527995" stroke-width="2"/>
+<rect x="96" y="224" width="269" height="15" fill="#c4dded"/>
+<rect x="514" y="129" width="359" height="15" fill="#b5e2cf"/>
+<rect x="514" y="136.5" width="359" height="2.5" fill="#277d69"/>
+<path d="M135 224V249M234 219V244M333 224V239M432 159V222M531 136V164M630 129V149M729 124V144M828 126V139" stroke="#496982" stroke-width="6" stroke-linecap="round"/>
+<path d="M432 159V222" stroke="#b6653c" stroke-width="7" stroke-linecap="round"/>
+<g text-anchor="middle"><text x="135" y="293">1</text><text x="234" y="293">2</text><text x="333" y="293">3</text><text x="432" y="293">4</text><text x="531" y="293">5</text><text x="630" y="293">6</text><text x="729" y="293">7</text><text x="828" y="293">8</text></g>
+<text x="99" y="208">前窗 [10.4,11]</text><text x="496" y="104">后窗 [14.2,14.5] 与 [14.4,14.8]</text><text x="496" y="122" font-size="14">浅绿带示并集；细绿带为收盘比较核心 [14.4,14.5]</text><text x="394" y="253">隔离条</text>
+<text x="42" y="319">第 4 或第 5 根（有时两根）可隔离；是否穿越要单看第 8 根。</text>
+</g></svg>

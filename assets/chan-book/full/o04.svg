@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+<title id="title">中枢两侧的三类买卖点</title><desc id="desc">历史衍生｜P37I01 配表的五组端点；各段独立，不重画原图</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="360" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">中枢两侧的三类买卖点</text>
+<text x="40" y="70" font-size="16">历史衍生｜P37I01 配表的五组端点；各段独立，不重画原图</text>
+<path d="M80 260H902M98 102V260" stroke="#647c90" fill="none"/>
+<path d="M100 245H900M100 193H900M100 141H900" stroke="#a9baca" stroke-dasharray="5 5"/>
+<text x="60" y="251">8</text><text x="50" y="199">12</text><text x="50" y="147">16</text>
+<g stroke="#247e83" stroke-width="4" fill="none"><path d="M130 204L198 136M286 245L354 220M442 235L510 194M598 212L666 167M754 176L822 158" marker-end="url(#arrow)"/></g>
+<g font-size="16"><text x="117" y="228">A 11.19</text><text x="164" y="121">D 16.38</text><text x="252" y="286">H 8.03</text><text x="326" y="209">I 9.93</text><text x="402" y="268">J 8.78</text><text x="478" y="180">L 11.91</text><text x="561" y="240">M 10.55</text><text x="633" y="153">O 14.00</text><text x="715" y="203">P 13.28</text><text x="790" y="143">R 14.66</text></g>
+<text x="40" y="313" font-size="16">D 的 16.38 取自配表；原图的 16.36 指向 D 字样右侧的峰，D 的精确图上价位待核。</text>
+<text x="40" y="339" font-size="16">纵轴为价位；横向间距不代表实际时间。</text>
+</g></svg>

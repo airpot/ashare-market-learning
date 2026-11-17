@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 335" role="img" aria-labelledby="title desc">
+<title id="title">区间套要逐级满足前提</title><desc id="desc">历史衍生｜P39I01–03 的嵌套关系；横向为目标窗，长度非实测</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="335" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">区间套要逐级满足前提</text>
+<text x="40" y="70" font-size="16">历史衍生｜P39I01–03 的嵌套关系；横向为目标窗，长度非实测</text>
+<path d="M100 249H890" stroke="#527995" stroke-width="2" marker-end="url(#arrow)"/>
+<g stroke="#527995" stroke-dasharray="5 5"><path d="M824 107V250M339 133V167M592 176V215"/></g>
+<rect x="126" y="103" width="698" height="34" rx="5" fill="#b8d7e8"/><text x="147" y="126">30 分钟图：两个框后锁定 a　　左侧标 60.80</text>
+<rect x="339" y="145" width="485" height="34" rx="5" fill="#aedecb"/><text x="359" y="168">5 分钟图：a 中圈 b　　左侧标 48.60</text>
+<rect x="592" y="187" width="232" height="34" rx="5" fill="#f3d2a8"/><text x="604" y="210">1 分钟图：b 内再缩</text>
+<text x="601" y="278">小图左侧标 43.68</text><text x="708" y="311">两小图低点标 40.60</text>
+<text x="95" y="278">按相应结构对齐时间窗口</text>
+</g></svg>

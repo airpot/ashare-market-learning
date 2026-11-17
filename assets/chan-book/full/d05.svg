@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-labelledby="title"><title id="title">合成示意｜中点穿越与全幅返回</title>
+<rect width="1000" height="320" rx="18" fill="#f5fafb"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#15324b">
+<text x="34" y="37" font-size="25" font-weight="bold">合成示意｜中点穿越与全幅返回</text>
+<path d="M100 79v189h828M100 247h816M100 200h816M100 153h816" stroke="#9bb7c5" fill="none"/>
+<rect x="101" y="153" width="812" height="94" fill="#8dbed5" opacity=".25"/><path d="M100 200h813" stroke="#7698a6" stroke-dasharray="7 5"/>
+<text x="47" y="159">60</text><text x="47" y="206">55</text><text x="47" y="253">50</text>
+<path d="M220 191v75M374 125v94M530 87v75M732 89v55M862 99v63" stroke="#1a6a8b" stroke-width="8" stroke-linecap="round"/>
+<path d="M220 228L374 172L530 125" stroke="#a34824" stroke-width="3" fill="none"/>
+<g fill="#a34824"><circle cx="220" cy="228" r="6"/><circle cx="374" cy="172" r="6"/><circle cx="530" cy="125" r="6"/></g>
+<text x="226" y="224">52</text><text x="384" y="170">58</text><text x="543" y="124">63</text>
+<text x="672" y="190">返回低 61</text><text x="801" y="222">返回低 59</text>
+<text x="120" y="299">粗线为全幅，棕点为中点；两例均为直接次级上离及首次返回已完成。</text>
+</g></svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 428" role="img" aria-labelledby="t">
+<title id="t">源图衍生示意：趋势与盘整中的 A、B、C</title>
+<rect width="1000" height="428" rx="18" fill="#f5fafb"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" fill="#15324b">
+<text x="35" y="39" font-size="26" font-weight="bold">源图衍生示意｜同向 A/C 的两种比较语境</text>
+<text x="46" y="77">① 趋势：B 是含末中枢的连接段</text><text x="535" y="77">② 盘整：按同一尺度比较两笔或两线段</text>
+<path d="M500 63v310M39 207h919" stroke="#a9bfca" fill="none"/>
+<text x="45" y="117">向上</text><text x="45" y="241">向下</text><text x="535" y="117">向上</text><text x="535" y="241">向下</text>
+<g fill="#bfe0d5" stroke="#48a18b" stroke-dasharray="5 4"><rect x="188" y="128" width="177" height="28"/><rect x="188" y="265" width="177" height="28"/></g>
+<g fill="none" stroke="#23638a" stroke-width="4"><path d="M108 188L190 112M359 156L450 94"/><path d="M108 230L190 309M359 265L450 328"/><path d="M605 183L727 125M780 149L904 101"/><path d="M605 236L727 290M780 267L904 313"/></g>
+<g fill="none" stroke="#32866e" stroke-width="4"><path d="M190 112L248 164L302 128L359 156"/><path d="M190 309L248 257L302 293L359 265"/><path d="M727 125L780 149"/><path d="M727 290L780 267"/></g>
+<text x="128" y="149">A</text><text x="401" y="153">C</text>
+<text x="124" y="278">A</text><text x="403" y="281">C</text>
+<text x="654" y="151">A</text><text x="739" y="167">B</text><text x="834" y="154">C</text>
+<text x="654" y="255">A</text><text x="742" y="256">B</text><text x="835" y="274">C</text>
+<path d="M190 175v7h169v-7m-169 154v7h169v-7" stroke="#257560" stroke-width="2" fill="none"/>
+<text x="275" y="200" text-anchor="middle" font-size="17">B 的起止</text><text x="275" y="355" text-anchor="middle" font-size="17">B 的起止</text>
+<text x="46" y="384">绿带：末中枢核心。图未画前一中枢。</text>
+<text x="46" y="410">先按走势结构定 A、C 的时段，再分别取柱；穿过绿带的时刻不用于划分时段。</text>
+</g></svg>

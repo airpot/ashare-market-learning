@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 335" role="img" aria-labelledby="title desc">
+<title id="title">八条均线怎样读板块轮动</title><desc id="desc">合成例｜价格越过 4 条线；冻结样本后均值从 B 领先变为 A 领先</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="335" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">八条均线怎样读板块轮动</text>
+<text x="40" y="70" font-size="16">合成例｜价格越过 4 条线；冻结样本后均值从 B 领先变为 A 领先</text>
+<path d="M80 161H875" stroke="#426079" stroke-width="3"/>
+<path d="M108 132v45m104-45v45m104-45v45m104-45v45m104-45v45m104-45v45m104-45v45m104-45v45" stroke="#527995" stroke-width="2"/>
+<g text-anchor="middle"><text x="108" y="197">8</text><text x="212" y="197">9</text><text x="316" y="197">10</text><text x="420" y="197">11</text><text x="524" y="197">12</text><text x="628" y="197">13</text><text x="732" y="197">14</text><text x="836" y="197">15</text><text x="472" y="117">价 11.5</text></g>
+<path d="M472 124V156" stroke="#b86336" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M175 272L790 226M175 226L790 272" fill="none" stroke="#246c88" stroke-width="3"/>
+<path d="M175 226L790 272" fill="none" stroke="#b86336" stroke-width="3"/>
+<text x="84" y="232">B＝5</text><text x="84" y="278">A＝4</text><text x="806" y="232">A＝5</text><text x="806" y="278">B＝4</text>
+<text x="135" y="312">第一帧</text><text x="752" y="312">第二帧</text>
+</g></svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 335" role="img" aria-labelledby="title desc">
+<title id="title">均线缠绕的两类买卖点</title><desc id="desc">合成例｜两条独立的失效路线，价格示意</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="335" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">均线缠绕的两类买卖点</text>
+<text x="40" y="70" font-size="16">合成例｜两条独立的失效路线，价格示意</text>
+<path d="M64 122L116 184L164 150L215 216L273 157L315 170L356 153L400 168" fill="none" stroke="#246c88" stroke-width="3"/>
+<path d="M535 202L593 136L663 169L731 150L800 222L870 200" fill="none" stroke="#246c88" stroke-width="3"/>
+<path d="M505 207H913" stroke="#bd734b" stroke-dasharray="7 6"/>
+<g fill="#ac583a"><circle cx="215" cy="216" r="6"/><circle cx="356" cy="153" r="6"/><circle cx="663" cy="169" r="6"/><circle cx="800" cy="222" r="6"/></g>
+<text x="65" y="105">长线上位：末段背驰候选</text><text x="505" y="105">短线上位：首次缠绕</text>
+<text x="202" y="247">9.7</text><text x="304" y="137">新组完成</text>
+<text x="647" y="193">10.1</text><text x="770" y="250">9.5</text><text x="812" y="188">旧低 9.7</text>
+<text x="65" y="299">同阶段新组完成 → 撤销一买依据</text><text x="505" y="299">缠绕跌破旧低 → 二买依据撤销</text>
+</g></svg>

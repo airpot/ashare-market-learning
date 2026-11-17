@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 335" role="img" aria-labelledby="title desc">
+<title id="title">线段确认与买卖双方的较量</title><desc id="desc">合成例｜同是特征顶分型；前两区间有无重叠决定确认路线</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="335" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">线段确认与买卖双方的较量</text>
+<text x="40" y="70" font-size="16">合成例｜同是特征顶分型；前两区间有无重叠决定确认路线</text>
+<path d="M114 265H885M114 112V265" stroke="#71899f" stroke-width="2"/>
+<path d="M114 154H880M114 194H880M114 234H880" stroke="#b6c5d1" stroke-dasharray="5 5"/>
+<g stroke="#32748f" stroke-width="12" stroke-linecap="round"><path d="M190 194V234M310 154V214M430 174V224"/><path d="M558 194V234M678 114V174M798 134V184"/></g>
+<rect x="165" y="193" width="170" height="22" fill="#3b947d" fill-opacity=".25"/>
+<path d="M540 185H720" stroke="#b25d46" stroke-width="3" stroke-dasharray="7 5"/>
+<g text-anchor="middle" font-size="16"><text x="190" y="256">[9,11]</text><text x="310" y="239">[10,13]</text><text x="430" y="253">[9.5,12]</text>
+<text x="558" y="253">[9,11]</text><text x="678" y="146">[12,15]</text><text x="810" y="214">[11.5,14]</text></g>
+<text x="164" y="294">前两元素交 [10,11]</text><text x="546" y="294">缺口 (11,12)，需反向分型</text>
+<text x="43" y="318">纵向为区间价，横向为特征元素先后。</text>
+</g></svg>

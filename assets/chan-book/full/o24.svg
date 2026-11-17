@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="t">
+<title id="t">同口径柱幅变小，端点到成交仍有时滞</title>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:20px;fill:#192f42} .title{font-size:25px;font-weight:700} .small{font-size:17px} .axis{stroke:#667b8a;stroke-width:2;fill:none} .dash{stroke-dasharray:7 5} .blue,.orange,.green{stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#17658c}.orange{stroke:#aa4f23}.green{stroke:#22745f}.band{fill:#dcece6;stroke:#8faf9f}.node{fill:#eff5f9;stroke:#6a8da7;stroke-width:2}.warn{fill:#fff0e2;stroke:#c88665;stroke-width:2}</style>
+<rect width="960" height="320" fill="#fbfcfe"/>
+<text x="34" y="39" class="title">同口径柱幅变小，端点到成交仍有时滞</text>
+<path d="M75 104H435M475 153H902" class="axis"/><rect x="108" y="104" width="42" height="100" fill="#6aa4bb"/><rect x="156" y="104" width="42" height="75" fill="#6aa4bb"/><rect x="285" y="104" width="42" height="50" fill="#d99971"/><rect x="333" y="104" width="42" height="25" fill="#d99971"/><text x="120" y="234">甲 7</text><text x="297" y="183">乙 3</text><path d="M505 153H839" class="blue"/><circle cx="510" cy="153" r="6" fill="#17658c"/><circle cx="676" cy="153" r="6" fill="#17658c"/><circle cx="837" cy="153" r="6" fill="#17658c"/><text x="478" y="190">f0 端点</text><text x="644" y="190">f2 确认</text><text x="796" y="190">f3 成交</text><text x="477" y="229">10.0</text><text x="796" y="229">10.5</text>
+<text x="34" y="303" class="small">合成读数与时序｜左侧比较同口径柱幅和；右侧按事件顺序标记</text>
+</svg>

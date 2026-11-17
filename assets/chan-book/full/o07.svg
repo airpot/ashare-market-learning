@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 335" role="img" aria-labelledby="title desc">
+<title id="title">级别递增与三层状态</title><desc id="desc">合成例｜从 1F 信号到 5F 的两条回拉路径；纵向按价格刻度绘制</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="335" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">级别递增与三层状态</text>
+<text x="40" y="70" font-size="16">合成例｜从 1F 信号到 5F 的两条回拉路径；纵向按价格刻度绘制</text>
+<rect x="96" y="128" width="720" height="48" fill="#d5e9f1"/>
+<path d="M75 128H865M75 176H865" stroke="#5b7a94" stroke-dasharray="6 5"/>
+<text x="45" y="134">12</text><text x="45" y="182">10</text><text x="115" y="158">原 5F 核心</text>
+<path d="M268 142L410 207.2" fill="none" stroke="#456d8a" stroke-width="4"/>
+<path d="M410 207.2L600 185.6L778 233" fill="none" stroke="#b35e3c" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M410 207.2L600 168.8L778 150" fill="none" stroke="#197d6c" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="332" y="238">1F 底背驰 8.7</text><text x="530" y="255">9.6：首返完成，5F 三卖</text><text x="610" y="144">10.3：已入核心</text>
+<text x="92" y="302">两支都不能直接改写 30F 状态；高层需要自己的离开和回拉证据。</text>
+</g></svg>

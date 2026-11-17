@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="t">
+<title id="t">柱差可以翻正，双线仍在零下</title>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:20px;fill:#192f42} .title{font-size:25px;font-weight:700} .small{font-size:17px} .axis{stroke:#667b8a;stroke-width:2;fill:none} .dash{stroke-dasharray:7 5} .blue,.orange,.green{stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#17658c}.orange{stroke:#aa4f23}.green{stroke:#22745f}.band{fill:#dcece6;stroke:#8faf9f}.node{fill:#eff5f9;stroke:#6a8da7;stroke-width:2}.warn{fill:#fff0e2;stroke:#c88665;stroke-width:2}</style>
+<rect width="960" height="320" fill="#fbfcfe"/>
+<text x="34" y="39" class="title">柱差可以翻正，双线仍在零下</text>
+<text x="94" y="69" class="small">60 分钟｜双线共用刻度，末帧画柱</text>
+<text x="636" y="69" class="small">1 分钟｜走势示意</text>
+<path d="M80 91V247M73 96H80M73 121H80M73 146H80M73 171H80M73 196H80M73 221H80M73 246H80" class="axis"/>
+<text x="67" y="102" text-anchor="end" class="small">+0.2</text>
+<text x="67" y="127" text-anchor="end" class="small">+0.1</text>
+<text x="67" y="152" text-anchor="end" class="small">0</text>
+<text x="67" y="177" text-anchor="end" class="small">−0.1</text>
+<text x="67" y="202" text-anchor="end" class="small">−0.2</text>
+<text x="67" y="227" text-anchor="end" class="small">−0.3</text>
+<text x="67" y="252" text-anchor="end" class="small">−0.4</text>
+<rect id="histogram" x="432" y="96" width="26" height="50" fill="#7fbea9"/>
+<path id="zero" d="M80 146H560M636 146H900" class="axis dash"/>
+<text x="88" y="137" class="small">零轴</text>
+<path id="dif" d="M110 241L221 226L333 183.5L445 171" class="blue"/>
+<path id="dea" d="M110 251L221 246L333 233.5L445 221" class="orange"/>
+<text x="466" y="105" class="small">柱 +0.2</text>
+<text x="459" y="177" class="small">DIF −0.1</text>
+<text x="459" y="227" class="small">DEA −0.3</text>
+<path d="M651 138L756 122L865 107" class="blue"/>
+<path d="M651 160L756 144L865 132" class="orange"/>
+<text x="656" y="181" class="small">末帧双线均正</text>
+<text x="34" y="282" class="small">合成读数｜蓝线 DIF，橙线 DEA，绿柱＝DIF−DEA（未乘 2）。</text>
+<text x="34" y="306" class="small">1 分钟末帧双线均正，不能替代 60 分钟的零轴判断。</text>
+</svg>

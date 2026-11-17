@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 335" role="img" aria-labelledby="title desc">
+<title id="title">资金敞口、回收本金与政策风险</title><desc id="desc">合成例｜等量短差和一次减仓收回本金，余仓仍随价格波动</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0 0L8 3.5L0 7Z" fill="#426079"/></marker></defs>
+<rect width="960" height="335" rx="12" fill="#f3f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#17324b" font-size="18">
+<text x="40" y="42" font-size="27" font-weight="bold">资金敞口、回收本金与政策风险</text>
+<text x="40" y="70" font-size="16">合成例｜等量短差和一次减仓收回本金，余仓仍随价格波动</text>
+<path d="M92 259H876M94 105V260" stroke="#526f88" stroke-width="2"/>
+<path d="M103 121H306V126H611V258H860" fill="none" stroke="#227a79" stroke-width="5"/>
+<path d="M611 122H734L860 177" fill="none" stroke="#ba6a42" stroke-width="4"/>
+<text x="119" y="109">净投入 1,010 元</text><text x="321" y="151">短差后 980 元</text>
+<text x="610" y="283">净回收 980，净投入归零</text>
+<text x="592" y="108">余 50 股 × 20＝1,000 元</text><text x="749" y="205">×12＝600 元</text>
+<text x="94" y="312">青线：尚未回收的投入　棕线：剩余持仓的市值，仍会改变</text>
+</g></svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 410" role="img" aria-labelledby="title"><title id="title">历史衍生示意：水井坊与金泰的两类 MACD 观察</title>
+<rect width="1000" height="410" rx="18" fill="#f5fafb"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" fill="#15324b">
+<text x="34" y="41" font-size="25" font-weight="bold">历史衍生示意｜把价格事件与 MACD 观察对齐</text>
+<path d="M500 66v294M46 205h910" stroke="#9eb8c7"/>
+<text x="61" y="83">水井坊 600779｜1 分钟</text><text x="551" y="83">金泰 600385｜30 分钟</text>
+<text x="47" y="116" font-size="17">价格</text><text x="536" y="116" font-size="17">价格</text>
+<path d="M710 159V279" stroke="#a2b8c5" stroke-dasharray="3 4"/>
+<path d="M102 189L170 158L222 168L251 153L275 142L391 116L414 142L446 165M582 180L605 191L619 182L633 190L644 175H671V164H711V152H747V139H790L806 121L824 169L856 150L888 175L913 160L933 172" fill="none" stroke="#176c9a" stroke-width="4" stroke-linejoin="round"/>
+<g fill="#176c9a"><circle cx="170" cy="158" r="4"/><circle cx="275" cy="142" r="4"/><circle cx="391" cy="116" r="4"/><circle cx="806" cy="121" r="4"/></g>
+<path d="M744 109h189" stroke="#a34824" stroke-dasharray="7 5"/>
+<text x="85" y="180">16.40</text><text x="132" y="148">17.5 附近</text><text x="244" y="132">18.5</text><text x="368" y="106">19.08</text>
+<text x="543" y="199" font-size="14">早段另标 2.08</text><text x="682" y="151" font-size="17">2.92</text><text x="817" y="131" font-size="16">冲至 3.22，未封住</text><text x="742" y="104">3.28：正文日线参照</text>
+<text x="608" y="130" font-size="16">较低价封板</text>
+<text x="47" y="232" font-size="17">第 21 页正文的柱高比较</text><text x="536" y="236" font-size="17">柱符号</text>
+<path d="M594 279h340" stroke="#91aab7" fill="none" stroke-dasharray="6 4"/>
+<g fill="#e0f1f6" stroke="#7fa9b9"><rect x="58" y="251" width="124" height="53" rx="8"/><rect x="202" y="251" width="124" height="53" rx="8"/><rect x="346" y="251" width="124" height="53" rx="8"/></g>
+<g font-size="16"><text x="84" y="273">17.5 附近</text><text x="101" y="295">标杆</text><text x="228" y="273">18.5 附近</text><text x="239" y="295">≤ 标杆</text><text x="385" y="273">约 19</text><text x="383" y="295">≤ 标杆</text></g>
+<rect x="640" y="258" width="32" height="21" fill="#b46d62"/><rect x="698" y="279" width="24" height="9" fill="#07856f"/><rect x="749" y="256" width="32" height="23" fill="#b46d62"/>
+<text x="683" y="309" font-size="17">一点绿</text><text x="793" y="266" font-size="17">冲高后的柱值略去</text>
+<text x="49" y="329" font-size="16">原图后组有柱看起来不比前组矮，比较柱未标明。</text><text x="49" y="352" font-size="16">不能用截图核定这两次柱高或两段面积。</text>
+<text x="556" y="328" font-size="17">先转负再转正的线索早于 3.22 未封住。</text>
+<text x="54" y="390" font-size="18">据 PDF 物理第 20–21 页绘制。价格与事件间距不按比例；右图的柱只示正负。</text>
+</g></svg>

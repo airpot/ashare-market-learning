@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 460" role="img" aria-label="两段上涨的价格终点、日均量与 MACD 柱面积示意" font-family="Microsoft YaHei, sans-serif">
+<rect width="840" height="460" fill="#f5f8fc"/>
+<text x="37" y="52" font-size="24" font-weight="bold" fill="#182f48">同图三问：价格、成交量与 MACD</text>
+<text x="38" y="81" font-size="16" fill="#4c6174">合成示意 · 两段的同级资格未确认 · 下方各栏用各自刻度</text>
+<rect x="36" y="103" width="768" height="150" rx="12" fill="#fff"/>
+<line x1="150" y1="224" x2="697" y2="224" stroke="#cbd5e2"/>
+<polyline points="170,220 302,167 420,214 620,130" fill="none" stroke="#3166a0" stroke-width="4"/>
+<circle cx="302" cy="167" r="5" fill="#3166a0"/><circle cx="620" cy="130" r="5" fill="#3166a0"/>
+<g font-size="17" fill="#182f48">
+<text x="53" y="139">价格路径</text><text x="315" y="164">A 终点：12</text><text x="635" y="130">C 终点：13</text>
+</g>
+<rect x="36" y="269" width="369" height="157" rx="12" fill="#fff"/><rect x="430" y="269" width="374" height="157" rx="12" fill="#fff"/>
+<g fill="#182f48" font-size="18"><text x="56" y="301">日均成交量（万股）</text><text x="450" y="301">正 MACD 柱面积（同口径）</text></g>
+<g stroke="#cbd5e2"><path d="M75 392H366 M467 392H766"/></g>
+<g fill="#167164"><rect x="120" y="348" width="56" height="44"/><rect x="249" y="337" width="56" height="55"/></g>
+<g fill="#7b50a2"><rect x="517" y="337" width="56" height="55"/><rect x="655" y="364.5" width="56" height="27.5"/></g>
+<g fill="#182f48" font-size="16" text-anchor="middle"><text x="148" y="340">80</text><text x="277" y="329">100</text><text x="545" y="329">2.4</text><text x="683" y="356">1.2</text><text x="148" y="413">A</text><text x="277" y="413">C</text><text x="545" y="413">A</text><text x="683" y="413">C</text></g>
+</svg>
