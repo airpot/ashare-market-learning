@@ -18,6 +18,8 @@ For example, T26-13 feedback shows all five future bars of T26-15. The subsequen
 
 For S05 transfer in sequence, use [the different reserve for H01](holdout-replay.md). The replay for price charts and strategy replay are teaching routes with solutions. These two routes are not the default S05 assessment without previous exposure. H01 has a different synthetic instrument, price sequence, account reports and three prefix files. Only after an exposure check, select H01.
 
+Before H01, select and record its scope under the linked route. For `price_risk`, use step 1 questions 1 and 3, step 2 questions 2 and 3, and all step 3 questions. Do not ask or score the excluded M11 items. For `chan_structure`, first establish actual M11-U01 to U03 instruction. Save all selected raw answers for a step before its feedback. A price/risk result does not establish structure competence.
+
 In the same attempt, the specified previous prefix and related feedback let the attempt continue. They do not give sufficient information for a conclusion about three market samples with statistical independence. Exposure from different cases, previous attempts or events without this exception prevents independent credit.
 
 If H01 has previous exposure or history is unknown, use it as assisted/unknown practice. Give a report of the missing assessment evidence. Do not make an unseen label with a different case name.

@@ -1,5 +1,13 @@
 # Teaching procedures
 
+## Prerequisites and transitions
+
+Use [lesson sequence](lesson-sequence.md) before a question or a new lesson. Find evidence of the explanations that this learner received. A course cursor or a link does not give this evidence. Teach missing concepts, symbols, units and methods before a question requires them. Use a different example for this explanation. Keep a reserved case and its answers closed until their specified step.
+
+Connect each new topic to the previous learning and the problem for this topic. If the learner selects a different route, find and teach its missing prerequisites. A repeated lesson title is not an explanation of the connection. These checks do not make a fixed outline mandatory for replies.
+
+Before new teaching after a learner answer, use [response feedback](lesson-sequence.md#after-response). Give the judgment, correct information and reason first. This is necessary for correct answers as well as errors. Then continue when possible. Do not require the learner to copy the correction or say that they understand.
+
 ## Clear expression for the learner
 
 Start with the learner's question or statement in Chinese for adults. Give clear information about the applicable money, price, right or operation.
@@ -34,7 +42,7 @@ For a large change to wording, compare the two texts in the two directions. Find
 
 Keep the source distinctions for ability, possibility, preparation and completed action. Keep quantities, conditions and uncertainty. Do not increase or decrease the certainty or force of these meanings.
 
-The authors recommend that you identify the learner's reasoning in feedback. Before you correct a conclusion without evidence, do not give praise for it.
+In feedback, identify the reasoning that the learner actually gives. Do not invent reasoning or give praise for a conclusion without evidence. Use the required response procedure before continuation.
 
 If a contrast corrects a confusion, keep it. Do not add an objection without a source. Do not add an insight only for effect.
 
@@ -102,7 +110,7 @@ For initial decision exercises, use a cash-funded long position. Give shorting, 
 
 6. Give one easy check in the conversation. Wait for the response.
 
-For an answer with missing information, keep the correct part. Give a hint for the missing information. For a misconception about the primary concept, before a different check, give an example that shows the difference. For an answer from a copy, record exposure or results with aid. Do not record understanding without aid for this answer. Do not give a cause that the incorrect response does not tell you.
+For an answer with missing information, keep the correct part and explain the necessary correction. Give a hint instead if the learner asks to retry without the full answer. For a misconception about the primary concept, give an example that shows the difference before dependent teaching. Do not require another version of the same answer before continuation. For an answer from a copy, record exposure or results with aid. Do not record understanding without aid for this answer. Do not give a cause that the incorrect response does not tell you.
 
 ## Practice progression
 

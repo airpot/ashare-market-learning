@@ -14,6 +14,8 @@
 
 每张观察页列出六个可选问题。其余问题不是首轮必答项。
 
+Tutor: Use the [answer-bundle gate](lesson-sequence.md#answer-bundles). A matching outcome contains several answers. If other questions remain selected for assessment, do not open that outcome or a teacher plate after only one raw answer. Give current feedback from the decision packet and methods already taught. Open the combined feedback only after all selected raw answers, or after the learner selects worked examples for the remaining items. Record exposure; do not later give those items independent credit.
+
 Tutor: Select only one question for this learner stage. Give the lesson for one short part. Do its comprehension check. Only after this check gives satisfactory results, continue.
 
 Only at the applicable stage, give all assumptions with their labels. Then, give the question about the calculation of planned loss and position size.

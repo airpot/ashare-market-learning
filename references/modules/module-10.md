@@ -36,7 +36,7 @@ After each learning check, wait for the raw response. Then, give feedback.
 
 连接 M08，一根长阳与成交量上升可以同时出现，但它们没有提供两份完全独立的投资者身份信息；都是同一批交易的不同摘要。重复加指标不能自动把不确定性消掉。
 
-**随口检查：**量比阈值从 1.2 改成 1.5 后，历史盈利更好，能直接宣布新值更优吗？
+**随口检查：**上午累计成交 70 万股，此前五个完整交易日平均每天 100 万股，为什么还不能据此判断今天全天缩量？若要比较上午的活跃程度，还缺哪类同一时刻的数据？
 
 ## U02 MA 与 MACD 的计算直觉
 
@@ -146,7 +146,7 @@ DIF 上穿 DEA 是一种交叉；DIF 为正则快均值高于慢均值，这两�
 
 ## 2026主案例实践
 
-按最新学习偏好，优先使用中际旭创、寒武纪、中芯国际与天普股份的2026日线；先读[本期数据与公告](../data-2026.md)，再选[本模块对应主图](../tech-2026-atlas.md)。旧图只用于补充对照。已知权益事件跨日不直接当技术破位或下跌笔；
+按最新学习偏好，优先使用中际旭创、寒武纪、中芯国际与天普股份的2026日线；做截点练习时，先从[本模块对应主图](../tech-2026-atlas.md)，只打开所选题的观察包，先核对包内的时间、单位与复权口径。不要预读整份全年背景资料；本组截点练习的全部原答保存后，再读[本期数据与公告](../data-2026.md)。包内缺少的事前权益事件或交易状态记为待核，不能用后续披露补成当时已知。旧图只用于补充对照。已知权益事件跨日不直接当技术破位或下跌笔。
 
 Tutor: Each time, load only the observation packet for this step. Only after you keep the raw response, open the annotation for the question. During the explanation, show the initial image for this question in the chat. Then, add markings one layer at a time. Do not give only text and links.
 
@@ -157,11 +157,11 @@ Tutor: Each time, load only the observation packet for this step. Only after you
 
 本图是观察阶段的真实日线。
 
-Tutor: For this step, select only one question for this stage. Keep the other questions for subsequent steps. After the learner sees an explanation or annotation, do not give the same window an `independent` assessment status. Do not record the window as material without previous access.
+Tutor: Select one question for this stage. Before any teacher file, use the [answer-bundle gate](../lesson-sequence.md#answer-bundles). If other questions remain selected for assessment, keep the combined answer file closed until all their raw answers are saved. Give current feedback from the decision data and methods already taught. The learner can select worked examples for remaining items instead. After explanations or annotations, do not give this window independent status. Use another eligible window for independent transfer.
 
 ### 原答之后：把数字对应回图上
 
-保留当前原图和自己的回答后，再用[专题细图](../topic-plates.md)打开同编号的一张教师图。实体与影线看局部放大，量价看此前20根比较窗口与均量，边界题看冻结锚点和当时收盘；
+保留当前原图和自己的回答后，再用[专题细图](../topic-plates.md)打开同编号的一张教师图。实体与影线看局部放大，量价看此前20根比较窗口与均量，边界题看冻结锚点和当时收盘。
 
 Tutor: Give only the relation for this step at a time.
 

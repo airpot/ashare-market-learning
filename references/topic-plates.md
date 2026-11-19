@@ -2,6 +2,8 @@
 
 本页只作安全分流，不含逐题答案。原始观察材料与作答步骤仍由[2026主图谱](tech-2026-atlas.md)负责。实体与影线衔接[M07](modules/module-07.md)、[M08](modules/module-08.md)；边界与回访衔接[M09](modules/module-09.md)；量价衔接[M10](modules/module-10.md)。读坐标的方法见[读图手册](chart-reading.md)。
 
+Tutor: Before any teacher plate or JSON, use the [answer-bundle gate](lesson-sequence.md#answer-bundles). If the file gives answers to retained questions, keep it closed until all selected raw answers are saved. Or first record the learner's selection of worked examples for those remaining items. One answer does not release the full plate.
+
 Tutor routing: Before the learner gives the raw response, use only one primary decision packet. First, keep the raw response (`saved_raw_answer`). Then, open only the matching `assets/topic-plates/t26-NN.svg` and `t26-NN.json`. Get NN from the exercise ID for this step. Do not browse the plate directory, teacher manifest, generator, or other plate metadata in learner context. Before the raw response, do not load a plate.
 
 The links and teacher flags give a lesson sequence. They do not prevent access.

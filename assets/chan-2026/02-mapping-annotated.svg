@@ -96,7 +96,7 @@
 </g>
 <rect class="volume-bar" data-date="2026-06-16" x="1256.090909" y="704.763765" width="18" height="75.236235" fill="#087f5b"><title>2026-06-16 成交量 9967179 股</title></rect>
 <line x1="166.909091" y1="780" x2="166.909091" y2="788" stroke="#24354b" />
-<text x="166.909091" y="816" text-anchor="start" font-size="15">2026-06-02</text>
+<text x="166.909091" y="816" text-anchor="middle" font-size="15">2026-06-02</text>
 <line x1="276.727273" y1="780" x2="276.727273" y2="788" stroke="#24354b" />
 <text x="276.727273" y="816" text-anchor="middle" font-size="15">2026-06-03</text>
 <line x1="496.363636" y1="780" x2="496.363636" y2="788" stroke="#24354b" />
@@ -108,7 +108,7 @@
 <line x1="1045.454545" y1="780" x2="1045.454545" y2="788" stroke="#24354b" />
 <text x="1045.454545" y="816" text-anchor="middle" font-size="15">2026-06-12</text>
 <line x1="1265.090909" y1="780" x2="1265.090909" y2="788" stroke="#24354b" />
-<text x="1265.090909" y="816" text-anchor="end" font-size="15">2026-06-16</text>
+<text x="1265.090909" y="816" text-anchor="middle" font-size="15">2026-06-16</text>
 <text x="112" y="856" font-size="16">红：收＞开　绿：收＜开　灰：收＝开；成交量以股计。标注编号见下方说明。</text>
 <g class="annotation line" stroke="#7757b5" stroke-width="2" fill="none">
 <polyline points="276.727273,178.965517 386.545455,178.965517" stroke-linejoin="round"/>

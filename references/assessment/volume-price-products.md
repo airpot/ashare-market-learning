@@ -1,5 +1,9 @@
 # 五类场内产品量价练习：参考答案
 
+Tutor: This file contains all five product answers. Before this combined guide, save all five raw answers. For one selected product, read only its matching file in `assessment/volume-price/`. Other products remain optional. Do not require unlearned products for feedback on a selected one. A clear selection of worked examples permits this combined guide. Record that support first.
+
+单题答后核对：[ETF](volume-price/p05-b.md)、[LOF](volume-price/p07-a.md)、[可转债](volume-price/p08-a.md)、[REIT](volume-price/p09-a.md)、[货币基金](volume-price/p10-a.md)。
+
 按题核对原答。先看是否写清价格方向、成交量的比较基准，再看能否区分图上观察、当时可用的公告和仍缺的证据。指出缺项时，应说明它卡住哪项计算或操作。接受四舍五入差异和有依据的其他表述；不以事后涨跌判分。
 
 五张图是新浪日线的历史截取，采集于北京时间 2026-10-20，各有 30 根不复权日线。图只给截止日及以前的量价；采集在后，不证明该训练材料在当时已发布。下文的比较时点均为图示日期的北京时间 15:00。公告披露日期按日核对，未核到首次发布的时分。没有把截止后的行情或公告用于作答。

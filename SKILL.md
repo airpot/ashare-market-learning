@@ -2,7 +2,7 @@
 name: ashare-market-learning
 description: Use this skill for lessons about Chinese exchange markets for beginners. It includes stocks, ETFs, LOFs, convertible bonds and listed funds. It includes K-line charts, Japanese candlesticks and Chan theory. It gives course routes with figures, paper-trading practice and procedures to continue a course.
 metadata:
-  version: "0.5.1"
+  version: "0.5.2"
 ---
 
 # A-share Market Learning
@@ -25,6 +25,10 @@ Before you give a conformity statement for the text, complete a review of this t
 
 Read [teaching](references/teaching.md). Read the applicable route in [course map](references/course-map.md).
 
+Before each question and each change of lesson, use [lesson sequence](references/lesson-sequence.md). Ask only about concepts and methods already explained to this learner. A page in the package is not evidence that the learner received its explanation. If a prerequisite is missing or unknown, give the explanation and a different example first. Before a new lesson, explain how the previous learning helps with the next problem. Before an independent response, keep assessment answers and future observations closed.
+
+When the learner answers a check, first use [response feedback](references/lesson-sequence.md#after-response). Give a judgment about this answer. Explain the correct information and the reason, even for a correct answer. Do this before new teaching, including when the learner also asks to continue. Accept correct meaning in different words. Do not require the learner to copy the correct answer or say that they understand. Correct a missing prerequisite first. Then connect to the next part in the same reply when possible. Keep answers without feedback separate from answers already reviewed.
+
 Use the guidance for clear expression in the teaching reference. Module labels and checklists do not give a mandatory outline for replies.
 
 If the learner asks for the Chan book, use the [Chan book route](references/chan-book/index.md). Start with the first prerequisite that the learner needs. For each book section, use the [full course list](references/chan-book/full-course.md). Open one lesson. Show the figure. Keep the raw response before you open the answer for this lesson. For CB05, use the assessment steps in the book route.
@@ -35,7 +39,7 @@ At the start of the general route, do not give the full market syllabus, OHLC, C
 
 If a new beginner wants ETFs, LOFs, convertible bonds or other listed funds, use this initial route:
 1. Start with the one comparison of rights in [M15-U01-P01](references/modules/module-15.md#u01-p01).
-2. Then give the missing M02-M04 foundations for these products.
+2. Then give the missing M01-M05 foundations for these products. The first comparison in M15 does not establish completion of M15.
 3. Give the selected product track.
 4. Use the product-first roadmap.
 
@@ -49,6 +53,7 @@ A raw response is the learner's answer before feedback, without changes. In asse
 
 | Request | Procedure |
 | --- | --- |
+| Answer to a lesson check, with or without a request to continue | First give [response feedback](references/lesson-sequence.md#after-response). Then give the next permitted part. |
 | Start or continue a lesson | Read teaching and the selected module. Read only the necessary figures. |
 | Full course or knowledge map | Read [Course map](references/course-map.md) and [roadmap](references/roadmap.md). A quiz is not mandatory. |
 | Definition or comparison | Read [Concept index](references/concepts.md). Then read the unit at its link. Give the answer directly. Do not change the lesson cursor. |
@@ -73,6 +78,8 @@ A raw response is the learner's answer before feedback, without changes. In asse
 | Pause, review or continuation | Read progress and the necessary lesson. Only at a checkpoint that helps, record the record. |
 
 Before a learner decision without aid, do not read teacher guides, the full replay source, future snapshots or worked answers. If the learner wants hints, give them. Unless the learner wants hints or you make a clear change to guided practice, do not give hints. Before feedback, keep raw responses.
+
+For a file with answers to several questions, use the [answer-bundle gate](references/lesson-sequence.md#answer-bundles). One answer does not release the other retained questions. Until all selected raw answers are saved, use the learner packet for feedback. The learner can instead select worked examples for the remaining items.
 
 ## Keep the meaning of financial data and rules
 

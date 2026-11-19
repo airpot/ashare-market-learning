@@ -9,10 +9,12 @@
 | 1 | [同图双窗口](exercises/volume-price-window.md) | 区分阴阳、当日涨跌、日相对量与盘中量比 |
 | 2 | [三组真图对照](exercises/volume-price-replay.md) | 从量、价格推进和事前位置写出可被推翻的判断 |
 | 3 | [价格与成交量条件对照](exercises/volume-price-filter.md) | 只改变一个条件，区分信号、成交和净结果 |
-| 4 | [场内产品量价迁移](exercises/volume-price-products.md) | 识别还缺净值、份额、正股或业务状态等哪类证据 |
+| 4（按品种选做） | [场内产品量价迁移](exercises/volume-price-products.md) | 先补对应机制，再识别还缺净值、份额、正股或业务状态等哪类证据 |
 | 5 | 回到[真图练习的 VP07](exercises/volume-price-replay.md#vp07) | 在不看后续的情况下，独立算量、写边界、给出行动或等待理由 |
 
 已学 M12 的学员可做[量、MACD 与背驰](exercises/volume-price-window.md#vp-c)。只熟悉基础量价时先跳过这一题。全部活动按纸面练习记录，不从历史图推定成交或盈利。
+
+第四步的每题先核[产品先备表](exercises/volume-price-products.md#做题前先补哪一课)。未学相应产品机制，可以先完成股票实训，再补课回来；ETF课的进度不代表已经学过可转债、REIT或货币基金。
 
 ## Tutor steps
 
@@ -34,6 +36,8 @@ After you keep the raw response, do the exposure check again. Do this check befo
 4. Use the [transfer criteria](assessment/volume-price/vp07.md) with this result. If the result is `independent` and the answers are correct for all five criteria, give an independent pass.
 
 ### Teach and give feedback
+
+Before step 1, use [lesson sequence](lesson-sequence.md). The route label M10 does not show which explanations the learner received. Teach missing methods with another example before opening a reserved case. Read no answer guide for this preparation.
 
 1. Open the learner page for this case. Show its question and rules. For VP01 to VP07, show [the stock exercise rules](exercises/volume-price-replay.md) for the current group. For VP07, use the first group. For VP07, show only the data up to 2026-03-25. Show only the current decision PNG and table. Use the decision HTML for that table. Record the dates that you show.
 2. Keep the raw response without changes. For VP07, do the second exposure check before you open the outcome. For VP-W, VP-C, VP01 to VP07, or a product case, open only its file in `references/assessment/volume-price/`. Use the lower-case case ID as the file name with `.md`. Do not open a different case file. Read the [stock group review](assessment/volume-price-replay.md) only after you keep all seven stock responses.

@@ -353,8 +353,9 @@ def _draw(rows, title, notes):
     for i in indices:
         x = day_x[rows[i]["date"]]
         line(x, vbottom, x, vbottom + 8, _INK)
-        # Dates at the ends have inward anchors, also for windows with one or two bars.
-        anchor = "start" if x < left + 75 else "end" if x > right - 75 else "middle"
+        # Use an inward anchor only when half a date label cannot fit in the plot.
+        # A wider margin can move the first label into the next label.
+        anchor = "start" if x < left + 50 else "end" if x > right - 50 else "middle"
         text(x, vbottom + 36, rows[i]["date"], f'text-anchor="{anchor}" font-size="15"')
     text(left, 856 + shift, "红：收＞开　绿：收＜开　灰：收＝开；成交量以股计。标注编号见下方说明。", 'font-size="16"')
 

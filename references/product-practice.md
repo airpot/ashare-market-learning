@@ -1,6 +1,6 @@
 # 六类产品的分步纸面练习
 
-本练习以六组虚构材料练完整过程：识别与核查、计划或不交易、委托与事件管理、对账与复盘。适用于先学共同基础、M15、所选产品模块，再进入M20的路径；不要求先学缠论。保留原有课程游标，临时查词后回到当前问题。
+本练习以六组虚构材料练完整过程：识别与核查、计划或不交易、委托与事件管理、对账与复盘。适用于先学共同基础、M15、所选产品模块，再进入M20的路径；不要求先学缠论。教师先判定并解释你的原答，再继续下一步，不以重抄答案为条件。保留原有课程游标，临时查词后回到当前问题。
 
 ETF、LOF、CB、REIT、MONEY、CLOSED是六条教学轨。MONEY可与ETF等法律包装重叠；封闭状态须看有效条款，不能只看基金名称。所有报价、资格、日期、成交、费用、分派与结算均为明示的合成假设。真实图谱只提供历史观察，OHLC不能证明委托成交。
 
@@ -11,14 +11,17 @@ Tutor procedure:
 1. Start a run. Record the run ID and product track.
 2. Open only the learner packet for this step. Give the lesson for one short part. Give the explanation of units and times. Then, wait for the raw response.
 3. Record the raw response without change, with all its parts. An empty entry is not a response.
-4. Only after you record the raw response, show feedback for the step. Give feedback about the misconception that the response shows. Record revisions as different records.
-5. Only after you complete feedback for this step, continue to the next step.
+4. Before `reveal`, obey the [answer-file conditions](lesson-sequence.md#answer-bundles). Its output is teacher material, not delivered feedback.
+5. Give the visible judgment, correct information and reason for the selected responses. Then record this message with `record_feedback`. Keep learner revisions as different records. Do not ask the learner to copy the correction.
+6. Only after you record actual feedback for this step, continue to the next step. For an explicit feedback decline, record the learner's actual request instead. Do not record a pass from this choice.
 
 A new run prevents continuation with the entry for the previous run. The runtime keeps the previous records and raw responses.
 
 Each track has four steps with question IDs `PRODUCT-<TRACK>-01` to `04`. The runtime records each response with a record key: `run_id`, `track`, and `step`. Each record key identifies only one response.
 
-The run can have only one active step at a time. The runtime rejects more than one `open_step`, `answer`, or `reveal` call for a step. If a step is not next in the sequence, the runtime rejects it. Each of these calls must have the run ID for this attempt. Before it reads a packet for feedback, the runtime makes sure that the matching raw response is available. The answer interface reads no teacher material.
+The run can have only one active step at a time. The runtime rejects more than one `open_step`, `answer`, or `reveal` call for a step. If a step is not next in the sequence, the runtime rejects it. Each of these calls must have the run ID for this attempt. Before it reads teacher material, the runtime makes sure that the matching raw response is available. The answer interface reads no teacher material.
+
+New responses have `feedback_status` set to `pending`. `reveal` stores material in `teacher_material`; it does not complete feedback. Before the next step, record delivered feedback or an explicit learner decline, with its message reference. The helper checks state and sequence. It cannot verify message quality, actual delivery or learner understanding. The tutor must supply only text already shown, not a planned reply or a teacher packet.
 
 The learner directory contains raw responses and feedback. The installed skill keeps its lesson material without change. All six tracks include explanations, hints, or access to material. Thus, record all tracks as `assisted`. Do not give `independent` status.
 
@@ -35,11 +38,14 @@ python -B scripts/product_practice.py start --record D:/learning/product-record.
 python -B scripts/product_practice.py open --record D:/learning/product-record.json --run <run_id> --step 1
 python -B scripts/product_practice.py answer --record D:/learning/product-record.json --run <run_id> --step 1 --raw-file D:/learning/answer-01.txt
 python -B scripts/product_practice.py reveal --record D:/learning/product-record.json --run <run_id> --step 1
+python -B scripts/product_practice.py feedback --record D:/learning/product-record.json --run <run_id> --step 1 --feedback-file D:/learning/feedback-01.txt --evidence "assistant message after PRODUCT-ETF-01"
 ```
 
 `start` can make a new response record or add an attempt to `product_runs` in a record from before this command. Exposure history is the record of price data and other material that the learner saw, with or without answers. The command keeps the course cursor, holdout records, and exposure history without change.
 
-Continue with steps 2, 3, and 4 in sequence. Use one writer for each record.
+The tutor creates `feedback-01.txt` from the message already shown. Do not ask the learner to create it or repeat an answer. First give the visible feedback, then record it, then open the next packet. A tutor can give a visible message and use the helper within one turn. A hint-only retry is not completed feedback.
+
+If the learner explicitly declines feedback, use `feedback --declined`. The file must contain the actual decline request; `--evidence` identifies that learner message. This choice is not reviewed understanding. Continue with steps 2, 3, and 4 in sequence. Use one writer for each record.
 
 The CLI rejects paths in these locations:
 
@@ -55,10 +61,13 @@ Tutor procedure:
 - Use `open_step(record, run_id, step)` one time for the learner packet for this step.
 - Use `answer(record, run_id, step, raw)` to keep the raw response without change.
 - Only after you record the raw response, use `reveal(record, run_id, step)`.
+- After visible feedback, use `record_feedback(record, run_id, step, text, evidence)`. Keep its exact text and message reference. For a learner decline, use the actual request and `declined=True`.
 - Before the raw response, read only the learner packet that `open_step` gives for this step.
 - Only after you record the matching raw response, read only teacher feedback from `reveal` for this step. Before the learner gives a response, do not load all packets, teacher files, generators, or full worksheets into learner context.
 - Keep each response in `assisted` status. Do not give `independent` status from this practice.
 - Use the gate as a control for the local lesson sequence.
+
+The response keeps teacher material, actual feedback and the original raw answer in different fields. In an older record, a generic `feedback` packet is not delivery evidence. Keep its value as `legacy_feedback` when recording actual feedback. Recover from the saved raw answer without another learner submission. Preserve old support, events and version provenance. See [feedback records](progress.md#feedback-records).
 
 The gate does not prevent direct file access or record edits.
 

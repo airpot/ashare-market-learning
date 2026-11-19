@@ -20,5 +20,18 @@
       "volume_shares": 145000
     }
   ],
-  "notice": "After you record the raw response with the same example identifiers, read this packet. Subsequent market data are subsequent information. Do not change the raw response with these data. Read information only thru `reveal_end` in this packet. Do not read explanations for subsequent packets."
+  "notice": "After you record the raw response with the same example identifiers, read this packet. Subsequent market data are subsequent information. Do not change the raw response with these data. Read information only thru `reveal_end` in this packet. Do not read explanations for subsequent packets.",
+  "feedback_numbers_by_scope": {
+    "price_risk": [
+      1,
+      2,
+      3
+    ],
+    "chan_structure": [
+      1,
+      2,
+      3
+    ]
+  },
+  "scope_note": "The tutor selects the scope before this attempt. For price_risk, show and score only the listed items. Do not ask or score omitted M11 items. They are excluded, not failed or passed. The helper controls steps and exposure; it does not filter or score questions. Keep all selected raw answers before feedback. Record scope with the result."
 }

@@ -12,6 +12,8 @@
 | 两个日相对量 | 今日量 77,312,980 股。前 5 日均量 63,111,569.2 股，相对量约 1.225；前 20 日均量 88,317,908 股，相对量约 0.875。今日高于短期均量、低于较长均量。口径都说明了，两句相容。 |
 | 规则条件 | 前 20 日口径不通过 1.20；改用 5 日会改变规则。该日完整量到收盘才齐，不能倒填 10:30。日线既不含今日 10:30 的累计量，也不含历史同刻累计量，不能计算。 |
 
-若答成“放量上涨，所以买方掌控”，让学员分开重写三句话：相对昨收的变化、量相对哪段历史、收在全幅哪里。仅据这张图不能确认某个账户的身份或方向。
+“放量上涨，所以买方掌控”没有说明量的参照，还把价格与成交量直接推成了账户意图。本题需分清相对昨收的变化、量相对哪段历史，以及收在全幅哪里。今日量高于短期均量、低于较长均量，因此不能省掉参照。仅据这张图，也不能确认某个账户的身份、买卖方向或意图。
+
+Tutor: Follow [response feedback](../../lesson-sequence.md#after-response). Explain the differences before further teaching. Do not require the learner to write the answer again. If the learner asks for a hint or another try, obey that request. Keep the original response. Keep a new response in a separate record.
 
 [继续三组真图练习](../../exercises/volume-price-replay.md)

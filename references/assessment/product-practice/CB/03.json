@@ -17,7 +17,7 @@
     "余债10−6=4张，余卖单4张仍冻结，当前自由可转/可另卖0张。须先确认撤单解冻，再在10-22 14:30前有效转股；若未转，最后卖出仍到15:00，但是否成交须凭回报。不能把卖出计划当已退出，也不能同时卖与转。余债继续承受价格、信用及错过转股后转赎回应收的风险；当前无余债处理结果。"
   ],
   "misconception": "“跌到面值就必然安全；只要触发赎回便已收到现金；下修提议已能使用。”依次找决定、生效及实际回款凭证。",
-  "follow_up": "若14:31才看到公告，应如何记录转股错过？不要覆盖早先原答。",
+  "follow_up": "分别假设在北京时间2026年10月21日14:31、2026年10月22日14:31才看到本题公告。按题设2026年10月22日14:30的最后转股时间，哪种已错过转股、哪种尚未到期？分别记录可行动作与仍缺条件，不覆盖早先原答。",
   "evaluation": "Give feedback about the misconception in this raw response. Examine the data, units, dates, unknown fields, and initial plan. Do not change the first raw response. Record revisions in different records. Profit and a no-trade selection do not show that the learner knows the lesson.",
   "boundary": "Use this packet only for paper practice with `support` value `assisted`. Do not give status `independent`. Do not use this practice as an assessment with no learner access before the assessment starts. This practice does not show investment efficacy or eligibility for execution in a market. Do not read a subsequent packet."
 }

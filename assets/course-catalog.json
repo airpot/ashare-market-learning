@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "skill_version": "0.5.0",
+  "skill_version": "0.5.2",
   "learner_language": "zh-CN",
   "modules": [
     {
@@ -1662,6 +1662,7 @@
       "M02",
       "M03",
       "M04",
+      "M05",
       "M06",
       "M07",
       "M08",
@@ -1676,6 +1677,7 @@
       "M02",
       "M03",
       "M04",
+      "M05",
       "M06",
       "M07",
       "M08",
@@ -1690,6 +1692,7 @@
       "M02",
       "M03",
       "M04",
+      "M05",
       "M06",
       "M07",
       "M08",
@@ -1704,6 +1707,7 @@
       "M02",
       "M03",
       "M04",
+      "M05",
       "M06",
       "M07",
       "M08",
@@ -1718,6 +1722,7 @@
       "M02",
       "M03",
       "M04",
+      "M05",
       "M06",
       "M07",
       "M08",
@@ -1728,5 +1733,5 @@
       "M20"
     ]
   },
-  "route_note": "Routes select the primary topic. Examine the data for the necessary prerequisites. If the learner wants to start with a product, start with M15-U01-P01. Before the selected product module and M20, give the missing prerequisites that are the same for these modules. Chan is optional for product practice. The full course route includes all modules."
+  "route_note": "Routes select the primary topic. They do not establish instruction or understanding. For product-first entry, give only M15-U01-P01 first. Then teach the missing M01-M05 foundations before M06-M10, the rest of M15 and the selected product. Before M20, use actual responses for the selected product. Chan is optional. Before each question and transition, use references/lesson-sequence.md. The chan_depth list selects topics for revision. It is not a full beginner route. Teach its missing prerequisites before use."
 }

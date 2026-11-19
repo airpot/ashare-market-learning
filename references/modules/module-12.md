@@ -39,11 +39,19 @@ Tutor: Show the level, convention, cutoff, and confirmation evidence. Do not giv
 <a id="u02-p01"></a>
 ### 第一讲：时间周期是取样尺，级别是组合关系
 
+<a id="level-introduction"></a>
+
 图上的一分钟或三十分钟，是把成交按时间装进 K 线的取样周期；笔、线段是该资料上的结构；递归级别表示怎样由较低层已完成走势类型组合。三者相关，却没有“几根笔必然等于几分钟级别”的固定换算。原作者[第 83 课（2007-09-26）](https://blog.sina.com.cn/s/blog_486e105c01000cqy.html)专门讨论笔作最小中枢构件与线段作构件的区别。
 
-本课程从 B0 起步建立 L1；要形成 L2，需先取得连续、合格且已完成的 L1 构件，再求三个构件的重叠，不能直接数九笔。先把“完成依据”实际做一遍，再讨论怎样把整个构件交给上一层。
+例如，两张图都每分钟生成一根K线。甲图目前只出现候选转折，乙图已经按相同规则确认若干笔；取样周期相同，构件状态却不同。仅凭“一分钟图”这个名字，不能证明任何一张图已经形成某个递归级别的中枢。
+
+从全书基础课来补“级别”的读者，本次先讲清上面这个区别。下面的C12-F构造另设入口，不是理解这个区别或完成给定构件比较题的前提。只有要亲手核查有限分解的完成见证时，才继续该训练。
+
+<a id="finite-construction"></a>
 
 #### 先声明怎样封口：C12-F 有限课堂分解约定
+
+本课程从 B0 起步建立 L1；要形成 L2，需先取得连续、合格且已完成的 L1 构件，再求三个构件的重叠，不能直接数九笔。先把“完成依据”实际做一遍，再讨论怎样把整个构件交给上一层。
 
 原作者[第 17 课](https://blog.sina.com.cn/s/blog_486e105c010007p1.html)对已完成类型区分盘整与趋势，[第 20 课](https://blog.sina.com.cn/s/blog_486e105c010007zw.html)讨论中枢延伸、外围重叠和级别演化；两者都不能简化成“三段重叠，所以整个走势已完成”。[第 53 课（2007-05-23）](https://blog.sina.com.cn/s/blog_486e105c01000aqw.html)说明在较大尺度把已完成次级走势看作整体，并未免除较低层的资格检查。
 
@@ -203,7 +211,7 @@ D10 可交易观察窗口  → 记录实际委托与成交，不回填 D7 低价
 
 ## 2026主案例实践
 
-按最新学习偏好，优先使用中际旭创、寒武纪、中芯国际与天普股份的2026日线；先读[本期数据与公告](../data-2026.md)，再选[本模块对应主图](../chan-2026-atlas.md)。旧图只用于补充对照。已知权益事件跨日不直接当技术破位或下跌笔；
+按最新学习偏好，优先使用中际旭创、寒武纪、中芯国际与天普股份的2026日线；做截点练习时，先从[本模块对应主图](../chan-2026-atlas.md)，只打开所选题的观察包，先核对包内的时间、单位与复权口径。不要预读整份全年背景资料；本组截点练习的全部原答保存后，再读[本期数据与公告](../data-2026.md)。包内缺少的事前权益事件或交易状态记为待核，不能用后续披露补成当时已知。旧图只用于补充对照。已知权益事件跨日不直接当技术破位或下跌笔。
 
 Tutor: Each time, load only the observation packet for this step. Only after you keep the raw response, open the annotation for the question. During the explanation, show the initial image for this question in the chat. Then, add markings one layer at a time. Do not give only text and links.
 
@@ -214,7 +222,7 @@ Tutor: Each time, load only the observation packet for this step. Only after you
 
 本图是观察阶段的真实日线。
 
-Tutor: For this step, select only one question for this stage. Keep the other questions for subsequent steps. After the learner sees an explanation or annotation, do not give the same window an `independent` assessment status. Do not record the window as material without previous access.
+Tutor: Select one question for this stage. Before any teacher file, use the [answer-bundle gate](../lesson-sequence.md#answer-bundles). If other questions remain selected for assessment, keep the combined answer file closed until all their raw answers are saved. Give current feedback from the decision data and methods already taught. The learner can select worked examples for remaining items instead. After explanations or annotations, do not give this window independent status. Use another eligible window for independent transfer.
 
 ## 同一记录贯通：有限规则下的完整练习
 

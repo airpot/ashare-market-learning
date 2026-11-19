@@ -118,5 +118,18 @@
     "按所给回报核对数量、持仓、总费用和已实现现金损益。计划与实际损失分别是多少？",
     "区分理解、执行和仍待验证的方法问题，证据不足的类别留空。保留原规则，并写拟议修改与创建时点。",
     "截至本包，能证明你或小林完成哪些步骤？写一项新的观察条件，不使用尚未开放的后续。"
-  ]
+  ],
+  "question_numbers_by_scope": {
+    "price_risk": [
+      1,
+      2,
+      3
+    ],
+    "chan_structure": [
+      1,
+      2,
+      3
+    ]
+  },
+  "scope_note": "The tutor selects the scope before this attempt. For price_risk, show and score only the listed items. Do not ask or score omitted M11 items. They are excluded, not failed or passed. The helper controls steps and exposure; it does not filter or score questions. Keep all selected raw answers before feedback. Record scope with the result."
 }

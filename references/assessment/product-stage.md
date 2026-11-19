@@ -24,7 +24,7 @@ Then, the runtime reads only `references/assessment/product-practice/<TRACK>/<st
 - Canceled orders
 - Rejected orders.
 6. Compare cash and units with the reports. For this step, use only the applicable part of [the product worksheets](../product-worked-sheets.md). The worksheets include settlement, assets that you cannot use, entitlement, conversion, and remaining receivables.
-7. Give an explanation of one specified misconception. Tell the learner to give a small revision with text from the learner. Keep the first raw response. Do not replace it with a model response.
+7. Follow [response feedback](../lesson-sequence.md#after-response). Give the required judgment, correct information and reason before you continue. Obey a learner request for a hint, another try, a pause or no feedback. Do not require another version of the same answer. Keep the first raw response. If the learner chooses to answer again, keep the new answer in a separate record.
 
 The tutor packet for this same step has the numbers, calculation steps, and a misconception prompt. This packet gives no permission to use these assumptions as market rules. Dates, fee conventions, and event rights stay as premises made for this example.
 

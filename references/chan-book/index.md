@@ -1,12 +1,12 @@
 # 缠论全书路线
 
-附件《“缠中说禅”股市技术理论》是专题汇编。本路线覆盖其前言、三章43节及案例附录，按学习所需的先后关系重排。它不等同于另一个目标：逐篇学习作者博客《教你炒股票》108课。页码从 PDF 封面数起，供核对。定义有歧义时，讲义说明本课用哪一种口径；查作者文章和后续订正是可选的出处核查，不是做题的前提。
+附件《“缠中说禅”股市技术理论》是专题汇编。本路线覆盖其前言、三章43节及案例附录；目录保留书目顺序，学习时按[先备表](full-course.md#先备与回访)补课后再做题。它不等同于另一个目标：逐篇学习作者博客《教你炒股票》108课。页码从 PDF 封面数起，供核对。定义有歧义时，讲义说明本课用哪一种口径；查作者文章和后续订正是可选的出处核查，不是做题的前提。
 
 **要学全书，请从[逐节课程](full-course.md)进入。** 下表是各部分的概览，不能替代逐节讲解和题目。
 
 | 顺序 | 学什么 | 达到什么再进阶 |
 | --- | --- | --- |
-| 先备 | [M07 K线](../modules/module-07.md)、[M10 规则与验证](../modules/module-10.md)、[M11 从包含到线段](../modules/module-11.md)、[M12 从中枢到买卖点](../modules/module-12.md) | 能读高低区间、说清观察截止、区分结构与交易结论 |
+| 先备 | [M07 K线](../modules/module-07.md)、[M10 规则与验证](../modules/module-10.md)，按[逐课先备表](full-course.md#先备与回访)补 M11/M12 的相关小段 | 能读高低区间、说清观察截止、区分结构与交易结论；不把整套现代有限构造训练前置 |
 | CB01 | [形态学：从分组到级别](morphology.md) | 能重建构件、解释分段分支和中枢资格 |
 | CB02 | [动力学：从同级分解到转折](dynamics.md) | 能比较可比段，为未完成形态保留竞争读法 |
 | CB03 | [操作指导：从结构判断到模拟复盘](operations.md) | 能写条件、风险、失效和不交易分支 |
@@ -15,7 +15,7 @@
 
 [逐节覆盖表](coverage.md)可反查原书位置；它不是讲义，也不替代练习。补充路线不改 M01—M20 的课节编号，不重置原课程进度。
 
-如果你明确从书开始，导师先用一个小问题核已有基础，从缺失的前置知识补起；已具备就直接进入对应专题。不必重学整套 A 股入门。
+如果你明确从书开始，导师先看已有学习记录和回答，从缺失的前置知识补起。没有记录时，先讲必要概念和小例子，再问讲过的内容，不先用陌生术语考基础；已有充分证据的部分可以跳过。不必重学整套 A 股入门。
 
 ## 怎么学
 
@@ -28,6 +28,8 @@
 中途暂停可抄这张学习卡，写进你指定的位置：当前专题｜已做的题｜实际原答｜是否见过题解或得到提示｜需要补的证据｜下一步。它与原课程进度分开；测评 A、B 分存，已经访问的文件不能靠另开会话变成未见。
 
 Tutor: For the full book, use [full course](full-course.md). Read one lesson. Show its figure. Keep the raw response before you open the answer.
+
+Tutor: Before a lesson or question, use [lesson sequence](../lesson-sequence.md). A book overview can name later concepts. It does not teach their construction. Before an exercise requires these concepts, give the missing foundation with a different example. Keep the book order and the learner's actual prerequisites in different categories.
 
 Tutor: Use one topic at a time. Show its figure or example. Get the learner's answer before feedback. Keep the answer without changes. Keep the book step in a different record from the course cursor.
 

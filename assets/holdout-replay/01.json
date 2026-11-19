@@ -76,5 +76,17 @@
     "读出末根的开、高、低、收及成交量。把事实、推断、未知分开。",
     "按M11约定列出处理组、已确认与候选分型，逐项核查是否已有可连接的严格笔；写出处理号、间距与仍缺证据。",
     "若仅作数量演算，100股与200股按冻结参照价分别占用多少现金、计划风险多少？你现在是否提交？写出依据、失效与等待条件。"
-  ]
+  ],
+  "question_numbers_by_scope": {
+    "price_risk": [
+      1,
+      3
+    ],
+    "chan_structure": [
+      1,
+      2,
+      3
+    ]
+  },
+  "scope_note": "The tutor selects the scope before this attempt. For price_risk, show and score only the listed items. Do not ask or score omitted M11 items. They are excluded, not failed or passed. The helper controls steps and exposure; it does not filter or score questions. Keep all selected raw answers before feedback. Record scope with the result."
 }

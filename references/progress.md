@@ -4,9 +4,28 @@ At the end of a lesson segment that gives necessary understanding, make a copy o
 
 Record the unit, part, exercise identifier, support level, response observations, feedback and next task. Answers without aid, answers with hints, solutions from a copy and course content without a test are different states. A completed page or a tutor's answer is not evidence of mastery. Do not put an expected answer into a response field.
 
+Before continuation after a response, use [response feedback](lesson-sequence.md#after-response). Record only the judgment and explanation actually given. A stored raw answer does not establish that feedback occurred. If feedback is missing, keep it pending and give it before new teaching. Your correction does not change the original answer into a correct learner answer. Do not require the learner to copy the correction or say that they understand before continuation. If the learner explicitly declines feedback, record that you did not review the answer. Do not record a pass.
+
+<a id="feedback-records"></a>
+## Feedback records
+
+The schema 1.2 response shape permits optional feedback fields. Keep teacher access in `teacher_material`. Use `feedback_status` with `pending`, `delivered` or `declined`. For delivered feedback, keep the actual message text in `feedback` and its reference in `feedback_evidence`. For an explicit decline, keep `feedback` null and the learner's request in `feedback_declined_request`, with its evidence. Neither material access nor a decline is a pass.
+
+For the optional product/H01 helper, use `record_feedback(record, run_id, step, text, evidence, declined=False)`. The tutor gives the visible message before this call. The learner need not submit another answer. Do not mark a hint-only retry as completed feedback. The helper checks state and nonempty text; it does not prove delivery, quality, completeness or mastery.
+
+If older feedback lacks delivery evidence, keep its value as `legacy_feedback` before recording an actual message or decline. A generic teacher packet is not a reviewed learner response. Preserve raw answers, old versions, run history, support and exposure. The tutor recovers pending feedback from the saved answer; do not require copied corrections. An older `revealed_steps` entry establishes access, not delivered feedback. Before continuing, resolve the previous step's pending feedback. Do not fill historical delivery from material access alone.
+
+## Instruction evidence
+
+Use [lesson sequence](lesson-sequence.md) before a question. Keep `teaching_history` as a list of the explanations actually given. Each entry records `lesson`, `concepts`, `example` and `evidence`. Use a lesson identifier or portable lesson link for `lesson`. Use the taught concepts and methods for `concepts`. Identify the example actually shown. For `evidence`, give a location in the conversation or the supplied learning record. Do not put a planned lesson into this history.
+
+At a useful checkpoint, keep `pending_prerequisites` as a list of missing or unknown instruction for the next part. An empty list is not proof that all prerequisites were taught. Use actual instruction evidence before a question. Keep the raw response and its support in `responses`; instruction history is not a mastery score.
+
+For an older record without these two fields, add empty lists only when a new record is necessary. Preserve the old record and its source version. Do not fill past instruction from a cursor or module title. Recap the smallest missing foundation before its next question. A recap of a method does not erase previous case exposure.
+
 ## Exposure and assessment attempts
 
-Use `exposure_history` with `status` (`complete` or `unknown`) and an append-only `events` list. Each event records `event_id`, `case_id`, `instrument`, `start`, `end`, and `kind` (`observed` or `revealed`). Use instrument codes with an exchange prefix. Do not use company names or exercise IDs. Date ranges include the first and last dates.
+Use `exposure_history` with `status` (`complete` or `unknown`) and an append-only `events` list. Each event records `event_id`, `case_id`, `instrument`, `start`, `end`, and `kind` (`observed` or `revealed`). Use exchange-prefixed codes for real instruments. For synthetic cases, use the instrument identifier declared by the packet, such as `TRAIN-H01` for H01. The exposure helper accepts these synthetic identifiers. Do not invent a real exchange code for a synthetic case. Company names and case IDs alone are not instrument codes. Date ranges include the first and last dates.
 
 Record the first and last dates of bars that the learner can see. Include subsequent bars that you read for feedback. Keep different intervals and source events. `scripts/exposure_tools.py` calculates their union and does checks for overlaps in records with different IDs. Reject dates with an incorrect form and instrument codes that are not clear.
 
@@ -28,7 +47,7 @@ For an `independent` response, a full history and no previous interval with over
 
 A second run keeps the first run and all its exposures. Thus, a different attempt at the reserve cannot give independent credit again. These states record support. They do not record mastery or strategy quality. During selection, replay and concept lookup, do not change `course_cursor`.
 
-For a new session, first compare the cursor with [catalog](../assets/course-catalog.json). Read only the applicable module and record entries that the learner wants. If the record does not give evidence for the prerequisite, give a short retrieval check. Then adapt. A missing record stays unknown. It does not make a mandatory start of the full course again.
+For a new session, first compare the cursor with [catalog](../assets/course-catalog.json). Read only the applicable module and record entries that the learner wants. If the conversation or record establishes previous instruction, use a short retrieval check when useful. If instruction is missing or unknown, explain the smallest necessary concept and show a different example before the check. Then adapt. A missing record stays unknown. It does not make a mandatory start of the full course again.
 
 For the [Chan book route](chan-book/index.md), keep a different lesson record. Identify the book step and topic. For an assessment, give the group, support and exposure. Keep the raw answer and the next task. Do not change the course cursor during this route.
 

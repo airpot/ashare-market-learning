@@ -126,7 +126,7 @@ After each learning check, wait for the raw response. Then, give feedback.
 
 ## 2026主案例实践
 
-按最新学习偏好，优先使用中际旭创、寒武纪、中芯国际与天普股份的2026日线；先读[本期数据与公告](../data-2026.md)，再选[本模块对应主图](../tech-2026-atlas.md)。旧图只用于补充对照。已知权益事件跨日不直接当技术破位或下跌笔；
+按最新学习偏好，优先使用中际旭创、寒武纪、中芯国际与天普股份的2026日线；做截点练习时，先从[本模块对应主图](../tech-2026-atlas.md)，只打开所选题的观察包，先核对包内的时间、单位与复权口径。不要预读整份全年背景资料；本组截点练习的全部原答保存后，再读[本期数据与公告](../data-2026.md)。包内缺少的事前权益事件或交易状态记为待核，不能用后续披露补成当时已知。旧图只用于补充对照。已知权益事件跨日不直接当技术破位或下跌笔。
 
 Tutor: Each time, load only the observation packet for this step. Only after you keep the raw response, open the annotation for the question. During the explanation, show the initial image for this question in the chat. Then, add markings one layer at a time. Do not give only text and links.
 
@@ -137,11 +137,11 @@ Tutor: Each time, load only the observation packet for this step. Only after you
 
 本图是观察阶段的真实日线。
 
-Tutor: For this step, select only one question for this stage. Keep the other questions for subsequent steps. After the learner sees an explanation or annotation, do not give the same window an `independent` assessment status. Do not record the window as material without previous access.
+Tutor: Select one question for this stage. Before any teacher file, use the [answer-bundle gate](../lesson-sequence.md#answer-bundles). If other questions remain selected for assessment, keep the combined answer file closed until all their raw answers are saved. Give current feedback from the decision data and methods already taught. The learner can select worked examples for remaining items instead. After explanations or annotations, do not give this window independent status. Use another eligible window for independent transfer.
 
 ### 原答之后：把数字对应回图上
 
-保留当前原图和自己的回答后，再用[专题细图](../topic-plates.md)打开同编号的一张教师图。实体与影线看局部放大，量价看此前20根比较窗口与均量，边界题看冻结锚点和当时收盘；
+保留当前原图和自己的回答后，再用[专题细图](../topic-plates.md)打开同编号的一张教师图。实体与影线看局部放大，量价看此前20根比较窗口与均量，边界题看冻结锚点和当时收盘。
 
 Tutor: Give only the relation for this step at a time.
 

@@ -136,14 +136,46 @@ def _step(step):
         raise ValueError("The step must be an exact integer from 1 to 4.")
 
 
-def _run(record, run_id, step):
-    _step(step)
+def _active_run(record, run_id):
     if type(run_id) is not str or record.get("product_practice_active_run") != run_id:
         raise ValueError("Use the ID of this attempt.")
     matches = [r for r in record.get("product_runs", []) if r.get("run_id") == run_id]
-    if len(matches) != 1 or step != len(matches[0]["revealed_steps"]) + 1:
-        raise ValueError("Complete each step one time, in sequence.")
+    if len(matches) != 1:
+        raise ValueError("Use the ID of this attempt.")
     return matches[0]
+
+
+def _response(record, run, step):
+    rows = [r for r in record.get("responses", []) if r.get("run_id") == run["run_id"]
+            and r.get("track") == run["track"] and type(r.get("step")) is int and r["step"] == step
+            and r.get("exercise") == f"PRODUCT-{run['track']}-{step:02}"]
+    if (step not in run["opened_steps"] or step not in run["answered_steps"] or len(rows) != 1
+            or type(rows[0].get("raw_response")) is not str or not rows[0]["raw_response"].strip()):
+        raise ValueError("Before feedback, keep the raw response without changes for this attempt.")
+    return rows[0]
+
+
+def _nonempty(value):
+    return type(value) is str and bool(value.strip())
+
+
+def _feedback_complete(response):
+    if not _nonempty(response.get("feedback_evidence")):
+        return False
+    if response.get("feedback_status") == "delivered":
+        return _nonempty(response.get("feedback"))
+    return (response.get("feedback_status") == "declined" and response.get("feedback") is None
+            and _nonempty(response.get("feedback_declined_request")))
+
+
+def _run(record, run_id, step):
+    _step(step)
+    run = _active_run(record, run_id)
+    if step != len(run["revealed_steps"]) + 1:
+        raise ValueError("Complete each step one time, in sequence.")
+    if step > 1 and not _feedback_complete(_response(record, run, step - 1)):
+        raise ValueError("Before the next step, record delivered feedback or the learner's explicit opt-out.")
+    return run
 
 
 def _packet(track, step, teacher=False):
@@ -191,25 +223,48 @@ def answer(record, run_id, step, raw):
         raise ValueError("The raw response must contain the words that the learner gave.")
     record["responses"].append(dict(run_id=run_id, track=run["track"], step=step,
                                     exercise=f"PRODUCT-{run['track']}-{step:02}",
-                                    raw_response=raw, support="assisted"))
+                                    raw_response=raw, support="assisted",
+                                    feedback_status="pending", feedback=None))
     run["answered_steps"].append(step)
 
 
 def reveal(record, run_id, step):
     run = _run(record, run_id, step)
-    rows = [r for r in record.get("responses", []) if r.get("run_id") == run_id
-            and r.get("track") == run["track"] and type(r.get("step")) is int and r["step"] == step
-            and r.get("exercise") == f"PRODUCT-{run['track']}-{step:02}"]
-    if (step not in run["opened_steps"] or step not in run["answered_steps"] or len(rows) != 1
-            or type(rows[0].get("raw_response")) is not str or not rows[0]["raw_response"].strip()):
-        raise ValueError("Before feedback, keep the raw response without changes for this attempt.")
+    response = _response(record, run, step)
     # Before the checks of the raw response, the script does not read a packet, also for a learner.
     teacher = _packet(run["track"], step, teacher=True)
     run["revealed_steps"].append(step)
-    run["related_exposure"].append(dict(step=step, kind="teacher_feedback_seen"))
-    rows[0]["support"] = "assisted"
-    rows[0]["feedback"] = deepcopy(teacher)
+    run["related_exposure"].append(dict(step=step, kind="teacher_material_released"))
+    response["teacher_material"] = deepcopy(teacher)
     return dict(deepcopy(teacher), run_id=run_id, support="assisted")
+
+
+def record_feedback(record, run_id, step, text, evidence, declined=False):
+    """Record the tutor's statement of feedback delivery or a learner opt-out.
+
+    The tutor must show a response-specific judgment, correct information and reason
+    before recording delivery. This helper cannot verify quality or chat delivery.
+    A hint for a requested retry does not complete feedback.
+    """
+    _step(step)
+    run = _active_run(record, run_id)
+    current = len(run["revealed_steps"]) + 1
+    if step not in (current, current - 1):
+        raise ValueError("Record feedback for the current or most recently revealed step.")
+    if step == current:
+        _run(record, run_id, step)
+    if not _nonempty(text) or not _nonempty(evidence) or type(declined) is not bool:
+        raise ValueError("Feedback needs nonempty text and evidence, and an exact boolean declined value.")
+    response = _response(record, run, step)
+    if _feedback_complete(response):
+        raise ValueError("This response already has completed feedback.")
+    if isinstance(response.get("feedback"), (dict, str)):
+        response["legacy_feedback"] = deepcopy(response["feedback"])
+    response["feedback"] = None if declined else text
+    response["feedback_status"] = "declined" if declined else "delivered"
+    response["feedback_evidence"] = evidence
+    if declined:
+        response["feedback_declined_request"] = text
 
 
 def _record_path(path):
@@ -240,12 +295,15 @@ def _prepare_output(output, encoding):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("action", choices=("start", "open", "answer", "reveal"))
+    parser.add_argument("action", choices=("start", "open", "answer", "reveal", "feedback"))
     parser.add_argument("--record", required=True, type=Path)
     parser.add_argument("--track", choices=TRACKS)
     parser.add_argument("--run")
     parser.add_argument("--step", type=int)
     parser.add_argument("--raw-file", type=Path)
+    parser.add_argument("--feedback-file", type=Path)
+    parser.add_argument("--evidence")
+    parser.add_argument("--declined", action="store_true")
     args = parser.parse_args()
     try:
         path = _record_path(args.record)
@@ -261,10 +319,16 @@ def main():
             output = open_step(record, args.run, args.step)
         elif args.action == "reveal":
             output = reveal(record, args.run, args.step)
+        elif args.action == "feedback":
+            if args.feedback_file is None:
+                raise ValueError("For feedback, the tutor supplies --feedback-file with the shown message or learner opt-out request.")
+            record_feedback(record, args.run, args.step,
+                            args.feedback_file.read_bytes().decode("utf8"), args.evidence, args.declined)
+            output = {"saved": True, "feedback_status": "declined" if args.declined else "delivered"}
         else:
             if args.raw_file is None:
                 raise ValueError("For answer, supply --raw-file with the learner response without changes.")
-            answer(record, args.run, args.step, args.raw_file.read_text(encoding="utf8"))
+            answer(record, args.run, args.step, args.raw_file.read_bytes().decode("utf8"))
             output = {"saved": True, "support": "assisted"}
         # Before you record the progress for a feedback step after consumption, prepare the wire text.
         rendered = _prepare_output(output, sys.stdout.encoding)
