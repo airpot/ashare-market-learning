@@ -29,6 +29,8 @@
 
 Tutor: For the full book, use [full course](full-course.md). Read one lesson. Show its figure. Keep the raw response before you open the answer.
 
+Tutor: Use [navigation](../navigation.md) for a short book-route orientation and visible progress. Show the actual book topic and position from the 56-lesson list, separately from the main course. A book cursor is not completed learning. Give pending feedback before a new lesson position; identify a prerequisite detour and its return point.
+
 Tutor: Before a lesson or question, use [lesson sequence](../lesson-sequence.md). A book overview can name later concepts. It does not teach their construction. Before an exercise requires these concepts, give the missing foundation with a different example. Keep the book order and the learner's actual prerequisites in different categories.
 
 Tutor: Use one topic at a time. Show its figure or example. Get the learner's answer before feedback. Keep the answer without changes. Keep the book step in a different record from the course cursor.

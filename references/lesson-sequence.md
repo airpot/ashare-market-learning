@@ -58,6 +58,7 @@ Read the selected lesson and its prerequisites in [the course catalog](../assets
 
 - Find what the learner can already explain or do. Use the actual response evidence. Keep an untested item untested.
 - State the next problem and explain why the previous concept helps with it. Use one short connection in the learner's language. Do not add a connector to conceal a missing concept.
+- Show the [current course location](navigation.md#at-a-new-part) after the required feedback and before new teaching. Use the active scope, Chinese topic and local position. Keep completed scope unknown when the history does not establish it.
 - Teach only the missing foundation needed for this step. An alternative route can omit an unrelated module; it cannot omit a concept required by its next question.
 - Explain the new concept, show its figure or example, then give an optional check. Wait for the answer before a further question.
 

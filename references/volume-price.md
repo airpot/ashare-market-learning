@@ -18,6 +18,8 @@
 
 ## Tutor steps
 
+Use [navigation](navigation.md). Show this five-step arrangement when the branch starts. Before a new part, identify its step and selected case without opening later data. Optional product and Chan items do not become prerequisites for every learner. Keep main-course progress separate. Give current-answer feedback before its permitted continuation.
+
 ### VP07: Check before you open the data
 
 Use the [exposure check](progress.md). Use sh688981 from 2026-02-24 to 2026-04-01. Include the first and last dates. If a record for this stock has dates that overlap this interval, record `assisted`. If there is no overlap and the history is not complete, record `unknown`. If there is no overlap and the history is complete, record `independent`. Record this result for the attempt. Do not change the history status for this check.

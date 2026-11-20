@@ -2,7 +2,7 @@
 name: ashare-market-learning
 description: Use this skill for lessons about Chinese exchange markets for beginners. It includes stocks, ETFs, LOFs, convertible bonds and listed funds. It includes K-line charts, Japanese candlesticks and Chan theory. It gives course routes with figures, paper-trading practice and procedures to continue a course.
 metadata:
-  version: "0.5.2"
+  version: "0.5.3"
 ---
 
 # A-share Market Learning
@@ -25,6 +25,8 @@ Before you give a conformity statement for the text, complete a review of this t
 
 Read [teaching](references/teaching.md). Read the applicable route in [course map](references/course-map.md).
 
+Use [course orientation and visible progress](references/navigation.md). At the course opening, show the short complete arrangement and selected route before the first small lesson. Before each new part, show its Chinese topic and local position. At a boundary, pause or return, explain actual progress, gaps and the next step. A cursor alone does not establish completed learning. Give pending answer feedback before new teaching or its position line.
+
 Before each question and each change of lesson, use [lesson sequence](references/lesson-sequence.md). Ask only about concepts and methods already explained to this learner. A page in the package is not evidence that the learner received its explanation. If a prerequisite is missing or unknown, give the explanation and a different example first. Before a new lesson, explain how the previous learning helps with the next problem. Before an independent response, keep assessment answers and future observations closed.
 
 When the learner answers a check, first use [response feedback](references/lesson-sequence.md#after-response). Give a judgment about this answer. Explain the correct information and the reason, even for a correct answer. Do this before new teaching, including when the learner also asks to continue. Accept correct meaning in different words. Do not require the learner to copy the correct answer or say that they understand. Correct a missing prerequisite first. Then connect to the next part in the same reply when possible. Keep answers without feedback separate from answers already reviewed.
@@ -33,11 +35,13 @@ Use the guidance for clear expression in the teaching reference. Module labels a
 
 If the learner asks for the Chan book, use the [Chan book route](references/chan-book/index.md). Start with the first prerequisite that the learner needs. For each book section, use the [full course list](references/chan-book/full-course.md). Open one lesson. Show the figure. Keep the raw response before you open the answer for this lesson. For CB05, use the assessment steps in the book route.
 
-For a new beginner on the general route, read only M01-U01-P01 in [module 01](references/modules/module-01.md#u01-p01). Give information about this one topic. Show its small diagram or example. Give one question as a check in the conversation. Wait for the answer.
+For a new beginner on the general route, first give the short course orientation. As lesson content, read only M01-U01-P01 in [module 01](references/modules/module-01.md#u01-p01). Give information about this one topic. Show its small diagram or example. Give one question as a check in the conversation. Wait for the answer.
 
-At the start of the general route, do not give the full market syllabus, OHLC, Chan theory or a personal-finance questionnaire. Give the information in more than one small exchange.
+The opening map names the later phases; it does not teach OHLC, Chan construction or every product mechanism. Give these explanations in their later small lessons. Do not replace the opening map with a personal-finance questionnaire or require approval of the syllabus before starting.
 
 If a new beginner wants ETFs, LOFs, convertible bonds or other listed funds, use this initial route:
+Use this alternative when the learner selects product-first study. Merely naming products in a general systematic request is not this selection. Give the selected route's short orientation first.
+
 1. Start with the one comparison of rights in [M15-U01-P01](references/modules/module-15.md#u01-p01).
 2. Then give the missing M01-M05 foundations for these products. The first comparison in M15 does not establish completion of M15.
 3. Give the selected product track.
@@ -54,7 +58,8 @@ A raw response is the learner's answer before feedback, without changes. In asse
 | Request | Procedure |
 | --- | --- |
 | Answer to a lesson check, with or without a request to continue | First give [response feedback](references/lesson-sequence.md#after-response). Then give the next permitted part. |
-| Start or continue a lesson | Read teaching and the selected module. Read only the necessary figures. |
+| Start or continue a lesson | Use navigation, teaching and the selected module. Show the current location and read only the necessary figures. |
+| Course arrangement, current progress or next step | Use [navigation](references/navigation.md), the selected route and actual learning evidence. Keep unknown completion unknown. |
 | Full course or knowledge map | Read [Course map](references/course-map.md) and [roadmap](references/roadmap.md). A quiz is not mandatory. |
 | Definition or comparison | Read [Concept index](references/concepts.md). Then read the unit at its link. Give the answer directly. Do not change the lesson cursor. |
 | Full handout with figures | Read the selected module. Keep the necessary information. Keep the full explanation that the learner wants. Keep the text length that the learner wants. |

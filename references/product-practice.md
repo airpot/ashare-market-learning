@@ -2,6 +2,8 @@
 
 本练习以六组虚构材料练完整过程：识别与核查、计划或不交易、委托与事件管理、对账与复盘。适用于先学共同基础、M15、所选产品模块，再进入M20的路径；不要求先学缠论。教师先判定并解释你的原答，再继续下一步，不以重抄答案为条件。保留原有课程游标，临时查词后回到当前问题。
 
+Tutor: Use [navigation](navigation.md). At track entry, show the selected product and four-step arrangement. Before a new step, give pending feedback, then show the track, run step/total and next task. Do not mark unrelated product modules complete or advance the main course cursor. Keep the existing raw-answer and feedback gates.
+
 ETF、LOF、CB、REIT、MONEY、CLOSED是六条教学轨。MONEY可与ETF等法律包装重叠；封闭状态须看有效条款，不能只看基金名称。所有报价、资格、日期、成交、费用、分派与结算均为明示的合成假设。真实图谱只提供历史观察，OHLC不能证明委托成交。
 
 ## 一次只做当前一步

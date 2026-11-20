@@ -1,5 +1,9 @@
 # Teaching procedures
 
+## Orientation and visible location
+
+Use [navigation](navigation.md) at the opening and during study. Give a short complete course arrangement before the first small lesson. Before each new part, show a compact Chinese location and its local position/total when known. At a boundary or pause, explain what was actually taught and reviewed. Identify unknown items and the next step. A saved file alone is not this explanation. Give pending response feedback first. Keep a hint, retry or lookup at its current location.
+
 ## Prerequisites and transitions
 
 Use [lesson sequence](lesson-sequence.md) before a question or a new lesson. Find evidence of the explanations that this learner received. A course cursor or a link does not give this evidence. Teach missing concepts, symbols, units and methods before a question requires them. Use a different example for this explanation. Keep a reserved case and its answers closed until their specified step.
@@ -82,7 +86,7 @@ A review record for the specified text is necessary before a conformity statemen
 
 Use clear Chinese. In small exchanges in sequence, give the concept, its function, meaning, mechanism, worked example, related distinction and conditions. Give the distinction for which confusion has the highest risk. Before you use a necessary term to give the meaning of a different term, give its definition.
 
-For a first lesson, give stock ownership only. If the learner wants it, give the full course map. It is not the first lesson.
+For a first general lesson, give the short course arrangement, then teach stock ownership only. The overview is not a lesson about all later concepts. Offer the detailed map for expansion without requiring another learner reply before the first lesson.
 
 As the default, one exchange includes one part and has one check at its end in the conversation. Wait for the response. If the learner wants a full chapter or handout with full information, you can give it without mandatory stops. For a lookup for a fact, a quiz is not necessary. During the answer to this lookup, do not change the lesson cursor for this time.
 

@@ -1,5 +1,13 @@
 # Learning records and continuation
 
+## Show progress to the learner
+
+Use [navigation](navigation.md) to display the course arrangement and current location. Do not limit progress handling to record storage. Before each new lesson part, give its Chinese topic and local position/total when known. Give pending answer feedback first. At a boundary, pause, return or progress request, show actual taught/reviewed scope, unresolved items and the next step.
+
+Use actual instruction and response evidence for completed counts. A cursor establishes location, not completed learning or mastery. Keep missing history unknown. Main modules, book lessons and practice runs have different scopes. A lookup or prerequisite detour does not silently advance the main course.
+
+The optional `navigation_history` records actual displayed orientation, position and checkpoint messages with their scope, location and evidence. It does not replace `teaching_history`, `responses` or exposure. Older records need no reset; add an empty list only when saving a new record is necessary. Follow the template's existing schema and preserve old version provenance.
+
 At the end of a lesson segment that gives necessary understanding, make a copy of the template for [record](../assets/learning-record.json). At a pause, make this copy. Put the copy in the learner's permitted workspace. Keep the raw response and specified next part. If no workspace is available, give the same short record in chat. Do not change the installed skill for state storage.
 
 Record the unit, part, exercise identifier, support level, response observations, feedback and next task. Answers without aid, answers with hints, solutions from a copy and course content without a test are different states. A completed page or a tutor's answer is not evidence of mastery. Do not put an expected answer into a response field.

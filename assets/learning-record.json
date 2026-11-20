@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "skill_version": "0.5.2",
+  "skill_version": "0.5.3",
   "learner_label": null,
   "route": "systematic",
   "course_cursor": {
@@ -8,7 +8,8 @@
     "unit": "M01-U01",
     "part": "P01"
   },
-  "next_action": "Give one small part of the lesson about stock ownership. Then, wait for one response.",
+  "next_action": "Show the short course arrangement and current location. Then give one small part about stock ownership and wait for one response.",
+  "navigation_history": [],
   "responses": [],
   "response_entry_shape": {
     "unit": null,
